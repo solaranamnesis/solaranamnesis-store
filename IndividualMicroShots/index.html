@@ -1,0 +1,2861 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Solar Anamnesis - Individual Micro Shots</title><meta name="description" content="Individual microphotographic meteorite pictures">
+<style>
+.galleria{ height: 1280px; background: #000 }
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/galleria.min.js"></script>
+<link rel="icon" type="image/png" href="favicon.webp" />
+</head>
+<body>
+<div class="galleria">
+</div>
+<script>
+  var gallery1Data = [{
+        image: 'aba-panu-meteorite-thin-section-image-1_31895189117_o.webp',
+        title: `Aba Panu Meteorite Thin Section Image 1`,
+        description: `L3<br>Focus stacked with Zerene Stacker<br>40x/0.65 Objective in Plane Polarized Light`,
+        thumb: 'thumbs/aba-panu-meteorite-thin-section-image-1_31895189117_o.webp'
+    },
+    {
+        image: 'aba-panu-meteorite-thin-section-image-2_39871454863_o.webp',
+        title: `Aba Panu Meteorite Thin Section Image 2`,
+        description: `L3<br>Focus stacked with Zerene Stacker<br>40x/0.65 Objective in Plane Polarized Light`,
+        thumb: 'thumbs/aba-panu-meteorite-thin-section-image-2_39871454863_o.webp'
+    },
+    {
+        image: 'aba-panu-meteorite-thin-section-image-3_45922024995_o.webp',
+        title: `Aba Panu Meteorite Thin Section Image 3`,
+        description: `L3<br>Focus stacked with Zerene Stacker<br>40x/0.65 Objective in Plane Polarized Light`,
+        thumb: 'thumbs/aba-panu-meteorite-thin-section-image-3_45922024995_o.webp'
+    },
+    {
+        image: 'aba-panu-meteorite-thin-section-image-4-5-6-7_48111839576_o.webp',
+        title: `Aba Panu Meteorite Thin Section Image 4, 5, 6, 7`,
+        description: `L3<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/aba-panu-meteorite-thin-section-image-4-5-6-7_48111839576_o.webp'
+    },
+    {
+        image: 'allende-meteorite-thin-section-image-1_46687693915_o.webp',
+        title: `Allende Meteorite Thin Section Image 1`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/allende-meteorite-thin-section-image-1_46687693915_o.webp'
+    },
+    {
+        image: 'allende-meteorite-thin-section-image-2_48201165262_o.webp',
+        title: `Allende Meteorite Thin Section Image 2`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/allende-meteorite-thin-section-image-2_48201165262_o.webp'
+    },
+    {
+        image: 'allende-meteorite-thin-section-image-3_48201120146_o.webp',
+        title: `Allende Meteorite Thin Section Image 3`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/allende-meteorite-thin-section-image-3_48201120146_o.webp'
+    },
+    {
+        image: 'allende-meteorite-thin-section-image-4_48201164882_o.webp',
+        title: `Allende Meteorite Thin Section Image 4`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/allende-meteorite-thin-section-image-4_48201164882_o.webp'
+    },
+    {
+        image: 'allende-meteorite-thin-section-image-5_48201163932_o.webp',
+        title: `Allende Meteorite Thin Section Image 5`,
+        description: `CV3<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/allende-meteorite-thin-section-image-5_48201163932_o.webp'
+    },
+    {
+        image: 'allende-meteorite-thin-section-image-6_48201164477_o.webp',
+        title: `Allende Meteorite Thin Section Image 6`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/allende-meteorite-thin-section-image-6_48201164477_o.webp'
+    },
+    {
+        image: 'calama-005-meteorite---chondrule-1_45502261715_o.webp',
+        title: `Calama 005 Meteorite - Chondrule 1`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/calama-005-meteorite---chondrule-1_45502261715_o.webp'
+    },
+    {
+        image: 'calama-005-meteorite-image-2_44606949690_o.webp',
+        title: `Calama 005 Meteorite Image 2`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/calama-005-meteorite-image-2_44606949690_o.webp'
+    },
+    {
+        image: 'calama-005-meteorite-image-3_46376847742_o.webp',
+        title: `Calama 005 Meteorite Image 3`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/calama-005-meteorite-image-3_46376847742_o.webp'
+    },
+    {
+        image: 'calama-005-meteorite-image-4_45515760235_o.webp',
+        title: `Calama 005 Meteorite Image 4`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/calama-005-meteorite-image-4_45515760235_o.webp'
+    },
+    {
+        image: 'calama-005-meteorite-image-5_31497498907_o.webp',
+        title: `Calama 005 Meteorite Image 5`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/calama-005-meteorite-image-5_31497498907_o.webp'
+    },
+    {
+        image: 'calama-005-meteorite-image-5_46428283221_o.webp',
+        title: `Calama 005 Meteorite Image 5`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/calama-005-meteorite-image-5_46428283221_o.webp'
+    },
+    {
+        image: 'calama-005-meteorite-image-6_32564864968_o.webp',
+        title: `Calama 005 Meteorite Image 6`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/calama-005-meteorite-image-6_32564864968_o.webp'
+    },
+    {
+        image: 'calama-005-meteorite-image-6_44611800030_o.webp',
+        title: `Calama 005 Meteorite Image 6`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/calama-005-meteorite-image-6_44611800030_o.webp'
+    },
+    {
+        image: 'calama-005-meteorite-image-7_32556427678_o.webp',
+        title: `Calama 005 Meteorite Image 7`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/calama-005-meteorite-image-7_32556427678_o.webp'
+    },
+    {
+        image: 'calama-005-meteorite-image-7_32564885158_o.webp',
+        title: `Calama 005 Meteorite Image 7`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/calama-005-meteorite-image-7_32564885158_o.webp'
+    },
+    {
+        image: 'calama-005-meteorite-image-8_44611804990_o.webp',
+        title: `Calama 005 Meteorite Image 8`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/calama-005-meteorite-image-8_44611804990_o.webp'
+    },
+    {
+        image: 'calama-005-meteorite-image-8_45714486254_o.webp',
+        title: `Calama 005 Meteorite Image 8`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/calama-005-meteorite-image-8_45714486254_o.webp'
+    },
+    {
+        image: 'calama-005-meteorite-image-9_44621041980_o.webp',
+        title: `Calama 005 Meteorite Image 9`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/calama-005-meteorite-image-9_44621041980_o.webp'
+    },
+    {
+        image: 'calama-005-meteorite-image-10_46387041112_o.webp',
+        title: `Calama 005 Meteorite Image 10`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/calama-005-meteorite-image-10_46387041112_o.webp'
+    },
+    {
+        image: 'calama-005-meteorite-image-11_44621142370_o.webp',
+        title: `Calama 005 Meteorite Image 11`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/calama-005-meteorite-image-11_44621142370_o.webp'
+    },
+    {
+        image: 'calama-005-meteorite-image-12_45714672284_o.webp',
+        title: `Calama 005 Meteorite Image 12`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/calama-005-meteorite-image-12_45714672284_o.webp'
+    },
+    {
+        image: 'calama-005-meteorite-image-13_46387167612_o.webp',
+        title: `Calama 005 Meteorite Image 13`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/calama-005-meteorite-image-13_46387167612_o.webp'
+    },
+    {
+        image: 'calama-005-meteorite-image-14_32566030308_o.webp',
+        title: `Calama 005 Meteorite Image 14`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/calama-005-meteorite-image-14_32566030308_o.webp'
+    },
+    {
+        image: 'calama-005-meteorite-image-15_45715183144_o.webp',
+        title: `Calama 005 Meteorite Image 15`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/calama-005-meteorite-image-15_45715183144_o.webp'
+    },
+    {
+        image: 'calama-005-meteorite-image-15-and-16_45525855535_o.webp',
+        title: `Calama 005 Meteorite Image 15 and 16`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/calama-005-meteorite-image-15-and-16_45525855535_o.webp'
+    },
+    {
+        image: 'calama-005-meteorite-image-16_46438622161_o.webp',
+        title: `Calama 005 Meteorite Image 16`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/calama-005-meteorite-image-16_46438622161_o.webp'
+    },
+    {
+        image: 'calama-005-meteorite-image-17_46387875882_o.webp',
+        title: `Calama 005 Meteorite Image 17`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/calama-005-meteorite-image-17_46387875882_o.webp'
+    },
+    {
+        image: 'calama-005-meteorite-image-18_45525763685_o.webp',
+        title: `Calama 005 Meteorite Image 18`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/calama-005-meteorite-image-18_45525763685_o.webp'
+    },
+    {
+        image: 'calama-005-meteorite-image-19_32566131648_o.webp',
+        title: `Calama 005 Meteorite Image 19`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/calama-005-meteorite-image-19_32566131648_o.webp'
+    },
+    {
+        image: 'chug-chug-009-meteorite-thin-section-images-1-2-3-4_48109788802_o.webp',
+        title: `Chug Chug 009 Meteorite Thin Section Images 1-4`,
+        description: `L3<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/chug-chug-009-meteorite-thin-section-images-1-2-3-4_48109788802_o.webp'
+    },
+    {
+        image: 'chug-chug-009-meteorite-thin-section-images-5-6_48109682106_o.webp',
+        title: `Chug Chug 009 Meteorite Thin Section Images 5 and 6`,
+        description: `L3<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/chug-chug-009-meteorite-thin-section-images-5-6_48109682106_o.webp'
+    },
+    {
+        image: 'chug-chug-009-meteorite-thin-section-images-7-8-9-10_48109832122_o.webp',
+        title: `Chug Chug 009 Meteorite Thin Section Images 7-10`,
+        description: `L3<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/chug-chug-009-meteorite-thin-section-images-7-8-9-10_48109832122_o.webp'
+    },
+    {
+        image: 'chug-chug-009-meteorite-thin-section-image-11_48109883642_o.webp',
+        title: `Chug Chug 009 Meteorite Thin Section Image 11`,
+        description: `L3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/chug-chug-009-meteorite-thin-section-image-11_48109883642_o.webp'
+    },
+    {
+        image: 'chug-chug-009-meteorite-thin-section-image-12_48109884627_o.webp',
+        title: `Chug Chug 009 Meteorite Thin Section Image 12`,
+        description: `L3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/chug-chug-009-meteorite-thin-section-image-12_48109884627_o.webp'
+    },
+    {
+        image: 'chug-chug-009-meteorite-thin-section-images-11-and-12_48109823283_o.webp',
+        title: `Chug Chug 009 Meteorite Thin Section Images 11 and 12`,
+        description: `L3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/chug-chug-009-meteorite-thin-section-images-11-and-12_48109823283_o.webp'
+    },
+    {
+        image: 'clarendon-c-meteorite-thin-section---image-1_48708840802_o.webp',
+        title: `Clarendon (c) Meteorite Thin Section Image 1`,
+        description: `L4<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/clarendon-c-meteorite-thin-section---image-1_48708840802_o.webp'
+    },
+    {
+        image: 'colony-meteorite-thin-section-image-1_32614526647_o.webp',
+        title: `Colony Meteorite Thin Section Image 1`,
+        description: `CO3.0<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/colony-meteorite-thin-section-image-1_32614526647_o.webp'
+    },
+    {
+        image: 'dar-al-gani-1040-meteorite-thin-section-image-1_48155042522_o.webp',
+        title: `Dar al Gani 1040 Meteorite Thin Section Image 1`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/dar-al-gani-1040-meteorite-thin-section-image-1_48155042522_o.webp'
+    },
+    {
+        image: 'dar-al-gani-1040-meteorite-thin-section-image-2-and-3_48155041542_o.webp',
+        title: `Dar al Gani 1040 Meteorite Thin Section Images 2 and 3`,
+        description: `CV3<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/dar-al-gani-1040-meteorite-thin-section-image-2-and-3_48155041542_o.webp'
+    },
+    {
+        image: 'julesburg-meteorite-thin-section-image-1_33680315008_o.webp',
+        title: `Julesburg Meteorite Thin Section Image 1`,
+        description: `L3.6<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/julesburg-meteorite-thin-section-image-1_33680315008_o.webp'
+    },
+    {
+        image: 'julesburg-meteorite-thin-section-image-2_33680315638_o.webp',
+        title: `Julesburg Meteorite Thin Section Image 2`,
+        description: `L3.6<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/julesburg-meteorite-thin-section-image-2_33680315638_o.webp'
+    },
+    {
+        image: 'julesburg-meteorite-thin-section-image-3_33680316608_o.webp',
+        title: `Julesburg Meteorite Thin Section Image 3`,
+        description: `L3.6<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/julesburg-meteorite-thin-section-image-3_33680316608_o.webp'
+    },
+    {
+        image: 'julesburg-meteorite-thin-section-image-4_33680317408_o.webp',
+        title: `Julesburg Meteorite Thin Section Image 4`,
+        description: `L3.6<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/julesburg-meteorite-thin-section-image-4_33680317408_o.webp'
+    },
+    {
+        image: 'julesburg-meteorite-thin-section-image-5_47557093151_o.webp',
+        title: `Julesburg Meteorite Thin Section Image 5`,
+        description: `L3.6<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/julesburg-meteorite-thin-section-image-5_47557093151_o.webp'
+    },
+    {
+        image: 'kainsaz-image-20_31425567147_o.webp',
+        title: `Kainsaz Meteorite Thin Section Image 20`,
+        description: `CO3.2<br>Individual Focus Stack<br>Zoom objective: 40x/0.65<br>Cross Polarized`,
+        thumb: 'thumbs/kainsaz-image-20_31425567147_o.webp'
+    },
+    {
+        image: 'kainsaz-image-21_31425575907_o.webp',
+        title: `Kainsaz Meteorite Thin Section Image 21`,
+        description: `CO3.2<br>Individual Focus Stack<br>Zoom objective: 40x/0.65<br>Cross Polarized`,
+        thumb: 'thumbs/kainsaz-image-21_31425575907_o.webp'
+    },
+    {
+        image: 'kainsaz-image-30_31437571487_o.webp',
+        title: `Kainsaz Meteorite Thin Section Image 30`,
+        description: `CO3.2<br>Individual Focus Stack<br>Zoom objective: 40x/0.65<br>Cross Polarized`,
+        thumb: 'thumbs/kainsaz-image-30_31437571487_o.webp'
+    },
+    {
+        image: 'kainsaz-image-31_45654116224_o.webp',
+        title: `Kainsaz Meteorite Thin Section Image 31`,
+        description: `CO3.2<br>Individual Focus Stack<br>Zoom objective: 40x/0.65<br>Cross Polarized`,
+        thumb: 'thumbs/kainsaz-image-31_45654116224_o.webp'
+    },
+    {
+        image: 'kainsaz-image-34_46327041012_o.webp',
+        title: `Kainsaz Meteorite Thin Section Image 34`,
+        description: `CO3.2<br>Individual Focus Stack<br>Zoom objective: 40x/0.65<br>Cross Polarized`,
+        thumb: 'thumbs/kainsaz-image-34_46327041012_o.webp'
+    },
+    {
+        image: 'kainsaz-image-35_46327219842_o.webp',
+        title: `Kainsaz Meteorite Thin Section Image 35`,
+        description: `CO3.2<br>Individual Focus Stack<br>Zoom objective: 40x/0.65<br>Cross Polarized`,
+        thumb: 'thumbs/kainsaz-image-35_46327219842_o.webp'
+    },
+    {
+        image: 'kainsaz-image-36_44561211150_o.webp',
+        title: `Kainsaz Meteorite Thin Section Image 36`,
+        description: `CO3.2<br>Individual Focus Stack<br>Zoom objective: 40x/0.65<br>Cross Polarized`,
+        thumb: 'thumbs/kainsaz-image-36_44561211150_o.webp'
+    },
+    {
+        image: 'kainsaz-image-37_46327262962_o.webp',
+        title: `Kainsaz Meteorite Thin Section Image 37`,
+        description: `CO3.2<br>Individual Focus Stack<br>Zoom objective: 40x/0.65<br>Cross Polarized`,
+        thumb: 'thumbs/kainsaz-image-37_46327262962_o.webp'
+    },
+    {
+        image: 'kainsaz-image-40_32527783488_o.webp',
+        title: `Kainsaz Meteorite Thin Section Image 40`,
+        description: `CO3.2<br>Individual Focus Stack<br>Zoom objective: 40x/0.65<br>Cross Polarized`,
+        thumb: 'thumbs/kainsaz-image-40_32527783488_o.webp'
+    },
+    {
+        image: 'kainsaz-image-41_32527783348_o.webp',
+        title: `Kainsaz Meteorite Thin Section Image 41`,
+        description: `CO3.2<br>Individual Focus Stack<br>Zoom objective: 40x/0.65<br>Cross Polarized`,
+        thumb: 'thumbs/kainsaz-image-41_32527783348_o.webp'
+    },
+    {
+        image: 'kainsaz-image-42_32527796808_o.webp',
+        title: `Kainsaz Meteorite Thin Section Image 42`,
+        description: `CO3.2<br>Individual Focus Stack<br>Zoom objective: 40x/0.65<br>Cross Polarized`,
+        thumb: 'thumbs/kainsaz-image-42_32527796808_o.webp'
+    },
+    {
+        image: 'kainsaz-image-43_32527796358_o.webp',
+        title: `Kainsaz Meteorite Thin Section Image 43`,
+        description: `CO3.2<br>Individual Focus Stack<br>Zoom objective: 40x/0.65<br>Cross Polarized`,
+        thumb: 'thumbs/kainsaz-image-43_32527796358_o.webp'
+    },
+    {
+        image: 'kainsaz-image-45_45676546974_o.webp',
+        title: `Kainsaz Meteorite Thin Section Image 45`,
+        description: `CO3.2<br>Individual Focus Stack<br>Zoom objective: 40x/0.65<br>Cross Polarized`,
+        thumb: 'thumbs/kainsaz-image-45_45676546974_o.webp'
+    },
+    {
+        image: 'kainsaz-image-46_45676546594_o.webp',
+        title: `Kainsaz Meteorite Thin Section Image 46`,
+        description: `CO3.2<br>Individual Focus Stack<br>Zoom objective: 40x/0.65<br>Cross Polarized`,
+        thumb: 'thumbs/kainsaz-image-46_45676546594_o.webp'
+    },
+    {
+        image: 'kainsaz-image-47_32527867828_o.webp',
+        title: `Kainsaz Meteorite Thin Section Image 47`,
+        description: `CO3.2<br>Individual Focus Stack<br>Zoom objective: 40x/0.65<br>Cross Polarized`,
+        thumb: 'thumbs/kainsaz-image-47_32527867828_o.webp'
+    },
+    {
+        image: 'kainsaz-image-48_32527905708_o.webp',
+        title: `Kainsaz Meteorite Thin Section Image 48`,
+        description: `CO3.2<br>Individual Focus Stack<br>Zoom objective: 40x/0.65<br>Cross Polarized`,
+        thumb: 'thumbs/kainsaz-image-48_32527905708_o.webp'
+    },
+    {
+        image: 'kainsaz-meteorite-image-33_44560790600_o.webp',
+        title: `Kainsaz Meteorite Thin Section Image 33`,
+        description: `CO3.2<br>Individual Focus Stack<br>Zoom objective: 40x/0.65<br>Cross Polarized`,
+        thumb: 'thumbs/kainsaz-meteorite-image-33_44560790600_o.webp'
+    },
+    {
+        image: 'kainsaz-meteorite-thin-section-image-42_46557801242_o.webp',
+        title: `Kainsaz Meteorite Thin Section Image 42`,
+        description: `CO3.2<br>Individual Focus Stack<br>Zoom objective: 40x/0.65<br>Cross Polarized`,
+        thumb: 'thumbs/kainsaz-meteorite-thin-section-image-42_46557801242_o.webp'
+    },
+    {
+        image: 'kainsaz-meteorite-thin-section-image-43_31668752857_o.webp',
+        title: `Kainsaz Meteorite Thin Section Image 43`,
+        description: `CO3.2<br>Individual Focus Stack<br>Zoom objective: 40x/0.65<br>Cross Polarized`,
+        thumb: 'thumbs/kainsaz-meteorite-thin-section-image-43_31668752857_o.webp'
+    },
+    {
+        image: 'kainsaz-meteorite-thin-section-image-44_39645338833_o.webp',
+        title: `Kainsaz Meteorite Thin Section Image 44`,
+        description: `CO3.2<br>Individual Focus Stack<br>Zoom objective: 40x/0.65<br>Cross Polarized`,
+        thumb: 'thumbs/kainsaz-meteorite-thin-section-image-44_39645338833_o.webp'
+    },
+    {
+        image: 'kainsaz-meteorite-thin-section-image-45_45696116965_o.webp',
+        title: `Kainsaz Meteorite Thin Section Image 45`,
+        description: `CO3.2<br>Individual Focus Stack<br>Zoom objective: 40x/0.65<br>Cross Polarized`,
+        thumb: 'thumbs/kainsaz-meteorite-thin-section-image-45_45696116965_o.webp'
+    },
+    {
+        image: 'kainsaz-meteorite-thin-section-image-46_45696108995_o.webp',
+        title: `Kainsaz Meteorite Thin Section Image 46`,
+        description: `CO3.2<br>Individual Focus Stack<br>Zoom objective: 40x/0.65<br>Cross Polarized`,
+        thumb: 'thumbs/kainsaz-meteorite-thin-section-image-46_45696108995_o.webp'
+    },
+    {
+        image: 'korra-korrabes-meteorite-thin-section-image-1_46809945464_o.webp',
+        title: `Korra Korrabes Meteorite Thin Section Image 1`,
+        description: `H3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/korra-korrabes-meteorite-thin-section-image-1_46809945464_o.webp'
+    },
+    {
+        image: 'korra-korrabes-meteorite-thin-section-image-2_32591245157_o.webp',
+        title: `Korra Korrabes Meteorite Thin Section Image 2`,
+        description: `H3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/korra-korrabes-meteorite-thin-section-image-2_32591245157_o.webp'
+    },
+    {
+        image: 'korra-korrabes-meteorite-thin-section-image-3_47533596931_o.webp',
+        title: `Korra Korrabes Meteorite Thin Section Image 3`,
+        description: `H3<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/korra-korrabes-meteorite-thin-section-image-3_47533596931_o.webp'
+    },
+    {
+        image: 'korra-korrabes-meteorite-thin-section-image-4_32591242277_o.webp',
+        title: `Korra Korrabes Meteorite Thin Section Image 4`,
+        description: `H3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/korra-korrabes-meteorite-thin-section-image-4_32591242277_o.webp'
+    },
+    {
+        image: 'korra-korrabes-meteorite-thin-section-image-5_47480877522_o.webp',
+        title: `Korra Korrabes Meteorite Thin Section Image 5`,
+        description: `H3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/korra-korrabes-meteorite-thin-section-image-5_47480877522_o.webp'
+    },
+    {
+        image: 'korra-korrabes-meteorite-thin-section-images-5-6-7-8-and-9_40581017013_o.webp',
+        title: `Korra Korrabes Meteorite Thin Section Images 5 thru 9`,
+        description: `H3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/korra-korrabes-meteorite-thin-section-images-5-6-7-8-and-9_40581017013_o.webp'
+    },
+    {
+        image: 'korra-korrabes-meteorite-thin-section-image-10_33670427758_o.webp',
+        title: `Korra Korrabes Meteorite Thin Section Image 10`,
+        description: `H3<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/korra-korrabes-meteorite-thin-section-image-10_33670427758_o.webp'
+    },
+    {
+        image: 'korra-korrabes-meteorite-thin-section---image-11_50131109061_o.webp',
+        title: `Korra Korrabes Meteorite Thin Section Image 11`,
+        description: `H3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/korra-korrabes-meteorite-thin-section---image-11_50131109061_o.webp'
+    },
+    {
+        image: 'korra-korrabes-meteorite-thin-section---image-12_50131336677_o.webp',
+        title: `Korra Korrabes Meteorite Thin Section Image 12`,
+        description: `H3<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/korra-korrabes-meteorite-thin-section---image-12_50131336677_o.webp'
+    },
+    {
+        image: 'korra-korrabes-meteorite-thin-section---image-13_50131336892_o.webp',
+        title: `Korra Korrabes Meteorite Thin Section Image 13`,
+        description: `H3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/korra-korrabes-meteorite-thin-section---image-13_50131336892_o.webp'
+    },
+    {
+        image: 'korra-korrabes-meteorite-thin-section---image-14_50130542528_o.webp',
+        title: `Korra Korrabes Meteorite Thin Section Image 14`,
+        description: `H3<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/korra-korrabes-meteorite-thin-section---image-14_50130542528_o.webp'
+    },
+    {
+        image: 'korra-korrabes-meteorite-thin-section---image-15_50131109756_o.webp',
+        title: `Korra Korrabes Meteorite Thin Section Image 15`,
+        description: `H3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/korra-korrabes-meteorite-thin-section---image-15_50131109756_o.webp'
+    },
+    {
+        image: 'korra-korrabes-meteorite-thin-section---image-16_50131110046_o.webp',
+        title: `Korra Korrabes Meteorite Thin Section Image 16`,
+        description: `H3<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/korra-korrabes-meteorite-thin-section---image-16_50131110046_o.webp'
+    },
+    {
+        image: 'korra-korrabes-meteorite-thin-section---image-17_50139319447_o.webp',
+        title: `Korra Korrabes Meteorite Thin Section Image 17`,
+        description: `H3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/korra-korrabes-meteorite-thin-section---image-17_50139319447_o.webp'
+    },
+    {
+        image: 'moss-chondrule-1_46402960891_o.webp',
+        title: `Moss Chondrule`,
+        description: `CO3.6<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/moss-chondrule-1_46402960891_o.webp'
+    },
+    {
+        image: 'moss-meteorite-image-2_45490851795_o.webp',
+        title: `Moss Meteorite Thin Section Image 2`,
+        description: `CO3.6<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/moss-meteorite-image-2_45490851795_o.webp'
+    },
+    {
+        image: 'moss-meteorite-image-3_31463960137_o.webp',
+        title: `Moss Meteorite Thin Section Image 3`,
+        description: `CO3.6<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/moss-meteorite-image-3_31463960137_o.webp'
+    },
+    {
+        image: 'moss-meteorite-image-4_46411823441_o.webp',
+        title: `Moss Meteorite Thin Section Image 4`,
+        description: `CO3.6<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/moss-meteorite-image-4_46411823441_o.webp'
+    },
+    {
+        image: 'moss-meteorite-image-5_45688795184_o.webp',
+        title: `Moss Meteorite Thin Section Image 5`,
+        description: `CO3.6<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/moss-meteorite-image-5_45688795184_o.webp'
+    },
+    {
+        image: 'moss-meteorite-image-6_45688790234_o.webp',
+        title: `Moss Meteorite Thin Section Image 6`,
+        description: `CO3.6<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/moss-meteorite-image-6_45688790234_o.webp'
+    },
+    {
+        image: 'moss-meteorite-image-7_45688787524_o.webp',
+        title: `Moss Meteorite Thin Section Image 7`,
+        description: `CO3.6<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/moss-meteorite-image-7_45688787524_o.webp'
+    },
+    {
+        image: 'moss-meteorite-image-8_44595082970_o.webp',
+        title: `Moss Meteorite Thin Section Image 8`,
+        description: `CO3.6<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/moss-meteorite-image-8_44595082970_o.webp'
+    },
+    {
+        image: 'moss-meteorite-image-9_32540042398_o.webp',
+        title: `Moss Meteorite Thin Section Image 9`,
+        description: `CO3.6<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/moss-meteorite-image-9_32540042398_o.webp'
+    },
+    {
+        image: 'moss-meteorite-image-10_46411797501_o.webp',
+        title: `Moss Meteorite Thin Section Image 10`,
+        description: `CO3.6<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/moss-meteorite-image-10_46411797501_o.webp'
+    },
+    {
+        image: 'moss-meteorite-image-11_32540028348_o.webp',
+        title: `Moss Meteorite Thin Section Image 11`,
+        description: `CO3.6<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/moss-meteorite-image-11_32540028348_o.webp'
+    },
+    {
+        image: 'moss-meteorite-image-12_44595057530_o.webp',
+        title: `Moss Meteorite Thin Section Image 12`,
+        description: `CO3.6<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/moss-meteorite-image-12_44595057530_o.webp'
+    },
+    {
+        image: 'moss-meteorite-image-13_46411786071_o.webp',
+        title: `Moss Meteorite Thin Section Image 13`,
+        description: `CO3.6<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/moss-meteorite-image-13_46411786071_o.webp'
+    },
+    {
+        image: 'moss-meteorite-image-14_44713573810_o.webp',
+        title: `Moss Meteorite Thin Section Image 14`,
+        description: `CO3.6<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/moss-meteorite-image-14_44713573810_o.webp'
+    },
+    {
+        image: 'moss-meteorite-thin-section-image-14---version-2_47533593311_o.webp',
+        title: `Moss Meteorite Thin Section Image 14`,
+        description: `CO3.6<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/moss-meteorite-thin-section-image-14---version-2_47533593311_o.webp'
+    },
+    {
+        image: 'moss-meteorite-image-15_45617433495_o.webp',
+        title: `Moss Meteorite Thin Section Image 15`,
+        description: `CO3.6<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/moss-meteorite-image-15_45617433495_o.webp'
+    },
+    {
+        image: 'moss-meteorite-thin-section-image-15---version-2_46809936154_o.webp',
+        title: `Moss Meteorite Thin Section Image 15`,
+        description: `CO3.6<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/moss-meteorite-thin-section-image-15---version-2_46809936154_o.webp'
+    },
+    {
+        image: 'nuevo-mercurio-meteorite-thin-section-image-1_48155467516_o.webp',
+        title: `Nuevo Mercurio Meteorite Thin Section Image 1`,
+        description: `H5<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nuevo-mercurio-meteorite-thin-section-image-1_48155467516_o.webp'
+    },
+    {
+        image: 'nwa-10296-meteorite-thin-section-image-1-2_48111919066_o.webp',
+        title: `NWA 10296 Meteorite Thin Section Images 1 and 2`,
+        description: `L3.15<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-10296-meteorite-thin-section-image-1-2_48111919066_o.webp'
+    },
+    {
+        image: 'nwa-10669-meteorite-image-1_32588806178_o.webp',
+        title: `NWA 10669 Meteorite Thin Section Image 1`,
+        description: `LL3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-10669-meteorite-image-1_32588806178_o.webp'
+    },
+    {
+        image: 'nwa-10669-meteorite-image-2_45738141334_o.webp',
+        title: `NWA 10669 Meteorite Thin Section Image 2`,
+        description: `LL3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-10669-meteorite-image-2_45738141334_o.webp'
+    },
+    {
+        image: 'nwa-10669-meteorite-image-3_46417615132_o.webp',
+        title: `NWA 10669 Meteorite Thin Section Image 3`,
+        description: `LL3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-10669-meteorite-image-3_46417615132_o.webp'
+    },
+    {
+        image: 'nwa-10669-meteorite-image-4_32595975848_o.webp',
+        title: `NWA 10669 Meteorite Thin Section Image 4`,
+        description: `LL3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-10669-meteorite-image-4_32595975848_o.webp'
+    },
+    {
+        image: 'nwa-10669-meteorite-image-5_31528760527_o.webp',
+        title: `NWA 10669 Meteorite Thin Section Image 5`,
+        description: `LL3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-10669-meteorite-image-5_31528760527_o.webp'
+    },
+    {
+        image: 'nwa-10669-meteorite-image-6_31528750937_o.webp',
+        title: `NWA 10669 Meteorite Thin Section Image 6`,
+        description: `LL3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-10669-meteorite-image-6_31528750937_o.webp'
+    },
+    {
+        image: 'nwa-10669-meteorite-image-7_32596399368_o.webp',
+        title: `NWA 10669 Meteorite Thin Section Image 7`,
+        description: `LL3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-10669-meteorite-image-7_32596399368_o.webp'
+    },
+    {
+        image: 'nwa-10669-meteorite-image-8_46418012812_o.webp',
+        title: `NWA 10669 Meteorite Thin Section Image 8`,
+        description: `LL3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-10669-meteorite-image-8_46418012812_o.webp'
+    },
+    {
+        image: 'nwa-10669-meteorite-image-9_44652092640_o.webp',
+        title: `NWA 10669 Meteorite Thin Section Image 9`,
+        description: `LL3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-10669-meteorite-image-9_44652092640_o.webp'
+    },
+    {
+        image: 'nwa-10669-meteorite-image-10_44652100250_o.webp',
+        title: `NWA 10669 Meteorite Thin Section Image 10`,
+        description: `LL3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-10669-meteorite-image-10_44652100250_o.webp'
+    },
+    {
+        image: 'nwa-10669-meteorite-image-11_45745523134_o.webp',
+        title: `NWA 10669 Meteorite Thin Section Image 11`,
+        description: `LL3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-10669-meteorite-image-11_45745523134_o.webp'
+    },
+    {
+        image: 'nwa-10669-meteorite-image-12_44713699490_o.webp',
+        title: `NWA 10669 Meteorite Thin Section Image 12`,
+        description: `LL3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-10669-meteorite-image-12_44713699490_o.webp'
+    },
+    {
+        image: 'nwa-11220-image-1_31590895537_o.webp',
+        title: `NWA 11220 Meteorite Thin Section Image 1`,
+        description: `Martian (polymict breccia)<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-11220-image-1_31590895537_o.webp'
+    },
+    {
+        image: 'nwa-11220-image-2_46531101801_o.webp',
+        title: `NWA 11220 Meteorite Thin Section Image 2`,
+        description: `Martian (polymict breccia)<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-11220-image-2_46531101801_o.webp'
+    },
+    {
+        image: 'nwa-11220-image-3_31590899797_o.webp',
+        title: `NWA 11220 Meteorite Thin Section Image 3`,
+        description: `Martian (polymict breccia)<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-11220-image-3_31590899797_o.webp'
+    },
+    {
+        image: 'nwa-11220-image-4_46531104711_o.webp',
+        title: `NWA 11220 Meteorite Thin Section Image 4`,
+        description: `Martian (polymict breccia)<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-11220-image-4_46531104711_o.webp'
+    },
+    {
+        image: 'nwa-11220-image-5_31590903597_o.webp',
+        title: `NWA 11220 Meteorite Thin Section Image 5`,
+        description: `Martian (polymict breccia)<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-11220-image-5_31590903597_o.webp'
+    },
+    {
+        image: 'nwa-11220-image-6_32657881278_o.webp',
+        title: `NWA 11220 Meteorite Thin Section Image 6`,
+        description: `Martian (polymict breccia)<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-11220-image-6_32657881278_o.webp'
+    },
+    {
+        image: 'nwa11220-51205377561_0c9ec9d1c5_o.webp',
+        title: `NWA 11220 Meteorite Thin Section Image 7`,
+        description: `Martian (polymict breccia)<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa11220-51205377561_0c9ec9d1c5_o.webp'
+    },
+    {
+        image: 'nwa-11344-meteorite-thin-section---images-11-and-12_48708837132_o.webp',
+        title: `NWA 11344 Meteorite Thin Section Images 11 and 12`,
+        description: `L3-4<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-11344-meteorite-thin-section---images-11-and-12_48708837132_o.webp'
+    },
+    {
+        image: 'nwa-11344-meteorite-thin-section---images-1-2-and-3_48703549448_o.webp',
+        title: `NWA 11344 Meteorite Thin Section Images 1 thru 3`,
+        description: `L3-4<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-11344-meteorite-thin-section---images-1-2-and-3_48703549448_o.webp'
+    },
+    {
+        image: 'nwa-11344-meteorite-thin-section---images-4-5-6-and-7_48703884946_o.webp',
+        title: `NWA 11344 Meteorite Thin Section Images 4 thru 7`,
+        description: `L3-4<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-11344-meteorite-thin-section---images-4-5-6-and-7_48703884946_o.webp'
+    },
+    {
+        image: 'nwa-11344-meteorite-thin-section---images-8-9-and-10_48708836922_o.webp',
+        title: `NWA 11344 Meteorite Thin Section Images 8 thru 10`,
+        description: `L3-4<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-11344-meteorite-thin-section---images-8-9-and-10_48708836922_o.webp'
+    },
+    {
+        image: 'nwa-1933-meteorite-thin-section-image-1_48260562157_o.webp',
+        title: `NWA 1933 Meteorite Thin Section Image 1`,
+        description: `LL3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-1933-meteorite-thin-section-image-1_48260562157_o.webp'
+    },
+    {
+        image: 'nwa-1933-meteorite-thin-section-image-2_48260562452_o.webp',
+        title: `NWA 1933 Meteorite Thin Section Image 2`,
+        description: `LL3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-1933-meteorite-thin-section-image-2_48260562452_o.webp'
+    },
+    {
+        image: 'nwa-1933-meteorite-thin-section-image-3_48260562642_o.webp',
+        title: `NWA 1933 Meteorite Thin Section Image 3`,
+        description: `LL3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-1933-meteorite-thin-section-image-3_48260562642_o.webp'
+    },
+    {
+        image: 'nwa-1933-meteorite-thin-section-image-2-and-3_48260562312_o.webp',
+        title: `NWA 1933 Meteorite Thin Section Images 2 and 3`,
+        description: `LL3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-1933-meteorite-thin-section-image-2-and-3_48260562312_o.webp'
+    },
+    {
+        image: 'nwa-1933-meteorite-thin-section-image-4_48260563332_o.webp',
+        title: `NWA 1933 Meteorite Thin Section Image 4`,
+        description: `LL3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-1933-meteorite-thin-section-image-4_48260563332_o.webp'
+    },
+    {
+        image: 'nwa-1933-meteorite-thin-section-image-5_48260563112_o.webp',
+        title: `NWA 1933 Meteorite Thin Section Image 5`,
+        description: `LL3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-1933-meteorite-thin-section-image-5_48260563112_o.webp'
+    },
+    {
+        image: 'nwa-1933-meteorite-thin-section-image-4-and-5_48260562907_o.webp',
+        title: `NWA 1933 Meteorite Thin Section Images 4 and 5`,
+        description: `LL3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-1933-meteorite-thin-section-image-4-and-5_48260562907_o.webp'
+    },
+    {
+        image: 'nwa-2224-meteorite-surface-image-1_46601198785_o.webp',
+        title: `NWA 2224 Meteorite Surface Image 1`,
+        description: `CV3<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-2224-meteorite-surface-image-1_46601198785_o.webp'
+    },
+    {
+        image: 'nwa-2224-meteorite-thin-section-image-1_46717800961_o.webp',
+        title: `NWA 2224 Meteorite Thin Section Image 1`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2224-meteorite-thin-section-image-1_46717800961_o.webp'
+    },
+    {
+        image: 'nwa-2224-meteorite-thin-section-image-2_46665173732_o.webp',
+        title: `NWA 2224 Meteorite Thin Section Image 2`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2224-meteorite-thin-section-image-2_46665173732_o.webp'
+    },
+    {
+        image: 'nwa-2224-meteorite-thin-section-image-3_46717808441_o.webp',
+        title: `NWA 2224 Meteorite Thin Section Image 3`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2224-meteorite-thin-section-image-3_46717808441_o.webp'
+    },
+    {
+        image: 'nwa-2224-meteorite-thin-section-image-4_33384063468_o.webp',
+        title: `NWA 2224 Meteorite Thin Section Image 4`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2224-meteorite-thin-section-image-4_33384063468_o.webp'
+    },
+    {
+        image: 'nwa-2224-meteorite-thin-section-image-5_46536263404_o.webp',
+        title: `NWA 2224 Meteorite Thin Section Image 5`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2224-meteorite-thin-section-image-5_46536263404_o.webp'
+    },
+    {
+        image: 'nwa-2224-meteorite-thin-section-image-6_33384009318_o.webp',
+        title: `NWA 2224 Meteorite Thin Section Image 6`,
+        description: `CV3<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2224-meteorite-thin-section-image-6_33384009318_o.webp'
+    },
+    {
+        image: 'nwa-2224-meteorite-thin-section-image-7_33384013698_o.webp',
+        title: `NWA 2224 Meteorite Thin Section Image 7`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2224-meteorite-thin-section-image-7_33384013698_o.webp'
+    },
+    {
+        image: 'nwa-2224-meteorite-thin-section-image-8_33384011788_o.webp',
+        title: `NWA 2224 Meteorite Thin Section Image 8`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2224-meteorite-thin-section-image-8_33384011788_o.webp'
+    },
+    {
+        image: 'nwa-2224-meteorite-thin-section-image-9_47259729631_o.webp',
+        title: `NWA 2224 Meteorite Thin Section Image 9`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2224-meteorite-thin-section-image-9_47259729631_o.webp'
+    },
+    {
+        image: 'nwa-2224-meteorite-thin-section-image-10_47259735131_o.webp',
+        title: `NWA 2224 Meteorite Thin Section Image 10`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2224-meteorite-thin-section-image-10_47259735131_o.webp'
+    },
+    {
+        image: 'nwa-2224-meteorite-thin-section-image-11_33384010598_o.webp',
+        title: `NWA 2224 Meteorite Thin Section Image 11`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2224-meteorite-thin-section-image-11_33384010598_o.webp'
+    },
+    {
+        image: 'nwa-2224-meteorite-thin-section-image-9-10-and-11_46548718264_o.webp',
+        title: `NWA 2224 Meteorite Thin Section Image 9 thru 11`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2224-meteorite-thin-section-image-9-10-and-11_46548718264_o.webp'
+    },
+    {
+        image: 'nwa-2224-meteorite-thin-section-image-12_47259732101_o.webp',
+        title: `NWA 2224 Meteorite Thin Section Image 12`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2224-meteorite-thin-section-image-12_47259732101_o.webp'
+    },
+    {
+        image: 'nwa-2224-meteorite-thin-section-image-13_33559479318_o.webp',
+        title: `NWA 2224 Meteorite Thin Section Image 13`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2224-meteorite-thin-section-image-13_33559479318_o.webp'
+    },
+    {
+        image: 'nwa-2224-meteorite-thin-section-images-13---16_33559480418_o.webp',
+        title: `NWA 2224 Meteorite Thin Section Image 13`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2224-meteorite-thin-section-images-13---16_33559480418_o.webp'
+    },
+    {
+        image: 'nwa-2224-meteorite-thin-section-image-14_33559478848_o.webp',
+        title: `NWA 2224 Meteorite Thin Section Image 14`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2224-meteorite-thin-section-image-14_33559478848_o.webp'
+    },
+    {
+        image: 'nwa-2224-meteorite-thin-section-image-15_33559478478_o.webp',
+        title: `NWA 2224 Meteorite Thin Section Image 15`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2224-meteorite-thin-section-image-15_33559478478_o.webp'
+    },
+    {
+        image: 'nwa-2224-meteorite-thin-section-image-16_33559478208_o.webp',
+        title: `NWA 2224 Meteorite Thin Section Image 16`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2224-meteorite-thin-section-image-16_33559478208_o.webp'
+    },
+    {
+        image: 'nwa-2224-meteorite-thin-section-image-17_33559477868_o.webp',
+        title: `NWA 2224 Meteorite Thin Section Image 17`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2224-meteorite-thin-section-image-17_33559477868_o.webp'
+    },
+    {
+        image: 'nwa-2224-meteorite-thin-section-image-18_33559477558_o.webp',
+        title: `NWA 2224 Meteorite Thin Section Image 18`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2224-meteorite-thin-section-image-18_33559477558_o.webp'
+    },
+    {
+        image: 'nwa-2224-meteorite-thin-section-image-19_48154944316_o.webp',
+        title: `NWA 2224 Meteorite Thin Section Image 19`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2224-meteorite-thin-section-image-19_48154944316_o.webp'
+    },
+    {
+        image: 'nwa-2224-meteorite-thin-section-image-20_48155024667_o.webp',
+        title: `NWA 2224 Meteorite Thin Section Image 20`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2224-meteorite-thin-section-image-20_48155024667_o.webp'
+    },
+    {
+        image: 'nwa-2224-meteorite-thin-section-image-21-22-23-and-24_48155027557_o.webp',
+        title: `NWA 2224 Meteorite Thin Section Images 21 thru 24`,
+        description: `CV3<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2224-meteorite-thin-section-image-21-22-23-and-24_48155027557_o.webp'
+    },
+    {
+        image: 'nwa-2224-meteorite-thin-section-image-25-26-and-27_48155030347_o.webp',
+        title: `NWA 2224 Meteorite Thin Section Images 25 thru 27`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2224-meteorite-thin-section-image-25-26-and-27_48155030347_o.webp'
+    },
+    {
+        image: 'nwa-2224-meteorite-thin-section-image-28_48154952651_o.webp',
+        title: `NWA 2224 Meteorite Thin Section Image 28`,
+        description: `CV3<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2224-meteorite-thin-section-image-28_48154952651_o.webp'
+    },
+    {
+        image: 'nwa-2364-meteorite-thin-section-image-1---pmax_39676613623_o.webp',
+        title: `NWA 2364 Meteorite Thin Section Image 1`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2364-meteorite-thin-section-image-1---pmax_39676613623_o.webp'
+    },
+    {
+        image: 'nwa-2364-meteorite-thin-section-image-2---pmax_45916961494_o.webp',
+        title: `NWA 2364 Meteorite Thin Section Image 2`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2364-meteorite-thin-section-image-2---pmax_45916961494_o.webp'
+    },
+    {
+        image: 'nwa-2364-meteorite-thin-section-image-3---pmax_32767059638_o.webp',
+        title: `NWA 2364 Meteorite Thin Section Image 3`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2364-meteorite-thin-section-image-3---pmax_32767059638_o.webp'
+    },
+    {
+        image: 'nwa-2364-meteorite-thin-section-image-4---pmax_46641497461_o.webp',
+        title: `NWA 2364 Meteorite Thin Section Image 4`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2364-meteorite-thin-section-image-4---pmax_46641497461_o.webp'
+    },
+    {
+        image: 'nwa-2364-meteorite-thin-section-image-5---dmax_39676654433_o.webp',
+        title: `NWA 2364 Meteorite Thin Section Image 5`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-2364-meteorite-thin-section-image-5---dmax_39676654433_o.webp'
+    },
+    {
+        image: 'nwa-2364-meteorite-thin-section-image-6---pmax_31700294857_o.webp',
+        title: `NWA 2364 Meteorite Thin Section Image 6`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2364-meteorite-thin-section-image-6---pmax_31700294857_o.webp'
+    },
+    {
+        image: 'nwa-2364-meteorite-thin-section-image-7---pmax_32767092678_o.webp',
+        title: `NWA 2364 Meteorite Thin Section Image 7`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2364-meteorite-thin-section-image-7---pmax_32767092678_o.webp'
+    },
+    {
+        image: 'nwa-2364-meteorite-thin-section-image-6-and-7_45917994644_o.webp',
+        title: `NWA 2364 Meteorite Thin Section Images 6 and 7`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2364-meteorite-thin-section-image-6-and-7_45917994644_o.webp'
+    },
+    {
+        image: 'nwa-2364-meteorite-thin-section-image-8---pmax_39676609293_o.webp',
+        title: `NWA 2364 Meteorite Thin Section Image 8`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2364-meteorite-thin-section-image-8---pmax_39676609293_o.webp'
+    },
+    {
+        image: 'nwa-2364-meteorite-thin-section-image-9_45916937964_o.webp',
+        title: `NWA 2364 Meteorite Thin Section Image 9`,
+        description: `CV3<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2364-meteorite-thin-section-image-9_45916937964_o.webp'
+    },
+    {
+        image: 'nwa-2892-meteorite-thin-section---image-1_50581112612_o.webp',
+        title: `NWA 2892 Meteorite Thin Section Image 1`,
+        description: `H/L3<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2892-meteorite-thin-section---image-1_50581112612_o.webp'
+    },
+    {
+        image: 'nwa-2892-meteorite-thin-section---image-2_50581112472_o.webp',
+        title: `NWA 2892 Meteorite Thin Section Image 2`,
+        description: `H/L3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2892-meteorite-thin-section---image-2_50581112472_o.webp'
+    },
+    {
+        image: 'nwa-2892-meteorite-thin-section---image-3_50635793432_o.webp',
+        title: `NWA 2892 Meteorite Thin Section Image 3`,
+        description: `H/L3<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2892-meteorite-thin-section---image-3_50635793432_o.webp'
+    },
+    {
+        image: 'nwa-2892-meteorite-thin-section---image-4_50635370703_o.webp',
+        title: `NWA 2892 Meteorite Thin Section Image 4`,
+        description: `H/L3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2892-meteorite-thin-section---image-4_50635370703_o.webp'
+    },
+    {
+        image: 'nwa-2892-meteorite-thin-section---image-5_50635489363_o.webp',
+        title: `NWA 2892 Meteorite Thin Section Image 5`,
+        description: `H/L3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2892-meteorite-thin-section---image-5_50635489363_o.webp'
+    },
+    {
+        image: 'nwa-2892-meteorite-thin-section---image-6_50635719478_o.webp',
+        title: `NWA 2892 Meteorite Thin Section Image 6`,
+        description: `H/L3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2892-meteorite-thin-section---image-6_50635719478_o.webp'
+    },
+    {
+        image: 'nwa-2892-meteorite-thin-section---image-7_50635757603_o.webp',
+        title: `NWA 2892 Meteorite Thin Section Image 7`,
+        description: `H/L3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-2892-meteorite-thin-section---image-7_50635757603_o.webp'
+    },
+    {
+        image: 'nwa-3189-meteorite-image-1_46535713471_o.webp',
+        title: `NWA 3189 Meteorite Thin Section Image 1`,
+        description: `LL3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-3189-meteorite-image-1_46535713471_o.webp'
+    },
+    {
+        image: 'nwa-3189-meteorite-image-2_45622206825_o.webp',
+        title: `NWA 3189 Meteorite Thin Section Image 2`,
+        description: `LL3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-3189-meteorite-image-2_45622206825_o.webp'
+    },
+    {
+        image: 'nwa-3189-meteorite-image-3_32662339588_o.webp',
+        title: `NWA 3189 Meteorite Thin Section Image 3`,
+        description: `LL3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-3189-meteorite-image-3_32662339588_o.webp'
+    },
+    {
+        image: 'nwa-3358-meteorite-thin-section-image-1-2-3-4-and-5_48118162602_o.webp',
+        title: `NWA 3358 Meteorite Thin Section Images 1 thru 5`,
+        description: `H3.10<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-3358-meteorite-thin-section-image-1-2-3-4-and-5_48118162602_o.webp'
+    },
+    {
+        image: 'nwa-3358-meteorite-thin-section-image-6-and-7_48118156587_o.webp',
+        title: `NWA 3358 Meteorite Thin Section Images 6 and 7`,
+        description: `H3.10<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-3358-meteorite-thin-section-image-6-and-7_48118156587_o.webp'
+    },
+    {
+        image: 'nwa-4216-meteorite-thin-section-image-1_48260576747_o.webp',
+        title: `NWA 4216 Meteorite Thin Section Image 1`,
+        description: `LL3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-4216-meteorite-thin-section-image-1_48260576747_o.webp'
+    },
+    {
+        image: 'nwa-4216-meteorite-thin-section-image-2_48260576437_o.webp',
+        title: `NWA 4216 Meteorite Thin Section Image 2`,
+        description: `LL3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-4216-meteorite-thin-section-image-2_48260576437_o.webp'
+    },
+    {
+        image: 'nwa-4460-meteorite-thin-section-image-1-2-3-and-4_48118195202_o.webp',
+        title: `NWA 4460 Meteorite Thin Section Images 1 thru 4`,
+        description: `L3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-4460-meteorite-thin-section-image-1-2-3-and-4_48118195202_o.webp'
+    },
+    {
+        image: 'nwa-4723-meteorite-thin-section---image-1_48708839812_o.webp',
+        title: `NWA 4723 Meteorite Thin Section Image 1`,
+        description: `L3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-4723-meteorite-thin-section---image-1_48708839812_o.webp'
+    },
+    {
+        image: 'nwa-4723-meteorite-thin-section---images-2-7_48708680191_o.webp',
+        title: `NWA 4723 Meteorite Thin Section Images 2 thru 7`,
+        description: `L3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-4723-meteorite-thin-section---images-2-7_48708680191_o.webp'
+    },
+    {
+        image: 'nwa-4910-meteorite-image-1_45569125045_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 1`,
+        description: `LL3.1<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-4910-meteorite-image-1_45569125045_o.webp'
+    },
+    {
+        image: 'nwa-4910-meteorite-image-2_45569127925_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 2`,
+        description: `LL3.1<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-4910-meteorite-image-2_45569127925_o.webp'
+    },
+    {
+        image: 'nwa-4910-meteorite-image-3_45569129385_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 3`,
+        description: `LL3.1<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-4910-meteorite-image-3_45569129385_o.webp'
+    },
+    {
+        image: 'nwa-4910-meteorite-image-4_46443633162_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 4`,
+        description: `LL3.1<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-4910-meteorite-image-4_46443633162_o.webp'
+    },
+    {
+        image: 'nwa-4910-meteorite-image-5_31555124157_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 5`,
+        description: `LL3.1<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-4910-meteorite-image-5_31555124157_o.webp'
+    },
+    {
+        image: 'nwa-4910-meteorite-image-6_45771585824_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 6`,
+        description: `LL3.1<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-4910-meteorite-image-6_45771585824_o.webp'
+    },
+    {
+        image: 'nwa-4910-meteorite-image-7_46443649612_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 7`,
+        description: `LL3.1<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-4910-meteorite-image-7_46443649612_o.webp'
+    },
+    {
+        image: 'nwa-4910-meteorite-image-8_45771584014_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 8`,
+        description: `LL3.1<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-4910-meteorite-image-8_45771584014_o.webp'
+    },
+    {
+        image: 'nwa-4910-meteorite-image-9_31555118367_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 9`,
+        description: `LL3.1<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-4910-meteorite-image-9_31555118367_o.webp'
+    },
+    {
+        image: 'nwa-4910-meteorite-image-10_44678185690_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 10`,
+        description: `LL3.1<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-4910-meteorite-image-10_44678185690_o.webp'
+    },
+    {
+        image: 'nwa-4910-meteorite-image-11_45771581994_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 11`,
+        description: `LL3.1<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-4910-meteorite-image-11_45771581994_o.webp'
+    },
+    {
+        image: 'nwa-4910-meteorite-image-12_44678184040_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 12`,
+        description: `LL3.1<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-4910-meteorite-image-12_44678184040_o.webp'
+    },
+    {
+        image: 'nwa-4910-meteorite-image-13_45771579884_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 13`,
+        description: `LL3.1<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-4910-meteorite-image-13_45771579884_o.webp'
+    },
+    {
+        image: 'nwa-4910-meteorite-image-14_44678182810_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 14`,
+        description: `LL3.1<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-4910-meteorite-image-14_44678182810_o.webp'
+    },
+    {
+        image: 'nwa-4910-meteorite-image-15_45771577874_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 15`,
+        description: `LL3.1<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-4910-meteorite-image-15_45771577874_o.webp'
+    },
+    {
+        image: 'nwa-4910-meteorite-image-16_44678180600_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 16`,
+        description: `LL3.1<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-4910-meteorite-image-16_44678180600_o.webp'
+    },
+    {
+        image: 'nwa-4910-meteorite-image-17_45771575344_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 17`,
+        description: `LL3.1<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-4910-meteorite-image-17_45771575344_o.webp'
+    },
+    {
+        image: 'nwa-4910-meteorite-image-18_44678178470_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 18`,
+        description: `LL3.1<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-4910-meteorite-image-18_44678178470_o.webp'
+    },
+    {
+        image: 'nwa-4910-meteorite-image-6-18-annotated_45583276045_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Images 6 thru 18`,
+        description: `LL3.1<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-4910-meteorite-image-6-18-annotated_45583276045_o.webp'
+    },
+    {
+        image: 'nwa-4910-meteorite-image-19_31562125387_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 19`,
+        description: `LL3.1<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-4910-meteorite-image-19_31562125387_o.webp'
+    },
+    {
+        image: 'nwa-4910-meteorite-image-20_45786205204_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 20`,
+        description: `LL3.1<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-4910-meteorite-image-20_45786205204_o.webp'
+    },
+    {
+        image: 'nwa-4910-meteorite-image-21_32645721138_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 21`,
+        description: `LL3.1<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-4910-meteorite-image-21_32645721138_o.webp'
+    },
+    {
+        image: 'nwa-4910-meteorite-image-22_32645712848_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 22`,
+        description: `LL3.1<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-4910-meteorite-image-22_32645712848_o.webp'
+    },
+    {
+        image: 'nwa-4910-meteorite-image-23_32645710988_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 23`,
+        description: `LL3.1<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-4910-meteorite-image-23_32645710988_o.webp'
+    },
+    {
+        image: 'nwa-4910-meteorite-image-24_44701735690_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 24`,
+        description: `LL3.1<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-4910-meteorite-image-24_44701735690_o.webp'
+    },
+    {
+        image: 'nwa-4910-meteorite-image-25_44701733500_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 25`,
+        description: `LL3.1<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-4910-meteorite-image-25_44701733500_o.webp'
+    },
+    {
+        image: 'nwa-4910-meteorite-image-26_44701731680_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 26`,
+        description: `LL3.1<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-4910-meteorite-image-26_44701731680_o.webp'
+    },
+    {
+        image: 'nwa-4910-meteorite-image-27_44701730160_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 27`,
+        description: `LL3.1<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-4910-meteorite-image-27_44701730160_o.webp'
+    },
+    {
+        image: 'nwa-4910-meteorite-image-28_44701728450_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 28`,
+        description: `LL3.1<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-4910-meteorite-image-28_44701728450_o.webp'
+    },
+    {
+        image: 'nwa-4910-meteorite-image-29_44701726630_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 29`,
+        description: `LL3.1<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-4910-meteorite-image-29_44701726630_o.webp'
+    },
+    {
+        image: 'nwa-4910-meteorite-image-30_45795052414_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 30`,
+        description: `LL3.1<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-4910-meteorite-image-30_45795052414_o.webp'
+    },
+    {
+        image: 'nwa-4910-meteorite-image-31_46466782462_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 31`,
+        description: `LL3.1<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-4910-meteorite-image-31_46466782462_o.webp'
+    },
+    {
+        image: 'nwa-4910-meteorite-image-31_46466784072_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 31`,
+        description: `LL3.1<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-4910-meteorite-image-31_46466784072_o.webp'
+    },
+    {
+        image: 'nwa-4910-meteorite-thin-section---image-32_50531337102_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 32`,
+        description: `LL3.1<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-4910-meteorite-thin-section---image-32_50531337102_o.webp'
+    },
+    {
+        image: 'nwa-4910-meteorite-thin-section---image-33_50531178651_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 33`,
+        description: `LL3.1<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-4910-meteorite-thin-section---image-33_50531178651_o.webp'
+    },
+    {
+        image: 'nwa-4910-meteorite-thin-section---image-34_50534728833_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 34`,
+        description: `LL3.1<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-4910-meteorite-thin-section---image-34_50534728833_o.webp'
+    },
+    {
+        image: 'nwa-5239-meteorite-thin-section-image-1_48155466296_o.webp',
+        title: `NWA 5239 Meteorite Thin Section Image 1`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-5239-meteorite-thin-section-image-1_48155466296_o.webp'
+    },
+    {
+        image: 'nwa-5239-meteorite-thin-section-image-2_48155545207_o.webp',
+        title: `NWA 5239 Meteorite Thin Section Image 2`,
+        description: `CV3<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-5239-meteorite-thin-section-image-2_48155545207_o.webp'
+    },
+    {
+        image: 'nwa-5239-meteorite-thin-section-image-3-and-4_48155465701_o.webp',
+        title: `NWA 5239 Meteorite Thin Section Images 3 and 4 `,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-5239-meteorite-thin-section-image-3-and-4_48155465701_o.webp'
+    },
+    {
+        image: 'nwa-533-meteorite-thin-section-image-1-and-2_48111901741_o.webp',
+        title: `NWA 533 Meteorite Thin Section Images 1 and 2`,
+        description: `LL3.5<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-533-meteorite-thin-section-image-1-and-2_48111901741_o.webp'
+    },
+    {
+        image: 'nwa-533-meteorite-thin-section-image-3_48112257916_o.webp',
+        title: `NWA 533 Meteorite Thin Section Image 3`,
+        description: `LL3.5<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-533-meteorite-thin-section-image-3_48112257916_o.webp'
+    },
+    {
+        image: 'nwa-5426-meteorite-thin-section-image-1_48155464131_o.webp',
+        title: `NWA 5426 Meteorite Thin Section Image 1`,
+        description: `R4<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-5426-meteorite-thin-section-image-1_48155464131_o.webp'
+    },
+    {
+        image: 'nwa-5717-meteorite-thin-section-image-1_48260528756_o.webp',
+        title: `NWA 5717 Meteorite Thin Section Image 1`,
+        description: `Ungrouped Chondrite<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-5717-meteorite-thin-section-image-1_48260528756_o.webp'
+    },
+    {
+        image: 'nwa-5717-meteorite-thin-section-image-2_48260598832_o.webp',
+        title: `NWA 5717 Meteorite Thin Section Image 2`,
+        description: `Ungrouped Chondrite<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-5717-meteorite-thin-section-image-2_48260598832_o.webp'
+    },
+    {
+        image: 'nwa-5930-meteorite-thin-section---image-1_49966328847_o.webp',
+        title: `NWA 5930 Meteorite Thin Section Image 1`,
+        description: `CV3<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-5930-meteorite-thin-section---image-1_49966328847_o.webp'
+    },
+    {
+        image: 'nwa-5930-meteorite-thin-section---image-2_49982752218_o.webp',
+        title: `NWA 5930 Meteorite Thin Section Image 2`,
+        description: `CV3<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-5930-meteorite-thin-section---image-2_49982752218_o.webp'
+    },
+    {
+        image: 'nwa-5930-meteorite-thin-section---image-3_49982752908_o.webp',
+        title: `NWA 5930 Meteorite Thin Section Image 3`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-5930-meteorite-thin-section---image-3_49982752908_o.webp'
+    },
+    {
+        image: 'nwa-5930-meteorite-thin-section---image-4_49983536812_o.webp',
+        title: `NWA 5930 Meteorite Thin Section Image 4`,
+        description: `CV3<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-5930-meteorite-thin-section---image-4_49983536812_o.webp'
+    },
+    {
+        image: 'nwa-5930-meteorite-thin-section---image-5_49983537237_o.webp',
+        title: `NWA 5930 Meteorite Thin Section Image 5`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-5930-meteorite-thin-section---image-5_49983537237_o.webp'
+    },
+    {
+        image: 'nwa-5930-meteorite-thin-section---image-6_49986305541_o.webp',
+        title: `NWA 5930 Meteorite Thin Section Image 6`,
+        description: `CV3<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-5930-meteorite-thin-section---image-6_49986305541_o.webp'
+    },
+    {
+        image: 'nwa-5930-meteorite-thin-section---image-7_49986561727_o.webp',
+        title: `NWA 5930 Meteorite Thin Section Image 7`,
+        description: `CV3<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-5930-meteorite-thin-section---image-7_49986561727_o.webp'
+    },
+    {
+        image: 'nwa-5930-meteorite-thin-section---image-8_49986561942_o.webp',
+        title: `NWA 5930 Meteorite Thin Section Image 8`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-5930-meteorite-thin-section---image-8_49986561942_o.webp'
+    },
+    {
+        image: 'nwa-5930-meteorite-thin-section---image-9_49986350426_o.webp',
+        title: `NWA 5930 Meteorite Thin Section Image 9`,
+        description: `CV3<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-5930-meteorite-thin-section---image-9_49986350426_o.webp'
+    },
+    {
+        image: 'nwa-5930-meteorite-thin-section---image-10_49986854297_o.webp',
+        title: `NWA 5930 Meteorite Thin Section Image 10`,
+        description: `CV3<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Slightly cross polarized light`,
+        thumb: 'thumbs/nwa-5930-meteorite-thin-section---image-10_49986854297_o.webp'
+    },
+    {
+        image: 'nwa-5930-meteorite-thin-section---image-11_49986601321_o.webp',
+        title: `NWA 5930 Meteorite Thin Section Image 11`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-5930-meteorite-thin-section---image-11_49986601321_o.webp'
+    },
+    {
+        image: 'nwa-5930-meteorite-thin-section---image-12_49986086383_o.webp',
+        title: `NWA 5930 Meteorite Thin Section Image 12`,
+        description: `CV3<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-5930-meteorite-thin-section---image-12_49986086383_o.webp'
+    },
+    {
+        image: 'nwa-5930-meteorite-thin-section---image-13_49986601716_o.webp',
+        title: `NWA 5930 Meteorite Thin Section Image 13`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-5930-meteorite-thin-section---image-13_49986601716_o.webp'
+    },
+    {
+        image: 'nwa-5930-meteorite-thin-section---image-14_49986853957_o.webp',
+        title: `NWA 5930 Meteorite Thin Section Image 14`,
+        description: `CV3<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-5930-meteorite-thin-section---image-14_49986853957_o.webp'
+    },
+    {
+        image: 'nwa-5930-meteorite-thin-section---image-15_49986601866_o.webp',
+        title: `NWA 5930 Meteorite Thin Section Image 15`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-5930-meteorite-thin-section---image-15_49986601866_o.webp'
+    },
+    {
+        image: 'nwa-5930-meteorite-thin-section---image-16_49986086018_o.webp',
+        title: `NWA 5930 Meteorite Thin Section Image 16`,
+        description: `CV3<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-5930-meteorite-thin-section---image-16_49986086018_o.webp'
+    },
+    {
+        image: 'nwa-5930-meteorite-thin-section---image-17_49986853642_o.webp',
+        title: `NWA 5930 Meteorite Thin Section Image 17`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-5930-meteorite-thin-section---image-17_49986853642_o.webp'
+    },
+    {
+        image: 'nwa-5930-meteorite-thin-section---image-18_49986601281_o.webp',
+        title: `NWA 5930 Meteorite Thin Section Image 18`,
+        description: `CV3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-5930-meteorite-thin-section---image-18_49986601281_o.webp'
+    },
+    {
+        image: 'nwa-5930-meteorite-thin-section---image-19_49986601926_o.webp',
+        title: `NWA 5930 Meteorite Thin Section Image 19`,
+        description: `CV3<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross polarized light`,
+        thumb: 'thumbs/nwa-5930-meteorite-thin-section---image-19_49986601926_o.webp'
+    },
+    {
+        image: 'nwa-6169-meteorite-image-1_45622240455_o.webp',
+        title: `NWA 6169 Meteorite Thin Section Image 1`,
+        description: `L3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-6169-meteorite-image-1_45622240455_o.webp'
+    },
+    {
+        image: 'nwa-6169-meteorite-image-2_45622239335_o.webp',
+        title: `NWA 6169 Meteorite Thin Section Image 2`,
+        description: `L3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-6169-meteorite-image-2_45622239335_o.webp'
+    },
+    {
+        image: 'nwa-6211-meteorite-thin-section-image-1_48109829528_o.webp',
+        title: `NWA 6211 Meteorite Thin Section Image 1`,
+        description: `H5<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-6211-meteorite-thin-section-image-1_48109829528_o.webp'
+    },
+    {
+        image: 'nwa-6211-meteorite-thin-section-image-2_48109828238_o.webp',
+        title: `NWA 6211 Meteorite Thin Section Image 2`,
+        description: `H5<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-6211-meteorite-thin-section-image-2_48109828238_o.webp'
+    },
+    {
+        image: 'nwa-6211-meteorite-thin-section-image-3_48109891262_o.webp',
+        title: `NWA 6211 Meteorite Thin Section Image 3`,
+        description: `H5<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-6211-meteorite-thin-section-image-3_48109891262_o.webp'
+    },
+    {
+        image: 'nwa-6211-meteorite-thin-section-image-4_48109779921_o.webp',
+        title: `NWA 6211 Meteorite Thin Section Image 4`,
+        description: `H5<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-6211-meteorite-thin-section-image-4_48109779921_o.webp'
+    },
+    {
+        image: 'nwa-6445-meteorite-image-1_46410602272_o.webp',
+        title: `NWA 6445 Meteorite Thin Section Image 1`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-6445-meteorite-image-1_46410602272_o.webp'
+    },
+    {
+        image: 'nwa-6445-meteorite-image-2_46410601262_o.webp',
+        title: `NWA 6445 Meteorite Thin Section Image 2`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-6445-meteorite-image-2_46410601262_o.webp'
+    },
+    {
+        image: 'nwa-6445-meteorite-image-3_31521594647_o.webp',
+        title: `NWA 6445 Meteorite Thin Section Image 3`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-6445-meteorite-image-3_31521594647_o.webp'
+    },
+    {
+        image: 'nwa-6445-meteorite-image-4_44644472760_o.webp',
+        title: `NWA 6445 Meteorite Thin Section Image 4`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-6445-meteorite-image-4_44644472760_o.webp'
+    },
+    {
+        image: 'nwa-6445-meteorite-meteorite-image-5_45738039084_o.webp',
+        title: `NWA 6445 Meteorite Thin Section Image 5`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-6445-meteorite-meteorite-image-5_45738039084_o.webp'
+    },
+    {
+        image: 'nwa-6445-meteorite-image-6_46410586032_o.webp',
+        title: `NWA 6445 Meteorite Thin Section Image 6`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-6445-meteorite-image-6_46410586032_o.webp'
+    },
+    {
+        image: 'nwa-6445-meteorite-image-7_46410582492_o.webp',
+        title: `NWA 6445 Meteorite Thin Section Image 7`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-6445-meteorite-image-7_46410582492_o.webp'
+    },
+    {
+        image: 'nwa-6445-meteorite-image-8_46461446111_o.webp',
+        title: `NWA 6445 Meteorite Thin Section Image 8`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-6445-meteorite-image-8_46461446111_o.webp'
+    },
+    {
+        image: 'nwa-6445-meteorite-image-9_32588713598_o.webp',
+        title: `NWA 6445 Meteorite Thin Section Image 9`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-6445-meteorite-image-9_32588713598_o.webp'
+    },
+    {
+        image: 'nwa-6445-meteorite-image-10_45738030584_o.webp',
+        title: `NWA 6445 Meteorite Thin Section Image 10`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-6445-meteorite-image-10_45738030584_o.webp'
+    },
+    {
+        image: 'nwa-6445-meteorite-image-11_32588713308_o.webp',
+        title: `NWA 6445 Meteorite Thin Section Image 11`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-6445-meteorite-image-11_32588713308_o.webp'
+    },
+    {
+        image: 'nwa-6445-meteorite-image-12_46461441361_o.webp',
+        title: `NWA 6445 Meteorite Thin Section Image 12`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-6445-meteorite-image-12_46461441361_o.webp'
+    },
+    {
+        image: 'nwa-6445-meteorite-image-13_45738037544_o.webp',
+        title: `NWA 6445 Meteorite Thin Section Image 13`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-6445-meteorite-image-13_45738037544_o.webp'
+    },
+    {
+        image: 'nwa-6445-meteorite-image-14_32588712508_o.webp',
+        title: `NWA 6445 Meteorite Thin Section Image 14`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-6445-meteorite-image-14_32588712508_o.webp'
+    },
+    {
+        image: 'nwa-6445-meteorite-image-15_46461428581_o.webp',
+        title: `NWA 6445 Meteorite Thin Section Image 15`,
+        description: `CO3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-6445-meteorite-image-15_46461428581_o.webp'
+    },
+    {
+        image: 'nwa-6472-meteorite-surface-image-1_46985828884_o.webp',
+        title: `NWA 6472 Meteorite Surface Image 1`,
+        description: `LL3.2<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-6472-meteorite-surface-image-1_46985828884_o.webp'
+    },
+    {
+        image: 'nwa-6472-meteorite-surface-image-2_47774943621_o.webp',
+        title: `NWA 6472 Meteorite Surface Image 2`,
+        description: `LL3.2<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-6472-meteorite-surface-image-2_47774943621_o.webp'
+    },
+    {
+        image: 'nwa-6472-meteorite-surface-image-3_46985827874_o.webp',
+        title: `NWA 6472 Meteorite Surface Image 3`,
+        description: `LL3.2<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-6472-meteorite-surface-image-3_46985827874_o.webp'
+    },
+    {
+        image: 'nwa-6472-meteorite-surface-image-4_47774942751_o.webp',
+        title: `NWA 6472 Meteorite Surface Image 4`,
+        description: `LL3.2<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-6472-meteorite-surface-image-4_47774942751_o.webp'
+    },
+    {
+        image: 'nwa-6472-meteorite-surface-image-5_47774942451_o.webp',
+        title: `NWA 6472 Meteorite Surface Image 5`,
+        description: `LL3.2<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-6472-meteorite-surface-image-5_47774942451_o.webp'
+    },
+    {
+        image: 'nwa-6472-meteorite-surface-image-6_32831364747_o.webp',
+        title: `NWA 6472 Meteorite Surface Image 6`,
+        description: `LL3.2<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-6472-meteorite-surface-image-6_32831364747_o.webp'
+    },
+    {
+        image: 'nwa-6472-meteorite-surface-image-7_32831364227_o.webp',
+        title: `NWA 6472 Meteorite Surface Image 7`,
+        description: `LL3.2<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-6472-meteorite-surface-image-7_32831364227_o.webp'
+    },
+    {
+        image: 'nwa-6472-meteorite-surface-image-8_47774944621_o.webp',
+        title: `NWA 6472 Meteorite Surface Image 8`,
+        description: `LL3.2<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-6472-meteorite-surface-image-8_47774944621_o.webp'
+    },
+    {
+        image: 'nwa-6472-meteorite-surface-images-3---8_32832547027_o.webp',
+        title: `NWA 6472 Meteorite Surface Images 3 thru 8`,
+        description: `LL3.2<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-6472-meteorite-surface-images-3---8_32832547027_o.webp'
+    },
+    {
+        image: 'nwa-6472-meteorite-surface-image-9_40808847803_o.webp',
+        title: `NWA 6472 Meteorite Surface Image 9`,
+        description: `LL3.2<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-6472-meteorite-surface-image-9_40808847803_o.webp'
+    },
+    {
+        image: 'nwa-6472-meteorite-surface-image-10_33897984598_o.webp',
+        title: `NWA 6472 Meteorite Surface Image 10`,
+        description: `LL3.2<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-6472-meteorite-surface-image-10_33897984598_o.webp'
+    },
+    {
+        image: 'nwa-6472-meteorite-surface-images-9-and-10_46986964164_o.webp',
+        title: `NWA 6472 Meteorite Surface Images 9 and 10`,
+        description: `LL3.2<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-6472-meteorite-surface-images-9-and-10_46986964164_o.webp'
+    },
+    {
+        image: 'nwa-8276-meteorite-image-10_44733874850_o.webp',
+        title: `NWA 8276 Meteorite Thin Section Image 10`,
+        description: `L3.00<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8276-meteorite-image-10_44733874850_o.webp'
+    },
+    {
+        image: 'nwa-8276-meteorite-image-11_46508611832_o.webp',
+        title: `NWA 8276 Meteorite Thin Section Image 11`,
+        description: `L3.00<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8276-meteorite-image-11_46508611832_o.webp'
+    },
+    {
+        image: 'nwa-8276-meteorite-image-12_46508620992_o.webp',
+        title: `NWA 8276 Meteorite Thin Section Image 12`,
+        description: `L3.00<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8276-meteorite-image-12_46508620992_o.webp'
+    },
+    {
+        image: 'nwa-8276-meteorite-image-13_45836526034_o.webp',
+        title: `NWA 8276 Meteorite Thin Section Image 13`,
+        description: `L3.00<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8276-meteorite-image-13_45836526034_o.webp'
+    },
+    {
+        image: 'nwa-8276-meteorite-image-14_45836539044_o.webp',
+        title: `NWA 8276 Meteorite Thin Section Image 14`,
+        description: `L3.00<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8276-meteorite-image-14_45836539044_o.webp'
+    },
+    {
+        image: 'nwa-8276-meteorite-image-1_46479052692_o.webp',
+        title: `NWA 8276 Meteorite Thin Section Image 1`,
+        description: `L3.00<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8276-meteorite-image-1_46479052692_o.webp'
+    },
+    {
+        image: 'nwa-8276-meteorite-image-15_45837034604_o.webp',
+        title: `NWA 8276 Meteorite Thin Section Image 15`,
+        description: `L3.00<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8276-meteorite-image-15_45837034604_o.webp'
+    },
+    {
+        image: 'nwa-8276-meteorite-image-16_46509676852_o.webp',
+        title: `NWA 8276 Meteorite Thin Section Image 16`,
+        description: `L3.00<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8276-meteorite-image-16_46509676852_o.webp'
+    },
+    {
+        image: 'nwa-8276-meteorite-image-17_32688022848_o.webp',
+        title: `NWA 8276 Meteorite Thin Section Image 17`,
+        description: `L3.00<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8276-meteorite-image-17_32688022848_o.webp'
+    },
+    {
+        image: 'nwa-8276-meteorite-image-2_46479055112_o.webp',
+        title: `NWA 8276 Meteorite Thin Section Image 2`,
+        description: `L3.00<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8276-meteorite-image-2_46479055112_o.webp'
+    },
+    {
+        image: 'nwa-8276-meteorite-image-3_46479057962_o.webp',
+        title: `NWA 8276 Meteorite Thin Section Image 3`,
+        description: `L3.00<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8276-meteorite-image-3_46479057962_o.webp'
+    },
+    {
+        image: 'nwa-8276-meteorite-image-4_46479059712_o.webp',
+        title: `NWA 8276 Meteorite Thin Section Image 4`,
+        description: `L3.00<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8276-meteorite-image-4_46479059712_o.webp'
+    },
+    {
+        image: 'nwa-8276-meteorite-image-5_45617500485_o.webp',
+        title: `NWA 8276 Meteorite Thin Section Image 5`,
+        description: `L3.00<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8276-meteorite-image-5_45617500485_o.webp'
+    },
+    {
+        image: 'nwa-8276-meteorite-image-6_32677372848_o.webp',
+        title: `NWA 8276 Meteorite Thin Section Image 6`,
+        description: `L3.00<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8276-meteorite-image-6_32677372848_o.webp'
+    },
+    {
+        image: 'nwa-8276-meteorite-image-7_31610664357_o.webp',
+        title: `NWA 8276 Meteorite Thin Section Image 7`,
+        description: `L3.00<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8276-meteorite-image-7_31610664357_o.webp'
+    },
+    {
+        image: 'nwa-8276-meteorite-image-8_31610663087_o.webp',
+        title: `NWA 8276 Meteorite Thin Section Image 8`,
+        description: `L3.00<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8276-meteorite-image-8_31610663087_o.webp'
+    },
+    {
+        image: 'nwa-8276-meteorite-image-9_46499326902_o.webp',
+        title: `NWA 8276 Meteorite Thin Section Image 9`,
+        description: `L3.00<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8276-meteorite-image-9_46499326902_o.webp'
+    },
+    {
+        image: 'nwa-8276-meteorite-thin-section-image-18_39753303903_o.webp',
+        title: `NWA 8276 Meteorite Thin Section Image 18`,
+        description: `L3.00<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8276-meteorite-thin-section-image-18_39753303903_o.webp'
+    },
+    {
+        image: 'nwa-8276-meteorite-thin-section-image-19_31776794197_o.webp',
+        title: `NWA 8276 Meteorite Thin Section Image 19`,
+        description: `L3.00<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8276-meteorite-thin-section-image-19_31776794197_o.webp'
+    },
+    {
+        image: 'nwa-8345-meteorite-thin-section-image-1_32961078858_o.webp',
+        title: `NWA 8345 Meteorite Thin Section Image 1`,
+        description: `CO3.2<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-8345-meteorite-thin-section-image-1_32961078858_o.webp'
+    },
+    {
+        image: 'nwa-8345-meteorite-thin-section-image-2_45922026645_o.webp',
+        title: `NWA 8345 Meteorite Thin Section Image 2`,
+        description: `CO3.2<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-8345-meteorite-thin-section-image-2_45922026645_o.webp'
+    },
+    {
+        image: 'nwa-8345-meteorite-thin-section-image-3_32961079608_o.webp',
+        title: `NWA 8345 Meteorite Thin Section Image 3`,
+        description: `CO3.2<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-8345-meteorite-thin-section-image-3_32961079608_o.webp'
+    },
+    {
+        image: 'nwa-8345-meteorite-thin-section-image-3-4-and-5_33101716838_o.webp',
+        title: `NWA 8345 Meteorite Thin Section Images 3 thru 5`,
+        description: `CO3.2<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-8345-meteorite-thin-section-image-3-4-and-5_33101716838_o.webp'
+    },
+    {
+        image: 'nwa-8345-meteorite-thin-section-image-4_46836536301_o.webp',
+        title: `NWA 8345 Meteorite Thin Section Image 4`,
+        description: `CO3.2<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-8345-meteorite-thin-section-image-4_46836536301_o.webp'
+    },
+    {
+        image: 'nwa-8345-meteorite-thin-section-image-5_32961080808_o.webp',
+        title: `NWA 8345 Meteorite Thin Section Image 5`,
+        description: `CO3.2<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-8345-meteorite-thin-section-image-5_32961080808_o.webp'
+    },
+    {
+        image: 'nwa-8773-meteorite-thin-section---image-1_48708339603_o.webp',
+        title: `NWA 8773 Meteorite Thin Section Image 1`,
+        description: `LL3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-8773-meteorite-thin-section---image-1_48708339603_o.webp'
+    },
+    {
+        image: 'nwa-8773-meteorite-thin-section---image-2_48708675871_o.webp',
+        title: `NWA 8773 Meteorite Thin Section Image 2`,
+        description: `LL3<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-8773-meteorite-thin-section---image-2_48708675871_o.webp'
+    },
+    {
+        image: 'nwa-8773-meteorite-thin-section---images-3-4-and-5_48708838047_o.webp',
+        title: `NWA 8773 Meteorite Thin Section Image 3 thru 5`,
+        description: `LL3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-8773-meteorite-thin-section---images-3-4-and-5_48708838047_o.webp'
+    },
+    {
+        image: 'nwa-8773-meteorite-thin-section---images-6-7-and-8_48708341898_o.webp',
+        title: `NWA 8773 Meteorite Thin Section Image 6 thru 8`,
+        description: `LL3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-8773-meteorite-thin-section---images-6-7-and-8_48708341898_o.webp'
+    },
+    {
+        image: 'nwa8773-51136918368_2d6526b5c8_o.webp',
+        title: `NWA 8773 Meteorite Thin Section Image 9`,
+        description: `LL3<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Visible light`,
+        thumb: 'thumbs/nwa8773-51136918368_2d6526b5c8_o.webp'
+    },
+    {
+        image: 'nwa8773-51137811820_2314e8a6c5_o.webp',
+        title: `NWA 8773 Meteorite Thin Section Image 10`,
+        description: `LL3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Visible Light`,
+        thumb: 'thumbs/nwa8773-51137811820_2314e8a6c5_o.webp'
+    },
+    {
+        image: 'nwa8773-51136043802_7b7436bc3e_o.webp',
+        title: `NWA 8773 Meteorite Thin Section Image 11 thru 13`,
+        description: `LL3<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Visible Light`,
+        thumb: 'thumbs/nwa8773-51136043802_7b7436bc3e_o.webp'
+    },
+    {
+        image: 'nwa8773-51140096980_92113022fe_o.webp',
+        title: `NWA 8773 Meteorite Thin Section Image 14`,
+        description: `LL3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Visible Light`,
+        thumb: 'thumbs/nwa8773-51140096980_92113022fe_o.webp'
+    },
+    {
+        image: 'nwa8773-51139211703_dfc71e5416_o.webp',
+        title: `NWA 8773 Meteorite Thin Section Image 15`,
+        description: `LL3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Visible Light`,
+        thumb: 'thumbs/nwa8773-51139211703_dfc71e5416_o.webp'
+    },
+    {
+        image: 'nwa8773-51140098420_829e95a55b_o.webp',
+        title: `NWA 8773 Meteorite Thin Section Image 16`,
+        description: `LL3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Visible Light`,
+        thumb: 'thumbs/nwa8773-51140098420_829e95a55b_o.webp'
+    },
+    {
+        image: 'nwa8773-51140097385_afaac15c57_o.webp',
+        title: `NWA 8773 Meteorite Thin Section Image 17`,
+        description: `LL3<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Visible Light`,
+        thumb: 'thumbs/nwa8773-51140097385_afaac15c57_o.webp'
+    },
+    {
+        image: 'nwa8773-51138316962_cd309aa6c6_o.webp',
+        title: `NWA 8773 Meteorite Thin Section Image 18`,
+        description: `LL3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Visible Light`,
+        thumb: 'thumbs/nwa8773-51138316962_cd309aa6c6_o.webp'
+    },
+    {
+        image: 'nwa8773-51139767864_81ef47b1e4_o.webp',
+        title: `NWA 8773 Meteorite Thin Section Image 19`,
+        description: `LL3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Visible Light`,
+        thumb: 'thumbs/nwa8773-51139767864_81ef47b1e4_o.webp'
+    },
+    {
+        image: 'nwa-960-meteorite-thin-section-image-1_47550423652_o.webp',
+        title: `NWA 960 Meteorite Thin Section Image 1`,
+        description: `OC3<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-960-meteorite-thin-section-image-1_47550423652_o.webp'
+    },
+    {
+        image: 'nwa-960-meteorite-thin-section-image-2_46879310104_o.webp',
+        title: `NWA 960 Meteorite Thin Section Image 2`,
+        description: `OC3<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/nwa-960-meteorite-thin-section-image-2_46879310104_o.webp'
+    },
+    {
+        image: 'nwa12692-51273443066_0de4c92bf7_o.webp',
+        title: `NWA 12692 Meteorite Thin Section Image 1`,
+        description: `LL3.00<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Visible light`,
+        thumb: 'thumbs/nwa12692-51273443066_0de4c92bf7_o.webp'
+    },
+    {
+        image: 'nwa12692-51273617408_4c4685f989_o.webp',
+        title: `NWA 12692 Meteorite Thin Section Image 2`,
+        description: `LL3.00<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Visible light`,
+        thumb: 'thumbs/nwa12692-51273617408_4c4685f989_o.webp'
+    },
+    {
+        image: 'nwa12692-51274471665_1c1c7bd050_o.webp',
+        title: `NWA 12692 Meteorite Thin Section Image 3`,
+        description: `LL3.00<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Visible light`,
+        thumb: 'thumbs/nwa12692-51274471665_1c1c7bd050_o.webp'
+    },
+    {
+        image: 'nwa12692-51275068359_18f6db4bea_o.webp',
+        title: `NWA 12692 Meteorite Thin Section Image 4`,
+        description: `LL3.00<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Visible light`,
+        thumb: 'thumbs/nwa12692-51275068359_18f6db4bea_o.webp'
+    },
+    {
+        image: 'nwa12692-51273589307_4c1c0b8205_o.webp',
+        title: `NWA 12692 Meteorite Thin Section Image 5`,
+        description: `LL3.00<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Visible light`,
+        thumb: 'thumbs/nwa12692-51273589307_4c1c0b8205_o.webp'
+    },
+    {
+        image: 'nwa12692-51275364655_0370280eea_o.webp',
+        title: `NWA 12692 Meteorite Thin Section Image 6`,
+        description: `LL3.00<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Visible light`,
+        thumb: 'thumbs/nwa12692-51275364655_0370280eea_o.webp'
+    },
+    {
+        image: 'nwa12692-51275067489_57dba6e929_o.webp',
+        title: `NWA 12692 Meteorite Thin Section Image 7`,
+        description: `LL3.00<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Visible light`,
+        thumb: 'thumbs/nwa12692-51275067489_57dba6e929_o.webp'
+    },
+    {
+        image: 'nwa12692-51275066954_5f33eb10f6_o.webp',
+        title: `NWA 12692 Meteorite Thin Section Image 8`,
+        description: `LL3.00<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Visible light`,
+        thumb: 'thumbs/nwa12692-51275066954_5f33eb10f6_o.webp'
+    },
+    {
+        image: 'nwa12692-51274509738_6cfe99f054_o.webp',
+        title: `NWA 12692 Meteorite Thin Section Image 9`,
+        description: `LL3.00<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Visible light`,
+        thumb: 'thumbs/nwa12692-51274509738_6cfe99f054_o.webp'
+    },
+    {
+        image: 'peekskill-meteorite-thin-section-image-1_47494345362_o.webp',
+        title: `Peekskill Meteorite Thin Section Image 1`,
+        description: `H6<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/peekskill-meteorite-thin-section-image-1_47494345362_o.webp'
+    },
+    {
+        image: 'peekskill-meteorite-thin-section-image-2_47547026841_o.webp',
+        title: `Peekskill Meteorite Thin Section Image 2`,
+        description: `H6<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/peekskill-meteorite-thin-section-image-2_47547026841_o.webp'
+    },
+    {
+        image: 'saratov-meteorite-thin-section-image-10_32660609707_o.webp',
+        title: `Saratov Meteorite Thin Section Image 10`,
+        description: `L4<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/saratov-meteorite-thin-section-image-10_32660609707_o.webp'
+    },
+    {
+        image: 'saratov-meteorite-thin-section---image-11_50032255736_o.webp',
+        title: `Saratov Meteorite Thin Section Image 11`,
+        description: `L4<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/saratov-meteorite-thin-section---image-11_50032255736_o.webp'
+    },
+    {
+        image: 'saratov-meteorite-thin-section---image-12_50032256121_o.webp',
+        title: `Saratov Meteorite Thin Section Image 12`,
+        description: `L4<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/saratov-meteorite-thin-section---image-12_50032256121_o.webp'
+    },
+    {
+        image: 'saratov-meteorite-thin-section-image-1_32660615597_o.webp',
+        title: `Saratov Meteorite Thin Section Image 1`,
+        description: `L4<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/saratov-meteorite-thin-section-image-1_32660615597_o.webp'
+    },
+    {
+        image: 'saratov-meteorite-thin-section---image-13_50035909612_o.webp',
+        title: `Saratov Meteorite Thin Section Image 13`,
+        description: `L4<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/saratov-meteorite-thin-section---image-13_50035909612_o.webp'
+    },
+    {
+        image: 'saratov-meteorite-thin-section---image-14_50035652776_o.webp',
+        title: `Saratov Meteorite Thin Section Image 14`,
+        description: `L4<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/saratov-meteorite-thin-section---image-14_50035652776_o.webp'
+    },
+    {
+        image: 'saratov-meteorite-thin-section---image-15_50038420923_o.webp',
+        title: `Saratov Meteorite Thin Section Image 15`,
+        description: `L4<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/saratov-meteorite-thin-section---image-15_50038420923_o.webp'
+    },
+    {
+        image: 'saratov-meteorite-thin-section---image-16_50038420698_o.webp',
+        title: `Saratov Meteorite Thin Section Image 16`,
+        description: `L4<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/saratov-meteorite-thin-section---image-16_50038420698_o.webp'
+    },
+    {
+        image: 'saratov-meteorite-thin-section---image-17_50038967921_o.webp',
+        title: `Saratov Meteorite Thin Section Image 17`,
+        description: `L4<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/saratov-meteorite-thin-section---image-17_50038967921_o.webp'
+    },
+    {
+        image: 'saratov-meteorite-thin-section---image-18_50038968056_o.webp',
+        title: `Saratov Meteorite Thin Section Image 18`,
+        description: `L4<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/saratov-meteorite-thin-section---image-18_50038968056_o.webp'
+    },
+    {
+        image: 'saratov-meteorite-thin-section-image-2_32660615117_o.webp',
+        title: `Saratov Meteorite Thin Section Image 2`,
+        description: `L4<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/saratov-meteorite-thin-section-image-2_32660615117_o.webp'
+    },
+    {
+        image: 'saratov-meteorite-thin-section-image-3_32660614017_o.webp',
+        title: `Saratov Meteorite Thin Section Image 3`,
+        description: `L4<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/saratov-meteorite-thin-section-image-3_32660614017_o.webp'
+    },
+    {
+        image: 'saratov-meteorite-thin-section-image-4_32660613197_o.webp',
+        title: `Saratov Meteorite Thin Section Image 4`,
+        description: `L4<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/saratov-meteorite-thin-section-image-4_32660613197_o.webp'
+    },
+    {
+        image: 'saratov-meteorite-thin-section-image-5_32660612527_o.webp',
+        title: `Saratov Meteorite Thin Section Image 5`,
+        description: `L4<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/saratov-meteorite-thin-section-image-5_32660612527_o.webp'
+    },
+    {
+        image: 'saratov-meteorite-thin-section-image-6_32660611847_o.webp',
+        title: `Saratov Meteorite Thin Section Image 6`,
+        description: `L4<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/saratov-meteorite-thin-section-image-6_32660611847_o.webp'
+    },
+    {
+        image: 'saratov-meteorite-thin-section-image-7_32660611387_o.webp',
+        title: `Saratov Meteorite Thin Section Image 7`,
+        description: `L4<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/saratov-meteorite-thin-section-image-7_32660611387_o.webp'
+    },
+    {
+        image: 'saratov-meteorite-thin-section-image-8_47603130091_o.webp',
+        title: `Saratov Meteorite Thin Section Image 8`,
+        description: `L4<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/saratov-meteorite-thin-section-image-8_47603130091_o.webp'
+    },
+    {
+        image: 'saratov-meteorite-thin-section-image-9_32660610287_o.webp',
+        title: `Saratov Meteorite Thin Section Image 9`,
+        description: `L4<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/saratov-meteorite-thin-section-image-9_32660610287_o.webp'
+    },
+    {
+        image: 'saratov-meteorite-thin-section-images-2-3-4-and-5_33726826718_o.webp',
+        title: `Saratov Meteorite Thin Section Image 2 thru 5`,
+        description: `L4<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/saratov-meteorite-thin-section-images-2-3-4-and-5_33726826718_o.webp'
+    },
+    {
+        image: 'selma-meteorite-thin-section-image-1_47504206672_o.webp',
+        title: `Selma Meteorite Thin Section Image 1`,
+        description: `H4<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/selma-meteorite-thin-section-image-1_47504206672_o.webp'
+    },
+    {
+        image: 'selma-meteorite-thin-section-image-1-and-2_33680372958_o.webp',
+        title: `Selma Meteorite Thin Section Images 1 and 2`,
+        description: `H4<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/selma-meteorite-thin-section-image-1-and-2_33680372958_o.webp'
+    },
+    {
+        image: 'selma-meteorite-thin-section-image-2_47504209232_o.webp',
+        title: `Selma Meteorite Thin Section Image 2`,
+        description: `H4<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/selma-meteorite-thin-section-image-2_47504209232_o.webp'
+    },
+    {
+        image: 'selma-meteorite-thin-section-image-3_33680319788_o.webp',
+        title: `Selma Meteorite Thin Section Image 3`,
+        description: `H4<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/selma-meteorite-thin-section-image-3_33680319788_o.webp'
+    },
+    {
+        image: 'selma-meteorite-thin-section-image-4_47504211102_o.webp',
+        title: `Selma Meteorite Thin Section Image 4`,
+        description: `H4<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/selma-meteorite-thin-section-image-4_47504211102_o.webp'
+    },
+    {
+        image: 'selma-meteorite-thin-section-image-5_47504213392_o.webp',
+        title: `Selma Meteorite Thin Section Image 5`,
+        description: `H4<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/selma-meteorite-thin-section-image-5_47504213392_o.webp'
+    },
+    {
+        image: 'selma-meteorite-thin-section-image-6_47504215842_o.webp',
+        title: `Selma Meteorite Thin Section Image 6`,
+        description: `H4<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/selma-meteorite-thin-section-image-6_47504215842_o.webp'
+    },
+    {
+        image: 'selma-meteorite-thin-section-image-7_47504218672_o.webp',
+        title: `Selma Meteorite Thin Section Image 7`,
+        description: `H4<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/selma-meteorite-thin-section-image-7_47504218672_o.webp'
+    },
+    {
+        image: 'selma-meteorite-thin-section-image-8_47557092341_o.webp',
+        title: `Selma Meteorite Thin Section Image 8`,
+        description: `H4<br>Zoom objective: 40x/0.65<br>Focus Stacked with Zerene Stacker<br>Plane polarized light`,
+        thumb: 'thumbs/selma-meteorite-thin-section-image-8_47557092341_o.webp'
+    },
+    {
+        image: 'nwa-5028---image10_37080989876_o.webp',
+        title: `NWA 5028 Meteorite Thin Section Image 10`,
+        description: `CR2<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-5028---image10_37080989876_o.webp'
+    },
+    {
+        image: 'nwa-5028---image11_36873449940_o.webp',
+        title: `NWA 5028 Meteorite Thin Section Image 11`,
+        description: `CR2<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-5028---image11_36873449940_o.webp'
+    },
+    {
+        image: 'nwa-5028---image12_36433683104_o.webp',
+        title: `NWA 5028 Meteorite Thin Section Image 12`,
+        description: `CR2<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-5028---image12_36433683104_o.webp'
+    },
+    {
+        image: 'nwa-5028---image13_37128663431_o.webp',
+        title: `NWA 5028 Meteorite Thin Section Image 13`,
+        description: `CR2<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-5028---image13_37128663431_o.webp'
+    },
+    {
+        image: 'nwa-5028---image1_37081066876_o.webp',
+        title: `NWA 5028 Meteorite Thin Section Image 1`,
+        description: `CR2<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-5028---image1_37081066876_o.webp'
+    },
+    {
+        image: 'nwa-5028---image14_36873411370_o.webp',
+        title: `NWA 5028 Meteorite Thin Section Image 14`,
+        description: `CR2<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-5028---image14_36873411370_o.webp'
+    },
+    {
+        image: 'nwa-5028---image15_37099075992_o.webp',
+        title: `NWA 5028 Meteorite Thin Section Image 15`,
+        description: `CR2<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-5028---image15_37099075992_o.webp'
+    },
+    {
+        image: 'nwa-5028---image16_37080946426_o.webp',
+        title: `NWA 5028 Meteorite Thin Section Image 16`,
+        description: `CR2<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-5028---image16_37080946426_o.webp'
+    },
+    {
+        image: 'nwa-5028---image17_37099066012_o.webp',
+        title: `NWA 5028 Meteorite Thin Section Image 17`,
+        description: `CR2<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-5028---image17_37099066012_o.webp'
+    },
+    {
+        image: 'nwa-5028---image18_37080932716_o.webp',
+        title: `NWA 5028 Meteorite Thin Section Image 18`,
+        description: `CR2<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-5028---image18_37080932716_o.webp'
+    },
+    {
+        image: 'nwa-5028---image19_37099050472_o.webp',
+        title: `NWA 5028 Meteorite Thin Section Image 19`,
+        description: `CR2<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-5028---image19_37099050472_o.webp'
+    },
+    {
+        image: 'nwa-5028---image20_37271529065_o.webp',
+        title: `NWA 5028 Meteorite Thin Section Image 20`,
+        description: `CR2<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-5028---image20_37271529065_o.webp'
+    },
+    {
+        image: 'nwa-5028---image21_36433591484_o.webp',
+        title: `NWA 5028 Meteorite Thin Section Image 21`,
+        description: `CR2<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-5028---image21_36433591484_o.webp'
+    },
+    {
+        image: 'nwa-5028---image22_37128590641_o.webp',
+        title: `NWA 5028 Meteorite Thin Section Image 22`,
+        description: `CR2<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-5028---image22_37128590641_o.webp'
+    },
+    {
+        image: 'nwa-5028---image23_37128579311_o.webp',
+        title: `NWA 5028 Meteorite Thin Section Image 23`,
+        description: `CR2<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-5028---image23_37128579311_o.webp'
+    },
+    {
+        image: 'nwa-5028---image2_36873513640_o.webp',
+        title: `NWA 5028 Meteorite Thin Section Image 2`,
+        description: `CR2<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-5028---image2_36873513640_o.webp'
+    },
+    {
+        image: 'nwa-5028---image24_37099001772_o.webp',
+        title: `NWA 5028 Meteorite Thin Section Image 24`,
+        description: `CR2<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-5028---image24_37099001772_o.webp'
+    },
+    {
+        image: 'nwa-5028---image3_36433773864_o.webp',
+        title: `NWA 5028 Meteorite Thin Section Image 3`,
+        description: `CR2<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-5028---image3_36433773864_o.webp'
+    },
+    {
+        image: 'nwa-5028---image4_37271664835_o.webp',
+        title: `NWA 5028 Meteorite Thin Section Image 4`,
+        description: `CR2<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-5028---image4_37271664835_o.webp'
+    },
+    {
+        image: 'nwa-5028---image5_37081029416_o.webp',
+        title: `NWA 5028 Meteorite Thin Section Image 5`,
+        description: `CR2<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-5028---image5_37081029416_o.webp'
+    },
+    {
+        image: 'nwa-5028---image6_37271648155_o.webp',
+        title: `NWA 5028 Meteorite Thin Section Image 6`,
+        description: `CR2<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-5028---image6_37271648155_o.webp'
+    },
+    {
+        image: 'nwa-5028---image7_36873482180_o.webp',
+        title: `NWA 5028 Meteorite Thin Section Image 7`,
+        description: `CR2<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-5028---image7_36873482180_o.webp'
+    },
+    {
+        image: 'nwa-5028---image8_37081002426_o.webp',
+        title: `NWA 5028 Meteorite Thin Section Image 8`,
+        description: `CR2<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-5028---image8_37081002426_o.webp'
+    },
+    {
+        image: 'nwa-5028---image9_36456935553_o.webp',
+        title: `NWA 5028 Meteorite Thin Section Image 9`,
+        description: `CR2<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-5028---image9_36456935553_o.webp'
+    },
+    {
+        image: 'nwa-4910---image10_36433990324_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 10`,
+        description: `LL3.1<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-4910---image10_36433990324_o.webp'
+    },
+    {
+        image: 'nwa-4910---image11_37128881351_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 11`,
+        description: `LL3.1<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-4910---image11_37128881351_o.webp'
+    },
+    {
+        image: 'nwa-4910---image12_36433969974_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 12`,
+        description: `LL3.1<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-4910---image12_36433969974_o.webp'
+    },
+    {
+        image: 'nwa-4910---image13_37081221566_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 13`,
+        description: `LL3.1<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-4910---image13_37081221566_o.webp'
+    },
+    {
+        image: 'nwa-4910---image1_36434105714_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 1`,
+        description: `LL3.1<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-4910---image1_36434105714_o.webp'
+    },
+    {
+        image: 'nwa-4910---image14_37081197916_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 14`,
+        description: `LL3.1<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-4910---image14_37081197916_o.webp'
+    },
+    {
+        image: 'nwa-4910---image15_36433926434_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 15`,
+        description: `LL3.1<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-4910---image15_36433926434_o.webp'
+    },
+    {
+        image: 'nwa-4910---image16_37128835601_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 16`,
+        description: `LL3.1<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-4910---image16_37128835601_o.webp'
+    },
+    {
+        image: 'nwa-4910---image17_37128822261_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 17`,
+        description: `LL3.1<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-4910---image17_37128822261_o.webp'
+    },
+    {
+        image: 'nwa-4910---image18_36433879934_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 18`,
+        description: `LL3.1<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-4910---image18_36433879934_o.webp'
+    },
+    {
+        image: 'nwa-4910---image19_37271775375_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 19`,
+        description: `LL3.1<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-4910---image19_37271775375_o.webp'
+    },
+    {
+        image: 'nwa-4910---image20_37271762695_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 20`,
+        description: `LL3.1<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-4910---image20_37271762695_o.webp'
+    },
+    {
+        image: 'nwa-4910---image21_36457097393_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 21`,
+        description: `LL3.1<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-4910---image21_36457097393_o.webp'
+    },
+    {
+        image: 'nwa-4910---image22_37099226832_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 22`,
+        description: `LL3.1<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-4910---image22_37099226832_o.webp'
+    },
+    {
+        image: 'nwa-4910---image2_36457353933_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 2`,
+        description: `LL3.1<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-4910---image2_36457353933_o.webp'
+    },
+    {
+        image: 'nwa-4910---image3_37128987311_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 3`,
+        description: `LL3.1<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-4910---image3_37128987311_o.webp'
+    },
+    {
+        image: 'nwa-4910---image4_37081353196_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 4`,
+        description: `LL3.1<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-4910---image4_37081353196_o.webp'
+    },
+    {
+        image: 'nwa-4910---image5_37099480922_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 5`,
+        description: `LL3.1<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-4910---image5_37099480922_o.webp'
+    },
+    {
+        image: 'nwa-4910---image6_36457312383_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 6`,
+        description: `LL3.1<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-4910---image6_36457312383_o.webp'
+    },
+    {
+        image: 'nwa-4910---image7_36457303153_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 7`,
+        description: `LL3.1<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-4910---image7_36457303153_o.webp'
+    },
+    {
+        image: 'nwa-4910---image8_37099439842_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 8`,
+        description: `LL3.1<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-4910---image8_37099439842_o.webp'
+    },
+    {
+        image: 'nwa-4910---image9_37271910105_o.webp',
+        title: `NWA 4910 Meteorite Thin Section Image 9`,
+        description: `LL3.1<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-4910---image9_37271910105_o.webp'
+    },
+    {
+        image: 'image-10_37419861391_o.webp',
+        title: `NWA 2737 Meteorite Thin Section Image 10`,
+        description: `Martian (chassignite)<br>Zoom objective: 10x/0.25<br>Cross polarized light`,
+        thumb: 'thumbs/image-10_37419861391_o.webp'
+    },
+    {
+        image: 'image-11_36710332124_o.webp',
+        title: `NWA 2737 Meteorite Thin Section Image 11`,
+        description: `Martian (chassignite)<br>Zoom objective: 10x/0.25<br>Cross polarized light`,
+        thumb: 'thumbs/image-11_36710332124_o.webp'
+    },
+    {
+        image: 'image-12_23567725438_o.webp',
+        title: `NWA 2737 Meteorite Thin Section Image 12`,
+        description: `Martian (chassignite)<br>Zoom objective: 10x/0.25<br>Cross polarized light`,
+        thumb: 'thumbs/image-12_23567725438_o.webp'
+    },
+    {
+        image: 'image-13_23567718878_o.webp',
+        title: `NWA 2737 Meteorite Thin Section Image 13`,
+        description: `Martian (chassignite)<br>Zoom objective: 10x/0.25<br>Cross polarized light`,
+        thumb: 'thumbs/image-13_23567718878_o.webp'
+    },
+    {
+        image: 'image-1_37372724236_o.webp',
+        title: `NWA 2737 Meteorite Thin Section Image 1`,
+        description: `Martian (chassignite)<br>Zoom objective: 10x/0.25<br>Cross polarized light`,
+        thumb: 'thumbs/image-1_37372724236_o.webp'
+    },
+    {
+        image: 'image-14_37388932362_o.webp',
+        title: `NWA 2737 Meteorite Thin Section Image 14`,
+        description: `Martian (chassignite)<br>Zoom objective: 10x/0.25<br>Cross polarized light`,
+        thumb: 'thumbs/image-14_37388932362_o.webp'
+    },
+    {
+        image: 'image-2_36749369203_o.webp',
+        title: `NWA 2737 Meteorite Thin Section Image 2`,
+        description: `Martian (chassignite)<br>Zoom objective: 10x/0.25<br>Cross polarized light`,
+        thumb: 'thumbs/image-2_36749369203_o.webp'
+    },
+    {
+        image: 'image-3_36749365483_o.webp',
+        title: `NWA 2737 Meteorite Thin Section Image 3`,
+        description: `Martian (chassignite)<br>Zoom objective: 10x/0.25<br>Cross polarized light`,
+        thumb: 'thumbs/image-3_36749365483_o.webp'
+    },
+    {
+        image: 'image-4_36710371934_o.webp',
+        title: `NWA 2737 Meteorite Thin Section Image 4`,
+        description: `Martian (chassignite)<br>Zoom objective: 10x/0.25<br>Cross polarized light`,
+        thumb: 'thumbs/image-4_36710371934_o.webp'
+    },
+    {
+        image: 'image-5_37162666940_o.webp',
+        title: `NWA 2737 Meteorite Thin Section Image 5`,
+        description: `Martian (chassignite)<br>Zoom objective: 10x/0.25<br>Cross polarized light`,
+        thumb: 'thumbs/image-5_37162666940_o.webp'
+    },
+    {
+        image: 'image-6_36749357753_o.webp',
+        title: `NWA 2737 Meteorite Thin Section Image 6`,
+        description: `Martian (chassignite)<br>Zoom objective: 10x/0.25<br>Cross polarized light`,
+        thumb: 'thumbs/image-6_36749357753_o.webp'
+    },
+    {
+        image: 'image-7_36749340863_o.webp',
+        title: `NWA 2737 Meteorite Thin Section Image 7`,
+        description: `Martian (chassignite)<br>Zoom objective: 10x/0.25<br>Cross polarized light`,
+        thumb: 'thumbs/image-7_36749340863_o.webp'
+    },
+    {
+        image: 'image-8_37162641620_o.webp',
+        title: `NWA 2737 Meteorite Thin Section Image 8`,
+        description: `Martian (chassignite)<br>Zoom objective: 10x/0.25<br>Cross polarized light`,
+        thumb: 'thumbs/image-8_37162641620_o.webp'
+    },
+    {
+        image: 'image-9_37162630930_o.webp',
+        title: `NWA 2737 Meteorite Thin Section Image 9`,
+        description: `Martian (chassignite)<br>Zoom objective: 10x/0.25<br>Cross polarized light`,
+        thumb: 'thumbs/image-9_37162630930_o.webp'
+    },
+    {
+        image: 'nwa-8171---image10_37081583486_o.webp',
+        title: `NWA 8171 Meteorite Thin Section Image 10`,
+        description: `Martian (polymict breccia)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8171---image10_37081583486_o.webp'
+    },
+    {
+        image: 'nwa-8171---image11_36434270234_o.webp',
+        title: `NWA 8171 Meteorite Thin Section Image 11`,
+        description: `Martian (polymict breccia)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8171---image11_36434270234_o.webp'
+    },
+    {
+        image: 'nwa-8171---image12_36434261564_o.webp',
+        title: `NWA 8171 Meteorite Thin Section Image 12`,
+        description: `Martian (polymict breccia)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8171---image12_36434261564_o.webp'
+    },
+    {
+        image: 'nwa-8171---image13_36434247524_o.webp',
+        title: `NWA 8171 Meteorite Thin Section Image 13`,
+        description: `Martian (polymict breccia)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8171---image13_36434247524_o.webp'
+    },
+    {
+        image: 'nwa-8171---image1_36874149290_o.webp',
+        title: `NWA 8171 Meteorite Thin Section Image 1`,
+        description: `Martian (polymict breccia)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8171---image1_36874149290_o.webp'
+    },
+    {
+        image: 'nwa-8171---image14_36434237204_o.webp',
+        title: `NWA 8171 Meteorite Thin Section Image 14`,
+        description: `Martian (polymict breccia)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8171---image14_36434237204_o.webp'
+    },
+    {
+        image: 'nwa-8171---image15_36457520383_o.webp',
+        title: `NWA 8171 Meteorite Thin Section Image 15`,
+        description: `Martian (polymict breccia)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8171---image15_36457520383_o.webp'
+    },
+    {
+        image: 'nwa-8171---image16_36873997770_o.webp',
+        title: `NWA 8171 Meteorite Thin Section Image 16`,
+        description: `Martian (polymict breccia)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8171---image16_36873997770_o.webp'
+    },
+    {
+        image: 'nwa-8171---image17_36873989500_o.webp',
+        title: `NWA 8171 Meteorite Thin Section Image 17`,
+        description: `Martian (polymict breccia)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8171---image17_36873989500_o.webp'
+    },
+    {
+        image: 'nwa-8171---image18_36873982670_o.webp',
+        title: `NWA 8171 Meteorite Thin Section Image 18`,
+        description: `Martian (polymict breccia)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8171---image18_36873982670_o.webp'
+    },
+    {
+        image: 'nwa-8171---image19_37099670062_o.webp',
+        title: `NWA 8171 Meteorite Thin Section Image 19`,
+        description: `Martian (polymict breccia)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8171---image19_37099670062_o.webp'
+    },
+    {
+        image: 'nwa-8171---image20_37129098821_o.webp',
+        title: `NWA 8171 Meteorite Thin Section Image 20`,
+        description: `Martian (polymict breccia)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8171---image20_37129098821_o.webp'
+    },
+    {
+        image: 'nwa-8171---image21_37129093801_o.webp',
+        title: `NWA 8171 Meteorite Thin Section Image 21`,
+        description: `Martian (polymict breccia)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8171---image21_37129093801_o.webp'
+    },
+    {
+        image: 'nwa-8171---image22_37099650262_o.webp',
+        title: `NWA 8171 Meteorite Thin Section Image 22`,
+        description: `Martian (polymict breccia)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8171---image22_37099650262_o.webp'
+    },
+    {
+        image: 'nwa-8171---image23_37099640972_o.webp',
+        title: `NWA 8171 Meteorite Thin Section Image 23`,
+        description: `Martian (polymict breccia)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8171---image23_37099640972_o.webp'
+    },
+    {
+        image: 'nwa-8171---image2_37272290855_o.webp',
+        title: `NWA 8171 Meteorite Thin Section Image 2`,
+        description: `Martian (polymict breccia)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8171---image2_37272290855_o.webp'
+    },
+    {
+        image: 'nwa-8171---image24_37272135495_o.webp',
+        title: `NWA 8171 Meteorite Thin Section Image 24`,
+        description: `Martian (polymict breccia)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8171---image24_37272135495_o.webp'
+    },
+    {
+        image: 'nwa-8171---image25_37099625612_o.webp',
+        title: `NWA 8171 Meteorite Thin Section Image 25`,
+        description: `Martian (polymict breccia)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8171---image25_37099625612_o.webp'
+    },
+    {
+        image: 'nwa-8171---image26_37081468156_o.webp',
+        title: `NWA 8171 Meteorite Thin Section Image 26`,
+        description: `Martian (polymict breccia)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8171---image26_37081468156_o.webp'
+    },
+    {
+        image: 'nwa-8171---image3_36874131430_o.webp',
+        title: `NWA 8171 Meteorite Thin Section Image 3`,
+        description: `Martian (polymict breccia)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8171---image3_36874131430_o.webp'
+    },
+    {
+        image: 'nwa-8171---image4_36874125360_o.webp',
+        title: `NWA 8171 Meteorite Thin Section Image 4`,
+        description: `Martian (polymict breccia)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8171---image4_36874125360_o.webp'
+    },
+    {
+        image: 'nwa-8171---image5_37099785752_o.webp',
+        title: `NWA 8171 Meteorite Thin Section Image 5`,
+        description: `Martian (polymict breccia)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8171---image5_37099785752_o.webp'
+    },
+    {
+        image: 'nwa-8171---image6_37099777832_o.webp',
+        title: `NWA 8171 Meteorite Thin Section Image 6`,
+        description: `Martian (polymict breccia)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8171---image6_37099777832_o.webp'
+    },
+    {
+        image: 'nwa-8171---image7_37099768042_o.webp',
+        title: `NWA 8171 Meteorite Thin Section Image 7`,
+        description: `Martian (polymict breccia)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8171---image7_37099768042_o.webp'
+    },
+    {
+        image: 'nwa-8171---image8_37099756242_o.webp',
+        title: `NWA 8171 Meteorite Thin Section Image 8`,
+        description: `Martian (polymict breccia)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8171---image8_37099756242_o.webp'
+    },
+    {
+        image: 'nwa-8171---image9_37081592636_o.webp',
+        title: `NWA 8171 Meteorite Thin Section Image 9`,
+        description: `Martian (polymict breccia)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8171---image9_37081592636_o.webp'
+    },
+    {
+        image: 'nwa-8159---image-10_37080668286_o.webp',
+        title: `NWA 8159 Meteorite Thin Section Image 10`,
+        description: `Martian (augite basalt)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8159---image-10_37080668286_o.webp'
+    },
+    {
+        image: 'nwa-8159---image-11_37128416471_o.webp',
+        title: `NWA 8159 Meteorite Thin Section Image 11`,
+        description: `Martian (augite basalt)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8159---image-11_37128416471_o.webp'
+    },
+    {
+        image: 'nwa-8159---image-12_36456547723_o.webp',
+        title: `NWA 8159 Meteorite Thin Section Image 12`,
+        description: `Martian (augite basalt)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8159---image-12_36456547723_o.webp'
+    },
+    {
+        image: 'nwa-8159---image-13_36456382663_o.webp',
+        title: `NWA 8159 Meteorite Thin Section Image 13`,
+        description: `Martian (augite basalt)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8159---image-13_36456382663_o.webp'
+    },
+    {
+        image: 'nwa-8159---image-1_37098600392_o.webp',
+        title: `NWA 8159 Meteorite Thin Section Image 1`,
+        description: `Martian (augite basalt)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8159---image-1_37098600392_o.webp'
+    },
+    {
+        image: 'nwa-8159---image-14_36456560063_o.webp',
+        title: `NWA 8159 Meteorite Thin Section Image 14`,
+        description: `Martian (augite basalt)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8159---image-14_36456560063_o.webp'
+    },
+    {
+        image: 'nwa-8159---image-15_36456576563_o.webp',
+        title: `NWA 8159 Meteorite Thin Section Image 15`,
+        description: `Martian (augite basalt)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8159---image-15_36456576563_o.webp'
+    },
+    {
+        image: 'nwa-8159---image-16_36873184360_o.webp',
+        title: `NWA 8159 Meteorite Thin Section Image 16`,
+        description: `Martian (augite basalt)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8159---image-16_36873184360_o.webp'
+    },
+    {
+        image: 'nwa-8159---image-17_36873197850_o.webp',
+        title: `NWA 8159 Meteorite Thin Section Image 17`,
+        description: `Martian (augite basalt)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8159---image-17_36873197850_o.webp'
+    },
+    {
+        image: 'nwa-8159---image-18_37080759786_o.webp',
+        title: `NWA 8159 Meteorite Thin Section Image 18`,
+        description: `Martian (augite basalt)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8159---image-18_37080759786_o.webp'
+    },
+    {
+        image: 'nwa-8159---image-19_37128480251_o.webp',
+        title: `NWA 8159 Meteorite Thin Section Image 19`,
+        description: `Martian (augite basalt)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8159---image-19_37128480251_o.webp'
+    },
+    {
+        image: 'nwa-8159---image-20_37080778226_o.webp',
+        title: `NWA 8159 Meteorite Thin Section Image 20`,
+        description: `Martian (augite basalt)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8159---image-20_37080778226_o.webp'
+    },
+    {
+        image: 'nwa-8159---image-21_37098890612_o.webp',
+        title: `NWA 8159 Meteorite Thin Section Image 21`,
+        description: `Martian (augite basalt)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8159---image-21_37098890612_o.webp'
+    },
+    {
+        image: 'nwa-8159---image-22_37271408395_o.webp',
+        title: `NWA 8159 Meteorite Thin Section Image 22`,
+        description: `Martian (augite basalt)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8159---image-22_37271408395_o.webp'
+    },
+    {
+        image: 'nwa-8159---image-2_36433257014_o.webp',
+        title: `NWA 8159 Meteorite Thin Section Image 2`,
+        description: `Martian (augite basalt)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8159---image-2_36433257014_o.webp'
+    },
+    {
+        image: 'nwa-8159---image-3_37128293561_o.webp',
+        title: `NWA 8159 Meteorite Thin Section Image 3`,
+        description: `Martian (augite basalt)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8159---image-3_37128293561_o.webp'
+    },
+    {
+        image: 'nwa-8159---image-4_37271202215_o.webp',
+        title: `NWA 8159 Meteorite Thin Section Image 4`,
+        description: `Martian (augite basalt)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8159---image-4_37271202215_o.webp'
+    },
+    {
+        image: 'nwa-8159---image-5_37128314631_o.webp',
+        title: `NWA 8159 Meteorite Thin Section Image 5`,
+        description: `Martian (augite basalt)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8159---image-5_37128314631_o.webp'
+    },
+    {
+        image: 'nwa-8159---image-6_36456437723_o.webp',
+        title: `NWA 8159 Meteorite Thin Section Image 6`,
+        description: `Martian (augite basalt)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8159---image-6_36456437723_o.webp'
+    },
+    {
+        image: 'nwa-8159---image-7_37098689622_o.webp',
+        title: `NWA 8159 Meteorite Thin Section Image 7`,
+        description: `Martian (augite basalt)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8159---image-7_37098689622_o.webp'
+    },
+    {
+        image: 'nwa-8159---image-8_37080629506_o.webp',
+        title: `NWA 8159 Meteorite Thin Section Image 8`,
+        description: `Martian (augite basalt)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8159---image-8_37080629506_o.webp'
+    },
+    {
+        image: 'nwa-8159---image-9_36456488963_o.webp',
+        title: `NWA 8159 Meteorite Thin Section Image 9`,
+        description: `Martian (augite basalt)<br>Zoom objective: 10x/0.25<br>Focus Stacked with Zerene Stacker<br>Cross Polarized Light`,
+        thumb: 'thumbs/nwa-8159---image-9_36456488963_o.webp'
+    }
+];
+
+    (function() {
+        Galleria.loadTheme('https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/themes/azur/galleria.azur.min.js');
+        
+        // bind the method to Galleria.ready
+        Galleria.ready(function(options) {
+
+            // this = the gallery instance
+            // options = the gallery options
+
+            this.attachKeyboard({
+                left: this.prev, // applies the native prev() function
+                right: this.next
+            });
+            
+            this.lazyLoadChunks(10, 500);
+        });
+        
+        Galleria.run('.galleria', { imageCrop: false, dataSource: gallery1Data, thumbnails: 'lazy' });
+    }());
+</script>
+<script type="text/javascript" src="https://widget.fotomoto.com/stores/script/f17731113e15b3841d507299c6e8bbbde3c23f26.js"></script>
+<noscript>If Javascript is disabled in your browser, to place orders please visit the page where I <a href='https://my.fotomoto.com/store/f17731113e15b3841d507299c6e8bbbde3c23f26'>sell my photos</a>, powered by <a href='https://my.fotomoto.com'>Fotomoto</a>.</noscript>
+</body></html>

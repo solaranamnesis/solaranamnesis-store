@@ -1,0 +1,789 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Solar Anamnesis - Ordinary Chondrites</title><meta name="description" content="Ordinary chondrite meteorite pictures">
+<style>
+.galleria{ height: 1280px; background: #000 }
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/galleria.min.js"></script>
+<link rel="icon" type="image/png" href="favicon.jpg" />
+</head>
+
+<body>
+<div class="galleria">
+</div>
+<script>
+  var gallery1Data = [{
+    image: 'aba-panu-meteorite-surface---gigapixel_30086766447_o.jpg',
+    thumb: 'thumbs/aba-panu-meteorite-surface---gigapixel_30086766447_o.jpg'
+}, {
+    image: 'aba-panu-meteorite-thin-section---gigapixel_31878243237_o.jpg',
+    thumb: 'thumbs/aba-panu-meteorite-thin-section---gigapixel_31878243237_o.jpg'
+}, {
+    image: 'aba-panu-meteorite-thin-section---hdr_48802213396_o.jpg',
+    thumb: 'thumbs/aba-panu-meteorite-thin-section---hdr_48802213396_o.jpg'
+}, {
+    image: 'aba-panu-meteorite-thin-section---hdr_48802354982_o.jpg',
+    thumb: 'thumbs/aba-panu-meteorite-thin-section---hdr_48802354982_o.jpg'
+}, {
+    image: 'aba-panu-meteorite-thin-section---xpl-hdr_48802352492_o.jpg',
+    thumb: 'thumbs/aba-panu-meteorite-thin-section---xpl-hdr_48802352492_o.jpg'
+}, {
+    image: 'aba-panu-meteorite-thin-section---xpl-hdr_48802353597_o.jpg',
+    thumb: 'thumbs/aba-panu-meteorite-thin-section---xpl-hdr_48802353597_o.jpg'
+}, {
+    image: 'ausson-meteorite-thin-section---hdr_49113569828_o.jpg',
+    thumb: 'thumbs/ausson-meteorite-thin-section---hdr_49113569828_o.jpg'
+}, {
+    image: 'ausson-meteorite-thin-section---xpl-hdr_49114066121_o.jpg',
+    thumb: 'thumbs/ausson-meteorite-thin-section---xpl-hdr_49114066121_o.jpg'
+}, {
+    image: 'barratta-meteorite-thin-section---gigapixel_50239860207_o.jpg',
+    thumb: 'thumbs/barratta-meteorite-thin-section---gigapixel_50239860207_o.jpg'
+}, {
+    image: 'barratta-meteorite-thin-section---hdr_48932782546_o.jpg',
+    thumb: 'thumbs/barratta-meteorite-thin-section---hdr_48932782546_o.jpg'
+}, {
+    image: 'barratta-meteorite-thin-section---xpl-hdr_48932236828_o.jpg',
+    thumb: 'thumbs/barratta-meteorite-thin-section---xpl-hdr_48932236828_o.jpg'
+}, {
+    image: 'chantonnay-meteorite-thin-section---gigapixel_30565742720_o.jpg',
+    thumb: 'thumbs/chantonnay-meteorite-thin-section---gigapixel_30565742720_o.jpg'
+}, {
+    image: 'chantonnay-meteorite-thin-section---hdr_49235666763_o.jpg',
+    thumb: 'thumbs/chantonnay-meteorite-thin-section---hdr_49235666763_o.jpg'
+}, {
+    image: 'chantonnay-meteorite-thin-section---xpl-hdr_49236357057_o.jpg',
+    thumb: 'thumbs/chantonnay-meteorite-thin-section---xpl-hdr_49236357057_o.jpg'
+}, {
+    image: 'chelyabinsk-meteorite-thin-section---gigapixel_30867272485_o.jpg',
+    thumb: 'thumbs/chelyabinsk-meteorite-thin-section---gigapixel_30867272485_o.jpg'
+}, {
+    image: 'chelyabinsk-meteorite-thin-section---hdr_48883531916_o.jpg',
+    thumb: 'thumbs/chelyabinsk-meteorite-thin-section---hdr_48883531916_o.jpg'
+}, {
+    image: 'chelyabinsk-meteorite-thin-section---hdr_48912092057_o.jpg',
+    thumb: 'thumbs/chelyabinsk-meteorite-thin-section---hdr_48912092057_o.jpg'
+}, {
+    image: 'chelyabinsk-meteorite-thin-section---xpl-hdr_48883716112_o.jpg',
+    thumb: 'thumbs/chelyabinsk-meteorite-thin-section---xpl-hdr_48883716112_o.jpg'
+}, {
+    image: 'chelyabinsk-meteorite-thin-section---xpl-hdr_48912091817_o.jpg',
+    thumb: 'thumbs/chelyabinsk-meteorite-thin-section---xpl-hdr_48912091817_o.jpg'
+}, {
+    image: 'chug-chug-009-meteorite-thin-section---hdr_49632632873_o.jpg',
+    thumb: 'thumbs/chug-chug-009-meteorite-thin-section---hdr_49632632873_o.jpg'
+}, {
+    image: 'chug-chug-009-meteorite-thin-section---xpl-hdr_49633151746_o.jpg',
+    thumb: 'thumbs/chug-chug-009-meteorite-thin-section---xpl-hdr_49633151746_o.jpg'
+}, {
+    image: 'clarendon-c-meteorite-thin-section---gigapixel_49721351047_o.jpg',
+    thumb: 'thumbs/clarendon-c-meteorite-thin-section---gigapixel_49721351047_o.jpg'
+}, {
+    image: 'clarendon-c-meteorite-thin-section---hdr_49219442323_o.jpg',
+    thumb: 'thumbs/clarendon-c-meteorite-thin-section---hdr_49219442323_o.jpg'
+}, {
+    image: 'clarendon-c-meteorite-thin-section---xpl-hdr_49219922686_o.jpg',
+    thumb: 'thumbs/clarendon-c-meteorite-thin-section---xpl-hdr_49219922686_o.jpg'
+}, {
+    image: 'dhofar-294-meteorite-thin-section---hdr_49532191368_o.jpg',
+    thumb: 'thumbs/dhofar-294-meteorite-thin-section---hdr_49532191368_o.jpg'
+}, {
+    image: 'dhofar-294-meteorite-thin-section---xpl-hdr_49532915257_o.jpg',
+    thumb: 'thumbs/dhofar-294-meteorite-thin-section---xpl-hdr_49532915257_o.jpg'
+}, {
+    image: 'dhofar-535-meteorite-thin-section---gigapixel_30231488123_o.jpg',
+    thumb: 'thumbs/dhofar-535-meteorite-thin-section---gigapixel_30231488123_o.jpg'
+}, {
+    image: 'dhofar-535-meteorite-thin-section---hdr_49102784878_o.jpg',
+    thumb: 'thumbs/dhofar-535-meteorite-thin-section---hdr_49102784878_o.jpg'
+}, {
+    image: 'dhofar-535-meteorite-thin-section---xpl-hdr_49103293056_o.jpg',
+    thumb: 'thumbs/dhofar-535-meteorite-thin-section---xpl-hdr_49103293056_o.jpg'
+}, {
+    image: 'ghubara-meteorite-thin-section---hdr_48856491767_o.jpg',
+    thumb: 'thumbs/ghubara-meteorite-thin-section---hdr_48856491767_o.jpg'
+}, {
+    image: 'ghubara-meteorite-thin-section---xpl-hdr_48855936038_o.jpg',
+    thumb: 'thumbs/ghubara-meteorite-thin-section---xpl-hdr_48855936038_o.jpg'
+}, {
+    image: 'jiddat-al-harasis-055-meteorite-thin-section---hdr_49532917937_o.jpg',
+    thumb: 'thumbs/jiddat-al-harasis-055-meteorite-thin-section---hdr_49532917937_o.jpg'
+}, {
+    image: 'jiddat-al-harasis-055-meteorite-thin-section---xpl-hdr_49532695506_o.jpg',
+    thumb: 'thumbs/jiddat-al-harasis-055-meteorite-thin-section---xpl-hdr_49532695506_o.jpg'
+}, {
+    image: 'jiddat-al-harasis-073-meteorite-thin-section---hdr_49532919062_o.jpg',
+    thumb: 'thumbs/jiddat-al-harasis-073-meteorite-thin-section---hdr_49532919062_o.jpg'
+}, {
+    image: 'jiddat-al-harasis-073-meteorite-thin-section---xpl-hdr_49532918812_o.jpg',
+    thumb: 'thumbs/jiddat-al-harasis-073-meteorite-thin-section---xpl-hdr_49532918812_o.jpg'
+}, {
+    image: 'jilin-meteorite-thin-section---hdr_49313277856_o.jpg',
+    thumb: 'thumbs/jilin-meteorite-thin-section---hdr_49313277856_o.jpg'
+}, {
+    image: 'jilin-meteorite-thin-section---xpl-hdr_49313259996_o.jpg',
+    thumb: 'thumbs/jilin-meteorite-thin-section---xpl-hdr_49313259996_o.jpg'
+}, {
+    image: 'julesburg-meteorite-thin-section---gigapixel_32771785287_o.jpg',
+    thumb: 'thumbs/julesburg-meteorite-thin-section---gigapixel_32771785287_o.jpg'
+}, {
+    image: 'julesburg-meteorite-thin-section---hdr_48772095987_o.jpg',
+    thumb: 'thumbs/julesburg-meteorite-thin-section---hdr_48772095987_o.jpg'
+}, {
+    image: 'julesburg-meteorite-thin-section---xpl-hdr_48771896481_o.jpg',
+    thumb: 'thumbs/julesburg-meteorite-thin-section---xpl-hdr_48771896481_o.jpg'
+}, {
+    image: 'katol-meteorite-thin-section---hdr_49319363888_o.jpg',
+    thumb: 'thumbs/katol-meteorite-thin-section---hdr_49319363888_o.jpg'
+}, {
+    image: 'katol-meteorite-thin-section---xpl-hdr_49319859321_o.jpg',
+    thumb: 'thumbs/katol-meteorite-thin-section---xpl-hdr_49319859321_o.jpg'
+}, {
+    image: 'knyahinya-meteorite-thin-section---hdr_48812099556_o.jpg',
+    thumb: 'thumbs/knyahinya-meteorite-thin-section---hdr_48812099556_o.jpg'
+}, {
+    image: 'knyahinya-meteorite-thin-section---xpl-hdr_48812245272_o.jpg',
+    thumb: 'thumbs/knyahinya-meteorite-thin-section---xpl-hdr_48812245272_o.jpg'
+}, {
+    image: 'korra-korrabes-meteorite-thin-section---gigapixel_50117665203_o.jpg',
+    thumb: 'thumbs/korra-korrabes-meteorite-thin-section---gigapixel_50117665203_o.jpg'
+}, {
+    image: 'korra-korrabes-meteorite-thin-section---hdr_49067642966_o.jpg',
+    thumb: 'thumbs/korra-korrabes-meteorite-thin-section---hdr_49067642966_o.jpg'
+}, {
+    image: 'korra-korrabes-meteorite-thin-section---xpl-hdr_49067850447_o.jpg',
+    thumb: 'thumbs/korra-korrabes-meteorite-thin-section---xpl-hdr_49067850447_o.jpg'
+}, {
+    image: 'limerick-meteorite-thin-section---gigapixel_30878788305_o.jpg',
+    thumb: 'thumbs/limerick-meteorite-thin-section---gigapixel_30878788305_o.jpg'
+}, {
+    image: 'limerick-meteorite-thin-section---hdr_49236135326_o.jpg',
+    thumb: 'thumbs/limerick-meteorite-thin-section---hdr_49236135326_o.jpg'
+}, {
+    image: 'limerick-meteorite-thin-section---xpl-hdr_49236130931_o.jpg',
+    thumb: 'thumbs/limerick-meteorite-thin-section---xpl-hdr_49236130931_o.jpg'
+}, {
+    image: 'marsa-alam-009-meteorite-thin-section---hdr_49417938862_o.jpg',
+    thumb: 'thumbs/marsa-alam-009-meteorite-thin-section---hdr_49417938862_o.jpg'
+}, {
+    image: 'marsa-alam-009-meteorite-thin-section---xpl-hdr_49417248933_o.jpg',
+    thumb: 'thumbs/marsa-alam-009-meteorite-thin-section---xpl-hdr_49417248933_o.jpg'
+}, {
+    image: 'mislabeled-tissint2-meteorite-thin-section---hdr_49189685607_o.jpg',
+    thumb: 'thumbs/mislabeled-tissint2-meteorite-thin-section---hdr_49189685607_o.jpg'
+}, {
+    image: 'mislabeled-tissint2-meteorite-thin-section---xpl-hdr_49189677282_o.jpg',
+    thumb: 'thumbs/mislabeled-tissint2-meteorite-thin-section---xpl-hdr_49189677282_o.jpg'
+}, {
+    image: 'moorabie-meteorite-thin-section---gigapixel_50085867751_o.jpg',
+    thumb: 'thumbs/moorabie-meteorite-thin-section---gigapixel_50085867751_o.jpg'
+}, {
+    image: 'moorabie-meteorite-thin-section---hdr_48830396912_o.jpg',
+    thumb: 'thumbs/moorabie-meteorite-thin-section---hdr_48830396912_o.jpg'
+}, {
+    image: 'moorabie-meteorite-thin-section---xpl-hdr_48829853498_o.jpg',
+    thumb: 'thumbs/moorabie-meteorite-thin-section---xpl-hdr_48829853498_o.jpg'
+}, {
+    image: 'nuevo-mercurio-meteorite-thin-section---hdr_48925923672_o.jpg',
+    thumb: 'thumbs/nuevo-mercurio-meteorite-thin-section---hdr_48925923672_o.jpg'
+}, {
+    image: 'nuevo-mercurio-meteorite-thin-section---xpl-hdr_48925189988_o.jpg',
+    thumb: 'thumbs/nuevo-mercurio-meteorite-thin-section---xpl-hdr_48925189988_o.jpg'
+}, {
+    image: 'nwa-10214-meteorite-thin-section---gigapixel_34627765774_o.jpg',
+    thumb: 'thumbs/nwa-10214-meteorite-thin-section---gigapixel_34627765774_o.jpg'
+}, {
+    image: 'nwa-10214-meteorite-thin-section---hdr_48994418686_o.jpg',
+    thumb: 'thumbs/nwa-10214-meteorite-thin-section---hdr_48994418686_o.jpg'
+}, {
+    image: 'nwa-10214-meteorite-thin-section---hdr_48994617937_o.jpg',
+    thumb: 'thumbs/nwa-10214-meteorite-thin-section---hdr_48994617937_o.jpg'
+}, {
+    image: 'nwa-10214-meteorite-thin-section---xpl-hdr_48994418371_o.jpg',
+    thumb: 'thumbs/nwa-10214-meteorite-thin-section---xpl-hdr_48994418371_o.jpg'
+}, {
+    image: 'nwa-10214-meteorite-thin-section---xpl-hdr_48994421356_o.jpg',
+    thumb: 'thumbs/nwa-10214-meteorite-thin-section---xpl-hdr_48994421356_o.jpg'
+}, {
+    image: 'nwa-10296-meteorite-thin-section---hdr_48855934693_o.jpg',
+    thumb: 'thumbs/nwa-10296-meteorite-thin-section---hdr_48855934693_o.jpg'
+}, {
+    image: 'nwa-10296-meteorite-thin-section---xpl-hdr_48856484307_o.jpg',
+    thumb: 'thumbs/nwa-10296-meteorite-thin-section---xpl-hdr_48856484307_o.jpg'
+}, {
+    image: 'nwa-10306-meteorite-thin-section---hdr_48806978691_o.jpg',
+    thumb: 'thumbs/nwa-10306-meteorite-thin-section---hdr_48806978691_o.jpg'
+}, {
+    image: 'nwa-10306-meteorite-thin-section---xpl-hdr_48806625153_o.jpg',
+    thumb: 'thumbs/nwa-10306-meteorite-thin-section---xpl-hdr_48806625153_o.jpg'
+}, {
+    image: 'nwa-10669-meteorite-thin-section---gigapixel_45376288031_o.jpg',
+    thumb: 'thumbs/nwa-10669-meteorite-thin-section---gigapixel_45376288031_o.jpg'
+}, {
+    image: 'nwa-10669-meteorite-thin-section---hdr_48848724918_o.jpg',
+    thumb: 'thumbs/nwa-10669-meteorite-thin-section---hdr_48848724918_o.jpg'
+}, {
+    image: 'nwa-10669-meteorite-thin-section---hdr_49114263647_o.jpg',
+    thumb: 'thumbs/nwa-10669-meteorite-thin-section---hdr_49114263647_o.jpg'
+}, {
+    image: 'nwa-10669-meteorite-thin-section---xpl-hdr_48849082241_o.jpg',
+    thumb: 'thumbs/nwa-10669-meteorite-thin-section---xpl-hdr_48849082241_o.jpg'
+}, {
+    image: 'nwa-10669-meteorite-thin-section---xpl-hdr_49114263007_o.jpg',
+    thumb: 'thumbs/nwa-10669-meteorite-thin-section---xpl-hdr_49114263007_o.jpg'
+}, {
+    image: 'nwa-10690-meteorite-thin-section---gigapixel_38481372272_o.jpg',
+    thumb: 'thumbs/nwa-10690-meteorite-thin-section---gigapixel_38481372272_o.jpg'
+}, {
+    image: 'nwa-10690-meteorite-thin-section---hdr_49135400896_o.jpg',
+    thumb: 'thumbs/nwa-10690-meteorite-thin-section---hdr_49135400896_o.jpg'
+}, {
+    image: 'nwa-10690-meteorite-thin-section---hdr_49196459803_o.jpg',
+    thumb: 'thumbs/nwa-10690-meteorite-thin-section---hdr_49196459803_o.jpg'
+}, {
+    image: 'nwa-10690-meteorite-thin-section---xpl-hdr_49134903638_o.jpg',
+    thumb: 'thumbs/nwa-10690-meteorite-thin-section---xpl-hdr_49134903638_o.jpg'
+}, {
+    image: 'nwa-10690-meteorite-thin-section---xpl-hdr_49196458663_o.jpg',
+    thumb: 'thumbs/nwa-10690-meteorite-thin-section---xpl-hdr_49196458663_o.jpg'
+}, {
+    image: 'nwa-11038-meteorite-thin-section---gigapixel_37166373836_o.jpg',
+    thumb: 'thumbs/nwa-11038-meteorite-thin-section---gigapixel_37166373836_o.jpg'
+}, {
+    image: 'nwa-11038-meteorite-thin-section---hdr_48778925732_o.jpg',
+    thumb: 'thumbs/nwa-11038-meteorite-thin-section---hdr_48778925732_o.jpg'
+}, {
+    image: 'nwa-11038-meteorite-thin-section---xpl-hdr_48778921737_o.jpg',
+    thumb: 'thumbs/nwa-11038-meteorite-thin-section---xpl-hdr_48778921737_o.jpg'
+}, {
+    image: 'nwa-11344-meteorite-thin-section---hdr_49319860816_o.jpg',
+    thumb: 'thumbs/nwa-11344-meteorite-thin-section---hdr_49319860816_o.jpg'
+}, {
+    image: 'nwa-11344-meteorite-thin-section---xpl-hdr_49320067477_o.jpg',
+    thumb: 'thumbs/nwa-11344-meteorite-thin-section---xpl-hdr_49320067477_o.jpg'
+}, {
+    image: 'nwa-12009-meteorite-thin-section---hdr_49799875601_o.jpg',
+    thumb: 'thumbs/nwa-12009-meteorite-thin-section---hdr_49799875601_o.jpg'
+}, {
+    image: 'nwa-12009-meteorite-thin-section---xpl-hdr_49800182322_o.jpg',
+    thumb: 'thumbs/nwa-12009-meteorite-thin-section---xpl-hdr_49800182322_o.jpg'
+}, {
+    image: 'nwa-12577-meteorite-thin-section---hdr_49245916937_o.jpg',
+    thumb: 'thumbs/nwa-12577-meteorite-thin-section---hdr_49245916937_o.jpg'
+}, {
+    image: 'nwa-12577-meteorite-thin-section---xpl-hdr_49245228458_o.jpg',
+    thumb: 'thumbs/nwa-12577-meteorite-thin-section---xpl-hdr_49245228458_o.jpg'
+}, {
+    image: 'nwa-1930-meteorite-thin-section---hdr_48762991591_o.jpg',
+    thumb: 'thumbs/nwa-1930-meteorite-thin-section---hdr_48762991591_o.jpg'
+}, {
+    image: 'nwa-1930-meteorite-thin-section---xpl_48762781721_o.jpg',
+    thumb: 'thumbs/nwa-1930-meteorite-thin-section---xpl_48762781721_o.jpg'
+}, {
+    image: 'nwa-1933-meteorite-thin-section---hdr_48763010231_o.jpg',
+    thumb: 'thumbs/nwa-1933-meteorite-thin-section---hdr_48763010231_o.jpg'
+}, {
+    image: 'nwa-1933-meteorite-thin-section---xpl_48762859091_o.jpg',
+    thumb: 'thumbs/nwa-1933-meteorite-thin-section---xpl_48762859091_o.jpg'
+}, {
+    image: 'nwa-1955-meteorite-thin-section---hdr_48969623411_o.jpg',
+    thumb: 'thumbs/nwa-1955-meteorite-thin-section---hdr_48969623411_o.jpg'
+}, {
+    image: 'nwa-1955-meteorite-thin-section---xpl-hdr_48969622291_o.jpg',
+    thumb: 'thumbs/nwa-1955-meteorite-thin-section---xpl-hdr_48969622291_o.jpg'
+}, {
+    image: 'nwa-2097-meteorite-thin-section---gigapixel_50273259963_o.jpg',
+    thumb: 'thumbs/nwa-2097-meteorite-thin-section---gigapixel_50273259963_o.jpg'
+}, {
+    image: 'nwa-2097-meteorite-thin-section---hdr_48772098272_o.jpg',
+    thumb: 'thumbs/nwa-2097-meteorite-thin-section---hdr_48772098272_o.jpg'
+}, {
+    image: 'nwa-2097-meteorite-thin-section---hdr_49088786222_o.jpg',
+    thumb: 'thumbs/nwa-2097-meteorite-thin-section---hdr_49088786222_o.jpg'
+}, {
+    image: 'nwa-2097-meteorite-thin-section---xpl-hdr_48771897996_o.jpg',
+    thumb: 'thumbs/nwa-2097-meteorite-thin-section---xpl-hdr_48771897996_o.jpg'
+}, {
+    image: 'nwa-2097-meteorite-thin-section---xpl-hdr_49088785717_o.jpg',
+    thumb: 'thumbs/nwa-2097-meteorite-thin-section---xpl-hdr_49088785717_o.jpg'
+}, {
+    image: 'nwa-2120-meteorite-thin-section---hdr_48767538658_o.jpg',
+    thumb: 'thumbs/nwa-2120-meteorite-thin-section---hdr_48767538658_o.jpg'
+}, {
+    image: 'nwa-2120-meteorite-thin-section---xpl_48768079542_o.jpg',
+    thumb: 'thumbs/nwa-2120-meteorite-thin-section---xpl_48768079542_o.jpg'
+}, {
+    image: 'nwa-2377-meteorite-thin-section---hdr_49093056493_o.jpg',
+    thumb: 'thumbs/nwa-2377-meteorite-thin-section---hdr_49093056493_o.jpg'
+}, {
+    image: 'nwa-2377-meteorite-thin-section---xpl-hdr_49093567546_o.jpg',
+    thumb: 'thumbs/nwa-2377-meteorite-thin-section---xpl-hdr_49093567546_o.jpg'
+}, {
+    image: 'nwa-2619-meteorite-thin-section---hdr_49312777103_o.jpg',
+    thumb: 'thumbs/nwa-2619-meteorite-thin-section---hdr_49312777103_o.jpg'
+}, {
+    image: 'nwa-2619-meteorite-thin-section---xpl-hdr_49313464987_o.jpg',
+    thumb: 'thumbs/nwa-2619-meteorite-thin-section---xpl-hdr_49313464987_o.jpg'
+}, {
+    image: 'nwa-2820-meteorite-thin-section---hdr_49161813516_o.jpg',
+    thumb: 'thumbs/nwa-2820-meteorite-thin-section---hdr_49161813516_o.jpg'
+}, {
+    image: 'nwa-2820-meteorite-thin-section---xpl-hdr_49161807826_o.jpg',
+    thumb: 'thumbs/nwa-2820-meteorite-thin-section---xpl-hdr_49161807826_o.jpg'
+}, {
+    image: 'nwa-2865-meteorite-thin-section---hdr_49632633138_o.jpg',
+    thumb: 'thumbs/nwa-2865-meteorite-thin-section---hdr_49632633138_o.jpg'
+}, {
+    image: 'nwa-2892-meteorite-thin-section---gigapixel_37574841411_o.jpg',
+    thumb: 'thumbs/nwa-2892-meteorite-thin-section---gigapixel_37574841411_o.jpg'
+}, {
+    image: 'nwa-2892-meteorite-thin-section---gigapixel_50597771956_o.jpg',
+    thumb: 'thumbs/nwa-2892-meteorite-thin-section---gigapixel_50597771956_o.jpg'
+}, {
+    image: 'nwa-2892-meteorite-thin-section---hdr_48849268512_o.jpg',
+    thumb: 'thumbs/nwa-2892-meteorite-thin-section---hdr_48849268512_o.jpg'
+}, {
+    image: 'nwa-2892-meteorite-thin-section---xpl-hdr_48848719273_o.jpg',
+    thumb: 'thumbs/nwa-2892-meteorite-thin-section---xpl-hdr_48848719273_o.jpg'
+}, {
+    image: 'nwa-2911-meteorite-thin-section---hdr_49161813026_o.jpg',
+    thumb: 'thumbs/nwa-2911-meteorite-thin-section---hdr_49161813026_o.jpg'
+}, {
+    image: 'nwa-2911-meteorite-thin-section---xpl-hdr_49161329283_o.jpg',
+    thumb: 'thumbs/nwa-2911-meteorite-thin-section---xpl-hdr_49161329283_o.jpg'
+}, {
+    image: 'nwa-2920-meteorite-thin-section---hdr_48771560203_o.jpg',
+    thumb: 'thumbs/nwa-2920-meteorite-thin-section---hdr_48771560203_o.jpg'
+}, {
+    image: 'nwa-2920-meteorite-thin-section---xpl_48771555013_o.jpg',
+    thumb: 'thumbs/nwa-2920-meteorite-thin-section---xpl_48771555013_o.jpg'
+}, {
+    image: 'nwa-3127-meteorite-thin-section---hdr_49188987853_o.jpg',
+    thumb: 'thumbs/nwa-3127-meteorite-thin-section---hdr_49188987853_o.jpg'
+}, {
+    image: 'nwa-3127-meteorite-thin-section---xpl-hdr_49189479336_o.jpg',
+    thumb: 'thumbs/nwa-3127-meteorite-thin-section---xpl-hdr_49189479336_o.jpg'
+}, {
+    image: 'nwa-3154-meteorite-thin-section---hdr_48778742816_o.jpg',
+    thumb: 'thumbs/nwa-3154-meteorite-thin-section---hdr_48778742816_o.jpg'
+}, {
+    image: 'nwa-3154-meteorite-thin-section---xpl-hdr_48778376173_o.jpg',
+    thumb: 'thumbs/nwa-3154-meteorite-thin-section---xpl-hdr_48778376173_o.jpg'
+}, {
+    image: 'nwa-3189-meteorite-thin-section---gigapixel_44752399911_o.jpg',
+    thumb: 'thumbs/nwa-3189-meteorite-thin-section---gigapixel_44752399911_o.jpg'
+}, {
+    image: 'nwa-3189-meteorite-thin-section---hdr_49107926463_o.jpg',
+    thumb: 'thumbs/nwa-3189-meteorite-thin-section---hdr_49107926463_o.jpg'
+}, {
+    image: 'nwa-3189-meteorite-thin-section---xpl-hdr_49108626997_o.jpg',
+    thumb: 'thumbs/nwa-3189-meteorite-thin-section---xpl-hdr_49108626997_o.jpg'
+}, {
+    image: 'nwa-3358-meteorite-thin-section---gigapixel_30234684224_o.jpg',
+    thumb: 'thumbs/nwa-3358-meteorite-thin-section---gigapixel_30234684224_o.jpg'
+}, {
+    image: 'nwa-3358-meteorite-thin-section---hdr_48925188803_o.jpg',
+    thumb: 'thumbs/nwa-3358-meteorite-thin-section---hdr_48925188803_o.jpg'
+}, {
+    image: 'nwa-3358-meteorite-thin-section---xpl-hdr_48925187348_o.jpg',
+    thumb: 'thumbs/nwa-3358-meteorite-thin-section---xpl-hdr_48925187348_o.jpg'
+}, {
+    image: 'nwa-4022-meteorite-thin-section---hdr_49113577713_o.jpg',
+    thumb: 'thumbs/nwa-4022-meteorite-thin-section---hdr_49113577713_o.jpg'
+}, {
+    image: 'nwa-4022-meteorite-thin-section---xpl-hdr_49113577323_o.jpg',
+    thumb: 'thumbs/nwa-4022-meteorite-thin-section---xpl-hdr_49113577323_o.jpg'
+}, {
+    image: 'nwa-4216-meteorite-thin-section---gigapixel_50495882543_o.jpg',
+    thumb: 'thumbs/nwa-4216-meteorite-thin-section---gigapixel_50495882543_o.jpg'
+}, {
+    image: 'nwa-4216-meteorite-thin-section---hdr_48767964091_o.jpg',
+    thumb: 'thumbs/nwa-4216-meteorite-thin-section---hdr_48767964091_o.jpg'
+}, {
+    image: 'nwa-4216-meteorite-thin-section---xpl_48767963426_o.jpg',
+    thumb: 'thumbs/nwa-4216-meteorite-thin-section---xpl_48767963426_o.jpg'
+}, {
+    image: 'nwa-4229-meteorite-thin-section---hdr_49170889313_o.jpg',
+    thumb: 'thumbs/nwa-4229-meteorite-thin-section---hdr_49170889313_o.jpg'
+}, {
+    image: 'nwa-4229-meteorite-thin-section---xpl-hdr_49170887383_o.jpg',
+    thumb: 'thumbs/nwa-4229-meteorite-thin-section---xpl-hdr_49170887383_o.jpg'
+}, {
+    image: 'nwa-4460-meteorite-thin-section---gigapixel_43806753894_o.jpg',
+    thumb: 'thumbs/nwa-4460-meteorite-thin-section---gigapixel_43806753894_o.jpg'
+}, {
+    image: 'nwa-4460-meteorite-thin-section---hdr_48878902667_o.jpg',
+    thumb: 'thumbs/nwa-4460-meteorite-thin-section---hdr_48878902667_o.jpg'
+}, {
+    image: 'nwa-4460-meteorite-thin-section---xpl-hdr_48878171743_o.jpg',
+    thumb: 'thumbs/nwa-4460-meteorite-thin-section---xpl-hdr_48878171743_o.jpg'
+}, {
+    image: 'nwa-4560-meteorite-thin-section---hdr_49171365301_o.jpg',
+    thumb: 'thumbs/nwa-4560-meteorite-thin-section---hdr_49171365301_o.jpg'
+}, {
+    image: 'nwa-4560-meteorite-thin-section---hdr_49184470111_o.jpg',
+    thumb: 'thumbs/nwa-4560-meteorite-thin-section---hdr_49184470111_o.jpg'
+}, {
+    image: 'nwa-4560-meteorite-thin-section---xpl-hdr_49171360886_o.jpg',
+    thumb: 'thumbs/nwa-4560-meteorite-thin-section---xpl-hdr_49171360886_o.jpg'
+}, {
+    image: 'nwa-4560-meteorite-thin-section---xpl-hdr_49183970148_o.jpg',
+    thumb: 'thumbs/nwa-4560-meteorite-thin-section---xpl-hdr_49183970148_o.jpg'
+}, {
+    image: 'nwa-4723-meteorite-thin-section---hdr_48988601863_o.jpg',
+    thumb: 'thumbs/nwa-4723-meteorite-thin-section---hdr_48988601863_o.jpg'
+}, {
+    image: 'nwa-4723-meteorite-thin-section---xpl-hdr_48988600603_o.jpg',
+    thumb: 'thumbs/nwa-4723-meteorite-thin-section---xpl-hdr_48988600603_o.jpg'
+}, {
+    image: 'nwa-4762-meteorite-thin-section---hdr_49170884333_o.jpg',
+    thumb: 'thumbs/nwa-4762-meteorite-thin-section---hdr_49170884333_o.jpg'
+}, {
+    image: 'nwa-4762-meteorite-thin-section---xpl-hdr_49171588982_o.jpg',
+    thumb: 'thumbs/nwa-4762-meteorite-thin-section---xpl-hdr_49171588982_o.jpg'
+}, {
+    image: 'nwa-4910-begaa-meteorite-thin-section---gigapixel_34278492170_o.jpg',
+    thumb: 'thumbs/nwa-4910-begaa-meteorite-thin-section---gigapixel_34278492170_o.jpg'
+}, {
+    image: 'nwa-4910-meteorite-thin-section---gigapixel_50557234913_o.jpg',
+    thumb: 'thumbs/nwa-4910-meteorite-thin-section---gigapixel_50557234913_o.jpg'
+}, {
+    image: 'nwa-4910-meteorite-thin-section---hdr_49108542142_o.jpg',
+    thumb: 'thumbs/nwa-4910-meteorite-thin-section---hdr_49108542142_o.jpg'
+}, {
+    image: 'nwa-4910-meteorite-thin-section---xpl-hdr_49107838683_o.jpg',
+    thumb: 'thumbs/nwa-4910-meteorite-thin-section---xpl-hdr_49107838683_o.jpg'
+}, {
+    image: 'nwa-5026-meteorite-thin-section---hdr_48768101832_o.jpg',
+    thumb: 'thumbs/nwa-5026-meteorite-thin-section---hdr_48768101832_o.jpg'
+}, {
+    image: 'nwa-5026-meteorite-thin-section---xpl_48768101437_o.jpg',
+    thumb: 'thumbs/nwa-5026-meteorite-thin-section---xpl_48768101437_o.jpg'
+}, {
+    image: 'nwa-5205-meteorite-thin-section---gigapixel_30279715563_o.jpg',
+    thumb: 'thumbs/nwa-5205-meteorite-thin-section---gigapixel_30279715563_o.jpg'
+}, {
+    image: 'nwa-5205-meteorite-thin-section---hdr_48768124797_o.jpg',
+    thumb: 'thumbs/nwa-5205-meteorite-thin-section---hdr_48768124797_o.jpg'
+}, {
+    image: 'nwa-5205-meteorite-thin-section---hdr_48835236992_o.jpg',
+    thumb: 'thumbs/nwa-5205-meteorite-thin-section---hdr_48835236992_o.jpg'
+}, {
+    image: 'nwa-5205-meteorite-thin-section---hdr_48849263912_o.jpg',
+    thumb: 'thumbs/nwa-5205-meteorite-thin-section---hdr_48849263912_o.jpg'
+}, {
+    image: 'nwa-5205-meteorite-thin-section---xpl_48767920816_o.jpg',
+    thumb: 'thumbs/nwa-5205-meteorite-thin-section---xpl_48767920816_o.jpg'
+}, {
+    image: 'nwa-5205-meteorite-thin-section---xpl-hdr_48835067696_o.jpg',
+    thumb: 'thumbs/nwa-5205-meteorite-thin-section---xpl-hdr_48835067696_o.jpg'
+}, {
+    image: 'nwa-5205-meteorite-thin-section---xpl-hdr_48849265827_o.jpg',
+    thumb: 'thumbs/nwa-5205-meteorite-thin-section---xpl-hdr_48849265827_o.jpg'
+}, {
+    image: 'nwa-533-meteorite-thin-section---hdr_48778915922_o.jpg',
+    thumb: 'thumbs/nwa-533-meteorite-thin-section---hdr_48778915922_o.jpg'
+}, {
+    image: 'nwa-533-meteorite-thin-section---xpl-hdr_48778373328_o.jpg',
+    thumb: 'thumbs/nwa-533-meteorite-thin-section---xpl-hdr_48778373328_o.jpg'
+}, {
+    image: 'nwa-5672-meteorite-thin-section---hdr_49312774318_o.jpg',
+    thumb: 'thumbs/nwa-5672-meteorite-thin-section---hdr_49312774318_o.jpg'
+}, {
+    image: 'nwa-5672-meteorite-thin-section---xpl-hdr_49313461912_o.jpg',
+    thumb: 'thumbs/nwa-5672-meteorite-thin-section---xpl-hdr_49313461912_o.jpg'
+}, {
+    image: 'nwa-5677-meteorite-thin-section---hdr_49336146336_o.jpg',
+    thumb: 'thumbs/nwa-5677-meteorite-thin-section---hdr_49336146336_o.jpg'
+}, {
+    image: 'nwa-5677-meteorite-thin-section---hdr_49680684783_o.jpg',
+    thumb: 'thumbs/nwa-5677-meteorite-thin-section---hdr_49680684783_o.jpg'
+}, {
+    image: 'nwa-5677-meteorite-thin-section---xpl-hdr_49336360287_o.jpg',
+    thumb: 'thumbs/nwa-5677-meteorite-thin-section---xpl-hdr_49336360287_o.jpg'
+}, {
+    image: 'nwa-5677-meteorite-thin-section---xpl-hdr_49681507477_o.jpg',
+    thumb: 'thumbs/nwa-5677-meteorite-thin-section---xpl-hdr_49681507477_o.jpg'
+}, {
+    image: 'nwa-5684-meteorite-thin-section---hdr_48806897476_o.jpg',
+    thumb: 'thumbs/nwa-5684-meteorite-thin-section---hdr_48806897476_o.jpg'
+}, {
+    image: 'nwa-5684-meteorite-thin-section---hdr_49235666488_o.jpg',
+    thumb: 'thumbs/nwa-5684-meteorite-thin-section---hdr_49235666488_o.jpg'
+}, {
+    image: 'nwa-5684-meteorite-thin-section---xpl-hdr_48806897016_o.jpg',
+    thumb: 'thumbs/nwa-5684-meteorite-thin-section---xpl-hdr_48806897016_o.jpg'
+}, {
+    image: 'nwa-5684-meteorite-thin-section---xpl-hdr_49236361347_o.jpg',
+    thumb: 'thumbs/nwa-5684-meteorite-thin-section---xpl-hdr_49236361347_o.jpg'
+}, {
+    image: 'nwa-5717-meteorite-thin-section---hdr_48768205972_o.jpg',
+    thumb: 'thumbs/nwa-5717-meteorite-thin-section---hdr_48768205972_o.jpg'
+}, {
+    image: 'nwa-5717-meteorite-thin-section---xpl_48767667398_o.jpg',
+    thumb: 'thumbs/nwa-5717-meteorite-thin-section---xpl_48767667398_o.jpg'
+}, {
+    image: 'nwa-5910-meteorite-thin-section---hdr_49336146056_o.jpg',
+    thumb: 'thumbs/nwa-5910-meteorite-thin-section---hdr_49336146056_o.jpg'
+}, {
+    image: 'nwa-5910-meteorite-thin-section---xpl-hdr_49336360007_o.jpg',
+    thumb: 'thumbs/nwa-5910-meteorite-thin-section---xpl-hdr_49336360007_o.jpg'
+}, {
+    image: 'nwa-6169-meteorite-thin-section---hdr_49114074761_o.jpg',
+    thumb: 'thumbs/nwa-6169-meteorite-thin-section---hdr_49114074761_o.jpg'
+}, {
+    image: 'nwa-6169-meteorite-thin-section---xpl-hdr_49114074311_o.jpg',
+    thumb: 'thumbs/nwa-6169-meteorite-thin-section---xpl-hdr_49114074311_o.jpg'
+}, {
+    image: 'nwa-6211-meteorite-thin-section---hdr_48778381923_o.jpg',
+    thumb: 'thumbs/nwa-6211-meteorite-thin-section---hdr_48778381923_o.jpg'
+}, {
+    image: 'nwa-6211-meteorite-thin-section---xpl-hdr_48778920602_o.jpg',
+    thumb: 'thumbs/nwa-6211-meteorite-thin-section---xpl-hdr_48778920602_o.jpg'
+}, {
+    image: 'nwa-6472-meteorite-surface---gigapixel_48044019822_o.jpg',
+    thumb: 'thumbs/nwa-6472-meteorite-surface---gigapixel_48044019822_o.jpg'
+}, {
+    image: 'nwa-6550-meteorite-thin-section---hdr_48868259916_o.jpg',
+    thumb: 'thumbs/nwa-6550-meteorite-thin-section---hdr_48868259916_o.jpg'
+}, {
+    image: 'nwa-6550-meteorite-thin-section---hdr_49319367063_o.jpg',
+    thumb: 'thumbs/nwa-6550-meteorite-thin-section---hdr_49319367063_o.jpg'
+}, {
+    image: 'nwa-6550-meteorite-thin-section---hdr_49799334798_o.jpg',
+    thumb: 'thumbs/nwa-6550-meteorite-thin-section---hdr_49799334798_o.jpg'
+}, {
+    image: 'nwa-6550-meteorite-thin-section---xpl-hdr_48868258616_o.jpg',
+    thumb: 'thumbs/nwa-6550-meteorite-thin-section---xpl-hdr_48868258616_o.jpg'
+}, {
+    image: 'nwa-6550-meteorite-thin-section---xpl-hdr_49319366703_o.jpg',
+    thumb: 'thumbs/nwa-6550-meteorite-thin-section---xpl-hdr_49319366703_o.jpg'
+}, {
+    image: 'nwa-6550-meteorite-thin-section---xpl-hdr_49799333903_o.jpg',
+    thumb: 'thumbs/nwa-6550-meteorite-thin-section---xpl-hdr_49799333903_o.jpg'
+}, {
+    image: 'nwa-7171-meteorite-thin-section---hdr_49800187822_o.jpg',
+    thumb: 'thumbs/nwa-7171-meteorite-thin-section---hdr_49800187822_o.jpg'
+}, {
+    image: 'nwa-7171-meteorite-thin-section---xpl-hdr_49799332328_o.jpg',
+    thumb: 'thumbs/nwa-7171-meteorite-thin-section---xpl-hdr_49799332328_o.jpg'
+}, {
+    image: 'nwa-7859-meteorite-thin-section---gigapixel_49750388311_o.jpg',
+    thumb: 'thumbs/nwa-7859-meteorite-thin-section---gigapixel_49750388311_o.jpg'
+}, {
+    image: 'nwa-7859-meteorite-thin-section---gigapixel_49765870686_o.jpg',
+    thumb: 'thumbs/nwa-7859-meteorite-thin-section---gigapixel_49765870686_o.jpg'
+}, {
+    image: 'nwa-7859-meteorite-thin-section---hdr_48984296362_o.jpg',
+    thumb: 'thumbs/nwa-7859-meteorite-thin-section---hdr_48984296362_o.jpg'
+}, {
+    image: 'nwa-7859-meteorite-thin-section---xpl-hdr_48983543053_o.jpg',
+    thumb: 'thumbs/nwa-7859-meteorite-thin-section---xpl-hdr_48983543053_o.jpg'
+}, {
+    image: 'nwa-8121-meteorite-thin-section---hdr_49336145571_o.jpg',
+    thumb: 'thumbs/nwa-8121-meteorite-thin-section---hdr_49336145571_o.jpg'
+}, {
+    image: 'nwa-8121-meteorite-thin-section---xpl-hdr_49335677533_o.jpg',
+    thumb: 'thumbs/nwa-8121-meteorite-thin-section---xpl-hdr_49335677533_o.jpg'
+}, {
+    image: 'nwa-8276-meteorite-thin-section---gigapixel_32146528742_o.jpg',
+    thumb: 'thumbs/nwa-8276-meteorite-thin-section---gigapixel_32146528742_o.jpg'
+}, {
+    image: 'nwa-8276-meteorite-thin-section---hdr_48786242222_o.jpg',
+    thumb: 'thumbs/nwa-8276-meteorite-thin-section---hdr_48786242222_o.jpg'
+}, {
+    image: 'nwa-8276-meteorite-thin-section---xpl-hdr_48786241812_o.jpg',
+    thumb: 'thumbs/nwa-8276-meteorite-thin-section---xpl-hdr_48786241812_o.jpg'
+}, {
+    image: 'nwa-8773-meteorite-thin-section---hdr_48983545208_o.jpg',
+    thumb: 'thumbs/nwa-8773-meteorite-thin-section---hdr_48983545208_o.jpg'
+}, {
+    image: 'nwa-8773-meteorite-thin-section---xpl-hdr_48983544728_o.jpg',
+    thumb: 'thumbs/nwa-8773-meteorite-thin-section---xpl-hdr_48983544728_o.jpg'
+}, {
+    image: 'nwa-960-meteorite-thin-section---gigapixel_36726742290_o.jpg',
+    thumb: 'thumbs/nwa-960-meteorite-thin-section---gigapixel_36726742290_o.jpg'
+}, {
+    image: 'nwa-960-meteorite-thin-section---hdr_49216324387_o.jpg',
+    thumb: 'thumbs/nwa-960-meteorite-thin-section---hdr_49216324387_o.jpg'
+}, {
+    image: 'nwa-960-meteorite-thin-section---xpl-hdr_49215610243_o.jpg',
+    thumb: 'thumbs/nwa-960-meteorite-thin-section---xpl-hdr_49215610243_o.jpg'
+}, {
+    image: 'nwa-969-meteorite-thin-section---hdr_49161803766_o.jpg',
+    thumb: 'thumbs/nwa-969-meteorite-thin-section---hdr_49161803766_o.jpg'
+}, {
+    image: 'nwa-969-meteorite-thin-section---xpl-hdr_49162038812_o.jpg',
+    thumb: 'thumbs/nwa-969-meteorite-thin-section---xpl-hdr_49162038812_o.jpg'
+}, {
+    image: 'nwa-980-meteorite-thin-section---gigapixel_49808128422_o.jpg',
+    thumb: 'thumbs/nwa-980-meteorite-thin-section---gigapixel_49808128422_o.jpg'
+}, {
+    image: 'nwa-980-meteorite-thin-section---hdr_48763075696_o.jpg',
+    thumb: 'thumbs/nwa-980-meteorite-thin-section---hdr_48763075696_o.jpg'
+}, {
+    image: 'nwa-980-meteorite-thin-section---xpl_48762584498_o.jpg',
+    thumb: 'thumbs/nwa-980-meteorite-thin-section---xpl_48762584498_o.jpg'
+}, {
+    image: 'oum-dreyga-meteorite-thin-section---hdr_49336141706_o.jpg',
+    thumb: 'thumbs/oum-dreyga-meteorite-thin-section---hdr_49336141706_o.jpg'
+}, {
+    image: 'oum-dreyga-meteorite-thin-section---xpl-hdr_49336150021_o.jpg',
+    thumb: 'thumbs/oum-dreyga-meteorite-thin-section---xpl-hdr_49336150021_o.jpg'
+}, {
+    image: 'ozerki-meteorite-thin-section---gigapixel_40011257473_o.jpg',
+    thumb: 'thumbs/ozerki-meteorite-thin-section---gigapixel_40011257473_o.jpg'
+}, {
+    image: 'ozerki-meteorite-thin-section---hdr_48867741848_o.jpg',
+    thumb: 'thumbs/ozerki-meteorite-thin-section---hdr_48867741848_o.jpg'
+}, {
+    image: 'ozerki-meteorite-thin-section---xpl-hdr_48868256601_o.jpg',
+    thumb: 'thumbs/ozerki-meteorite-thin-section---xpl-hdr_48868256601_o.jpg'
+}, {
+    image: 'peekskill-meteorite-thin-section---gigapixel_32784854511_o.jpg',
+    thumb: 'thumbs/peekskill-meteorite-thin-section---gigapixel_32784854511_o.jpg'
+}, {
+    image: 'peekskill-meteorite-thin-section---hdr_49176155271_o.jpg',
+    thumb: 'thumbs/peekskill-meteorite-thin-section---hdr_49176155271_o.jpg'
+}, {
+    image: 'peekskill-meteorite-thin-section---xpl-hdr_49176154151_o.jpg',
+    thumb: 'thumbs/peekskill-meteorite-thin-section---xpl-hdr_49176154151_o.jpg'
+}, {
+    image: 'polujamki-meteorite-thin-section---hdr_49549108466_o.jpg',
+    thumb: 'thumbs/polujamki-meteorite-thin-section---hdr_49549108466_o.jpg'
+}, {
+    image: 'polujamki-meteorite-thin-section---xpl-hdr_49548607438_o.jpg',
+    thumb: 'thumbs/polujamki-meteorite-thin-section---xpl-hdr_49548607438_o.jpg'
+}, {
+    image: 'rose-city-meteorite-thin-section---hdr_49245706251_o.jpg',
+    thumb: 'thumbs/rose-city-meteorite-thin-section---hdr_49245706251_o.jpg'
+}, {
+    image: 'rose-city-meteorite-thin-section---xpl-hdr_49245703116_o.jpg',
+    thumb: 'thumbs/rose-city-meteorite-thin-section---xpl-hdr_49245703116_o.jpg'
+}, {
+    image: 'santa-vitoria-do-palmar-meteorite-thin-section---gigapixel_50374070091_o.jpg',
+    thumb: 'thumbs/santa-vitoria-do-palmar-meteorite-thin-section---gigapixel_50374070091_o.jpg'
+}, {
+    image: 'santa-vitoria-do-palmar-meteorite-thin-section---hdr_48771902881_o.jpg',
+    thumb: 'thumbs/santa-vitoria-do-palmar-meteorite-thin-section---hdr_48771902881_o.jpg'
+}, {
+    image: 'santa-vitoria-do-palmar-meteorite-thin-section---xpl_48771566398_o.jpg',
+    thumb: 'thumbs/santa-vitoria-do-palmar-meteorite-thin-section---xpl_48771566398_o.jpg'
+}, {
+    image: 'saratov-meteorite-thin-section---gigapixel_33513939552_o.jpg',
+    thumb: 'thumbs/saratov-meteorite-thin-section---gigapixel_33513939552_o.jpg'
+}, {
+    image: 'saratov-meteorite-thin-section---gigapixel_50020763533_o.jpg',
+    thumb: 'thumbs/saratov-meteorite-thin-section---gigapixel_50020763533_o.jpg'
+}, {
+    image: 'saratov-meteorite-thin-section---hdr_49029191353_o.jpg',
+    thumb: 'thumbs/saratov-meteorite-thin-section---hdr_49029191353_o.jpg'
+}, {
+    image: 'saratov-meteorite-thin-section---xpl-hdr_49029913687_o.jpg',
+    thumb: 'thumbs/saratov-meteorite-thin-section---xpl-hdr_49029913687_o.jpg'
+}, {
+    image: 'sarir-qattusah-sq-001-meteorite-thin-section---hdr_49176155181_o.jpg',
+    thumb: 'thumbs/sarir-qattusah-sq-001-meteorite-thin-section---hdr_49176155181_o.jpg'
+}, {
+    image: 'sarir-qattusah-sq-001-meteorite-thin-section---xpl-hdr_49175665018_o.jpg',
+    thumb: 'thumbs/sarir-qattusah-sq-001-meteorite-thin-section---xpl-hdr_49175665018_o.jpg'
+}, {
+    image: 'sau-001-meteorite-thin-section---hdr_48867740843_o.jpg',
+    thumb: 'thumbs/sau-001-meteorite-thin-section---hdr_48867740843_o.jpg'
+}, {
+    image: 'sau-001-meteorite-thin-section---xpl-hdr_48867737453_o.jpg',
+    thumb: 'thumbs/sau-001-meteorite-thin-section---xpl-hdr_48867737453_o.jpg'
+}, {
+    image: 'sayh-al-uhaymir-001-meteorite-thin-section---hdr_49513333347_o.jpg',
+    thumb: 'thumbs/sayh-al-uhaymir-001-meteorite-thin-section---hdr_49513333347_o.jpg'
+}, {
+    image: 'sayh-al-uhaymir-001-meteorite-thin-section---xpl-hdr_49512594103_o.jpg',
+    thumb: 'thumbs/sayh-al-uhaymir-001-meteorite-thin-section---xpl-hdr_49512594103_o.jpg'
+}, {
+    image: 'sayh-al-uhaymir-089-meteorite-thin-section---hdr_49513337272_o.jpg',
+    thumb: 'thumbs/sayh-al-uhaymir-089-meteorite-thin-section---hdr_49513337272_o.jpg'
+}, {
+    image: 'sayh-al-uhaymir-089-meteorite-thin-section---xpl-hdr_49512599443_o.jpg',
+    thumb: 'thumbs/sayh-al-uhaymir-089-meteorite-thin-section---xpl-hdr_49512599443_o.jpg'
+}, {
+    image: 'selma-meteorite-thin-section---hdr_48771564573_o.jpg',
+    thumb: 'thumbs/selma-meteorite-thin-section---hdr_48771564573_o.jpg'
+}, {
+    image: 'selma-meteorite-thin-section---xpl-hdr_48771553968_o.jpg',
+    thumb: 'thumbs/selma-meteorite-thin-section---xpl-hdr_48771553968_o.jpg'
+}, {
+    image: 'talbachat-nat-isfoul-meteorite-thin-section---hdr_48807169317_o.jpg',
+    thumb: 'thumbs/talbachat-nat-isfoul-meteorite-thin-section---hdr_48807169317_o.jpg'
+}, {
+    image: 'talbachat-nat-isfoul-meteorite-thin-section---hdr_48810258987_o.jpg',
+    thumb: 'thumbs/talbachat-nat-isfoul-meteorite-thin-section---hdr_48810258987_o.jpg'
+}, {
+    image: 'talbachat-nat-isfoul-meteorite-thin-section---hdr_48810269317_o.jpg',
+    thumb: 'thumbs/talbachat-nat-isfoul-meteorite-thin-section---hdr_48810269317_o.jpg'
+}, {
+    image: 'talbachat-nat-isfoul-meteorite-thin-section---xpl-hdr_48806674598_o.jpg',
+    thumb: 'thumbs/talbachat-nat-isfoul-meteorite-thin-section---xpl-hdr_48806674598_o.jpg'
+}, {
+    image: 'talbachat-nat-isfoul-meteorite-thin-section---xpl-hdr_48810110861_o.jpg',
+    thumb: 'thumbs/talbachat-nat-isfoul-meteorite-thin-section---xpl-hdr_48810110861_o.jpg'
+}, {
+    image: 'talbachat-nat-isfoul-meteorite-thin-section---xpl-hdr_48810262287_o.jpg',
+    thumb: 'thumbs/talbachat-nat-isfoul-meteorite-thin-section---xpl-hdr_48810262287_o.jpg'
+}, {
+    image: 'trenzano-meteorite-thin-section---hdr_49176154531_o.jpg',
+    thumb: 'thumbs/trenzano-meteorite-thin-section---hdr_49176154531_o.jpg'
+}, {
+    image: 'trenzano-meteorite-thin-section---xpl-hdr_49176153391_o.jpg',
+    thumb: 'thumbs/trenzano-meteorite-thin-section---xpl-hdr_49176153391_o.jpg'
+}, {
+    image: 'unclassified-meteorite-thin-section---hdr_49474566638_o.jpg',
+    thumb: 'thumbs/unclassified-meteorite-thin-section---hdr_49474566638_o.jpg'
+}, {
+    image: 'unclassified-meteorite-thin-section---xpl-hdr_49475052536_o.jpg',
+    thumb: 'thumbs/unclassified-meteorite-thin-section---xpl-hdr_49475052536_o.jpg'
+}, {
+    image: 'unlabed-meteorite-thin-section---hdr_49475044706_o.jpg',
+    thumb: 'thumbs/unlabed-meteorite-thin-section---hdr_49475044706_o.jpg'
+}, {
+    image: 'unlabed-meteorite-thin-section---xpl-hdr_49475044561_o.jpg',
+    thumb: 'thumbs/unlabed-meteorite-thin-section---xpl-hdr_49475044561_o.jpg'
+}, {
+    image: 'unlabeled-meteorite-thin-section---hdr_49513327927_o.jpg',
+    thumb: 'thumbs/unlabeled-meteorite-thin-section---hdr_49513327927_o.jpg'
+}, {
+    image: 'unlabeled-meteorite-thin-section---xpl-hdr_49512588278_o.jpg',
+    thumb: 'thumbs/unlabeled-meteorite-thin-section---xpl-hdr_49512588278_o.jpg'
+}, {
+    image: 'zag-meteorite-thin-section---hdr_49231275376_o.jpg',
+    thumb: 'thumbs/zag-meteorite-thin-section---hdr_49231275376_o.jpg'
+}, {
+    image: 'zag-meteorite-thin-section---xpl-hdr_49231271146_o.jpg',
+    thumb: 'thumbs/zag-meteorite-thin-section---xpl-hdr_49231271146_o.jpg'
+}];
+
+    (function() {
+        Galleria.loadTheme('https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/themes/azur/galleria.azur.min.js');
+        
+        // bind the method to Galleria.ready
+        Galleria.ready(function(options) {
+
+            // this = the gallery instance
+            // options = the gallery options
+
+            this.attachKeyboard({
+                left: this.prev, // applies the native prev() function
+                right: this.next
+            });
+            
+            this.lazyLoadChunks(10, 500);
+        });
+        
+        Galleria.run('.galleria', { imageCrop: false, dataSource: gallery1Data, thumbnails: 'lazy' });
+    }());
+</script>
+<script type="text/javascript" src="https://widget.fotomoto.com/stores/script/f17731113e15b3841d507299c6e8bbbde3c23f26.js"></script>
+<noscript>If Javascript is disabled in your browser, to place orders please visit the page where I <a href=' https://my.fotomoto.com/store/f17731113e15b3841d507299c6e8bbbde3c23f26'>sell my photos</a>, powered by <a href='https://my.fotomoto.com'>Fotomoto</a>.</noscript>
+</body></html>

@@ -1,0 +1,838 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Solar Anamnesis - Gigapixels</title><meta name="description" content="Gigapixel meteorite pictures">
+<style>
+.galleria{ height: 1280px; background: #000 }
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/galleria.min.js"></script>
+<link rel="icon" type="image/png" href="favicon.webp" />
+</head>
+<body>
+<div class="galleria">
+<script>
+ var gallery1Data = [{
+        image: 'aba-panu-meteorite-surface---gigapixel_30086766447_o.webp',
+        title: 'Aba Panu Meteorite Surface - Gigapixel',
+        description: `L3 Chondrite<br>Camera: Nikon D810<br>Zerene Stacker<br>Picture Window Pro<br>GIMP<br>ImageMagick<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/SurfacePhotos/krpano/abapanu/Meteorite-Surface-AbaPanu-final.html'>Link</a>`,
+        thumb: 'thumbs/aba-panu-meteorite-surface---gigapixel_30086766447_o.webp'
+    },
+    {
+        image: 'aba-panu-meteorite-thin-section---gigapixel_31878243237_o.webp',
+        title: 'Aba Panu Meteorite Thin Section - Gigapixel',
+        description: `L3 Chondrite<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/abapanu/Meteorite-Thin-Section-AbaPanu-final.html'>Link</a>`,
+        thumb: 'thumbs/aba-panu-meteorite-thin-section---gigapixel_31878243237_o.webp'
+    },
+    {
+        image: 'abee-meteorite-thin-section---gigapixel_30626263780_o.webp',
+        title: 'Abee Meteorite Thin Section - Gigapixel',
+        description: `EH4<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/abee/Meteorite-Thin-Section-Abee-final.html'>Link</a>`,
+        thumb: 'thumbs/abee-meteorite-thin-section---gigapixel_30626263780_o.webp'
+    },
+    {
+        image: 'agoult-meteorite-thin-section---gigapixel_31948582315_o.webp',
+        title: 'Agoult Meteorite Thin Section - Gigapixel',
+        description: `Eucrite<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/agoult/Meteorite-Thin-Section-Agoult-final.html'>Link</a>`,
+        thumb: 'thumbs/agoult-meteorite-thin-section---gigapixel_31948582315_o.webp'
+    },
+    {
+        image: 'allende-meteorite-thin-section---gigapixel_30864410082_o.webp',
+        title: 'Allende Meteorite Thin Section - Gigapixel',
+        description: `CV3<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/allende/Meteorite-Thin-Section-Allende-final.html'>Link</a>`,
+        thumb: 'thumbs/allende-meteorite-thin-section---gigapixel_30864410082_o.webp'
+    },
+    {
+        image: 'allende-meteorite-thin-section---gigapixel_32329045110_o.webp',
+        title: 'Allende Meteorite Thin Section - Gigapixel',
+        description: `CV3<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/allende2/Meteorite-Thin-Section-Allende2-final.html'>Link</a>`,
+        thumb: 'thumbs/allende-meteorite-thin-section---gigapixel_32329045110_o.webp'
+    },
+    {
+        image: 'almahata-sitta-meteorite-thin-section---gigapixel_30750605682_o.webp',
+        title: 'Almahata Sitta Meteorite Thin Section - Gigapixel',
+        description: `Anomalous Ureilite<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/almahatasitta/Meteorite-Thin-Section-AlmahataSitta-final.html'>Link</a>`,
+        thumb: 'thumbs/almahata-sitta-meteorite-thin-section---gigapixel_30750605682_o.webp'
+    },
+    {
+        image: 'barratta-meteorite-thin-section---gigapixel_50239860207_o.webp',
+        title: 'Barratta Meteorite Thin Section - Gigapixel',
+        description: `L4<br>Visible Light<br>Zoom: 4x/0.25 Objective<br>Nikon Z6<br>LMScope<br>Zerene Stacker<br>GIMP<br>Picture Window Pro<br>Imagemagick<br>digiCamcontrol<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/barratta/Meteorite-Thin-Section-Barratta-final.html'>Link</a>`,
+        thumb: 'thumbs/barratta-meteorite-thin-section---gigapixel_50239860207_o.webp'
+    },
+    {
+        image: 'bondoc-meteorite-thin-section---gigapixel_30830404456_o.webp',
+        title: 'Bondoc Meteorite Thin Section - Gigapixel',
+        description: `Mesosiderite-B4<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/bondoc/Meteorite-Thin-Section-Bondoc-final.html'>Link</a>`,
+        thumb: 'thumbs/bondoc-meteorite-thin-section---gigapixel_30830404456_o.webp'
+    },
+    {
+        image: 'calama-005-meteorite-thin-section---gigapixel_46180651851_o.webp',
+        title: 'Calama 005 Meteorite Thin Section - Gigapixel',
+        description: `CO3 Meteorite<br>Nikon D810<br>Zerene Stacker<br>Picture Window Pro<br>GIMP<br>Imagemagick<br>digiCamControl<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/calama005/Meteorite-Thin-Section-Calama005-final.html'>Link</a>`,
+        thumb: 'thumbs/calama-005-meteorite-thin-section---gigapixel_46180651851_o.webp'
+    },
+    {
+        image: 'camel-donga-meteorite-thin-section---gigapixel_30811227282_o.webp',
+        title: 'Camel Donga Meteorite Thin Section - Gigapixel',
+        description: `Eucrite-mmict<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/cameldonga/Meteorite-Thin-Section-CamelDonga-final.html'>Link</a>`,
+        thumb: 'thumbs/camel-donga-meteorite-thin-section---gigapixel_30811227282_o.webp'
+    },
+    {
+        image: 'chantonnay-meteorite-thin-section---gigapixel_30565742720_o.webp',
+        title: 'Chantonnay Meteorite Thin Section - Gigapixel',
+        description: `L6<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/chantonnay/Meteorite-Thin-Section-Chantonnay-final.html'>Link</a>`,
+        thumb: 'thumbs/chantonnay-meteorite-thin-section---gigapixel_30565742720_o.webp'
+    },
+    {
+        image: 'chelyabinsk-meteorite-thin-section---gigapixel_30867272485_o.webp',
+        title: 'Chelyabinsk Meteorite Thin Section - Gigapixel',
+        description: `LL5<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/chelyabinsk/chelyabinsk_08232015_final_edited.html'>Link</a>`,
+        thumb: 'thumbs/chelyabinsk-meteorite-thin-section---gigapixel_30867272485_o.webp'
+    },
+    {
+        image: 'clarendon-c-meteorite-thin-section---gigapixel_49721351047_o.webp',
+        title: 'Clarendon (c) Meteorite Thin Section - Gigapixel',
+        description: `L4<br>Visible Light<br>Zoom: 4x/0.25 Objective<br>Nikon Z6<br>LMScope<br>Zerene Stacker<br>GIMP<br>Picture Window Pro<br>Imagemagick<br>digiCamcontrol<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/clarendon/Meteorite-Thin-Section-Clarendon-final.html'>Link</a>`,
+        thumb: 'thumbs/clarendon-c-meteorite-thin-section---gigapixel_49721351047_o.webp'
+    },
+    {
+        image: 'dag-431-meteorite-thin-section---gigapixel_30750701132_o.webp',
+        title: 'DAG 431 Meteorite Thin Section - Gigapixel',
+        description: `Anomalous CK3<br>5 MP OMAX CCD Stitched<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/dag431/dag431_10232015_final.html'>Link</a>`,
+        thumb: 'thumbs/dag-431-meteorite-thin-section---gigapixel_30750701132_o.webp'
+    },
+    {
+        image: 'dar-al-gani-489-meteorite-thin-section---gigapixel_35240362511_o.webp',
+        title: 'Dar al Gani 489 Meteorite Thin Section - Gigapixel',
+        description: `Martian Meteorite<br>Camera: Nikon D810<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/dag489/Meteorite-Thin-Section-DAG489-final.html'>Link</a>`,
+        thumb: 'thumbs/dar-al-gani-489-meteorite-thin-section---gigapixel_35240362511_o.webp'
+    },
+    {
+        image: 'dhofar-125-meteorite-thin-section---gigapixel_40244161381_o.webp',
+        title: 'Dhofar 125 Meteorite Thin Section - Gigapixel',
+        description: `Acapulcoite<br>Camera: Nikon D810<br>Zerene Stacker<br>Picture Window Pro<br>GIMP<br>Imagemagick<br>digiCamControl<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/dhofar125/Meteorite-Thin-Section-Dhofar125-final.html'>Link</a>`,
+        thumb: 'thumbs/dhofar-125-meteorite-thin-section---gigapixel_40244161381_o.webp'
+    },
+    {
+        image: 'dhofar-1528-meteorite-thin-section---gigapixel_30231488783_o.webp',
+        title: 'Dhofar 1528 Meteorite Thin Section - Gigapixel',
+        description: `Lunar (feldsp. breccia)<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/dhofar1528/dhofar1528_11072015_final_edit.html'>Link</a>`,
+        thumb: 'thumbs/dhofar-1528-meteorite-thin-section---gigapixel_30231488783_o.webp'
+    },
+    {
+        image: 'dhofar-535-meteorite-thin-section---gigapixel_30231488123_o.webp',
+        title: 'Dhofar 535 Meteorite Thin Section - Gigapixel',
+        description: `Ungrouped Chondrite<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/dhofar535/dhofar535_11132015_final.html'>Link</a>`,
+        thumb: 'thumbs/dhofar-535-meteorite-thin-section---gigapixel_30231488123_o.webp'
+    },
+    {
+        image: '394830947374_Dhofar535visible.webp',
+        title: 'Dhofar 535 Meteorite Thin Section - Gigapixel',
+        description: `Ungrouped Chondrite<br>Visible Light<br>Zoom: 4x/0.25 Objective<br>Nikon Z6<br>LMScope<br>Zerene Stacker<br>GIMP<br>Picture Window Pro<br>Imagemagick<br>digiCamcontrol<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/dhofar535-2/Meteorite-Thin-Section-Dhofar535-final.html'>Link</a>`,
+        thumb: 'thumbs/394830947374_Dhofar535visible.webp'
+    },
+    {
+        image: 'dorbigny-meteorite-surface---gigapixel_30234823854_o.webp',
+        title: `D'Orbigny Meteorite Surface - Gigapixel`,
+        description: `Angrite<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/SurfacePhotos/krpano/dorbigny/Meteorite-Surface-DOrbigny-final.html'>Link</a>`,
+        thumb: 'thumbs/dorbigny-meteorite-surface---gigapixel_30234823854_o.webp'
+    },
+    {
+        image: 'dorbigny-meteorite-thin-section---gigapixel_30565910840_o.webp',
+        title: `D'Orbigny Meteorite Thin Section - Gigapixel`,
+        description: `Angrite<br>Nikon D810<br>Zerene Stacker<br>digiCamControl<br>GIMP<br>Picture Window Pro<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/dorbigny-redux/Meteorite-Thin-Section-DOrbigny-final.html'>Link</a>`,
+        thumb: 'thumbs/dorbigny-meteorite-thin-section---gigapixel_30565910840_o.webp'
+    },
+    {
+        image: 'dorbigny-meteorite-thin-section---gigapixel_30750702012_o.webp',
+        title: `D'Orbigny Meteorite Thin Section - Gigapixel`,
+        description: `Angrite<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/dorbigny2/orbigny2_10102015_final.html'>Link</a>`,
+        thumb: 'thumbs/dorbigny-meteorite-thin-section---gigapixel_30750702012_o.webp'
+    },
+    {
+        image: 'huckitta-meteorite-thin-section---gigapixel_30830405496_o.webp',
+        title: 'Huckitta Meteorite Thin Section - Gigapixel',
+        description: `Pallasite, PMG-an<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/huckita/Meteorite-Thin-Section-Huckita-final.html'>Link</a>`,
+        thumb: 'thumbs/huckitta-meteorite-thin-section---gigapixel_30830405496_o.webp'
+    },
+    {
+        image: 'ibitira-meteorite-thin-section---gigapixel_31358369663_o.webp',
+        title: 'Ibitira Meteorite Thin Section - Gigapixel',
+        description: `Eucrite-mmict<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/ibitira/Meteorite-Thin-Section-Ibitira-final.html'>Link</a>`,
+        thumb: 'thumbs/ibitira-meteorite-thin-section---gigapixel_31358369663_o.webp'
+    },
+    {
+        image: 'isheyevo-meteorite-thin-section---gigapixel_30750607872_o.webp',
+        title: 'Isheyevo Meteorite Thin Section - Gigapixel',
+        description: `CH/CBb<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/isheyevo/Meteorite-Thin-Section-Isheyevo-final.html'>Link</a>`,
+        thumb: 'thumbs/isheyevo-meteorite-thin-section---gigapixel_30750607872_o.webp'
+    },
+    {
+        image: 'itqiy-meteorite-thin-section---gigapixel_30565937330_o.webp',
+        title: 'Itqiy Meteorite Thin Section - Gigapixel',
+        description: `Anomalous EH7<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/itqiy_2/Meteorite-Thin-Section-Itqiy-final.html'>Link</a>`,
+        thumb: 'thumbs/itqiy-meteorite-thin-section---gigapixel_30565937330_o.webp'
+    },
+    {
+        image: 'julesburg-meteorite-thin-section---gigapixel_32771785287_o.webp',
+        title: 'Julesburg Meteorite Thin Section - Gigapixel',
+        description: `L3.6<br>Visible Light<br>Zoom: 10x/0.25 Objective<br>Nikon Z6<br>LMScope<br>Zerene Stacker<br>GIMP<br>Picture Window Pro<br>Imagemagick<br>digiCamcontrol<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/julesburg/Meteorite-Thin-Section-Julesburg-final.html'>Link</a>`,
+        thumb: 'thumbs/julesburg-meteorite-thin-section---gigapixel_32771785287_o.webp'
+    },
+    {
+        image: 'juvinas-meteorite-thin-section---gigapixel_30867207015_o.webp',
+        title: 'Juvinas Meteorite Thin Section - Gigapixel',
+        description: `Eucrite-mmict<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/juvinas/juvinas_10242015_final.html'>Link</a>`,
+        thumb: 'thumbs/juvinas-meteorite-thin-section---gigapixel_30867207015_o.webp'
+    },
+    {
+        image: 'kainsaz-meteorite-thin-section---gigapixel_32487076588_o.webp',
+        title: 'Kainsaz Meteorite Thin Section - Gigapixel',
+        description: `CO3.2<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/kainsaz/Meteorite-Thin-Section-Kainsaz-final.html'>Link</a>`,
+        thumb: 'thumbs/kainsaz-meteorite-thin-section---gigapixel_32487076588_o.webp'
+    },
+    {
+        image: 'knyahinya-visible-huighvnzrfef-regularsize.webp',
+        title: 'Knyahinya Meteorite Thin Section - Gigapixel',
+        description: `L/LL5<br>Plane Polarized Visible Light<br>Zoom: 10x/0.25 Objective<br>Nikon Z6<br>LMScope<br>Zerene Stacker<br>GIMP<br>Picture Window Pro<br>Imagemagick<br>digiCamcontrol<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/knyahinya/Meteorite-Thin-Section-Knyahinya-final.html'>Link</a>`,
+        thumb: 'thumbs/knyahinya-visible-riulnvyh-smallsize.webp'
+    },
+    {
+        image: 'korra-korrabes-meteorite-thin-section---gigapixel_50117665203_o.webp',
+        title: 'Korra Korrabes Meteorite Thin Section - Gigapixel',
+        description: `H3<br>Visible Light<br>Zoom: 4x/0.25 Objective<br>Nikon Z6<br>LMScope<br>Zerene Stacker<br>GIMP<br>Picture Window Pro<br>Imagemagick<br>digiCamcontrol<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/korrakorrabes/Meteorite-Thin-Section-KorraKorrabes-final.html'>Link</a>`,
+        thumb: 'thumbs/korra-korrabes-meteorite-thin-section---gigapixel_50117665203_o.webp'
+    },
+    {
+        image: 'limerick-meteorite-thin-section---gigapixel_30878788305_o.webp',
+        title: 'Limerick Meteorite Thin Section - Gigapixel',
+        description: `H5<br>5 MP OMAX CCD Stitched<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/limerick/Meteorite-Thin-Section-Limerick-final.html'>Link</a>`,
+        thumb: 'thumbs/limerick-meteorite-thin-section---gigapixel_30878788305_o.webp'
+    },
+    {
+        image: 'meteorite-thin-section-los-angeles-002---gigapixel_43249874035_o.webp',
+        title: 'Los Angeles 002 Meteorite Thin Section - Gigapixel',
+        description: `Shergottite<br>Nikon D810<br>GIMP<br>Zerene Stacker<br>Picture Window Pro<br>Digicam Control<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/la002/Meteorite-Thin-Section-LA002-final.html'>Link</a>`,
+        thumb: 'thumbs/meteorite-thin-section-los-angeles-002---gigapixel_43249874035_o.webp'
+    },
+    {
+        image: 'moorabie-meteorite-thin-section---gigapixel_50085867751_o.webp',
+        title: 'Moorabie Meteorite Thin Section - Gigapixel',
+        description: `L3.8-an<br>Visible Light<br>Zoom: 4x/0.25 Objective<br>Nikon Z6<br>LMScope<br>Zerene Stacker<br>GIMP<br>Picture Window Pro<br>Imagemagick<br>digiCamcontrol<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/moorabie/Meteorite-Thin-Section-Moorabie-final.html'>Link</a>`,
+        thumb: 'thumbs/moorabie-meteorite-thin-section---gigapixel_50085867751_o.webp'
+    },
+    {
+        image: 'moss-meteorite-thin-section---gigapixel_45105834235_o.webp',
+        title: 'Moss Meteorite Thin Section - Gigapixel',
+        description: `CO3.6<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/moss/Meteorite-Thin-Section-Moss-final.html'>Link</a>`,
+        thumb: 'thumbs/moss-meteorite-thin-section---gigapixel_45105834235_o.webp'
+    },
+    {
+        image: 'murchison-meteorite-thin-section---gigapixel_30750427662_o.webp',
+        title: 'Murchison Meteorite Thin Section - Gigapixel',
+        description: `CM2<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/murchison/Meteorite-Thin-Section-Murchison-final.html'>Link</a>`,
+        thumb: 'thumbs/murchison-meteorite-thin-section---gigapixel_30750427662_o.webp'
+    },
+    {
+        image: 'nwa-032-meteorite-thin-section---gigapixel_33388863754_o.webp',
+        title: 'NWA 032 Meteorite Thin Section - Gigapixel',
+        description: `Lunar<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa32/Meteorite-Thin-Section-NWA32-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-032-meteorite-thin-section---gigapixel_33388863754_o.webp'
+    },
+    {
+        image: 'nwa-10203-meteorite-thin-section---gigapixel_36414100755_o.webp',
+        title: 'NWA 10203 Meteorite Thin Section - Gigapixel',
+        description: `Lunar<br>Nikon D810<br>Zerene Stacker<br>Picture Window Pro<br>GIMP<br>digiCamControl<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa10203/Meteorite-Thin-Section-NWA10203-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-10203-meteorite-thin-section---gigapixel_36414100755_o.webp'
+    },
+    {
+        image: 'nwa-10214-meteorite-thin-section---gigapixel_34627765774_o.webp',
+        title: 'NWA 10214 Meteorite Thin Section - Gigapixel',
+        description: `LL3<br>Camera: Nikon D810<br>Focus Stacking: Zerene Stacker<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa10214/Meteorite-Thin-Section-NWA10214-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-10214-meteorite-thin-section---gigapixel_34627765774_o.webp'
+    },
+    {
+        image: 'nwa-10646-meteorite-thin-section---gigapixel_33166698394_o.webp',
+        title: 'NWA 10646 Meteorite Thin Section - Gigapixel',
+        description: `Angrite<br>Camera: Nikon D810 with LMScope Adapter.<br>Focus stacking with Zerene Stacker.<br>OMAX Microscope.<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa10646/Meteorite-Thin-Section-NWA10646-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-10646-meteorite-thin-section---gigapixel_33166698394_o.webp'
+    },
+    {
+        image: 'nwa-10669-meteorite-thin-section---gigapixel_45376288031_o.webp',
+        title: 'NWA 10669 Meteorite Thin Section - Gigapixel',
+        description: `LL3<br>Camera: Nikon D810<br>Focus stacked with Zerene Stacker<br>GIMP<br>Imagemagick<br>digiCamControl<br>Picture Window Pro<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa10669/Meteorite-Thin-Section-NWA10669-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-10669-meteorite-thin-section---gigapixel_45376288031_o.webp'
+    },
+    {
+        image: 'nwa-10690-meteorite-thin-section---gigapixel_38481372272_o.webp',
+        title: 'NWA 10690 Meteorite Thin Section - Gigapixel',
+        description: `LL7<br>Nikon D810<br>Zerene Stacker<br>Picture Window Pro<br>GIMP<br>ImageMagick<br>digiCamControl<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa10690/Meteorite-Thin-Section-NWA10690-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-10690-meteorite-thin-section---gigapixel_38481372272_o.webp'
+    },
+    {
+        image: 'nwa-11038-meteorite-thin-section---gigapixel_37166373836_o.webp',
+        title: 'NWA 11038 Meteorite Thin Section - Gigapixel',
+        description: `L3<br>Camera: Nikon D810<br>Zerene Stacker<br>Picture Window Pro<br>GIMP<br>digiCamControl<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa11038/Meteorite-Thin-Section-NWA11038-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-11038-meteorite-thin-section---gigapixel_37166373836_o.webp'
+    },
+    {
+        image: 'nwa-11220-meteorite-thin-section---gigapixel_37963807324_o.webp',
+        title: 'NWA 11220 Meteorite Thin Section - Gigapixel',
+        description: `Martian Basaltic Breccia<br>Nikon D810<br>digiCamControl<br>Zerene Stacker<br>Picture Window Pro<br>GIMP<br>ImageMagick<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa11220/Meteorite-Thin-Section-NWA11220-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-11220-meteorite-thin-section---gigapixel_37963807324_o.webp'
+    },
+    {
+        image: 'nwa-12774-meteorite-thin-section---gigapixel_50325907511_o.webp',
+        title: 'NWA 12774 Meteorite Thin Section - Gigapixel',
+        description: `Angrite<br>Cross Polarized Light<br>Zoom: 4x/0.25 Objective<br>Nikon Z6<br>LMScope<br>Zerene Stacker<br>GIMP<br>Picture Window Pro<br>Image Magick<br>digiCamControl<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa12774/Meteorite-Thin-Section-NWA12774-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-12774-meteorite-thin-section---gigapixel_50325907511_o.webp'
+    },
+    {
+        image: 'nwa-1950-meteorite-thin-section---gigapixel_38539889285_o.webp',
+        title: 'NWA 1950 Meteorite Thin Section - Gigapixel',
+        description: `Martian, Shergottite<br>Nikon D810<br>Zerene Stacker<br>Picture Window Pro<br>GIMP<br>ImageMagick<br>digiCamControl<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa1950/Meteorite-Thin-Section-NWA1950-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-1950-meteorite-thin-section---gigapixel_38539889285_o.webp'
+    },
+    {
+        image: 'nwa-1950-meteorite-thin-section---gigapixel_38539899305_o.webp',
+        title: 'NWA 1950 Meteorite Thin Section - Gigapixel',
+        description: `Martian, Shergottite<br>Nikon D810<br>Zerene Stacker<br>Picture Window Pro<br>GIMP<br>ImageMagick<br>digiCamControl<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa1950-2/Meteorite-Thin-Section-NWA1950-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-1950-meteorite-thin-section---gigapixel_38539899305_o.webp'
+    },
+    {
+        image: 'nwa2086_alkdfji38489regularsize.webp',
+        title: 'NWA 2086 Meteorite Thin Section - Gigapixel',
+        description: `CV3<br>Cross Polarized Light<br><br>Zoom: 4x/0.25 Objective<br>Nikon Z6<br>LMScope<br>Zerene Stacker<br>GIMP<br>Picture Window Pro<br>Image Magick<br>digiCamControl<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa2086/Meteorite-Thin-Section-NWA2086-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa2086_alkdfji38489smallsize.webp'
+    },
+    {
+        image: 'nwa-2097-meteorite-thin-section---gigapixel_50273259963_o.webp',
+        title: 'NWA 2097 Meteorite Thin Section - Gigapixel',
+        description: `LL(L)3<br>Visible Light<br><br>Zoom: 4x/0.25 Objective<br>Nikon Z6<br>LMScope<br>Zerene Stacker<br>GIMP<br>Picture Window Pro<br>Image Magick<br>digiCamControl<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa2097/Meteorite-Thin-Section-NWA2097-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-2097-meteorite-thin-section---gigapixel_50273259963_o.webp'
+    },
+    {
+        image: 'nwa-2224-meteorite-surface---gigapixel_32572926977_o.webp',
+        title: 'NWA 2224 Meteorite Surface - Gigapixel',
+        description: `CV3<br>Nikon Z6<br>LMScope<br>Omax Trinocular Microscope<br>Zerene Stacker<br>GIMP<br>Picture Window Pro<br>DigiCamControl<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/SurfacePhotos/krpano/nwa2224/Meteorite-Surface-NWA2224-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-2224-meteorite-surface---gigapixel_32572926977_o.webp'
+    },
+    {
+        image: 'nwa-2224-meteorite-thin-section---gigapixel_40188516043_o.webp',
+        title: 'NWA 2224 Meteorite Thin Section - Gigapixel',
+        description: `CV3<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa2224/Meteorite-Thin-Section-NWA2224-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-2224-meteorite-thin-section---gigapixel_40188516043_o.webp'
+    },
+    {
+        image: 'nwa-2224-meteorite-thin-section---gigapixel_47391702071_o.webp',
+        title: 'NWA 2224 Meteorite Thin Section - Gigapixel',
+        description: `CV3<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa2224-2/Meteorite-Thin-Section-NWA2224-2-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-2224-meteorite-thin-section---gigapixel_47391702071_o.webp'
+    },
+    {
+        image: 'nwa-2364-meteorite-surface---side-a---gigapixel_35005399181_o.webp',
+        title: 'NWA 2364 Meteorite Surface - Gigapixel',
+        description: `CV3<br>Camera: Nikon D810 with LMScope Adapter.<br>Images focus stacked with Zerene Stacker.<br><br>NWA 2364 contains the oldest dated material known in the Solar System.<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/SurfacePhotos/krpano/nwa2364/Meteorite-Surface-NWA2364-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-2364-meteorite-surface---side-a---gigapixel_35005399181_o.webp'
+    },
+    {
+        image: 'nwa-2364-meteorite-surface---side-b---gigapixel_34749697970_o.webp',
+        title: 'NWA 2364 Meteorite Surface - Gigapixel',
+        description: `CV3<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/SurfacePhotos/krpano/nwa2364-2/Meteorite-Surface-NWA2364-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-2364-meteorite-surface---side-b---gigapixel_34749697970_o.webp'
+    },
+    {
+        image: 'nwa-2364-meteorite-thin-section---gigapixel_37936289676_o.webp',
+        title: 'NWA 2364 Meteorite Thin Section - Gigapixel',
+        description: `CV3<br>Contains oldest dated matter in the Solar System (2019) in the CAIs<br>Camera: Nikon D810<br>Zerene Stacker<br>Picture Window Pro<br>GIMP<br>digiCamControl<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa2364/Meteorite-Thin-Section-NWA2364-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-2364-meteorite-thin-section---gigapixel_37936289676_o.webp'
+    },
+    {
+        image: 'nwa-2737-meteorite-thin-section---gigapixel_31814705526_o.webp',
+        title: 'NWA 2737 Meteorite Thin Section - Gigapixel',
+        description: `Martian Chassignite<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa2737-2/Meteorite-Thin-Section-NWA2737-2-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-2737-meteorite-thin-section---gigapixel_31814705526_o.webp'
+    },
+    {
+        image: 'nwa-2824-meteorite-thin-section---gigapixel_32572066215_o.webp',
+        title: 'NWA 2824 Meteorite Thin Section - Gigapixel',
+        description: `Anomalous Eucrite<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa2824/Meteorite-Thin-Section-NWA2824-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-2824-meteorite-thin-section---gigapixel_32572066215_o.webp'
+    },
+    {
+        image: 'nwa-2871-meteorite-thin-section---gigapixel_32211358673_o.webp',
+        title: 'NWA 2871 Meteorite Thin Section - Gigapixel',
+        description: `Acapulcoite<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa2871/Meteorite-Thin-Section-NWA2871-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-2871-meteorite-thin-section---gigapixel_32211358673_o.webp'
+    },
+    {
+        image: 'nwa-2892-meteorite-thin-section---gigapixel_37574841411_o.webp',
+        title: 'NWA 2892 Meteorite Thin Section - Gigapixel',
+        description: `H/L3 Chondrite<br>Camera: Nikon D810<br>Zerene Stacker<br>Picture Window Pro<br>GIMP<br>Imagemagick<br>digiCamControl<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa2892/Meteorite-Thin-Section-NWA2892-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-2892-meteorite-thin-section---gigapixel_37574841411_o.webp'
+    },
+    {
+        image: 'nwa-2892-meteorite-thin-section---gigapixel_50597771956_o.webp',
+        title: 'NWA 2892 Meteorite Thin Section - Gigapixel',
+        description: `H/L3<br>Visible Light<br>Zoom: 4x/0.25 Objective<br>Nikon Z6<br>LMScope<br>Zerene Stacker<br>GIMP<br>Picture Window Pro<br>Image Magick<br>digiCamControl<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa2892-2/Meteorite-Thin-Section-NWA2892-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-2892-meteorite-thin-section---gigapixel_50597771956_o.webp'
+    },
+    {
+        image: 'nwa-2977-meteorite-thin-section---gigapixel_30234682804_o.webp',
+        title: 'NWA 2977 Meteorite Thin Section - Gigapixel',
+        description: `Lunar (gabbro)<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa2977/Meteorite-Thin-Section-NWA2977-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-2977-meteorite-thin-section---gigapixel_30234682804_o.webp'
+    },
+    {
+        image: 'nwa-2999-meteorite-thin-section---gigapixel_30750360302_o.webp',
+        title: 'NWA 2999 Meteorite Thin Section - Gigapixel',
+        description: `Angrite<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa2999/Meteorite-Thin-Section-NWA2999-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-2999-meteorite-thin-section---gigapixel_30750360302_o.webp'
+    },
+    {
+        image: 'nwa-3118-50738622186_3dff0d9b8a_o.webp',
+        title: 'NWA 3118 Meteorite Thin Section - Gigapixel',
+        description: `CV3<br>XPL Light<br>Zoom: 4x/0.25 Objective<br>Nikon Z6<br>LMScope<br>Zerene Stacker<br>GIMP<br>Picture Window Pro<br>Image Magick<br>digiCamControl<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa3118/Meteorite-Thin-Section-NWA3118-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-3118-50738622186_3dff0d9b8a_o.webp'
+    },
+    {
+        image: 'nwa-3189-meteorite-thin-section---gigapixel_44752399911_o.webp',
+        title: 'NWA 3189 Meteorite Thin Section - Gigapixel',
+        description: `LL3 Chondrite<br>Camera: Nikon D810<br>Zerene Stacker<br>Picture Window Pro<br>GIMP<br>Imagemagick<br>digiCamControl<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa3189/Meteorite-Thin-Section-NWA3189-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-3189-meteorite-thin-section---gigapixel_44752399911_o.webp'
+    },
+    {
+        image: 'nwa-3358-meteorite-thin-section---gigapixel_30234684224_o.webp',
+        title: 'NWA 3358 Meteorite Thin Section - Gigapixel',
+        description: `H3.10<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa3358/Meteorite-Thin-Section-NWA3358-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-3358-meteorite-thin-section---gigapixel_30234684224_o.webp'
+    },
+    {
+        image: 'nwa-4216-meteorite-thin-section---gigapixel_50495882543_o.webp',
+        title: 'NWA 4216 Meteorite Thin Section - Gigapixel',
+        description: `LL3<br>Visible Light<br>Zoom: 4x/0.25 Objective<br>Nikon Z6<br>LMScope<br>Zerene Stacker<br>GIMP<br>Picture Window Pro<br>Image Magick<br>digiCamControl<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa4216/Meteorite-Thin-Section-NWA4216-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-4216-meteorite-thin-section---gigapixel_50495882543_o.webp'
+    },
+    {
+        image: 'nwa-4460-meteorite-thin-section---gigapixel_43806753894_o.webp',
+        title: 'NWA 4460 Meteorite Thin Section - Gigapixel',
+        description: `L3<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa4460/Meteorite-Thin-Section-NWA4460-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-4460-meteorite-thin-section---gigapixel_43806753894_o.webp'
+    },
+    {
+        image: 'nwa-4587-meteorite-thin-section---gigapixel_30234682014_o.webp',
+        title: 'NWA 4587 Meteorite Thin Section - Gigapixel',
+        description: `Achondrite-ungrouped<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa4587/Meteorite-Thin-Section-NWA4587-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-4587-meteorite-thin-section---gigapixel_30234682014_o.webp'
+    },
+    {
+        image: 'nwa-4587-meteorite-thin-section---gigapixel_36128780780_o.webp',
+        title: 'NWA 4587 Meteorite Thin Section - Gigapixel',
+        description: `Achondrite-ungrouped<br>Camera: Nikon D810<br>Zerene Stacker<br>digiCamcontrol<br>Picture Window Pro<br>GIMP<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa4587-2/Meteorite-Thin-Section-NWA4587-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-4587-meteorite-thin-section---gigapixel_36128780780_o.webp'
+    },
+    {
+        image: 'nwa-4590-meteorite-thin-section---gigapixel_31492253396_o.webp',
+        title: 'NWA 4590 Meteorite Thin Section - Gigapixel',
+        description: `Angrite<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa4590/Meteorite-Thin-Section-NWA4590-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-4590-meteorite-thin-section---gigapixel_31492253396_o.webp'
+    },
+    {
+        image: 'nwa-4662-meteorite-thin-section---gigapixel_37372362706_o.webp',
+        title: 'NWA 4662 Meteorite Thin Section - Gigapixel',
+        description: `Angrite, paired with NWA 2999<br>Camera: Nikon D810<br>Zerene Stacker<br>Picture Window Pro<br>GIMP<br>ImageMagick<br>digiCamControl<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa4662/Meteorite-Thin-Section-NWA4662-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-4662-meteorite-thin-section---gigapixel_37372362706_o.webp'
+    },
+    {
+        image: '50816126746_299537dcb7_o.webp',
+        title: 'NWA 4723 Meteorite Thin Section - Gigapixel',
+        description: `L3<br>XPL Light<br>Zoom: 4x/0.25 Objective<br>Nikon Z6<br>LMScope<br>Zerene Stacker<br>GIMP<br>Picture Window Pro<br>Image Magick<br>digiCamControl<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa4723/Meteorite-Thin-Section-NWA4723-final.html'>Link</a>`,
+        thumb: 'thumbs/50816126746_299537dcb7_o.webp'
+    },
+    {
+        image: 'nwa-4734-meteorite-thin-section---gigapixel_30866769735_o.webp',
+        title: 'NWA 4734 Meteorite Thin Section - Gigapixel',
+        description: `Lunar<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa4734/Meteorite-Thin-Section-NWA4734-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-4734-meteorite-thin-section---gigapixel_30866769735_o.webp'
+    },
+    {
+        image: 'nwa-4801-meteorite-thin-section---gigapixel_31718067141_o.webp',
+        title: 'NWA 4801 Meteorite Thin Section - Gigapixel',
+        description: `Angrite<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa4801/Meteorite-Thin-Section-NWA4801-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-4801-meteorite-thin-section---gigapixel_31718067141_o.webp'
+    },
+    {
+        image: 'nwa-4898-meteorite-thin-section---gigapixel_30750535792_o.webp',
+        title: 'NWA 4898 Meteorite Thin Section - Gigapixel',
+        description: `Lunar<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa4898/Meteorite-Thin-Section-NWA4898-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-4898-meteorite-thin-section---gigapixel_30750535792_o.webp'
+    },
+    {
+        image: 'nwa-4910-begaa-meteorite-thin-section---gigapixel_34278492170_o.webp',
+        title: 'NWA 4910 Meteorite Thin Section - Gigapixel',
+        description: `LL3.1<br>Camera: Nikon D810<br>LMScope Adapter<br>Zerene Stacker<br>GIMP<br>Picture Window Pro<br>Imagemagick<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/begaa/Meteorite-Thin-Section-Begaa-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-4910-begaa-meteorite-thin-section---gigapixel_34278492170_o.webp'
+    },
+    {
+        image: 'nwa-4910-meteorite-thin-section---gigapixel_50557234913_o.webp',
+        title: 'NWA 4910 Meteorite Thin Section - Gigapixel',
+        description: `LL3.1<br>Visible Light<br>Zoom: 4x/0.25 Objective<br>Nikon Z6<br>LMScope<br>Zerene Stacker<br>GIMP<br>Picture Window Pro<br>Image Magick<br>digiCamControl<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/begaa-2/Meteorite-Thin-Section-NWA4910-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-4910-meteorite-thin-section---gigapixel_50557234913_o.webp'
+    },
+    {
+        image: 'nwa-5000-meteorite-thin-section---gigapixel_30778767691_o.webp',
+        title: 'NWA 5000 Meteorite Thin Section - Gigapixel',
+        description: `Lunar<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa5000/Meteorite-Thin-Section-NWA5000-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-5000-meteorite-thin-section---gigapixel_30778767691_o.webp'
+    },
+    {
+        image: 'nwa-5028-meteorite-thin-section---gigapixel_34109505550_o.webp',
+        title: 'NWA 5028 Meteorite Thin Section - Gigapixel',
+        description: `CR2<br>Camera: Nikon D810 with LMScope adapter.<br>Zerene Stacker.<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa5028/Meteorite-Thin-Section-NWA5028-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-5028-meteorite-thin-section---gigapixel_34109505550_o.webp'
+    },
+    {
+        image: 'nwa-5205-meteorite-thin-section---gigapixel_30279715563_o.webp',
+        title: 'NWA 5205 Meteorite Thin Section - Gigapixel',
+        description: `LL3.2<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa5205/Meteorite-Thin-Section-NWA5205-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-5205-meteorite-thin-section---gigapixel_30279715563_o.webp'
+    },
+    {
+        image: 'nwa5239_alkdfji38489regularsize.webp',
+        title: 'NWA 5239 Meteorite Thin Section - Gigapixel',
+        description: `CV3<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa5239/Meteorite-Thin-Section-NWA5239-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa5239_alkdfji38489smallsize.webp'
+    },
+    {
+        image: 'nwa-5384-meteorite-thin-section---gigapixel_31172763424_o.webp',
+        title: 'NWA 5384 Meteorite Thin Section - Gigapixel',
+        description: `Brachinite<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa5384/Meteorite-Thin-Section-NWA5384-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-5384-meteorite-thin-section---gigapixel_31172763424_o.webp'
+    },
+    {
+        image: 'nwa-5400-meteorite-thin-section---gigapixel_30778769761_o.webp',
+        title: 'NWA 5400 Meteorite Thin Section - Gigapixel',
+        description: `Achondrite-ungrouped<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa5400/Meteorite-Thin-Section-NWA5400-composed-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-5400-meteorite-thin-section---gigapixel_30778769761_o.webp'
+    },
+    {
+        image: 'nwa-5426-meteorite-thin-section---gigapixel_30231487813_o.webp',
+        title: 'NWA 5426 Meteorite Thin Section - Gigapixel',
+        description: `R4<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa5426/nwa5426_11302015_final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-5426-meteorite-thin-section---gigapixel_30231487813_o.webp'
+    },
+    {
+        image: 'nwa-5488-meteorite-thin-section---gigapixel_30234682194_o.webp',
+        title: 'NWA 5488 Meteorite Thin Section - Gigapixel',
+        description: `Lodranite<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa5488/Meteorite-Thin-Section-NWA5488-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-5488-meteorite-thin-section---gigapixel_30234682194_o.webp'
+    },
+    {
+        image: 'nwa-5558-meteorite-thin-section---gigapixel_30811217182_o.webp',
+        title: 'NWA 5558 Meteorite Thin Section - Gigapixel',
+        description: `Eucrite<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa5558/Meteorite-Thin-Section-NWA5558-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-5558-meteorite-thin-section---gigapixel_30811217182_o.webp'
+    },
+    {
+        image: 'nwa-5903-meteorite-thin-section---gigapixel_38230999305_o.webp',
+        title: 'NWA 5903 Meteorite Thin Section - Gigapixel',
+        description: `Eucrite<br>Nikon D810<br>Zerene Stacker<br>GIMP<br>Picture Window Pro<br>ImageMagick<br>digiCamControl<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa5903/Meteorite-Thin-Section-NWA5903-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-5903-meteorite-thin-section---gigapixel_38230999305_o.webp'
+    },
+    {
+        image: 'nwa-5930-meteorite-thin-section---gigapixel_49975120781_o.webp',
+        title: 'NWA 5930 Meteorite Thin Section - Gigapixel',
+        description: `CV3<br>Visible Light<br>Zoom: 4x/0.25 Objective<br>Nikon Z6<br>LMScope<br>Zerene Stacker<br>GIMP<br>Picture Window Pro<br>Imagemagick<br>digiCamcontrol<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa5930/Meteorite-Thin-Section-NWA5930-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-5930-meteorite-thin-section---gigapixel_49975120781_o.webp'
+    },
+    {
+        image: '309505834_NWA5930XPL_b.webp',
+        title: 'NWA 5930 XPL Meteorite Thin Section - Gigapixel',
+        description: `CV3<br>XPL Light<br>Zoom: 4x/0.25 Objective<br>Nikon Z6<br>LMScope<br>Zerene Stacker<br>GIMP<br>Picture Window Pro<br>Imagemagick<br>digiCamcontrol<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa5930-2/Meteorite-Thin-Section-NWA5930-final.html'>Link</a>`,
+        thumb: 'thumbs/309505834_NWA5930XPL_b.webp'
+    },
+    {
+        image: 'nwa-6445-meteorite-thin-section---gigapixel_37090698992_o.webp',
+        title: 'NWA 6445 Meteorite Thin Section - Gigapixel',
+        description: `CO3.1 Carbonaceous Chondrite<br>Camera: Nikon D810<br>Zerene Stacker<br>Picture Window Pro<br>GIMP<br>digiCamControl<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa6445/Meteorite-Thin-Section-NWA6445-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-6445-meteorite-thin-section---gigapixel_37090698992_o.webp'
+    },
+    {
+        image: 'nwa-6472-meteorite-surface---gigapixel_48044019822_o.webp',
+        title: 'NWA 6472 Meteorite Surface A - Gigapixel',
+        description: `LL3.2<br>Cross Polarized Reflected Light<br>Zoom: 4x/0.25 Objective<br>Nikon Z6<br>LMScope<br>Zerene Stacker<br>GIMP<br>Picture Window Pro<br>Imagemagick<br>digiCamcontrol<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/SurfacePhotos/krpano/nwa6472/Meteorite-Surface-NWA6472-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-6472-meteorite-surface---gigapixel_48044019822_o.webp'
+    },
+    {
+        image: 'nwa6472_ljalkhjflahdregularsize.webp',
+        title: 'NWA 6472 Meteorite Surface B - Gigapixel',
+        description: `LL3.2<br>Cross Polarized Reflected Light<br>Zoom: 4x/0.25 Objective<br>Nikon Z6<br>LMScope<br>Zerene Stacker<br>GIMP<br>Picture Window Pro<br>Imagemagick<br>digiCamcontrol<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/SurfacePhotos/krpano/nwa6472-2/Meteorite-Surface-NWA6472-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa6472_ljalkhjflahdsmallsize.webp'
+    },
+    {
+        image: 'nwa-6704-meteorite-thin-section---gigapixel_24827745767_o.webp',
+        title: 'NWA 6704 Meteorite Thin Section - Gigapixel',
+        description: `Achondrite Meteorite<br>Camera: Nikon D810<br>Focus stacked with Zerene Stacker<br>GIMP<br>Picture Window Pro<br>ImageMagick<br>digiCamControl<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa6704/Meteorite-Thin-Section-NWA6704-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-6704-meteorite-thin-section---gigapixel_24827745767_o.webp'
+    },
+    {
+        image: 'nwa-7317-meteorite-thin-section---gigapixel_32403354783_o.webp',
+        title: 'NWA 7317 Meteorite Thin Section - Gigapixel',
+        description: `CR6<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa7317/Meteorite-Thin-Section-NWA7317-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-7317-meteorite-thin-section---gigapixel_32403354783_o.webp'
+    },
+    {
+        image: 'nwa-7325-meteorite-thin-section---gigapixel_32335210115_o.webp',
+        title: 'NWA 7325 Meteorite Thin Section - Gigapixel',
+        description: `Achondrite-ungrouped<br>Stitched mosaic<br>CMOS CCD Device<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa7325/Meteorite-Thin-Section-NWA7325-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-7325-meteorite-thin-section---gigapixel_32335210115_o.webp'
+    },
+    {
+        image: 'nwa-7630-meteorite-thin-section---gigapixel_30867273065_o.webp',
+        title: 'NWA 7630 Meteorite Thin Section - Gigapixel',
+        description: `Ureilite<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa7630_2/Meteorite-Thin-Section-NWA7630-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-7630-meteorite-thin-section---gigapixel_30867273065_o.webp'
+    },
+    {
+        image: 'nwa-7835-meteorite-thin-section---gigapixel_36167335604_o.webp',
+        title: 'NWA 7835 Meteorite Thin Section - Gigapixel',
+        description: `Ungrouped-achondrite<br>Camera: Nikon D810<br>Zerene Stacker<br>digiCamcontrol<br>Picture Window Pro<br>GIMP<br>Imagemagick<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa7835/Meteorite-Thin-Section-NWA7835-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-7835-meteorite-thin-section---gigapixel_36167335604_o.webp'
+    },
+    {
+        image: 'nwa-7859-meteorite-thin-section---gigapixel_49750388311_o.webp',
+        title: 'NWA 7859 Meteorite Thin Section - Gigapixel',
+        description: `L3<br>Visible Light<br>Zoom: 4x/0.25 Objective<br>Nikon Z6<br>LMScope<br>Zerene Stacker<br>GIMP<br>Picture Window Pro<br>Imagemagick<br>digiCamcontrol<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa7859/Meteorite-Thin-Section-NWA7859-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-7859-meteorite-thin-section---gigapixel_49750388311_o.webp'
+    },
+    {
+        image: 'nwa-7859-meteorite-thin-section---gigapixel_49765870686_o.webp',
+        title: 'NWA 7859 Meteorite Thin Section - Gigapixel',
+        description: `L3<br>Cross Polarized Light<br>Zoom: 4x/0.25 Objective<br>Nikon Z6<br>LMScope<br>Zerene Stacker<br>GIMP<br>Picture Window Pro<br>Imagemagick<br>digiCamcontrol<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa7859-2/Meteorite-Thin-Section-NWA7859-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-7859-meteorite-thin-section---gigapixel_49765870686_o.webp'
+    },
+    {
+        image: 'nwa-8010-meteorite-thin-section---gigapixel_34415639553_o.webp',
+        title: 'NWA 8010 Meteorite Thin Section - Gigapixel',
+        description: `Lunar Feldspathic Breccia<br>Camera: Nikon D810 with LMScope adapter.<br>Photos manually stitched together. Focus stacking with Zerene Stacker.<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa8010/Meteorite-Thin-Section-NWA8010-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-8010-meteorite-thin-section---gigapixel_34415639553_o.webp'
+    },
+    {
+        image: 'nwa-8159-meteorite-thin-section---gigapixel_33781955971_o.webp',
+        title: 'NWA 8159 Meteorite Thin Section - Gigapixel',
+        description: `Martian Augite Basalt.<br>Only known meteorite specimen of this type discovered on Earth.<br>Cross polarized light.<br>Zerene Stacker.<br>Camera: Nikon D810 with LMScope<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa8159-2/Meteorite-Thin-Section-NWA8159-2-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-8159-meteorite-thin-section---gigapixel_33781955971_o.webp'
+    },
+    {
+        image: 'nwa-8159-meteorite-thin-section---gigapixel_34340144705_o.webp',
+        title: 'NWA 8159 Meteorite Thin Section - Gigapixel',
+        description: `Martian Augite Basalt.<br>Only known meteorite specimen of this type discovered on Earth.<br>Cross polarized light.<br>Zerene Stacker.<br>Camera: Nikon D810 with LMScope<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa8159/Meteorite-Thin-Section-NWA8159-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-8159-meteorite-thin-section---gigapixel_34340144705_o.webp'
+    },
+    {
+        image: 'nwa8171_agu8hpsdfkljregularsize.webp',
+        title: 'NWA 8171 Meteorite Thin Section - Gigapixel',
+        description: `Martian (polymict breccia)<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa8171-visible/Meteorite-Thin-Section-NWA8171-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa8171_agu8hpsdfkljsmallsize.webp'
+    },
+    {
+        image: 'nwa-8171-meteorite-thin-section---gigapixel_30830763906_o.webp',
+        title: 'NWA 8171 Meteorite Thin Section - Gigapixel',
+        description: `Martian (polymict breccia)<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa8171-3/Meteorite-Thin-Section-NWA8171-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-8171-meteorite-thin-section---gigapixel_30830763906_o.webp'
+    },
+    {
+        image: 'nwa-8251-meteorite-thin-section---gigapixel_32994408460_o.webp',
+        title: 'NWA 8251 Meteorite Thin Section - Gigapixel',
+        description: `Lodranite<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa8251/Meteorite-Thin-Section-NWA8251-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-8251-meteorite-thin-section---gigapixel_32994408460_o.webp'
+    },
+    {
+        image: 'nwa-8276-meteorite-thin-section---gigapixel_32146528742_o.webp',
+        title: 'NWA 8276 Meteorite Thin Section - Gigapixel',
+        description: `L3.00<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa8276/Meteorite-Thin-Section-NWA8276-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-8276-meteorite-thin-section---gigapixel_32146528742_o.webp'
+    },
+    {
+        image: 'nwa-8345-meteorite-thin-section---gigapixel_30925792927_o.webp',
+        title: 'NWA 8345 Meteorite Thin Section - Gigapixel',
+        description: `CO3.2<br>Camera: Nikon D810<br>Zerene Stacker<br>GIMP<br>Picture Window Pro<br>Imagemagick<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa8345/Meteorite-Thin-Section-NWA8345-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-8345-meteorite-thin-section---gigapixel_30925792927_o.webp'
+    },
+    {
+        image: 'nwa-8595-meteorite-thin-section---gigapixel_32811591835_o.webp',
+        title: 'NWA 8595 Meteorite Thin Section - Gigapixel',
+        description: `Howardite<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa8595/Meteorite-Thin-Section-NWA8595-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-8595-meteorite-thin-section---gigapixel_32811591835_o.webp'
+    },
+    {
+        image: 'nwa-8687-meteorite-thin-section---gigapixel_30593452140_o.webp',
+        title: 'NWA 8687 Meteorite Thin Section - Gigapixel',
+        description: `Lunar (troctolite)<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa8687/Meteorite-Thin-Section-NWA8687-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-8687-meteorite-thin-section---gigapixel_30593452140_o.webp'
+    },
+    {
+        image: 'nwa-8716-jrifiya-meteorite-thin-section---gigapixel_35908289641_o.webp',
+        title: 'NWA 8716 Meteorite Thin Section - Gigapixel',
+        description: `Martian Shergottite<br>Nikon D810<br>Zerene Stacker<br>Picture Window Pro<br>GIMP<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/jrifiya/Meteorite-Thin-Section-Jrifiya-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-8716-jrifiya-meteorite-thin-section---gigapixel_35908289641_o.webp'
+    },
+    {
+        image: 'nwa8773_gljfgkdfglyuregularsize.webp',
+        title: 'NWA 8773 Meteorite Thin Section - Gigapixel',
+        description: `LL3<br>Visible Light<br>Zoom: 4x/0.25 Objective<br>Nikon Z6<br>LMScope<br>Zerene Stacker<br>GIMP<br>Picture Window Pro<br>Imagemagick<br>digiCamcontrol<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa8773-2/Meteorite-Thin-Section-NWA8773-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa8773_gljfgkdfglyusmallsize.webp'
+    },
+    {
+        image: '0239754075_NWA8773XPL.webp',
+        title: 'NWA 8773 Meteorite Thin Section - Gigapixel',
+        description: `LL3<br>XPL Light<br>Zoom: 4x/0.25 Objective<br>Nikon Z6<br>LMScope<br>Zerene Stacker<br>GIMP<br>Picture Window Pro<br>Imagemagick<br>digiCamcontrol<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa8773/Meteorite-Thin-Section-NWA8773-final.html'>Link</a>`,
+        thumb: 'thumbs/0239754075_NWA8773XPL.webp'
+    },
+    {
+        image: 'nwa-960-meteorite-thin-section---gigapixel_36726742290_o.webp',
+        title: 'NWA 960 Meteorite Thin Section - Gigapixel',
+        description: `Anomalous Ordinary Chondrite<br>Camera: Nikon D810<br>Zerene Stacker<br>GIMP<br>DigicamControl<br>Picture Window Pro<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa960/Meteorite-Thin-Section-NWA960-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-960-meteorite-thin-section---gigapixel_36726742290_o.webp'
+    },
+    {
+        image: 'nwa-980-meteorite-thin-section---gigapixel_49808128422_o.webp',
+        title: 'NWA 980 Meteorite Thin Section - Gigapixel',
+        description: `LL3.7<br>Visible Light<br>Zoom: 4x/0.25 Objective<br>Nikon Z6<br>LMScope<br>Zerene Stacker<br>GIMP<br>Picture Window Pro<br>Imagemagick<br>digiCamcontrol<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa980/Meteorite-Thin-Section-NWA980-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-980-meteorite-thin-section---gigapixel_49808128422_o.webp'
+    },
+    {
+        image: 'nwa-998-meteorite-thin-section---gigapixel_30778766661_o.webp',
+        title: 'NWA 998 Meteorite Thin Section - Gigapixel',
+        description: `Martian (nakhlite)<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa998/Meteorite-Thin-Section-NWA998-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa-998-meteorite-thin-section---gigapixel_30778766661_o.webp'
+    },
+    {
+        image: 'nwa-998-meteorite-thin-section---gigapixel_46682588402_o.webp',
+        title: 'NWA 998 Meteorite Thin Section - Gigapixel',
+        description: `Martian (nakhlite)<br>Plane Polarized Light<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa998/visible/Meteorite-Thin-Section-NWA998-final-visible.html'>Link</a>`,
+        thumb: 'thumbs/nwa-998-meteorite-thin-section---gigapixel_46682588402_o.webp'
+    },
+    {
+        image: 'nwa12692-visible-alfjaohuiguinoeiqregularsize.webp',
+        title: 'NWA 12692 Meteorite Thin Section - Gigapixel',
+        description: `LL3.00<br>Visible Light<br>Zoom: 4x/0.25 Objective<br>Nikon Z6<br>LMScope<br>Zerene Stacker<br>GIMP<br>Picture Window Pro<br>Imagemagick<br>digiCamcontrol<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa12692-2/Meteorite-Thin-Section-NWA12692-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa12692-visible-alfjaohuiguinoeiqsmallsize.webp'
+    },
+    {
+        image: 'nwa12692-xpl-alfjaohuiguinoeiqregularsize.webp',
+        title: 'NWA 12692 Meteorite Thin Section - Gigapixel',
+        description: `LL3.00<br>XPL Light<br>Zoom: 4x/0.25 Objective<br>Nikon Z6<br>LMScope<br>Zerene Stacker<br>GIMP<br>Picture Window Pro<br>Imagemagick<br>digiCamcontrol<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa12692/Meteorite-Thin-Section-NWA12692-final.html'>Link</a>`,
+        thumb: 'thumbs/nwa12692-xpl-alfjaohuiguinoeiqsmallsize.webp'
+    },
+    {
+        image: 'ozerki-meteorite-thin-section---gigapixel_40011257473_o.webp',
+        title: 'Ozerki Meteorite Thin Section - Gigapixel',
+        description: `L6 Chondrite<br>Small degree polarized visible light<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/ozerki/Meteorite-Thin-Section-Ozerki-final.html'>Link</a>`,
+        thumb: 'thumbs/ozerki-meteorite-thin-section---gigapixel_40011257473_o.webp'
+    },
+    {
+        image: 'pasamonte-meteorite-thin-section---gigapixel_30750741362_o.webp',
+        title: 'Pasamonte Meteorite Thin Section - Gigapixel',
+        description: `Eucrite-pmict<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/pasamonte/Meteorite-Thin-Section-Pasamonte-Final_v2.html'>Link</a>`,
+        thumb: 'thumbs/pasamonte-meteorite-thin-section---gigapixel_30750741362_o.webp'
+    },
+    {
+        image: 'pea-blanca-spring-meteorite-thin-section---gigapixel_40965911842_o.webp',
+        title: 'Peña Blanca Spring Meteorite Thin Section - Gigapixel',
+        description: `Aubrite<br>Camera: Nikon D810<br>digiCamControl<br>Zerene Stacker<br>Picture Window Pro<br>GIMP<br>ImageMagick<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/penablancasprings/Meteorite-Thin-Section-PenaBlancaSprings-final.html'>Link</a>`,
+        thumb: 'thumbs/pea-blanca-spring-meteorite-thin-section---gigapixel_40965911842_o.webp'
+    },
+    {
+        image: 'peekskill-meteorite-thin-section---gigapixel_32784854511_o.webp',
+        title: 'Peekskill Meteorite Thin Section - Gigapixel',
+        description: `H6<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/peekskill/Meteorite-Thin-Section-Peekskill-final.html'>Link</a>`,
+        thumb: 'thumbs/peekskill-meteorite-thin-section---gigapixel_32784854511_o.webp'
+    },
+    {
+        image: 'sah-99544-meteorite-thin-section---gigapixel_30231486953_o.webp',
+        title: 'SAH 99544 Meteorite Thin Section - Gigapixel',
+        description: `CO3<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/sah99544/sah99544_12122015_final.html'>Link</a>`,
+        thumb: 'thumbs/sah-99544-meteorite-thin-section---gigapixel_30231486953_o.webp'
+    },
+    {
+        image: 'sah-99555-meteorite-thin-section---gigapixel_30565743640_o.webp',
+        title: 'SAH 99555 Meteorite Thin Section - Gigapixel',
+        description: `Angrite<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/sah99555/Meteorite-Thin-Section-SAH99555-final_edit.html'>Link</a>`,
+        thumb: 'thumbs/sah-99555-meteorite-thin-section---gigapixel_30565743640_o.webp'
+    },
+    {
+        image: 'santa-vitoria-do-palmar-meteorite-thin-section---gigapixel_50374070091_o.webp',
+        title: 'Santa Vitoria do Palmar Meteorite Thin Section - Gigapixel',
+        description: `L3<br>Visible Light<br>Zoom: 4x/0.25 Objective<br>Nikon Z6<br>LMScope<br>Zerene Stacker<br>GIMP<br>Picture Window Pro<br>Image Magick<br>digiCamControl<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/santavitoriadopalmar/Meteorite-Thin-Section-SantaVitoriadoPalmar-final.html'>Link</a>`,
+        thumb: 'thumbs/santa-vitoria-do-palmar-meteorite-thin-section---gigapixel_50374070091_o.webp'
+    },
+    {
+        image: 'saratov-meteorite-thin-section---gigapixel_33513939552_o.webp',
+        title: 'Saratov Meteorite Thin Section - Gigapixel',
+        description: `L4<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/saratov/Meteorite-Thin-Section-Saratov-final.html'>Link</a>`,
+        thumb: 'thumbs/saratov-meteorite-thin-section---gigapixel_33513939552_o.webp'
+    },
+    {
+        image: 'saratov-meteorite-thin-section---gigapixel_50020763533_o.webp',
+        title: 'Saratov Meteorite Thin Section - Gigapixel',
+        description: `L4<br>Visible Light<br>Zoom: 4x/0.25 Objective<br>Nikon Z6<br>LMScope<br>Zerene Stacker<br>GIMP<br>Picture Window Pro<br>Imagemagick<br>digiCamcontrol<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/saratov-2/Meteorite-Thin-Section-Saratov-final.html'>Link</a>`,
+        thumb: 'thumbs/saratov-meteorite-thin-section---gigapixel_50020763533_o.webp'
+    },
+    {
+        image: 'sau-562-meteorite-thin-section---gigapixel_30231489343_o.webp',
+        title: 'SaU 562 Meteorite Thin Section - Gigapixel',
+        description: `Eucrite-unbr<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/sau562/sau562_11012015_final.html'>Link</a>`,
+        thumb: 'thumbs/sau-562-meteorite-thin-section---gigapixel_30231489343_o.webp'
+    },
+    {
+        image: 'sau-562-meteorite-thin-section---gigapixel_43924990120_o.webp',
+        title: 'SaU 562 Meteorite Thin Section - Gigapixel',
+        description: `Eucrite-unbr<br>Camera: Nikon D810<br>Zerene Stacker<br>Picture Window Pro<br>GIMP<br>Imagemagick<br>digiCamcontrol<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/sau562-2/Meteorite-Thin-Section-SAU562-final.html'>Link</a>`,
+        thumb: 'thumbs/sau-562-meteorite-thin-section---gigapixel_43924990120_o.webp'
+    },
+    {
+        image: 'seymchan-meteorite-thin-section---gigapixel_30750356832_o.webp',
+        title: 'Seymchan Meteorite Thin Section - Gigapixel',
+        description: `Pallasite, PMG<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/seymchan/Meteorite-Thin-Section-Seymchan-final.html'>Link</a>`,
+        thumb: 'thumbs/seymchan-meteorite-thin-section---gigapixel_30750356832_o.webp'
+    },
+    {
+        image: 'tissint-meteorite-thin-section---gigapixel_35558247562_o.webp',
+        title: 'Tissint Meteorite Thin Section - Gigapixel',
+        description: `Martian Shergottite Meteorite<br>Camera: Nikon D810<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/tissint/Meteorite-Thin-Section-Tissint-final.html'>Link</a>`,
+        thumb: 'thumbs/tissint-meteorite-thin-section---gigapixel_35558247562_o.webp'
+    },
+    {
+        image: 'zagami-meteorite-thin-section---gigapixel_30750538662_o.webp',
+        title: 'Zagami Meteorite Thin Section - Gigapixel',
+        description: `Martian (shergottite)<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/zagami/Meteorite-Thin-Section-Zagami-final.html'>Link</a>`,
+        thumb: 'thumbs/zagami-meteorite-thin-section---gigapixel_30750538662_o.webp'
+    }
+];
+
+    (function() {
+        Galleria.loadTheme('https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/themes/azur/galleria.azur.min.js');
+        
+        // bind the method to Galleria.ready
+        Galleria.ready(function(options) {
+
+            // this = the gallery instance
+            // options = the gallery options
+
+            this.attachKeyboard({
+                left: this.prev, // applies the native prev() function
+                right: this.next
+            });
+            
+            this.lazyLoadChunks(10, 500);
+        });
+        
+        Galleria.run('.galleria', { imageCrop: false, dataSource: gallery1Data, thumbnails: 'lazy' });
+    }());
+</script>
+<script type="text/javascript" src="https://widget.fotomoto.com/stores/script/f17731113e15b3841d507299c6e8bbbde3c23f26.js"></script>
+<noscript>If Javascript is disabled in your browser, to place orders please visit the page where I <a href='https://my.fotomoto.com/store/f17731113e15b3841d507299c6e8bbbde3c23f26'>sell my photos</a>, powered by <a href='https://my.fotomoto.com'>Fotomoto</a>.</noscript>
+</body></html>
