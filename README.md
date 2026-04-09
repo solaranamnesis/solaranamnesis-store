@@ -41,3 +41,8 @@
 [Yoruba (Yorùbá)](https://store.solaranamnesis.com/index-yo.html)  
 [Amharic (አማርኛ)](https://store.solaranamnesis.com/index-am.html)  
 [Georgian (ქართული)](https://store.solaranamnesis.com/index-ka.html)  
+[Latin (Latina)](https://store.solaranamnesis.com/index-la.html)  
+[Basque (Euskara)](https://store.solaranamnesis.com/index-eu.html)  
+[Finnish (Suomi)](https://store.solaranamnesis.com/index-fi.html)  
+[Mongolian Latin Script (Mongol)](https://store.solaranamnesis.com/index-mn.html)  
+[Tatar (Tatarça)](https://store.solaranamnesis.com/index-tt.html)  
