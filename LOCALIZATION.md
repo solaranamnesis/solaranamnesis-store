@@ -60,6 +60,12 @@ Each language version of the store's index page is a standalone HTML file named 
 | `index-vi.html` | Vietnamese (Tiếng Việt) |
 | `index-yo.html` | Yoruba (Yorùbá) |
 | `index-zh.html` | Chinese (中文) |
+| `index-kk.html` | Kazakh (Қазақша) |
+| `index-ky.html` | Kyrgyz (Кыргызча) |
+| `index-cs.html` | Czech (Česky) |
+| `index-uk.html` | Ukrainian (Українська) |
+| `index-ro.html` | Romanian (Română) |
+| `index-ku.html` | Kurdish Kurmanji (Kurdî / Kurmancî) |
 
 ---
 
@@ -181,6 +187,12 @@ The table below records all translations for collections across languages. Scien
 | Finnish | fi | Kokoelmat |
 | Mongolian (Latin) | mn | Kholboloo |
 | Tatar | tt | Cıyın |
+| Kazakh | kk | Жинақтар |
+| Kyrgyz | ky | Жыйнактар |
+| Czech | cs | Sbírky |
+| Ukrainian | uk | Колекції |
+| Romanian | ro | Colecții |
+| Kurdish Kurmanji | ku | Kom |
 
 ### Acapulcoite Meteorites
 
@@ -192,6 +204,12 @@ The table below records all translations for collections across languages. Scien
 | Finnish | fi | Acapulcoittimetriitit |
 | Mongolian (Latin) | mn | Acapulcoite Meteoritnuud |
 | Tatar | tt | Acapulcoite Meteoritlar |
+| Kazakh | kk | Акапулькоит метеориттері |
+| Kyrgyz | ky | Акапулькоит метеориттери |
+| Czech | cs | Akapulkoitové meteority |
+| Ukrainian | uk | Акапулькоїтові метеорити |
+| Romanian | ro | Meteorite acapulcoite |
+| Kurdish Kurmanji | ku | Meteorîtên akapulkoîtî |
 
 ### Angrite Meteorites
 
@@ -203,6 +221,12 @@ The table below records all translations for collections across languages. Scien
 | Finnish | fi | Angrittimetriitit |
 | Mongolian (Latin) | mn | Angrite Meteoritnuud |
 | Tatar | tt | Angrite Meteoritlar |
+| Kazakh | kk | Ангрит метеориттері |
+| Kyrgyz | ky | Ангрит метеориттери |
+| Czech | cs | Angritové meteority |
+| Ukrainian | uk | Ангритові метеорити |
+| Romanian | ro | Meteorite angrite |
+| Kurdish Kurmanji | ku | Meteorîtên angrîtî |
 
 ### Aubrite Meteorites
 
@@ -214,6 +238,12 @@ The table below records all translations for collections across languages. Scien
 | Finnish | fi | Aubrittimetriitit |
 | Mongolian (Latin) | mn | Aubrite Meteoritnuud |
 | Tatar | tt | Aubrite Meteoritlar |
+| Kazakh | kk | Обрит метеориттері |
+| Kyrgyz | ky | Обрит метеориттери |
+| Czech | cs | Aubritové meteority |
+| Ukrainian | uk | Обритові метеорити |
+| Romanian | ro | Meteorite aubrite |
+| Kurdish Kurmanji | ku | Meteorîtên obrîtî |
 
 ### Brachinite Meteorites
 
@@ -225,6 +255,12 @@ The table below records all translations for collections across languages. Scien
 | Finnish | fi | Brachiniittimetriitit |
 | Mongolian (Latin) | mn | Brachinite Meteoritnuud |
 | Tatar | tt | Brachinite Meteoritlar |
+| Kazakh | kk | Брахинит метеориттері |
+| Kyrgyz | ky | Брахинит метеориттери |
+| Czech | cs | Brachinitové meteority |
+| Ukrainian | uk | Брахінітові метеорити |
+| Romanian | ro | Meteorite brachinite |
+| Kurdish Kurmanji | ku | Meteorîtên brahînîtî |
 
 ### Enstatite Chondrites
 
@@ -236,6 +272,12 @@ The table below records all translations for collections across languages. Scien
 | Finnish | fi | Enstatiittikondriitit |
 | Mongolian (Latin) | mn | Enstatite Chondritnuud |
 | Tatar | tt | Enstatite Chondritlar |
+| Kazakh | kk | Энстатит хондриттері |
+| Kyrgyz | ky | Энстатит хондриттери |
+| Czech | cs | Enstatitové chondrity |
+| Ukrainian | uk | Енстатитові хондрити |
+| Romanian | ro | Condrite enstatitice |
+| Kurdish Kurmanji | ku | Kondrîtên enstatîtî |
 
 ### Gigapixel Gallery
 
@@ -247,6 +289,12 @@ The table below records all translations for collections across languages. Scien
 | Finnish | fi | Gigapixel Galleria |
 | Mongolian (Latin) | mn | Gigapixel Gallery |
 | Tatar | tt | Gigapixel Galereya |
+| Kazakh | kk | Гигапиксель галереясы |
+| Kyrgyz | ky | Гигапиксель галереясы |
+| Czech | cs | Gigapixelová galerie |
+| Ukrainian | uk | Гігапіксельна галерея |
+| Romanian | ro | Galerie Gigapixel |
+| Kurdish Kurmanji | ku | Galeriya Gîgapîksel |
 
 ### HED Meteorites
 
@@ -258,6 +306,12 @@ The table below records all translations for collections across languages. Scien
 | Finnish | fi | HED-metriitit |
 | Mongolian (Latin) | mn | HED Meteoritnuud |
 | Tatar | tt | HED Meteoritlar |
+| Kazakh | kk | HED метеориттері |
+| Kyrgyz | ky | HED метеориттери |
+| Czech | cs | HED meteority |
+| Ukrainian | uk | HED метеорити |
+| Romanian | ro | Meteorite HED |
+| Kurdish Kurmanji | ku | Meteorîtên HED |
 
 ### High Metal Group
 
@@ -269,6 +323,12 @@ The table below records all translations for collections across languages. Scien
 | Finnish | fi | High Metal Group |
 | Mongolian (Latin) | mn | High Metal Group |
 | Tatar | tt | High Metal Group |
+| Kazakh | kk | Жоғары металл тобы |
+| Kyrgyz | ky | Жогору металл тобу |
+| Czech | cs | Skupina s vysokým obsahem kovu |
+| Ukrainian | uk | Група з високим вмістом металу |
+| Romanian | ro | Grup cu conținut ridicat de metal |
+| Kurdish Kurmanji | ku | Koma metalê bilind |
 
 ### Individual MicroShots
 
@@ -280,6 +340,12 @@ The table below records all translations for collections across languages. Scien
 | Finnish | fi | Yksittäiset MicroShots |
 | Mongolian (Latin) | mn | Individual MicroShots |
 | Tatar | tt | Individual MicroShots |
+| Kazakh | kk | Жеке MicroShots |
+| Kyrgyz | ky | Жеке MicroShots |
+| Czech | cs | Jednotlivé MicroShots |
+| Ukrainian | uk | Індивідуальні MicroShots |
+| Romanian | ro | MicroShots individuale |
+| Kurdish Kurmanji | ku | MicroShotsên takekesî |
 
 ### Iron Meteorites
 
@@ -291,6 +357,12 @@ The table below records all translations for collections across languages. Scien
 | Finnish | fi | Rautametriitit |
 | Mongolian (Latin) | mn | Töömör Meteoritnuud |
 | Tatar | tt | Temir Meteoritlar |
+| Kazakh | kk | Темір метеориттері |
+| Kyrgyz | ky | Темир метеориттери |
+| Czech | cs | Železné meteority |
+| Ukrainian | uk | Залізні метеорити |
+| Romanian | ro | Meteorite de fier |
+| Kurdish Kurmanji | ku | Meteorîtên hesinî |
 
 ### Karoonda Group
 
@@ -302,6 +374,12 @@ The table below records all translations for collections across languages. Scien
 | Finnish | fi | Karoonda-ryhmä |
 | Mongolian (Latin) | mn | Karoonda Group |
 | Tatar | tt | Karoonda Gruppası |
+| Kazakh | kk | Карунда тобы |
+| Kyrgyz | ky | Карунда тобу |
+| Czech | cs | Skupina Karoonda |
+| Ukrainian | uk | Група Карунда |
+| Romanian | ro | Grupul Karoonda |
+| Kurdish Kurmanji | ku | Koma Karoonda |
 
 ### Lodranite Meteorites
 
@@ -313,6 +391,12 @@ The table below records all translations for collections across languages. Scien
 | Finnish | fi | Lodraniittimetriitit |
 | Mongolian (Latin) | mn | Lodranite Meteoritnuud |
 | Tatar | tt | Lodranite Meteoritlar |
+| Kazakh | kk | Лодранит метеориттері |
+| Kyrgyz | ky | Лодранит метеориттери |
+| Czech | cs | Lodranitové meteority |
+| Ukrainian | uk | Лодранітові метеорити |
+| Romanian | ro | Meteorite lodranite |
+| Kurdish Kurmanji | ku | Meteorîtên lodranîtî |
 
 ### Lunar Meteorites
 
@@ -324,6 +408,12 @@ The table below records all translations for collections across languages. Scien
 | Finnish | fi | Kuun metriitit |
 | Mongolian (Latin) | mn | Saran Meteoritnuud |
 | Tatar | tt | Ay Meteoritlar |
+| Kazakh | kk | Ай метеориттері |
+| Kyrgyz | ky | Ай метеориттери |
+| Czech | cs | Lunární meteority |
+| Ukrainian | uk | Місячні метеорити |
+| Romanian | ro | Meteorite lunare |
+| Kurdish Kurmanji | ku | Meteorîtên heyvê |
 
 ### Martian Meteorites
 
@@ -335,6 +425,12 @@ The table below records all translations for collections across languages. Scien
 | Finnish | fi | Marsin metriitit |
 | Mongolian (Latin) | mn | Angara Meteoritnuud |
 | Tatar | tt | Marss Meteoritlar |
+| Kazakh | kk | Марс метеориттері |
+| Kyrgyz | ky | Марс метеориттери |
+| Czech | cs | Marťanské meteority |
+| Ukrainian | uk | Марсіанські метеорити |
+| Romanian | ro | Meteorite marțiene |
+| Kurdish Kurmanji | ku | Meteorîtên Marsê |
 
 ### Mesosiderite Meteorites
 
@@ -346,6 +442,12 @@ The table below records all translations for collections across languages. Scien
 | Finnish | fi | Mesosideriittimetriitit |
 | Mongolian (Latin) | mn | Mesosiderite Meteoritnuud |
 | Tatar | tt | Mesosiderite Meteoritlar |
+| Kazakh | kk | Мезосидерит метеориттері |
+| Kyrgyz | ky | Мезосидерит метеориттери |
+| Czech | cs | Mesosideritové meteority |
+| Ukrainian | uk | Мезосидеритові метеорити |
+| Romanian | ro | Meteorite mezosiderite |
+| Kurdish Kurmanji | ku | Meteorîtên mezosîderîtî |
 
 ### Mighei Group
 
@@ -357,6 +459,12 @@ The table below records all translations for collections across languages. Scien
 | Finnish | fi | Mighei-ryhmä |
 | Mongolian (Latin) | mn | Mighei Group |
 | Tatar | tt | Mighei Gruppası |
+| Kazakh | kk | Мигей тобы |
+| Kyrgyz | ky | Мигей тобу |
+| Czech | cs | Skupina Mighei |
+| Ukrainian | uk | Група Мігей |
+| Romanian | ro | Grupul Mighei |
+| Kurdish Kurmanji | ku | Koma Mighei |
 
 ### Miscellaneous
 
@@ -368,6 +476,12 @@ The table below records all translations for collections across languages. Scien
 | Finnish | fi | Sekalaista |
 | Mongolian (Latin) | mn | Olni |
 | Tatar | tt | Törle |
+| Kazakh | kk | Әртүрлі |
+| Kyrgyz | ky | Ар кандай |
+| Czech | cs | Různé |
+| Ukrainian | uk | Різне |
+| Romanian | ro | Diverse |
+| Kurdish Kurmanji | ku | Curbeş |
 
 ### Ordinary Chondrites
 
@@ -379,6 +493,12 @@ The table below records all translations for collections across languages. Scien
 | Finnish | fi | Tavalliset kondriitit |
 | Mongolian (Latin) | mn | Ordinary Chondritnuud |
 | Tatar | tt | Ordinary Chondritlar |
+| Kazakh | kk | Қарапайым хондриттері |
+| Kyrgyz | ky | Жөнөкөй хондриттер |
+| Czech | cs | Běžné chondrity |
+| Ukrainian | uk | Звичайні хондрити |
+| Romanian | ro | Condrite obișnuite |
+| Kurdish Kurmanji | ku | Kondrîtên asayî |
 
 ### Ornans Group
 
@@ -390,6 +510,12 @@ The table below records all translations for collections across languages. Scien
 | Finnish | fi | Ornans-ryhmä |
 | Mongolian (Latin) | mn | Ornans Group |
 | Tatar | tt | Ornans Gruppası |
+| Kazakh | kk | Орнан тобы |
+| Kyrgyz | ky | Орнан тобу |
+| Czech | cs | Skupina Ornans |
+| Ukrainian | uk | Група Орнан |
+| Romanian | ro | Grupul Ornans |
+| Kurdish Kurmanji | ku | Koma Ornans |
 
 ### Pallasite Meteorites
 
@@ -401,6 +527,12 @@ The table below records all translations for collections across languages. Scien
 | Finnish | fi | Pallasitiittimetriitit |
 | Mongolian (Latin) | mn | Pallasite Meteoritnuud |
 | Tatar | tt | Pallasite Meteoritlar |
+| Kazakh | kk | Палласит метеориттері |
+| Kyrgyz | ky | Палласит метеориттери |
+| Czech | cs | Palazitové meteority |
+| Ukrainian | uk | Паласитові метеорити |
+| Romanian | ro | Meteorite palazite |
+| Kurdish Kurmanji | ku | Meteorîtên pallasîtî |
 
 ### Renazzo Group
 
@@ -412,6 +544,12 @@ The table below records all translations for collections across languages. Scien
 | Finnish | fi | Renazzo-ryhmä |
 | Mongolian (Latin) | mn | Renazzo Group |
 | Tatar | tt | Renazzo Gruppası |
+| Kazakh | kk | Ренаццо тобы |
+| Kyrgyz | ky | Ренаццо тобу |
+| Czech | cs | Skupina Renazzo |
+| Ukrainian | uk | Група Ренаццо |
+| Romanian | ro | Grupul Renazzo |
+| Kurdish Kurmanji | ku | Koma Renazzo |
 
 ### Rumuruti Chondrites
 
@@ -423,12 +561,24 @@ The table below records all translations for collections across languages. Scien
 | Finnish | fi | Rumuruti-kondriitit |
 | Mongolian (Latin) | mn | Rumuruti Chondritnuud |
 | Tatar | tt | Rumuruti Chondritlar |
+| Kazakh | kk | Румурути хондриттері |
+| Kyrgyz | ky | Румурути хондриттери |
+| Czech | cs | Rumurutické chondrity |
+| Ukrainian | uk | Румурутські хондрити |
+| Romanian | ro | Condrite rumuruti |
+| Kurdish Kurmanji | ku | Kondrîtên rumurutî |
 
 ### STRESS Style Thin Sections
 
 | Language | Code | Translation |
 |---|---|---|
 | All languages | — | STRESS Style Thin Sections *(kept in English as a specific product name)* |
+| Kazakh | kk | STRESS стиліндегі жұқа кесінділер |
+| Kyrgyz | ky | STRESS стилиндеги жука кесиндилер |
+| Czech | cs | Tenké výbrusy ve stylu STRESS |
+| Ukrainian | uk | Тонкі шліфи у стилі STRESS |
+| Romanian | ro | Secțiuni subțiri în stil STRESS |
+| Kurdish Kurmanji | ku | Birînên zirav ên şêweya STRESS |
 
 ### Unclassified Meteorites
 
@@ -440,6 +590,12 @@ The table below records all translations for collections across languages. Scien
 | Finnish | fi | Luokittelemattomat metriitit |
 | Mongolian (Latin) | mn | Angiildeg Meteoritnuud |
 | Tatar | tt | Törkänmägän Meteoritlar |
+| Kazakh | kk | Жіктелмеген метеориттер |
+| Kyrgyz | ky | Классификацияланбаган метеориттер |
+| Czech | cs | Neklasifikované meteority |
+| Ukrainian | uk | Некласифіковані метеорити |
+| Romanian | ro | Meteorite neclasificate |
+| Kurdish Kurmanji | ku | Meteorîtên nehatine sinorkirin |
 
 ### Ungrouped Achondrite Meteorites
 
@@ -451,6 +607,12 @@ The table below records all translations for collections across languages. Scien
 | Finnish | fi | Järjestämättömät akondriitimetriitit |
 | Mongolian (Latin) | mn | Ungrouped Achondrite Meteoritnuud |
 | Tatar | tt | Ungrouped Achondrite Meteoritlar |
+| Kazakh | kk | Топтастырылмаған ахондрит метеориттері |
+| Kyrgyz | ky | Топтоштурулбаган ахондрит метеориттери |
+| Czech | cs | Nezařazené achondritové meteority |
+| Ukrainian | uk | Негруповані ахондритові метеорити |
+| Romanian | ro | Meteorite achondrite negrupate |
+| Kurdish Kurmanji | ku | Meteorîtên axondrîtî yên bêkom |
 
 ### Ureilite Meteorites
 
@@ -462,6 +624,12 @@ The table below records all translations for collections across languages. Scien
 | Finnish | fi | Ureiliittimetriitit |
 | Mongolian (Latin) | mn | Ureilite Meteoritnuud |
 | Tatar | tt | Ureilite Meteoritlar |
+| Kazakh | kk | Урейлит метеориттері |
+| Kyrgyz | ky | Урейлит метеориттери |
+| Czech | cs | Ureilitové meteority |
+| Ukrainian | uk | Уреїлітові метеорити |
+| Romanian | ro | Meteorite ureilitice |
+| Kurdish Kurmanji | ku | Meteorîtên ureylîtî |
 
 ### Vigarano Group
 
@@ -473,6 +641,12 @@ The table below records all translations for collections across languages. Scien
 | Finnish | fi | Vigarano-ryhmä |
 | Mongolian (Latin) | mn | Vigarano Group |
 | Tatar | tt | Vigarano Gruppası |
+| Kazakh | kk | Вигарано тобы |
+| Kyrgyz | ky | Вигарано тобу |
+| Czech | cs | Skupina Vigarano |
+| Ukrainian | uk | Група Вігарано |
+| Romanian | ro | Grupul Vigarano |
+| Kurdish Kurmanji | ku | Koma Vigarano |
 
 ---
 
