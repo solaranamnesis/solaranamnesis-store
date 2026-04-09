@@ -7,8 +7,14 @@
     <meta name="description" content="Ordinary chondrite meteorite pictures" />
     <style>
       .galleria {
-        height: 1280px;
+        height: 100vh;
         background: #000;
+      }
+
+      @media (min-width: 768px) {
+        .galleria {
+          height: 1280px;
+        }
       }
 
       body {
@@ -1349,6 +1355,7 @@
 
         Galleria.run(".galleria", {
           imageCrop: false,
+          swipe: true,
           dataSource: gallery1Data,
           thumbnails: "lazy",
         });
