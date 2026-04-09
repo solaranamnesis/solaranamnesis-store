@@ -193,6 +193,14 @@ The table below records all translations for collections across languages. Scien
 | Ukrainian | uk | Колекції |
 | Romanian | ro | Colecții |
 | Kurdish Kurmanji | ku | Kom |
+| Malayalam | ml | ശേഖരങ്ങൾ |
+| Serbian | sr | Колекције |
+| Bosnian | bs | Kolekcije |
+| Croatian | hr | Kolekcije |
+| Pashto | ps | ټولګې |
+| Igbo | ig | Nchịkọta |
+| Afrikaans | af | Versamelings |
+| Catalan | ca | Col·leccions |
 
 ### Acapulcoite Meteorites
 
@@ -210,6 +218,14 @@ The table below records all translations for collections across languages. Scien
 | Ukrainian | uk | Акапулькоїтові метеорити |
 | Romanian | ro | Meteorite acapulcoite |
 | Kurdish Kurmanji | ku | Meteorîtên akapulkoîtî |
+| Malayalam | ml | അകാപുൾക്കോയിറ്റ് മെറ്റിയറൈറ്റുകൾ |
+| Serbian | sr | Акапулкоит метеорити |
+| Bosnian | bs | Akapulkoidni meteoriti |
+| Croatian | hr | Akapulkoidni meteoriti |
+| Pashto | ps | اکاپولکویټ میټیورایټونه |
+| Igbo | ig | Acapulcoite meteorites |
+| Afrikaans | af | Acapulcoïet-meteoriete |
+| Catalan | ca | Meteorits acapulcoïtics |
 
 ### Angrite Meteorites
 
@@ -227,6 +243,14 @@ The table below records all translations for collections across languages. Scien
 | Ukrainian | uk | Ангритові метеорити |
 | Romanian | ro | Meteorite angrite |
 | Kurdish Kurmanji | ku | Meteorîtên angrîtî |
+| Malayalam | ml | അംഗ്രൈറ്റ് മെറ്റിയറൈറ്റുകൾ |
+| Serbian | sr | Ангрит метеорити |
+| Bosnian | bs | Angritski meteoriti |
+| Croatian | hr | Angritski meteoriti |
+| Pashto | ps | انګرایټ میټیورایټونه |
+| Igbo | ig | Angrite meteorites |
+| Afrikaans | af | Angriet-meteoriete |
+| Catalan | ca | Meteorits angrítics |
 
 ### Aubrite Meteorites
 
@@ -244,6 +268,14 @@ The table below records all translations for collections across languages. Scien
 | Ukrainian | uk | Обритові метеорити |
 | Romanian | ro | Meteorite aubrite |
 | Kurdish Kurmanji | ku | Meteorîtên obrîtî |
+| Malayalam | ml | ഓബ്രൈറ്റ് മെറ്റിയറൈറ്റുകൾ |
+| Serbian | sr | Обрит метеорити |
+| Bosnian | bs | Abritski meteoriti |
+| Croatian | hr | Aubritski meteoriti |
+| Pashto | ps | اوبرایټ میټیورایټونه |
+| Igbo | ig | Aubrite meteorites |
+| Afrikaans | af | Aubriet-meteoriete |
+| Catalan | ca | Meteorits aubrítics |
 
 ### Brachinite Meteorites
 
@@ -261,6 +293,14 @@ The table below records all translations for collections across languages. Scien
 | Ukrainian | uk | Брахінітові метеорити |
 | Romanian | ro | Meteorite brachinite |
 | Kurdish Kurmanji | ku | Meteorîtên brahînîtî |
+| Malayalam | ml | ബ്രാചിനൈറ്റ് മെറ്റിയറൈറ്റുകൾ |
+| Serbian | sr | Брахинит метеорити |
+| Bosnian | bs | Brahinitni meteoriti |
+| Croatian | hr | Brahinitni meteoriti |
+| Pashto | ps | براخینایټ میټیورایټونه |
+| Igbo | ig | Brachinite meteorites |
+| Afrikaans | af | Brachyniet-meteoriete |
+| Catalan | ca | Meteorits braxinítics |
 
 ### Enstatite Chondrites
 
@@ -278,6 +318,14 @@ The table below records all translations for collections across languages. Scien
 | Ukrainian | uk | Енстатитові хондрити |
 | Romanian | ro | Condrite enstatitice |
 | Kurdish Kurmanji | ku | Kondrîtên enstatîtî |
+| Malayalam | ml | എൻസ്റ്റാറ്റൈറ്റ് കോൺഡ്രൈറ്റുകൾ |
+| Serbian | sr | Енстатит хондрити |
+| Bosnian | bs | Enstatski hondriti |
+| Croatian | hr | Enstatski hondriti |
+| Pashto | ps | انسټاټایټ کانډرایټونه |
+| Igbo | ig | Enstatite chondrites |
+| Afrikaans | af | Enstatiet-chondriete |
+| Catalan | ca | Condrites enstatítiques |
 
 ### Gigapixel Gallery
 
@@ -295,6 +343,14 @@ The table below records all translations for collections across languages. Scien
 | Ukrainian | uk | Гігапіксельна галерея |
 | Romanian | ro | Galerie Gigapixel |
 | Kurdish Kurmanji | ku | Galeriya Gîgapîksel |
+| Malayalam | ml | ഗിഗാപിക്സൽ ഗാലറി |
+| Serbian | sr | Гигапиксел галерија |
+| Bosnian | bs | Gigapiksel galerija |
+| Croatian | hr | Gigapiksel galerija |
+| Pashto | ps | ګیګاپیکسل ګالري |
+| Igbo | ig | Gigapixel gallery |
+| Afrikaans | af | Gigapiksel-galery |
+| Catalan | ca | Galeria Gigapíxel |
 
 ### HED Meteorites
 
@@ -312,6 +368,14 @@ The table below records all translations for collections across languages. Scien
 | Ukrainian | uk | HED метеорити |
 | Romanian | ro | Meteorite HED |
 | Kurdish Kurmanji | ku | Meteorîtên HED |
+| Malayalam | ml | HED മെറ്റിയറൈറ്റുകൾ |
+| Serbian | sr | HED метеорити |
+| Bosnian | bs | HED meteoriti |
+| Croatian | hr | HED meteoriti |
+| Pashto | ps | HED میټیورایټونه |
+| Igbo | ig | HED meteorites |
+| Afrikaans | af | HED-meteoriete |
+| Catalan | ca | Meteorits HED |
 
 ### High Metal Group
 
@@ -329,6 +393,14 @@ The table below records all translations for collections across languages. Scien
 | Ukrainian | uk | Група з високим вмістом металу |
 | Romanian | ro | Grup cu conținut ridicat de metal |
 | Kurdish Kurmanji | ku | Koma metalê bilind |
+| Malayalam | ml | ഹൈ മെറ്റൽ ഗ്രൂപ്പ് |
+| Serbian | sr | Група високог садржаја метала |
+| Bosnian | bs | Grupa visokog sadržaja metala |
+| Croatian | hr | Grupa visokog udjela metala |
+| Pashto | ps | لوړ فلزي ډله |
+| Igbo | ig | High metal group |
+| Afrikaans | af | Hoë-metaalgroep |
+| Catalan | ca | Grup d'alt contingut metàl·lic |
 
 ### Individual MicroShots
 
@@ -346,6 +418,14 @@ The table below records all translations for collections across languages. Scien
 | Ukrainian | uk | Індивідуальні MicroShots |
 | Romanian | ro | MicroShots individuale |
 | Kurdish Kurmanji | ku | MicroShotsên takekesî |
+| Malayalam | ml | ഇൻഡിവിജ്വൽ മൈക്രോഷോട്ടുകൾ |
+| Serbian | sr | Појединачни MicroShots |
+| Bosnian | bs | Pojedinačni MicroShots |
+| Croatian | hr | Pojedinačni MicroShots |
+| Pashto | ps | فردي مایکرو شاټونه |
+| Igbo | ig | Individual microshots |
+| Afrikaans | af | Individuele MicroShots |
+| Catalan | ca | MicroShots individuals |
 
 ### Iron Meteorites
 
@@ -363,6 +443,14 @@ The table below records all translations for collections across languages. Scien
 | Ukrainian | uk | Залізні метеорити |
 | Romanian | ro | Meteorite de fier |
 | Kurdish Kurmanji | ku | Meteorîtên hesinî |
+| Malayalam | ml | ഐറൺ മെറ്റിയറൈറ്റുകൾ |
+| Serbian | sr | Гвоздени метеорити |
+| Bosnian | bs | Gvožđeni meteoriti |
+| Croatian | hr | Željezni meteoriti |
+| Pashto | ps | آهن میټیورایټونه |
+| Igbo | ig | Iron meteorites |
+| Afrikaans | af | Ystermeteoriete |
+| Catalan | ca | Meteorits de ferro |
 
 ### Karoonda Group
 
@@ -380,6 +468,14 @@ The table below records all translations for collections across languages. Scien
 | Ukrainian | uk | Група Карунда |
 | Romanian | ro | Grupul Karoonda |
 | Kurdish Kurmanji | ku | Koma Karoonda |
+| Malayalam | ml | കാരൂണ്ട ഗ്രൂപ്പ് |
+| Serbian | sr | Карунда група |
+| Bosnian | bs | Karoonda grupa |
+| Croatian | hr | Karoonda skupina |
+| Pashto | ps | کارونډا ډله |
+| Igbo | ig | Karoonda group |
+| Afrikaans | af | Karoondagroep |
+| Catalan | ca | Grup Karoonda |
 
 ### Lodranite Meteorites
 
@@ -397,6 +493,14 @@ The table below records all translations for collections across languages. Scien
 | Ukrainian | uk | Лодранітові метеорити |
 | Romanian | ro | Meteorite lodranite |
 | Kurdish Kurmanji | ku | Meteorîtên lodranîtî |
+| Malayalam | ml | ലോഡ്രാനൈറ്റ് മെറ്റിയറൈറ്റുകൾ |
+| Serbian | sr | Лодранит метеорити |
+| Bosnian | bs | Lodranitski meteoriti |
+| Croatian | hr | Lodranitski meteoriti |
+| Pashto | ps | لورانایټ میټیورایټونه |
+| Igbo | ig | Lodranite meteorites |
+| Afrikaans | af | Lodraniet-meteoriete |
+| Catalan | ca | Meteorits lodranítics |
 
 ### Lunar Meteorites
 
@@ -414,6 +518,14 @@ The table below records all translations for collections across languages. Scien
 | Ukrainian | uk | Місячні метеорити |
 | Romanian | ro | Meteorite lunare |
 | Kurdish Kurmanji | ku | Meteorîtên heyvê |
+| Malayalam | ml | ലൂണാർ മെറ്റിയറൈറ്റുകൾ |
+| Serbian | sr | Лундарни метеорити |
+| Bosnian | bs | Lunarni meteoriti |
+| Croatian | hr | Lunarni meteoriti |
+| Pashto | ps | لومري میټیورایټونه |
+| Igbo | ig | Lunar meteorites |
+| Afrikaans | af | Maanmeteoriete |
+| Catalan | ca | Meteorits lunars |
 
 ### Martian Meteorites
 
@@ -431,6 +543,14 @@ The table below records all translations for collections across languages. Scien
 | Ukrainian | uk | Марсіанські метеорити |
 | Romanian | ro | Meteorite marțiene |
 | Kurdish Kurmanji | ku | Meteorîtên Marsê |
+| Malayalam | ml | മാർഷ്യൽ മെറ്റിയറൈറ്റുകൾ |
+| Serbian | sr | Марсови метеорити |
+| Bosnian | bs | Marsijanski meteoriti |
+| Croatian | hr | Marsovci meteoriti |
+| Pashto | ps | مریخي میټیورایټونه |
+| Igbo | ig | Martian meteorites |
+| Afrikaans | af | Marsmeteoriete |
+| Catalan | ca | Meteorits marcians |
 
 ### Mesosiderite Meteorites
 
@@ -448,6 +568,14 @@ The table below records all translations for collections across languages. Scien
 | Ukrainian | uk | Мезосидеритові метеорити |
 | Romanian | ro | Meteorite mezosiderite |
 | Kurdish Kurmanji | ku | Meteorîtên mezosîderîtî |
+| Malayalam | ml | മെസോസൈഡറൈറ്റ് മെറ്റിയറൈറ്റുകൾ |
+| Serbian | sr | Мезосидерит метеорити |
+| Bosnian | bs | Mezosideritski meteoriti |
+| Croatian | hr | Mezosideritski meteoriti |
+| Pashto | ps | میوسایډرایټ میټیورایټونه |
+| Igbo | ig | Mesosiderite meteorites |
+| Afrikaans | af | Mesosideriet-meteoriete |
+| Catalan | ca | Meteorits mesosiderítics |
 
 ### Mighei Group
 
@@ -465,6 +593,14 @@ The table below records all translations for collections across languages. Scien
 | Ukrainian | uk | Група Мігей |
 | Romanian | ro | Grupul Mighei |
 | Kurdish Kurmanji | ku | Koma Mighei |
+| Malayalam | ml | മിഗ്ഹെ ഗ്രൂപ്പ് |
+| Serbian | sr | Мигеј група |
+| Bosnian | bs | Mighejeva grupa |
+| Croatian | hr | Mighejeva skupina |
+| Pashto | ps | مګهي ډله |
+| Igbo | ig | Mighei group |
+| Afrikaans | af | Migheegroep |
+| Catalan | ca | Grup Mighei |
 
 ### Miscellaneous
 
@@ -482,6 +618,14 @@ The table below records all translations for collections across languages. Scien
 | Ukrainian | uk | Різне |
 | Romanian | ro | Diverse |
 | Kurdish Kurmanji | ku | Curbeş |
+| Malayalam | ml | വ്യത്യസ്തം |
+| Serbian | sr | Разно |
+| Bosnian | bs | Razno |
+| Croatian | hr | Razno |
+| Pashto | ps | بېلابېل |
+| Igbo | ig | Ihe dị iche iche |
+| Afrikaans | af | Divers |
+| Catalan | ca | Varis |
 
 ### Ordinary Chondrites
 
@@ -499,6 +643,14 @@ The table below records all translations for collections across languages. Scien
 | Ukrainian | uk | Звичайні хондрити |
 | Romanian | ro | Condrite obișnuite |
 | Kurdish Kurmanji | ku | Kondrîtên asayî |
+| Malayalam | ml | ഓർഡിനറി കോൺഡ്രൈറ്റുകൾ |
+| Serbian | sr | Обични хондрити |
+| Bosnian | bs | Obični hondriti |
+| Croatian | hr | Obični hondriti |
+| Pashto | ps | عادي کانډرایټونه |
+| Igbo | ig | Ordinary chondrites |
+| Afrikaans | af | Gewone chondriete |
+| Catalan | ca | Condrites ordinàries |
 
 ### Ornans Group
 
@@ -516,6 +668,14 @@ The table below records all translations for collections across languages. Scien
 | Ukrainian | uk | Група Орнан |
 | Romanian | ro | Grupul Ornans |
 | Kurdish Kurmanji | ku | Koma Ornans |
+| Malayalam | ml | ഓർണാൻസ് ഗ്രൂപ്പ് |
+| Serbian | sr | Орнанс група |
+| Bosnian | bs | Ornanska grupa |
+| Croatian | hr | Ornanska skupina |
+| Pashto | ps | اورنانس ډله |
+| Igbo | ig | Ornans group |
+| Afrikaans | af | Ornansgroep |
+| Catalan | ca | Grup Ornans |
 
 ### Pallasite Meteorites
 
@@ -533,6 +693,14 @@ The table below records all translations for collections across languages. Scien
 | Ukrainian | uk | Паласитові метеорити |
 | Romanian | ro | Meteorite palazite |
 | Kurdish Kurmanji | ku | Meteorîtên pallasîtî |
+| Malayalam | ml | പല്ലസൈറ്റ് മെറ്റിയറൈറ്റുകൾ |
+| Serbian | sr | Паласит метеорити |
+| Bosnian | bs | Pallasitski meteoriti |
+| Croatian | hr | Pallasitski meteoriti |
+| Pashto | ps | پالاسایټ میټیورایټونه |
+| Igbo | ig | Pallasite meteorites |
+| Afrikaans | af | Pallasiet-meteoriete |
+| Catalan | ca | Meteorits pal·làsics |
 
 ### Renazzo Group
 
@@ -550,6 +718,14 @@ The table below records all translations for collections across languages. Scien
 | Ukrainian | uk | Група Ренаццо |
 | Romanian | ro | Grupul Renazzo |
 | Kurdish Kurmanji | ku | Koma Renazzo |
+| Malayalam | ml | റെനാറ്റ്സോ ഗ്രൂപ്പ് |
+| Serbian | sr | Ренацо група |
+| Bosnian | bs | Renacco grupa |
+| Croatian | hr | Renacco skupina |
+| Pashto | ps | رناتسو ډله |
+| Igbo | ig | Renazzo group |
+| Afrikaans | af | Renazzogroep |
+| Catalan | ca | Grup Renazzo |
 
 ### Rumuruti Chondrites
 
@@ -567,6 +743,14 @@ The table below records all translations for collections across languages. Scien
 | Ukrainian | uk | Румурутські хондрити |
 | Romanian | ro | Condrite rumuruti |
 | Kurdish Kurmanji | ku | Kondrîtên rumurutî |
+| Malayalam | ml | റുമുരുതി കോൺഡ്രൈറ്റുകൾ |
+| Serbian | sr | Румуроти хондрити |
+| Bosnian | bs | Rumuruti hondriti |
+| Croatian | hr | Rumuruti hondriti |
+| Pashto | ps | روموروټي کانډرایټونه |
+| Igbo | ig | Rumuruti chondrites |
+| Afrikaans | af | Rumuruti-chondriete |
+| Catalan | ca | Condrites rumurutianes |
 
 ### STRESS Style Thin Sections
 
@@ -579,6 +763,14 @@ The table below records all translations for collections across languages. Scien
 | Ukrainian | uk | Тонкі шліфи у стилі STRESS |
 | Romanian | ro | Secțiuni subțiri în stil STRESS |
 | Kurdish Kurmanji | ku | Birînên zirav ên şêweya STRESS |
+| Malayalam | ml | STRESS സ്റ്റൈൽ തിൻ സെക്ഷനുകൾ |
+| Serbian | sr | СТРЕСС стил танких пресека |
+| Bosnian | bs | STRESS stil tankih presjeka |
+| Croatian | hr | STRESS stil tankih presjeka |
+| Pashto | ps | STRESS سبک نری برخې |
+| Igbo | ig | STRESS style thin sections |
+| Afrikaans | af | STRESS-styl dun snitte |
+| Catalan | ca | Seccions primes estil STRESS |
 
 ### Unclassified Meteorites
 
@@ -596,6 +788,14 @@ The table below records all translations for collections across languages. Scien
 | Ukrainian | uk | Некласифіковані метеорити |
 | Romanian | ro | Meteorite neclasificate |
 | Kurdish Kurmanji | ku | Meteorîtên nehatine sinorkirin |
+| Malayalam | ml | വർഗ്ഗീകരിക്കപ്പെടാത്ത മെറ്റിയറൈറ്റുകൾ |
+| Serbian | sr | Нераспоређени метеорити |
+| Bosnian | bs | Neklasificirani meteoriti |
+| Croatian | hr | Neklasificirani meteoriti |
+| Pashto | ps | غیر طبقه بندي شوي میټیورایټونه |
+| Igbo | ig | Meteorites na-enweghị nkewa |
+| Afrikaans | af | Ongeklassifiseerde meteoriete |
+| Catalan | ca | Meteorits no classificats |
 
 ### Ungrouped Achondrite Meteorites
 
@@ -613,6 +813,14 @@ The table below records all translations for collections across languages. Scien
 | Ukrainian | uk | Негруповані ахондритові метеорити |
 | Romanian | ro | Meteorite achondrite negrupate |
 | Kurdish Kurmanji | ku | Meteorîtên axondrîtî yên bêkom |
+| Malayalam | ml | അൺഗ്രൂപ്പ്ഡ് അകോൺഡ്രൈറ്റ് മെറ്റിയറൈറ്റുകൾ |
+| Serbian | sr | Негруписани ахондрит метеорити |
+| Bosnian | bs | Negrupisani ahondritni meteoriti |
+| Croatian | hr | Negrupirani ahondritni meteoriti |
+| Pashto | ps | غیر ډله ایز اکونډرایټ میټیورایټونه |
+| Igbo | ig | Achondrite meteorites na-enweghị otu |
+| Afrikaans | af | Ongroepeerde achondriet-meteoriete |
+| Catalan | ca | Meteorits acòndrits no agrupats |
 
 ### Ureilite Meteorites
 
@@ -630,6 +838,14 @@ The table below records all translations for collections across languages. Scien
 | Ukrainian | uk | Уреїлітові метеорити |
 | Romanian | ro | Meteorite ureilitice |
 | Kurdish Kurmanji | ku | Meteorîtên ureylîtî |
+| Malayalam | ml | യൂറിലൈറ്റ് മെറ്റിയറൈറ്റുകൾ |
+| Serbian | sr | Уреилит метеорити |
+| Bosnian | bs | Ureilitni meteoriti |
+| Croatian | hr | Ureilitni meteoriti |
+| Pashto | ps | یوریلایټ میټیورایټونه |
+| Igbo | ig | Ureilite meteorites |
+| Afrikaans | af | Ureiliet-meteoriete |
+| Catalan | ca | Meteorits ureilítics |
 
 ### Vigarano Group
 
@@ -647,6 +863,14 @@ The table below records all translations for collections across languages. Scien
 | Ukrainian | uk | Група Вігарано |
 | Romanian | ro | Grupul Vigarano |
 | Kurdish Kurmanji | ku | Koma Vigarano |
+| Malayalam | ml | വിഗാരാനോ ഗ്രൂപ്പ് |
+| Serbian | sr | Вигарано група |
+| Bosnian | bs | Vigaranova grupa |
+| Croatian | hr | Vigaranova skupina |
+| Pashto | ps | ویګارانو ډله |
+| Igbo | ig | Vigarano group |
+| Afrikaans | af | Vigaranogroep |
+| Catalan | ca | Grup Vigarano |
 
 ---
 
