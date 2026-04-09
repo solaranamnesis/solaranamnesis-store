@@ -1,6 +1,8 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Solar Anamnesis - Gigapixels</title><meta name="description" content="Gigapixel meteorite pictures">
 <style>
-.galleria{ height: 1280px; background: #000 }
+.galleria { height: 100vh; background: #000 }
+
+@media (min-width: 768px) { .galleria { height: 1280px; } }
 
 body {
   background-color: rgb(0, 0, 0);
@@ -830,7 +832,7 @@ body {
             this.lazyLoadChunks(10, 500);
         });
         
-        Galleria.run('.galleria', { imageCrop: false, dataSource: gallery1Data, thumbnails: 'lazy' });
+        Galleria.run('.galleria', { imageCrop: false, swipe: true, dataSource: gallery1Data, thumbnails: 'lazy' });
     }());
 </script>
 <script type="text/javascript" src="https://widget.fotomoto.com/stores/script/f17731113e15b3841d507299c6e8bbbde3c23f26.js"></script>

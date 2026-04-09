@@ -7,8 +7,14 @@
     <meta name="description" content="Renazzo group meteorite pictures" />
     <style>
       .galleria {
-        height: 1280px;
+        height: 100vh;
         background: #000;
+      }
+
+      @media (min-width: 768px) {
+        .galleria {
+          height: 1280px;
+        }
       }
 
       body {
@@ -80,7 +86,7 @@
           });
         });
 
-        Galleria.run(".galleria", { imageCrop: false });
+        Galleria.run(".galleria", { imageCrop: false, swipe: true });
       })();
     </script>
     <script
