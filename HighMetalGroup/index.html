@@ -39,50 +39,69 @@
         margin: 0;
         background-color: rgb(0, 0, 0);
       }
+
+      @media (max-width: 767px) {
+        .galleria-thumbnails-container {
+          display: none !important;
+        }
+        .galleria-stage {
+          bottom: 0 !important;
+        }
+      }
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/galleria.min.js"></script>
     <link rel="icon" type="image/png" href="favicon.webp" />
   </head>
   <body>
-    <div class="galleria">
-      <a href="isheyevo-meteorite-thin-section---gigapixel_30750607872_o.jpg"
-        ><img
-          data-title="Isheyevo Meteorite Thin Section - Gigapixel"
-          data-description="CH/CBb"
-          src="thumbs/isheyevo-meteorite-thin-section---gigapixel_30750607872_o.jpg"
-      /></a>
-      <a href="isheyevo-meteorite-thin-section---hdr_48955541593_o.jpg"
-        ><img
-          data-title="Isheyevo Meteorite Thin Section - HDR"
-          data-description="CH/CBb<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/isheyevo-meteorite-thin-section---hdr_48955541593_o.jpg"
-      /></a>
-      <a href="isheyevo-meteorite-thin-section---xpl-hdr_48956089676_o.jpg"
-        ><img
-          data-title="Isheyevo Meteorite Thin Section - XPL HDR"
-          data-description="CH/CBb<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/isheyevo-meteorite-thin-section---xpl-hdr_48956089676_o.jpg"
-      /></a>
-    </div>
+    <div class="galleria"></div>
     <script>
+      var gallery1Data = [
+        {
+          image:
+            "isheyevo-meteorite-thin-section---gigapixel_30750607872_o.jpg",
+          thumb:
+            "thumbs/isheyevo-meteorite-thin-section---gigapixel_30750607872_o.jpg",
+          title: `Isheyevo Meteorite Thin Section - Gigapixel`,
+          description: `CH/CBb`,
+        },
+        {
+          image: "isheyevo-meteorite-thin-section---hdr_48955541593_o.jpg",
+          thumb:
+            "thumbs/isheyevo-meteorite-thin-section---hdr_48955541593_o.jpg",
+          title: `Isheyevo Meteorite Thin Section - HDR`,
+          description: `CH/CBb<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "isheyevo-meteorite-thin-section---xpl-hdr_48956089676_o.jpg",
+          thumb:
+            "thumbs/isheyevo-meteorite-thin-section---xpl-hdr_48956089676_o.jpg",
+          title: `Isheyevo Meteorite Thin Section - XPL HDR`,
+          description: `CH/CBb<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+      ];
+
       (function () {
         Galleria.loadTheme(
           "https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/themes/azur/galleria.azur.min.js",
         );
 
-        // bind the method to Galleria.ready
-        Galleria.ready(function (options) {
-          // this = the gallery instance
-          // options = the gallery options
-
+        Galleria.ready(function () {
           this.attachKeyboard({
-            left: this.prev, // applies the native prev() function
+            left: this.prev,
             right: this.next,
           });
+
+          this.lazyLoadChunks(10, 500);
         });
 
-        Galleria.run(".galleria", { imageCrop: false, swipe: true });
+        Galleria.run(".galleria", {
+          imageCrop: false,
+          swipe: true,
+          dataSource: gallery1Data,
+          thumbnails: "lazy",
+          fullscreenDoubleTap: true,
+        });
       })();
     </script>
     <script

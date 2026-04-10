@@ -39,6 +39,15 @@
         margin: 0;
         background-color: rgb(0, 0, 0);
       }
+
+      @media (max-width: 767px) {
+        .galleria-thumbnails-container {
+          display: none !important;
+        }
+        .galleria-stage {
+          bottom: 0 !important;
+        }
+      }
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/galleria.min.js"></script>
@@ -46,372 +55,440 @@
   </head>
 
   <body>
-    <div class="galleria">
-      <a href="camel-donga-meteorite-thin-section---gigapixel_30811227282_o.jpg"
-        ><img
-          data-title="Camel Donga Meteorite Thin Section - Gigapixel"
-          data-description="Eucrite-mmict<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/cameldonga/Meteorite-Thin-Section-CamelDonga-final.html'>Link</a>"
-          src="thumbs/camel-donga-meteorite-thin-section---gigapixel_30811227282_o.jpg"
-      /></a>
-      <a href="agoult-meteorite-thin-section---gigapixel_31948582315_o.jpg"
-        ><img
-          data-title="Agoult Meteorite Thin Section - Gigapixel"
-          data-description="Eucrite<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/agoult/Meteorite-Thin-Section-Agoult-final.html'>Link</a>"
-          src="thumbs/agoult-meteorite-thin-section---gigapixel_31948582315_o.jpg"
-      /></a>
-      <a href="agoult-meteorite-thin-section---hdr_49148860031_o.jpg"
-        ><img
-          data-title="Agoult Meteorite Thin Section - HDR"
-          data-description="Eucrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/agoult-meteorite-thin-section---hdr_49148860031_o.jpg"
-      /></a>
-      <a href="agoult-meteorite-thin-section---hdr_49148861491_o.jpg"
-        ><img
-          data-title="Agoult Meteorite Thin Section - HDR"
-          data-description="Eucrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/agoult-meteorite-thin-section---hdr_49148861491_o.jpg"
-      /></a>
-      <a href="agoult-meteorite-thin-section---xpl-hdr_49149067152_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/agoult-meteorite-thin-section---xpl-hdr_49149067152_o.jpg"
-      /></a>
-      <a href="agoult-meteorite-thin-section---xpl-hdr_49149068627_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/agoult-meteorite-thin-section---xpl-hdr_49149068627_o.jpg"
-      /></a>
-      <a
-        href="dhofar-unclassified-meteorite-thin-section---hdr_49140763281_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/dhofar-unclassified-meteorite-thin-section---hdr_49140763281_o.jpg"
-      /></a>
-      <a
-        href="dhofar-unclassified-meteorite-thin-section---xpl-hdr_49140959627_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/dhofar-unclassified-meteorite-thin-section---xpl-hdr_49140959627_o.jpg"
-      /></a>
-      <a href="ibitira-meteorite-thin-section---gigapixel_31358369663_o.jpg"
-        ><img
-          data-title="Ibitira Meteorite Thin Section - Gigapixel"
-          data-description="Eucrite-mmict<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/ibitira/Meteorite-Thin-Section-Ibitira-final.html'>Link</a>"
-          src="thumbs/ibitira-meteorite-thin-section---gigapixel_31358369663_o.jpg"
-      /></a>
-      <a href="ibitira-meteorite-thin-section---hdr_49365619491_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/ibitira-meteorite-thin-section---hdr_49365619491_o.jpg"
-      /></a>
-      <a href="ibitira-meteorite-thin-section---xpl-hdr_49365619866_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/ibitira-meteorite-thin-section---xpl-hdr_49365619866_o.jpg"
-      /></a>
-      <a href="juvinas-meteorite-thin-section---gigapixel_30867207015_o.jpg"
-        ><img
-          data-title="Juvinas Meteorite Thin Section - Gigapixel"
-          data-description="Eucrite-mmict<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/juvinas/juvinas_10242015_final.html'>Link</a>"
-          src="thumbs/juvinas-meteorite-thin-section---gigapixel_30867207015_o.jpg"
-      /></a>
-      <a href="juvinas-meteorite-thin-section---hdr_49365834417_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/juvinas-meteorite-thin-section---hdr_49365834417_o.jpg"
-      /></a>
-      <a href="juvinas-meteorite-thin-section---xpl-hdr_49365159948_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/juvinas-meteorite-thin-section---xpl-hdr_49365159948_o.jpg"
-      /></a>
-      <a href="nwa-10444-meteorite-thin-section---hdr_49140962847_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-10444-meteorite-thin-section---hdr_49140962847_o.jpg"
-      /></a>
-      <a href="nwa-10444-meteorite-thin-section---hdr_49196968066_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-10444-meteorite-thin-section---hdr_49196968066_o.jpg"
-      /></a>
-      <a href="nwa-10444-meteorite-thin-section---xpl-hdr_49140954582_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-10444-meteorite-thin-section---xpl-hdr_49140954582_o.jpg"
-      /></a>
-      <a href="nwa-10444-meteorite-thin-section---xpl-hdr_49197163132_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-10444-meteorite-thin-section---xpl-hdr_49197163132_o.jpg"
-      /></a>
-      <a href="nwa-10674-meteorite-thin-section---hdr_49131033911_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-10674-meteorite-thin-section---hdr_49131033911_o.jpg"
-      /></a>
-      <a href="nwa-10674-meteorite-thin-section---xpl-hdr_49131214842_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-10674-meteorite-thin-section---xpl-hdr_49131214842_o.jpg"
-      /></a>
-      <a href="nwa-11803-meteorite-thin-section---hdr_49611575688_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-11803-meteorite-thin-section---hdr_49611575688_o.jpg"
-      /></a>
-      <a href="nwa-11803-meteorite-thin-section---hdr_49612331752_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-11803-meteorite-thin-section---hdr_49612331752_o.jpg"
-      /></a>
-      <a href="nwa-11803-meteorite-thin-section---hdr_49612351287_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-11803-meteorite-thin-section---hdr_49612351287_o.jpg"
-      /></a>
-      <a href="nwa-11803-meteorite-thin-section---hdr_49612352277_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-11803-meteorite-thin-section---hdr_49612352277_o.jpg"
-      /></a>
-      <a href="nwa-11803-meteorite-thin-section---hdr_49612353322_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-11803-meteorite-thin-section---hdr_49612353322_o.jpg"
-      /></a>
-      <a href="nwa-11803-meteorite-thin-section---xpl-hdr_49611559683_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-11803-meteorite-thin-section---xpl-hdr_49611559683_o.jpg"
-      /></a>
-      <a href="nwa-11803-meteorite-thin-section---xpl-hdr_49612086091_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-11803-meteorite-thin-section---xpl-hdr_49612086091_o.jpg"
-      /></a>
-      <a href="nwa-11803-meteorite-thin-section---xpl-hdr_49612341907_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-11803-meteorite-thin-section---xpl-hdr_49612341907_o.jpg"
-      /></a>
-      <a href="nwa-11803-meteorite-thin-section---xpl-hdr_49612345062_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-11803-meteorite-thin-section---xpl-hdr_49612345062_o.jpg"
-      /></a>
-      <a href="nwa-11803-meteorite-thin-section---xpl-hdr_49612348257_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-11803-meteorite-thin-section---xpl-hdr_49612348257_o.jpg"
-      /></a>
-      <a href="nwa-2824-meteorite-thin-section---gigapixel_32572066215_o.jpg"
-        ><img
-          data-title="NWA 2824 Meteorite Thin Section - Gigapixel"
-          data-description="Anomalous Eucrite<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa2824/Meteorite-Thin-Section-NWA2824-final.html'>Link</a>"
-          src="thumbs/nwa-2824-meteorite-thin-section---gigapixel_32572066215_o.jpg"
-      /></a>
-      <a href="nwa-2824-meteorite-thin-section---hdr_49563939392_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-2824-meteorite-thin-section---hdr_49563939392_o.jpg"
-      /></a>
-      <a href="nwa-2824-meteorite-thin-section---xpl-hdr_49563211508_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-2824-meteorite-thin-section---xpl-hdr_49563211508_o.jpg"
-      /></a>
-      <a href="nwa-5558-meteorite-thin-section---gigapixel_30811217182_o.jpg"
-        ><img
-          data-title="NWA 5558 Meteorite Thin Section - Gigapixel"
-          data-description="Eucrite<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa5558/Meteorite-Thin-Section-NWA5558-final.html'>Link</a>"
-          src="thumbs/nwa-5558-meteorite-thin-section---gigapixel_30811217182_o.jpg"
-      /></a>
-      <a href="nwa-5558-meteorite-thin-section---hdr_49549330332_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-5558-meteorite-thin-section---hdr_49549330332_o.jpg"
-      /></a>
-      <a href="nwa-5558-meteorite-thin-section---xpl-hdr_49548601538_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-5558-meteorite-thin-section---xpl-hdr_49548601538_o.jpg"
-      /></a>
-      <a href="nwa-5903-meteorite-thin-section---gigapixel_38230999305_o.jpg"
-        ><img
-          data-title="NWA 5903 Meteorite Thin Section - Gigapixel"
-          data-description="Eucrite<br>Nikon D810<br>Zerene Stacker<br>GIMP<br>Picture Window Pro<br>ImageMagick<br>digiCamControl<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa5903/Meteorite-Thin-Section-NWA5903-final.html'>Link</a>"
-          src="thumbs/nwa-5903-meteorite-thin-section---gigapixel_38230999305_o.jpg"
-      /></a>
-      <a href="nwa-5903-meteorite-thin-section---hdr_49130536528_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-5903-meteorite-thin-section---hdr_49130536528_o.jpg"
-      /></a>
-      <a href="nwa-5903-meteorite-thin-section---hdr_49196967616_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-5903-meteorite-thin-section---hdr_49196967616_o.jpg"
-      /></a>
-      <a href="nwa-5903-meteorite-thin-section---hdr-xpl_49131031236_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-5903-meteorite-thin-section---hdr-xpl_49131031236_o.jpg"
-      /></a>
-      <a href="nwa-5903-meteorite-thin-section---xpl-hdr_49196964846_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-5903-meteorite-thin-section---xpl-hdr_49196964846_o.jpg"
-      /></a>
-      <a href="nwa-6274-meteorite-thin-section---hdr_49387663231_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-6274-meteorite-thin-section---hdr_49387663231_o.jpg"
-      /></a>
-      <a href="nwa-6274-meteorite-thin-section---xpl-hdr_49387662826_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-6274-meteorite-thin-section---xpl-hdr_49387662826_o.jpg"
-      /></a>
-      <a href="nwa-8595-meteorite-thin-section---gigapixel_32811591835_o.jpg"
-        ><img
-          data-title="NWA 8595 Meteorite Thin Section - Gigapixel"
-          data-description="Howardite<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa8595/Meteorite-Thin-Section-NWA8595-final.html'>Link</a>"
-          src="thumbs/nwa-8595-meteorite-thin-section---gigapixel_32811591835_o.jpg"
-      /></a>
-      <a href="nwa-8595-meteorite-thin-section---hdr_49155646123_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-8595-meteorite-thin-section---hdr_49155646123_o.jpg"
-      /></a>
-      <a href="nwa-8595-meteorite-thin-section---xpl-hdr_49156353012_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-8595-meteorite-thin-section---xpl-hdr_49156353012_o.jpg"
-      /></a>
-      <a href="pasamonte-meteorite-thin-section---gigapixel_30750741362_o.jpg"
-        ><img
-          data-title="Pasamonte Meteorite Thin Section - Gigapixel"
-          data-description="Eucrite-pmict<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/pasamonte/Meteorite-Thin-Section-Pasamonte-Final_v2.html'>Link</a>"
-          src="thumbs/pasamonte-meteorite-thin-section---gigapixel_30750741362_o.jpg"
-      /></a>
-      <a href="pasamonte-meteorite-thin-section---hdr_49211722967_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/pasamonte-meteorite-thin-section---hdr_49211722967_o.jpg"
-      /></a>
-      <a href="pasamonte-meteorite-thin-section---xpl-hdr_49211719997_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/pasamonte-meteorite-thin-section---xpl-hdr_49211719997_o.jpg"
-      /></a>
-      <a href="sau-562-meteorite-thin-section---gigapixel_30231489343_o.jpg"
-        ><img
-          data-title="SaU 562 Meteorite Thin Section - Gigapixel"
-          data-description="Eucrite-unbr<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/sau562/sau562_11012015_final.html'>Link</a>"
-          src="thumbs/sau-562-meteorite-thin-section---gigapixel_30231489343_o.jpg"
-      /></a>
-      <a href="sau-562-meteorite-thin-section---gigapixel_43924990120_o.jpg"
-        ><img
-          data-title="SaU 562 Meteorite Thin Section - Gigapixel"
-          data-description="Eucrite-unbr<br>Camera: Nikon D810<br>Zerene Stacker<br>Picture Window Pro<br>GIMP<br>Imagemagick<br>digiCamcontrol<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/sau562-2/Meteorite-Thin-Section-SAU562-final.html'>Link</a>"
-          src="thumbs/sau-562-meteorite-thin-section---gigapixel_43924990120_o.jpg"
-      /></a>
-      <a href="sau-562-meteorite-thin-section---hdr_49154024826_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/sau-562-meteorite-thin-section---hdr_49154024826_o.jpg"
-      /></a>
-      <a href="sau-562-meteorite-thin-section---xpl-hdr_49154229932_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/sau-562-meteorite-thin-section---xpl-hdr_49154229932_o.jpg"
-      /></a>
-      <a
-        href="sayh-al-uhaymir-562-meteorite-thin-section---hdr_49475279232_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/sayh-al-uhaymir-562-meteorite-thin-section---hdr_49475279232_o.jpg"
-      /></a>
-      <a
-        href="sayh-al-uhaymir-562-meteorite-thin-section---xpl-hdr_49475279097_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/sayh-al-uhaymir-562-meteorite-thin-section---xpl-hdr_49475279097_o.jpg"
-      /></a>
-      <a href="tatahouine-meteorite-thin-section---hdr_49475277077_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/tatahouine-meteorite-thin-section---hdr_49475277077_o.jpg"
-      /></a>
-      <a href="tatahouine-meteorite-thin-section---xpl-hdr_49475276952_o.jpg"
-        ><img
-          data-title="Meteorite Thin Section - HDR"
-          data-description="<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/tatahouine-meteorite-thin-section---xpl-hdr_49475276952_o.jpg"
-      /></a>
-    </div>
+    <div class="galleria"></div>
     <script>
+      var gallery1Data = [
+        {
+          image:
+            "camel-donga-meteorite-thin-section---gigapixel_30811227282_o.jpg",
+          thumb:
+            "thumbs/camel-donga-meteorite-thin-section---gigapixel_30811227282_o.jpg",
+          title: `Camel Donga Meteorite Thin Section - Gigapixel`,
+          description: `Eucrite-mmict<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/cameldonga/Meteorite-Thin-Section-CamelDonga-final.html'>Link</a>`,
+        },
+        {
+          image: "agoult-meteorite-thin-section---gigapixel_31948582315_o.jpg",
+          thumb:
+            "thumbs/agoult-meteorite-thin-section---gigapixel_31948582315_o.jpg",
+          title: `Agoult Meteorite Thin Section - Gigapixel`,
+          description: `Eucrite<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/agoult/Meteorite-Thin-Section-Agoult-final.html'>Link</a>`,
+        },
+        {
+          image: "agoult-meteorite-thin-section---hdr_49148860031_o.jpg",
+          thumb: "thumbs/agoult-meteorite-thin-section---hdr_49148860031_o.jpg",
+          title: `Agoult Meteorite Thin Section - HDR`,
+          description: `Eucrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "agoult-meteorite-thin-section---hdr_49148861491_o.jpg",
+          thumb: "thumbs/agoult-meteorite-thin-section---hdr_49148861491_o.jpg",
+          title: `Agoult Meteorite Thin Section - HDR`,
+          description: `Eucrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "agoult-meteorite-thin-section---xpl-hdr_49149067152_o.jpg",
+          thumb:
+            "thumbs/agoult-meteorite-thin-section---xpl-hdr_49149067152_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "agoult-meteorite-thin-section---xpl-hdr_49149068627_o.jpg",
+          thumb:
+            "thumbs/agoult-meteorite-thin-section---xpl-hdr_49149068627_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image:
+            "dhofar-unclassified-meteorite-thin-section---hdr_49140763281_o.jpg",
+          thumb:
+            "thumbs/dhofar-unclassified-meteorite-thin-section---hdr_49140763281_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image:
+            "dhofar-unclassified-meteorite-thin-section---xpl-hdr_49140959627_o.jpg",
+          thumb:
+            "thumbs/dhofar-unclassified-meteorite-thin-section---xpl-hdr_49140959627_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "ibitira-meteorite-thin-section---gigapixel_31358369663_o.jpg",
+          thumb:
+            "thumbs/ibitira-meteorite-thin-section---gigapixel_31358369663_o.jpg",
+          title: `Ibitira Meteorite Thin Section - Gigapixel`,
+          description: `Eucrite-mmict<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/ibitira/Meteorite-Thin-Section-Ibitira-final.html'>Link</a>`,
+        },
+        {
+          image: "ibitira-meteorite-thin-section---hdr_49365619491_o.jpg",
+          thumb:
+            "thumbs/ibitira-meteorite-thin-section---hdr_49365619491_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "ibitira-meteorite-thin-section---xpl-hdr_49365619866_o.jpg",
+          thumb:
+            "thumbs/ibitira-meteorite-thin-section---xpl-hdr_49365619866_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "juvinas-meteorite-thin-section---gigapixel_30867207015_o.jpg",
+          thumb:
+            "thumbs/juvinas-meteorite-thin-section---gigapixel_30867207015_o.jpg",
+          title: `Juvinas Meteorite Thin Section - Gigapixel`,
+          description: `Eucrite-mmict<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/juvinas/juvinas_10242015_final.html'>Link</a>`,
+        },
+        {
+          image: "juvinas-meteorite-thin-section---hdr_49365834417_o.jpg",
+          thumb:
+            "thumbs/juvinas-meteorite-thin-section---hdr_49365834417_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "juvinas-meteorite-thin-section---xpl-hdr_49365159948_o.jpg",
+          thumb:
+            "thumbs/juvinas-meteorite-thin-section---xpl-hdr_49365159948_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "nwa-10444-meteorite-thin-section---hdr_49140962847_o.jpg",
+          thumb:
+            "thumbs/nwa-10444-meteorite-thin-section---hdr_49140962847_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "nwa-10444-meteorite-thin-section---hdr_49196968066_o.jpg",
+          thumb:
+            "thumbs/nwa-10444-meteorite-thin-section---hdr_49196968066_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "nwa-10444-meteorite-thin-section---xpl-hdr_49140954582_o.jpg",
+          thumb:
+            "thumbs/nwa-10444-meteorite-thin-section---xpl-hdr_49140954582_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "nwa-10444-meteorite-thin-section---xpl-hdr_49197163132_o.jpg",
+          thumb:
+            "thumbs/nwa-10444-meteorite-thin-section---xpl-hdr_49197163132_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "nwa-10674-meteorite-thin-section---hdr_49131033911_o.jpg",
+          thumb:
+            "thumbs/nwa-10674-meteorite-thin-section---hdr_49131033911_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "nwa-10674-meteorite-thin-section---xpl-hdr_49131214842_o.jpg",
+          thumb:
+            "thumbs/nwa-10674-meteorite-thin-section---xpl-hdr_49131214842_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "nwa-11803-meteorite-thin-section---hdr_49611575688_o.jpg",
+          thumb:
+            "thumbs/nwa-11803-meteorite-thin-section---hdr_49611575688_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "nwa-11803-meteorite-thin-section---hdr_49612331752_o.jpg",
+          thumb:
+            "thumbs/nwa-11803-meteorite-thin-section---hdr_49612331752_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "nwa-11803-meteorite-thin-section---hdr_49612351287_o.jpg",
+          thumb:
+            "thumbs/nwa-11803-meteorite-thin-section---hdr_49612351287_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "nwa-11803-meteorite-thin-section---hdr_49612352277_o.jpg",
+          thumb:
+            "thumbs/nwa-11803-meteorite-thin-section---hdr_49612352277_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "nwa-11803-meteorite-thin-section---hdr_49612353322_o.jpg",
+          thumb:
+            "thumbs/nwa-11803-meteorite-thin-section---hdr_49612353322_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "nwa-11803-meteorite-thin-section---xpl-hdr_49611559683_o.jpg",
+          thumb:
+            "thumbs/nwa-11803-meteorite-thin-section---xpl-hdr_49611559683_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "nwa-11803-meteorite-thin-section---xpl-hdr_49612086091_o.jpg",
+          thumb:
+            "thumbs/nwa-11803-meteorite-thin-section---xpl-hdr_49612086091_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "nwa-11803-meteorite-thin-section---xpl-hdr_49612341907_o.jpg",
+          thumb:
+            "thumbs/nwa-11803-meteorite-thin-section---xpl-hdr_49612341907_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "nwa-11803-meteorite-thin-section---xpl-hdr_49612345062_o.jpg",
+          thumb:
+            "thumbs/nwa-11803-meteorite-thin-section---xpl-hdr_49612345062_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "nwa-11803-meteorite-thin-section---xpl-hdr_49612348257_o.jpg",
+          thumb:
+            "thumbs/nwa-11803-meteorite-thin-section---xpl-hdr_49612348257_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image:
+            "nwa-2824-meteorite-thin-section---gigapixel_32572066215_o.jpg",
+          thumb:
+            "thumbs/nwa-2824-meteorite-thin-section---gigapixel_32572066215_o.jpg",
+          title: `NWA 2824 Meteorite Thin Section - Gigapixel`,
+          description: `Anomalous Eucrite<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa2824/Meteorite-Thin-Section-NWA2824-final.html'>Link</a>`,
+        },
+        {
+          image: "nwa-2824-meteorite-thin-section---hdr_49563939392_o.jpg",
+          thumb:
+            "thumbs/nwa-2824-meteorite-thin-section---hdr_49563939392_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "nwa-2824-meteorite-thin-section---xpl-hdr_49563211508_o.jpg",
+          thumb:
+            "thumbs/nwa-2824-meteorite-thin-section---xpl-hdr_49563211508_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image:
+            "nwa-5558-meteorite-thin-section---gigapixel_30811217182_o.jpg",
+          thumb:
+            "thumbs/nwa-5558-meteorite-thin-section---gigapixel_30811217182_o.jpg",
+          title: `NWA 5558 Meteorite Thin Section - Gigapixel`,
+          description: `Eucrite<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa5558/Meteorite-Thin-Section-NWA5558-final.html'>Link</a>`,
+        },
+        {
+          image: "nwa-5558-meteorite-thin-section---hdr_49549330332_o.jpg",
+          thumb:
+            "thumbs/nwa-5558-meteorite-thin-section---hdr_49549330332_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "nwa-5558-meteorite-thin-section---xpl-hdr_49548601538_o.jpg",
+          thumb:
+            "thumbs/nwa-5558-meteorite-thin-section---xpl-hdr_49548601538_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image:
+            "nwa-5903-meteorite-thin-section---gigapixel_38230999305_o.jpg",
+          thumb:
+            "thumbs/nwa-5903-meteorite-thin-section---gigapixel_38230999305_o.jpg",
+          title: `NWA 5903 Meteorite Thin Section - Gigapixel`,
+          description: `Eucrite<br>Nikon D810<br>Zerene Stacker<br>GIMP<br>Picture Window Pro<br>ImageMagick<br>digiCamControl<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa5903/Meteorite-Thin-Section-NWA5903-final.html'>Link</a>`,
+        },
+        {
+          image: "nwa-5903-meteorite-thin-section---hdr_49130536528_o.jpg",
+          thumb:
+            "thumbs/nwa-5903-meteorite-thin-section---hdr_49130536528_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "nwa-5903-meteorite-thin-section---hdr_49196967616_o.jpg",
+          thumb:
+            "thumbs/nwa-5903-meteorite-thin-section---hdr_49196967616_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "nwa-5903-meteorite-thin-section---hdr-xpl_49131031236_o.jpg",
+          thumb:
+            "thumbs/nwa-5903-meteorite-thin-section---hdr-xpl_49131031236_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "nwa-5903-meteorite-thin-section---xpl-hdr_49196964846_o.jpg",
+          thumb:
+            "thumbs/nwa-5903-meteorite-thin-section---xpl-hdr_49196964846_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "nwa-6274-meteorite-thin-section---hdr_49387663231_o.jpg",
+          thumb:
+            "thumbs/nwa-6274-meteorite-thin-section---hdr_49387663231_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "nwa-6274-meteorite-thin-section---xpl-hdr_49387662826_o.jpg",
+          thumb:
+            "thumbs/nwa-6274-meteorite-thin-section---xpl-hdr_49387662826_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image:
+            "nwa-8595-meteorite-thin-section---gigapixel_32811591835_o.jpg",
+          thumb:
+            "thumbs/nwa-8595-meteorite-thin-section---gigapixel_32811591835_o.jpg",
+          title: `NWA 8595 Meteorite Thin Section - Gigapixel`,
+          description: `Howardite<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/nwa8595/Meteorite-Thin-Section-NWA8595-final.html'>Link</a>`,
+        },
+        {
+          image: "nwa-8595-meteorite-thin-section---hdr_49155646123_o.jpg",
+          thumb:
+            "thumbs/nwa-8595-meteorite-thin-section---hdr_49155646123_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "nwa-8595-meteorite-thin-section---xpl-hdr_49156353012_o.jpg",
+          thumb:
+            "thumbs/nwa-8595-meteorite-thin-section---xpl-hdr_49156353012_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image:
+            "pasamonte-meteorite-thin-section---gigapixel_30750741362_o.jpg",
+          thumb:
+            "thumbs/pasamonte-meteorite-thin-section---gigapixel_30750741362_o.jpg",
+          title: `Pasamonte Meteorite Thin Section - Gigapixel`,
+          description: `Eucrite-pmict<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/pasamonte/Meteorite-Thin-Section-Pasamonte-Final_v2.html'>Link</a>`,
+        },
+        {
+          image: "pasamonte-meteorite-thin-section---hdr_49211722967_o.jpg",
+          thumb:
+            "thumbs/pasamonte-meteorite-thin-section---hdr_49211722967_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "pasamonte-meteorite-thin-section---xpl-hdr_49211719997_o.jpg",
+          thumb:
+            "thumbs/pasamonte-meteorite-thin-section---xpl-hdr_49211719997_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "sau-562-meteorite-thin-section---gigapixel_30231489343_o.jpg",
+          thumb:
+            "thumbs/sau-562-meteorite-thin-section---gigapixel_30231489343_o.jpg",
+          title: `SaU 562 Meteorite Thin Section - Gigapixel`,
+          description: `Eucrite-unbr<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/sau562/sau562_11012015_final.html'>Link</a>`,
+        },
+        {
+          image: "sau-562-meteorite-thin-section---gigapixel_43924990120_o.jpg",
+          thumb:
+            "thumbs/sau-562-meteorite-thin-section---gigapixel_43924990120_o.jpg",
+          title: `SaU 562 Meteorite Thin Section - Gigapixel`,
+          description: `Eucrite-unbr<br>Camera: Nikon D810<br>Zerene Stacker<br>Picture Window Pro<br>GIMP<br>Imagemagick<br>digiCamcontrol<br>Full-screen panorama: <a href='https://cdn.solaranamnesis.com/ThinSections/krpano/sau562-2/Meteorite-Thin-Section-SAU562-final.html'>Link</a>`,
+        },
+        {
+          image: "sau-562-meteorite-thin-section---hdr_49154024826_o.jpg",
+          thumb:
+            "thumbs/sau-562-meteorite-thin-section---hdr_49154024826_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "sau-562-meteorite-thin-section---xpl-hdr_49154229932_o.jpg",
+          thumb:
+            "thumbs/sau-562-meteorite-thin-section---xpl-hdr_49154229932_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image:
+            "sayh-al-uhaymir-562-meteorite-thin-section---hdr_49475279232_o.jpg",
+          thumb:
+            "thumbs/sayh-al-uhaymir-562-meteorite-thin-section---hdr_49475279232_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image:
+            "sayh-al-uhaymir-562-meteorite-thin-section---xpl-hdr_49475279097_o.jpg",
+          thumb:
+            "thumbs/sayh-al-uhaymir-562-meteorite-thin-section---xpl-hdr_49475279097_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "tatahouine-meteorite-thin-section---hdr_49475277077_o.jpg",
+          thumb:
+            "thumbs/tatahouine-meteorite-thin-section---hdr_49475277077_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image:
+            "tatahouine-meteorite-thin-section---xpl-hdr_49475276952_o.jpg",
+          thumb:
+            "thumbs/tatahouine-meteorite-thin-section---xpl-hdr_49475276952_o.jpg",
+          title: `Meteorite Thin Section - HDR`,
+          description: `<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+      ];
+
       (function () {
         Galleria.loadTheme(
           "https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/themes/azur/galleria.azur.min.js",
         );
 
-        // bind the method to Galleria.ready
-        Galleria.ready(function (options) {
-          // this = the gallery instance
-          // options = the gallery options
-
+        Galleria.ready(function () {
           this.attachKeyboard({
-            left: this.prev, // applies the native prev() function
+            left: this.prev,
             right: this.next,
           });
+
+          this.lazyLoadChunks(10, 500);
         });
 
-        Galleria.run(".galleria", { imageCrop: false, swipe: true });
+        Galleria.run(".galleria", {
+          imageCrop: false,
+          swipe: true,
+          dataSource: gallery1Data,
+          thumbnails: "lazy",
+          fullscreenDoubleTap: true,
+        });
       })();
     </script>
     <script

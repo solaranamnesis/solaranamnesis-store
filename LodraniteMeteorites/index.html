@@ -39,6 +39,15 @@
         margin: 0;
         background-color: rgb(0, 0, 0);
       }
+
+      @media (max-width: 767px) {
+        .galleria-thumbnails-container {
+          display: none !important;
+        }
+        .galleria-stage {
+          bottom: 0 !important;
+        }
+      }
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/galleria.min.js"></script>
@@ -46,66 +55,84 @@
   </head>
 
   <body>
-    <div class="galleria">
-      <a href="nwa-11129-meteorite-thin-section---hdr_49224619473_o.jpg"
-        ><img
-          src="thumbs/nwa-11129-meteorite-thin-section---hdr_49224619473_o.jpg"
-      /></a>
-      <a href="nwa-11129-meteorite-thin-section---hdr_49359984047_o.jpg"
-        ><img
-          src="thumbs/nwa-11129-meteorite-thin-section---hdr_49359984047_o.jpg"
-      /></a>
-      <a href="nwa-11129-meteorite-thin-section---xpl-hdr_49225312017_o.jpg"
-        ><img
-          src="thumbs/nwa-11129-meteorite-thin-section---xpl-hdr_49225312017_o.jpg"
-      /></a>
-      <a href="nwa-11129-meteorite-thin-section---xpl-hdr_49359983402_o.jpg"
-        ><img
-          src="thumbs/nwa-11129-meteorite-thin-section---xpl-hdr_49359983402_o.jpg"
-      /></a>
-      <a href="nwa-5488-meteorite-thin-section---gigapixel_30234682194_o.jpg"
-        ><img
-          src="thumbs/nwa-5488-meteorite-thin-section---gigapixel_30234682194_o.jpg"
-      /></a>
-      <a href="nwa-5488-meteorite-thin-section---hdr_49633425377_o.jpg"
-        ><img
-          src="thumbs/nwa-5488-meteorite-thin-section---hdr_49633425377_o.jpg"
-      /></a>
-      <a href="nwa-5488-meteorite-thin-section---xpl-hdr_49633421707_o.jpg"
-        ><img
-          src="thumbs/nwa-5488-meteorite-thin-section---xpl-hdr_49633421707_o.jpg"
-      /></a>
-      <a href="nwa-8251-meteorite-thin-section---gigapixel_32994408460_o.jpg"
-        ><img
-          src="thumbs/nwa-8251-meteorite-thin-section---gigapixel_32994408460_o.jpg"
-      /></a>
-      <a href="nwa-8251-meteorite-thin-section---hdr_49549331912_o.jpg"
-        ><img
-          src="thumbs/nwa-8251-meteorite-thin-section---hdr_49549331912_o.jpg"
-      /></a>
-      <a href="nwa-8251-meteorite-thin-section---xpl-hdr_49548605863_o.jpg"
-        ><img
-          src="thumbs/nwa-8251-meteorite-thin-section---xpl-hdr_49548605863_o.jpg"
-      /></a>
-    </div>
+    <div class="galleria"></div>
     <script>
+      var gallery1Data = [
+        {
+          image: "nwa-11129-meteorite-thin-section---hdr_49224619473_o.jpg",
+          thumb:
+            "thumbs/nwa-11129-meteorite-thin-section---hdr_49224619473_o.jpg",
+        },
+        {
+          image: "nwa-11129-meteorite-thin-section---hdr_49359984047_o.jpg",
+          thumb:
+            "thumbs/nwa-11129-meteorite-thin-section---hdr_49359984047_o.jpg",
+        },
+        {
+          image: "nwa-11129-meteorite-thin-section---xpl-hdr_49225312017_o.jpg",
+          thumb:
+            "thumbs/nwa-11129-meteorite-thin-section---xpl-hdr_49225312017_o.jpg",
+        },
+        {
+          image: "nwa-11129-meteorite-thin-section---xpl-hdr_49359983402_o.jpg",
+          thumb:
+            "thumbs/nwa-11129-meteorite-thin-section---xpl-hdr_49359983402_o.jpg",
+        },
+        {
+          image:
+            "nwa-5488-meteorite-thin-section---gigapixel_30234682194_o.jpg",
+          thumb:
+            "thumbs/nwa-5488-meteorite-thin-section---gigapixel_30234682194_o.jpg",
+        },
+        {
+          image: "nwa-5488-meteorite-thin-section---hdr_49633425377_o.jpg",
+          thumb:
+            "thumbs/nwa-5488-meteorite-thin-section---hdr_49633425377_o.jpg",
+        },
+        {
+          image: "nwa-5488-meteorite-thin-section---xpl-hdr_49633421707_o.jpg",
+          thumb:
+            "thumbs/nwa-5488-meteorite-thin-section---xpl-hdr_49633421707_o.jpg",
+        },
+        {
+          image:
+            "nwa-8251-meteorite-thin-section---gigapixel_32994408460_o.jpg",
+          thumb:
+            "thumbs/nwa-8251-meteorite-thin-section---gigapixel_32994408460_o.jpg",
+        },
+        {
+          image: "nwa-8251-meteorite-thin-section---hdr_49549331912_o.jpg",
+          thumb:
+            "thumbs/nwa-8251-meteorite-thin-section---hdr_49549331912_o.jpg",
+        },
+        {
+          image: "nwa-8251-meteorite-thin-section---xpl-hdr_49548605863_o.jpg",
+          thumb:
+            "thumbs/nwa-8251-meteorite-thin-section---xpl-hdr_49548605863_o.jpg",
+        },
+      ];
+
       (function () {
         Galleria.loadTheme(
           "https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/themes/azur/galleria.azur.min.js",
         );
 
-        // bind the method to Galleria.ready
-        Galleria.ready(function (options) {
-          // this = the gallery instance
-          // options = the gallery options
-
+        Galleria.ready(function () {
           this.attachKeyboard({
-            left: this.prev, // applies the native prev() function
+            left: this.prev,
             right: this.next,
           });
+
+          this.lazyLoadChunks(10, 500);
         });
 
-        Galleria.run(".galleria", { imageCrop: false, swipe: true });
+        Galleria.run(".galleria", {
+          imageCrop: false,
+          swipe: true,
+          dataSource: gallery1Data,
+          thumbnails: "lazy",
+          fullscreenDoubleTap: true,
+        });
       })();
     </script>
     <script

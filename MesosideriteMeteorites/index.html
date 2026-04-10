@@ -39,6 +39,15 @@
         margin: 0;
         background-color: rgb(0, 0, 0);
       }
+
+      @media (max-width: 767px) {
+        .galleria-thumbnails-container {
+          display: none !important;
+        }
+        .galleria-stage {
+          bottom: 0 !important;
+        }
+      }
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/galleria.min.js"></script>
@@ -46,56 +55,67 @@
   </head>
 
   <body>
-    <div class="galleria">
-      <a href="bondoc-meteorite-thin-section---gigapixel_30830404456_o.jpg"
-        ><img
-          data-title="Bondoc Meteorite Thin Section - Gigapixel"
-          data-description="Mesosiderite-B4"
-          src="thumbs/bondoc-meteorite-thin-section---gigapixel_30830404456_o.jpg"
-      /></a>
-      <a href="bondoc-meteorite-thin-section---hdr_49149505426_o.jpg"
-        ><img
-          data-title="Bondoc Meteorite Thin Section - HDR"
-          data-description="Mesosiderite-B4<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/bondoc-meteorite-thin-section---hdr_49149505426_o.jpg"
-      /></a>
-      <a href="bondoc-meteorite-thin-section---xpl-hdr_49149713722_o.jpg"
-        ><img
-          data-title="Bondoc Meteorite Thin Section - XPL HDR"
-          data-description="Mesosiderite-B4<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/bondoc-meteorite-thin-section---xpl-hdr_49149713722_o.jpg"
-      /></a>
-      <a href="estherville-meteorite-thin-section---hdr_49417721456_o.jpg"
-        ><img
-          data-title="Estherville Meteorite Thin Section - HDR"
-          data-description="Mesosiderite-A3/4<br>Pathscan Enabler 5<br>Photomatix Pro<br>GIMP"
-          src="thumbs/estherville-meteorite-thin-section---hdr_49417721456_o.jpg"
-      /></a>
-      <a href="estherville-meteorite-thin-section---xpl-hdr_49417245553_o.jpg"
-        ><img
-          data-title="Estherville Meteorite Thin Section - XPL HDR"
-          data-description="Mesosiderite-A3/4<br>Pathscan Enabler 5<br>Photomatix Pro<br>GIMP"
-          src="thumbs/estherville-meteorite-thin-section---xpl-hdr_49417245553_o.jpg"
-      /></a>
-    </div>
+    <div class="galleria"></div>
     <script>
+      var gallery1Data = [
+        {
+          image: "bondoc-meteorite-thin-section---gigapixel_30830404456_o.jpg",
+          thumb:
+            "thumbs/bondoc-meteorite-thin-section---gigapixel_30830404456_o.jpg",
+          title: `Bondoc Meteorite Thin Section - Gigapixel`,
+          description: `Mesosiderite-B4`,
+        },
+        {
+          image: "bondoc-meteorite-thin-section---hdr_49149505426_o.jpg",
+          thumb: "thumbs/bondoc-meteorite-thin-section---hdr_49149505426_o.jpg",
+          title: `Bondoc Meteorite Thin Section - HDR`,
+          description: `Mesosiderite-B4<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "bondoc-meteorite-thin-section---xpl-hdr_49149713722_o.jpg",
+          thumb:
+            "thumbs/bondoc-meteorite-thin-section---xpl-hdr_49149713722_o.jpg",
+          title: `Bondoc Meteorite Thin Section - XPL HDR`,
+          description: `Mesosiderite-B4<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "estherville-meteorite-thin-section---hdr_49417721456_o.jpg",
+          thumb:
+            "thumbs/estherville-meteorite-thin-section---hdr_49417721456_o.jpg",
+          title: `Estherville Meteorite Thin Section - HDR`,
+          description: `Mesosiderite-A3/4<br>Pathscan Enabler 5<br>Photomatix Pro<br>GIMP`,
+        },
+        {
+          image:
+            "estherville-meteorite-thin-section---xpl-hdr_49417245553_o.jpg",
+          thumb:
+            "thumbs/estherville-meteorite-thin-section---xpl-hdr_49417245553_o.jpg",
+          title: `Estherville Meteorite Thin Section - XPL HDR`,
+          description: `Mesosiderite-A3/4<br>Pathscan Enabler 5<br>Photomatix Pro<br>GIMP`,
+        },
+      ];
+
       (function () {
         Galleria.loadTheme(
           "https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/themes/azur/galleria.azur.min.js",
         );
 
-        // bind the method to Galleria.ready
-        Galleria.ready(function (options) {
-          // this = the gallery instance
-          // options = the gallery options
-
+        Galleria.ready(function () {
           this.attachKeyboard({
-            left: this.prev, // applies the native prev() function
+            left: this.prev,
             right: this.next,
           });
+
+          this.lazyLoadChunks(10, 500);
         });
 
-        Galleria.run(".galleria", { imageCrop: false, swipe: true });
+        Galleria.run(".galleria", {
+          imageCrop: false,
+          swipe: true,
+          dataSource: gallery1Data,
+          thumbnails: "lazy",
+          fullscreenDoubleTap: true,
+        });
       })();
     </script>
     <script
