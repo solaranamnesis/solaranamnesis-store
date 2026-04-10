@@ -66,6 +66,13 @@ Each language version of the store's index page is a standalone HTML file named 
 | `index-uk.html` | Ukrainian (Українська) |
 | `index-ro.html` | Romanian (Română) |
 | `index-ku.html` | Kurdish Kurmanji (Kurdî / Kurmancî) |
+| `index-bg.html` | Bulgarian (Български) |
+| `index-my.html` | Burmese (မြန်မာ) |
+| `index-so.html` | Somali (Af Soomaali) |
+| `index-zu.html` | Zulu (isiZulu) |
+| `index-ht.html` | Haitian Creole (Kreyòl ayisyen) |
+| `index-da.html` | Danish (Dansk) |
+| `index-no.html` | Norwegian Bokmål (Norsk Bokmål) |
 
 ---
 
@@ -201,6 +208,13 @@ The table below records all translations for collections across languages. Scien
 | Igbo | ig | Nchịkọta |
 | Afrikaans | af | Versamelings |
 | Catalan | ca | Col·leccions |
+| Bulgarian | bg | Колекции |
+| Burmese | my | စုစည်းမှုများ |
+| Somali | so | Kooxaha |
+| Zulu | zu | Iqoqo |
+| Haitian Creole | ht | Koleksyon |
+| Danish | da | Samlinger |
+| Norwegian Bokmål | no | Samlinger |
 
 ### Acapulcoite Meteorites
 
@@ -226,6 +240,13 @@ The table below records all translations for collections across languages. Scien
 | Igbo | ig | Acapulcoite meteorites |
 | Afrikaans | af | Acapulcoïet-meteoriete |
 | Catalan | ca | Meteorits acapulcoïtics |
+| Bulgarian | bg | Акапулкоитови метеорити |
+| Burmese | my | အကပ်ပူလ်ကိုက် မီတီယိုရိုက်များ |
+| Somali | so | Acapulcoite meteorites |
+| Zulu | zu | Izinkanyezi ze-Acapulcoite |
+| Haitian Creole | ht | Meteorit Acapulcoite |
+| Danish | da | Acapulcoit-meteoritter |
+| Norwegian Bokmål | no | Acapulcoitt-meteoritter |
 
 ### Angrite Meteorites
 
@@ -251,6 +272,13 @@ The table below records all translations for collections across languages. Scien
 | Igbo | ig | Angrite meteorites |
 | Afrikaans | af | Angriet-meteoriete |
 | Catalan | ca | Meteorits angrítics |
+| Bulgarian | bg | Ангритови метеорити |
+| Burmese | my | အင်ဂရိုက် မီတီယိုရိုက်များ |
+| Somali | so | Angrite meteorites |
+| Zulu | zu | Izinkanyezi ze-Angrite |
+| Haitian Creole | ht | Meteorit Angrite |
+| Danish | da | Angrit-meteoritter |
+| Norwegian Bokmål | no | Angritt-meteoritter |
 
 ### Aubrite Meteorites
 
@@ -276,6 +304,13 @@ The table below records all translations for collections across languages. Scien
 | Igbo | ig | Aubrite meteorites |
 | Afrikaans | af | Aubriet-meteoriete |
 | Catalan | ca | Meteorits aubrítics |
+| Bulgarian | bg | Обритови метеорити |
+| Burmese | my | အော်ဘရိုက် မီတီယိုရိုက်များ |
+| Somali | so | Aubrite meteorites |
+| Zulu | zu | Izinkanyezi ze-Aubrite |
+| Haitian Creole | ht | Meteorit Aubrite |
+| Danish | da | Aubrit-meteoritter |
+| Norwegian Bokmål | no | Aubritt-meteoritter |
 
 ### Brachinite Meteorites
 
@@ -301,6 +336,13 @@ The table below records all translations for collections across languages. Scien
 | Igbo | ig | Brachinite meteorites |
 | Afrikaans | af | Brachyniet-meteoriete |
 | Catalan | ca | Meteorits braxinítics |
+| Bulgarian | bg | Брахинитови метеорити |
+| Burmese | my | ဘရာချီနိုက် မီတီယိုရိုက်များ |
+| Somali | so | Brachinite meteorites |
+| Zulu | zu | Izinkanyezi ze-Brachinite |
+| Haitian Creole | ht | Meteorit Brachinite |
+| Danish | da | Brachinit-meteoritter |
+| Norwegian Bokmål | no | Brachinitt-meteoritter |
 
 ### Enstatite Chondrites
 
@@ -326,6 +368,13 @@ The table below records all translations for collections across languages. Scien
 | Igbo | ig | Enstatite chondrites |
 | Afrikaans | af | Enstatiet-chondriete |
 | Catalan | ca | Condrites enstatítiques |
+| Bulgarian | bg | Енстатитови хондрити |
+| Burmese | my | အင်စတေတိုက် ကွန်ဒရိုက်များ |
+| Somali | so | Enstatite chondrites |
+| Zulu | zu | Izinkanyezi ze-Enstatite chondrites |
+| Haitian Creole | ht | Chondrit Enstatite |
+| Danish | da | Enstatit-chondritter |
+| Norwegian Bokmål | no | Enstatitt-kondritter |
 
 ### Gigapixel Gallery
 
@@ -351,6 +400,13 @@ The table below records all translations for collections across languages. Scien
 | Igbo | ig | Gigapixel gallery |
 | Afrikaans | af | Gigapiksel-galery |
 | Catalan | ca | Galeria Gigapíxel |
+| Bulgarian | bg | Гигапикселна галерия |
+| Burmese | my | ဂီဂါပစ်ဆယ် ဂလက်ရီ |
+| Somali | so | Giga-piksel galeriya |
+| Zulu | zu | Igalari ye-Gigapixel |
+| Haitian Creole | ht | Galri Gigapiksel |
+| Danish | da | Gigapixel-galleri |
+| Norwegian Bokmål | no | Gigapixel-galleri |
 
 ### HED Meteorites
 
@@ -376,6 +432,13 @@ The table below records all translations for collections across languages. Scien
 | Igbo | ig | HED meteorites |
 | Afrikaans | af | HED-meteoriete |
 | Catalan | ca | Meteorits HED |
+| Bulgarian | bg | HED метеорити |
+| Burmese | my | HED မီတီယိုရိုက်များ |
+| Somali | so | HED meteorites |
+| Zulu | zu | Izinkanyezi ze-HED |
+| Haitian Creole | ht | Meteorit HED |
+| Danish | da | HED-meteoritter |
+| Norwegian Bokmål | no | HED-meteoritter |
 
 ### High Metal Group
 
@@ -401,6 +464,13 @@ The table below records all translations for collections across languages. Scien
 | Igbo | ig | High metal group |
 | Afrikaans | af | Hoë-metaalgroep |
 | Catalan | ca | Grup d'alt contingut metàl·lic |
+| Bulgarian | bg | Група с високо съдържание на метал |
+| Burmese | my | အမြင့်သတ္တုအုပ်စု |
+| Somali | so | Kooxda birta sare |
+| Zulu | zu | Iqembu eliphezulu le-metal |
+| Haitian Creole | ht | Gwoup metal ki wo |
+| Danish | da | Gruppe med højt metalindhold |
+| Norwegian Bokmål | no | Gruppe med høyt metallinnhold |
 
 ### Individual MicroShots
 
@@ -426,6 +496,13 @@ The table below records all translations for collections across languages. Scien
 | Igbo | ig | Individual microshots |
 | Afrikaans | af | Individuele MicroShots |
 | Catalan | ca | MicroShots individuals |
+| Bulgarian | bg | Индивидуални MicroShots |
+| Burmese | my | တစ်ခုချင်းစီ MicroShots |
+| Somali | so | MicroShots gaar ah |
+| Zulu | zu | I-MicroShots ngayinye |
+| Haitian Creole | ht | MicroShots endividyèl |
+| Danish | da | Enkelte MicroShots |
+| Norwegian Bokmål | no | Enkelte MicroShots |
 
 ### Iron Meteorites
 
@@ -451,6 +528,13 @@ The table below records all translations for collections across languages. Scien
 | Igbo | ig | Iron meteorites |
 | Afrikaans | af | Ystermeteoriete |
 | Catalan | ca | Meteorits de ferro |
+| Bulgarian | bg | Железни метеорити |
+| Burmese | my | သံမီတီယိုရိုက်များ |
+| Somali | so | Meteorites bir ah |
+| Zulu | zu | Izinkanyezi zensimbi |
+| Haitian Creole | ht | Meteorit fè |
+| Danish | da | Jernmeteoritter |
+| Norwegian Bokmål | no | Jernmeteoritter |
 
 ### Karoonda Group
 
@@ -476,6 +560,13 @@ The table below records all translations for collections across languages. Scien
 | Igbo | ig | Karoonda group |
 | Afrikaans | af | Karoondagroep |
 | Catalan | ca | Grup Karoonda |
+| Bulgarian | bg | Група Карунда |
+| Burmese | my | ကာရုန်းဒါ အုပ်စု |
+| Somali | so | Kooxda Karoonda |
+| Zulu | zu | Iqembu le-Karoonda |
+| Haitian Creole | ht | Gwoup Karoonda |
+| Danish | da | Karoonda-gruppen |
+| Norwegian Bokmål | no | Karoonda-gruppen |
 
 ### Lodranite Meteorites
 
@@ -501,6 +592,13 @@ The table below records all translations for collections across languages. Scien
 | Igbo | ig | Lodranite meteorites |
 | Afrikaans | af | Lodraniet-meteoriete |
 | Catalan | ca | Meteorits lodranítics |
+| Bulgarian | bg | Лодранитови метеорити |
+| Burmese | my | လောဒရန်ိုက် မီတီယိုရိုက်များ |
+| Somali | so | Lodranite meteorites |
+| Zulu | zu | Izinkanyezi ze-Lodranite |
+| Haitian Creole | ht | Meteorit Lodranite |
+| Danish | da | Lodranit-meteoritter |
+| Norwegian Bokmål | no | Lodranitt-meteoritter |
 
 ### Lunar Meteorites
 
@@ -526,6 +624,13 @@ The table below records all translations for collections across languages. Scien
 | Igbo | ig | Lunar meteorites |
 | Afrikaans | af | Maanmeteoriete |
 | Catalan | ca | Meteorits lunars |
+| Bulgarian | bg | Лунни метеорити |
+| Burmese | my | လune မီတီယိုရိုက်များ |
+| Somali | so | Meteorites dayaxa |
+| Zulu | zu | Izinkanyezi zenyanga |
+| Haitian Creole | ht | Meteorit Lalin |
+| Danish | da | Måne-meteoritter |
+| Norwegian Bokmål | no | Måne-meteoritter |
 
 ### Martian Meteorites
 
@@ -551,6 +656,13 @@ The table below records all translations for collections across languages. Scien
 | Igbo | ig | Martian meteorites |
 | Afrikaans | af | Marsmeteoriete |
 | Catalan | ca | Meteorits marcians |
+| Bulgarian | bg | Марсиански метеорити |
+| Burmese | my | မာ့ခ် မီတီယိုရိုက်များ |
+| Somali | so | Meteorites Mars |
+| Zulu | zu | Izinkanyezi zikaMars |
+| Haitian Creole | ht | Meteorit Mès |
+| Danish | da | Mars-meteoritter |
+| Norwegian Bokmål | no | Mars-meteoritter |
 
 ### Mesosiderite Meteorites
 
@@ -576,6 +688,13 @@ The table below records all translations for collections across languages. Scien
 | Igbo | ig | Mesosiderite meteorites |
 | Afrikaans | af | Mesosideriet-meteoriete |
 | Catalan | ca | Meteorits mesosiderítics |
+| Bulgarian | bg | Мезосидеритови метеорити |
+| Burmese | my | မီဆိုဆိုက်ဒရိုက် မီတီယိုရိုက်များ |
+| Somali | so | Mesosiderite meteorites |
+| Zulu | zu | Izinkanyezi ze-Mesosiderite |
+| Haitian Creole | ht | Meteorit Mezosiderit |
+| Danish | da | Mesosiderit-meteoritter |
+| Norwegian Bokmål | no | Mesosideritt-meteoritter |
 
 ### Mighei Group
 
@@ -601,6 +720,13 @@ The table below records all translations for collections across languages. Scien
 | Igbo | ig | Mighei group |
 | Afrikaans | af | Migheegroep |
 | Catalan | ca | Grup Mighei |
+| Bulgarian | bg | Група Мигей |
+| Burmese | my | မီဂဟေ အုပ်စု |
+| Somali | so | Kooxda Mighei |
+| Zulu | zu | Iqembu le-Mighei |
+| Haitian Creole | ht | Gwoup Mighei |
+| Danish | da | Mighei-gruppen |
+| Norwegian Bokmål | no | Mighei-gruppen |
 
 ### Miscellaneous
 
@@ -626,6 +752,13 @@ The table below records all translations for collections across languages. Scien
 | Igbo | ig | Ihe dị iche iche |
 | Afrikaans | af | Divers |
 | Catalan | ca | Varis |
+| Bulgarian | bg | Разни |
+| Burmese | my | အမျိုးမျိုး |
+| Somali | so | Kala duwan |
+| Zulu | zu | Okuhlukene |
+| Haitian Creole | ht | Divers |
+| Danish | da | Diverse |
+| Norwegian Bokmål | no | Diverse |
 
 ### Ordinary Chondrites
 
@@ -651,6 +784,13 @@ The table below records all translations for collections across languages. Scien
 | Igbo | ig | Ordinary chondrites |
 | Afrikaans | af | Gewone chondriete |
 | Catalan | ca | Condrites ordinàries |
+| Bulgarian | bg | Обикновени хондрити |
+| Burmese | my | ပုံမှန် ကွန်ဒရိုက်များ |
+| Somali | so | Chondrites caadi ah |
+| Zulu | zu | Izinkanyezi ze-chondrites ejwayelekile |
+| Haitian Creole | ht | Chondrit òdinè |
+| Danish | da | Almindelige chondritter |
+| Norwegian Bokmål | no | Vanlige kondritter |
 
 ### Ornans Group
 
@@ -676,6 +816,13 @@ The table below records all translations for collections across languages. Scien
 | Igbo | ig | Ornans group |
 | Afrikaans | af | Ornansgroep |
 | Catalan | ca | Grup Ornans |
+| Bulgarian | bg | Група Орнан |
+| Burmese | my | အော်နန် အုပ်စု |
+| Somali | so | Kooxda Ornans |
+| Zulu | zu | Iqembu le-Ornans |
+| Haitian Creole | ht | Gwoup Ornans |
+| Danish | da | Ornans-gruppen |
+| Norwegian Bokmål | no | Ornans-gruppen |
 
 ### Pallasite Meteorites
 
@@ -701,6 +848,13 @@ The table below records all translations for collections across languages. Scien
 | Igbo | ig | Pallasite meteorites |
 | Afrikaans | af | Pallasiet-meteoriete |
 | Catalan | ca | Meteorits pal·làsics |
+| Bulgarian | bg | Паласитови метеорити |
+| Burmese | my | ပလာဆိုက် မီတီယိုရိုက်များ |
+| Somali | so | Pallasite meteorites |
+| Zulu | zu | Izinkanyezi ze-Pallasite |
+| Haitian Creole | ht | Meteorit Palasit |
+| Danish | da | Pallasit-meteoritter |
+| Norwegian Bokmål | no | Pallasitt-meteoritter |
 
 ### Renazzo Group
 
@@ -726,6 +880,13 @@ The table below records all translations for collections across languages. Scien
 | Igbo | ig | Renazzo group |
 | Afrikaans | af | Renazzogroep |
 | Catalan | ca | Grup Renazzo |
+| Bulgarian | bg | Група Ренацо |
+| Burmese | my | ရီနာဇို အုပ်စု |
+| Somali | so | Kooxda Renazzo |
+| Zulu | zu | Iqembu le-Renazzo |
+| Haitian Creole | ht | Gwoup Renazzo |
+| Danish | da | Renazzo-gruppen |
+| Norwegian Bokmål | no | Renazzo-gruppen |
 
 ### Rumuruti Chondrites
 
@@ -751,6 +912,13 @@ The table below records all translations for collections across languages. Scien
 | Igbo | ig | Rumuruti chondrites |
 | Afrikaans | af | Rumuruti-chondriete |
 | Catalan | ca | Condrites rumurutianes |
+| Bulgarian | bg | Румурутски хондрити |
+| Burmese | my | ရူးမူရူတီ ကွန်ဒရိုက်များ |
+| Somali | so | Chondrites Rumuruti |
+| Zulu | zu | Izinkanyezi ze-Rumuruti chondrites |
+| Haitian Creole | ht | Chondrit Rumuruti |
+| Danish | da | Rumuruti-chondritter |
+| Norwegian Bokmål | no | Rumuruti-kondritter |
 
 ### STRESS Style Thin Sections
 
@@ -771,6 +939,13 @@ The table below records all translations for collections across languages. Scien
 | Igbo | ig | STRESS style thin sections |
 | Afrikaans | af | STRESS-styl dun snitte |
 | Catalan | ca | Seccions primes estil STRESS |
+| Bulgarian | bg | Тънки срезове в стил STRESS |
+| Burmese | my | STRESS ပုံစံပါးလွှာ အပိုင်းများ |
+| Somali | so | Qaybaha dhuuban ee qaabka STRESS |
+| Zulu | zu | Izingcezu ezincane zohlobo lwe-STRESS |
+| Haitian Creole | ht | Seksyon mens stil STRESS |
+| Danish | da | Tynde snit i STRESS-stil |
+| Norwegian Bokmål | no | Tynne snitt i STRESS-stil |
 
 ### Unclassified Meteorites
 
@@ -796,6 +971,13 @@ The table below records all translations for collections across languages. Scien
 | Igbo | ig | Meteorites na-enweghị nkewa |
 | Afrikaans | af | Ongeklassifiseerde meteoriete |
 | Catalan | ca | Meteorits no classificats |
+| Bulgarian | bg | Некласифицирани метеорити |
+| Burmese | my | အမျိုးအစားခွဲခြားမထားသော မီတီယိုရိုက်များ |
+| Somali | so | Meteorites aan la sifeyn |
+| Zulu | zu | Izinkanyezi ezingahlelwanga |
+| Haitian Creole | ht | Meteorit ki pa klase |
+| Danish | da | Ikke-klassificerede meteoritter |
+| Norwegian Bokmål | no | Ikke-klassifiserte meteoritter |
 
 ### Ungrouped Achondrite Meteorites
 
@@ -821,6 +1003,13 @@ The table below records all translations for collections across languages. Scien
 | Igbo | ig | Achondrite meteorites na-enweghị otu |
 | Afrikaans | af | Ongroepeerde achondriet-meteoriete |
 | Catalan | ca | Meteorits acòndrits no agrupats |
+| Bulgarian | bg | Негрупирани ахондритови метеорити |
+| Burmese | my | အုပ်စုဖွဲ့မထားသော အာကွန်ဒရိုက် မီတီယိုရိုက်များ |
+| Somali | so | Achondrite meteorites aan la kooxeeyn |
+| Zulu | zu | Izinkanyezi ze-achondrite ezingaqoqwanga |
+| Haitian Creole | ht | Meteorit achondrit ki pa gwoupe |
+| Danish | da | Ikke-grupperede achondrit-meteoritter |
+| Norwegian Bokmål | no | Ikke-grupperte achondritt-meteoritter |
 
 ### Ureilite Meteorites
 
@@ -846,6 +1035,13 @@ The table below records all translations for collections across languages. Scien
 | Igbo | ig | Ureilite meteorites |
 | Afrikaans | af | Ureiliet-meteoriete |
 | Catalan | ca | Meteorits ureilítics |
+| Bulgarian | bg | Урейлитови метеорити |
+| Burmese | my | ယူရီလိုက် မီတီယိုရိုက်များ |
+| Somali | so | Ureilite meteorites |
+| Zulu | zu | Izinkanyezi ze-Ureilite |
+| Haitian Creole | ht | Meteorit Ureilit |
+| Danish | da | Ureilit-meteoritter |
+| Norwegian Bokmål | no | Ureilitt-meteoritter |
 
 ### Vigarano Group
 
@@ -871,6 +1067,13 @@ The table below records all translations for collections across languages. Scien
 | Igbo | ig | Vigarano group |
 | Afrikaans | af | Vigaranogroep |
 | Catalan | ca | Grup Vigarano |
+| Bulgarian | bg | Група Вигарано |
+| Burmese | my | ဗီဂါရနို အုပ်စု |
+| Somali | so | Kooxda Vigarano |
+| Zulu | zu | Iqembu le-Vigarano |
+| Haitian Creole | ht | Gwoup Vigarano |
+| Danish | da | Vigarano-gruppen |
+| Norwegian Bokmål | no | Vigarano-gruppen |
 
 ---
 
