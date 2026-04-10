@@ -39,6 +39,15 @@
         margin: 0;
         background-color: rgb(0, 0, 0);
       }
+
+      @media (max-width: 767px) {
+        .galleria-thumbnails-container {
+          display: none !important;
+        }
+        .galleria-stage {
+          bottom: 0 !important;
+        }
+      }
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/galleria.min.js"></script>
@@ -46,200 +55,244 @@
   </head>
 
   <body>
-    <div class="galleria">
-      <a href="dorbigny-meteorite-thin-section---gigapixel_30750702012_o.jpg"
-        ><img
-          data-title="D'Orbigny Meteorite Thin Section - Gigapixel"
-          data-description="Angrite"
-          src="thumbs/dorbigny-meteorite-thin-section---gigapixel_30750702012_o.jpg"
-      /></a>
-      <a href="dorbigny-meteorite-surface---gigapixel_30234823854_o.jpg"
-        ><img
-          data-title="D'Orbigny Meteorite Surface - Gigapixel"
-          data-description="Angrite"
-          src="thumbs/dorbigny-meteorite-surface---gigapixel_30234823854_o.jpg"
-      /></a>
-      <a href="dorbigny-meteorite-thin-section---gigapixel_30565910840_o.jpg"
-        ><img
-          data-title="D'Orbigny Meteorite Thin Section - Gigapixel"
-          data-description="Angrite<br>Nikon D810<br>Zerene Stacker<br>digiCamControl<br>GIMP<br>Picture Window Pro"
-          src="thumbs/dorbigny-meteorite-thin-section---gigapixel_30565910840_o.jpg"
-      /></a>
-      <a href="dorbigny-meteorite-thin-section---hdr_49148370863_o.jpg"
-        ><img
-          data-title="D'Orbigny Meteorite Thin Section - HDR"
-          data-description="Angrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/dorbigny-meteorite-thin-section---hdr_49148370863_o.jpg"
-      /></a>
-      <a href="dorbigny-meteorite-thin-section---xpl-hdr_49149069597_o.jpg"
-        ><img
-          data-title="D'Orbigny Meteorite Thin Section - XPL HDR"
-          data-description="Angrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/dorbigny-meteorite-thin-section---xpl-hdr_49149069597_o.jpg"
-      /></a>
-      <a href="nwa-10646-meteorite-thin-section---gigapixel_33166698394_o.jpg"
-        ><img
-          data-title="NWA 10646 Meteorite Thin Section - Gigapixel"
-          data-description="Meteorite Type: Angrite. Camera: Nikon D810 with LMScope Adapter. Focus stacking with Zerene Stacker. OMAX Microscope. Mosaic of many individual shots"
-          src="thumbs/nwa-10646-meteorite-thin-section---gigapixel_33166698394_o.jpg"
-      /></a>
-      <a href="nwa-10646-meteorite-thin-section---hdr_49196961591_o.jpg"
-        ><img
-          data-title="NWA 10646 Meteorite Thin Section - HDR"
-          data-description="Angrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-10646-meteorite-thin-section---hdr_49196961591_o.jpg"
-      /></a>
-      <a href="nwa-10646-meteorite-thin-section---hdr_49211016228_o.jpg"
-        ><img
-          data-title="NWA 10646 Meteorite Thin Section - HDR"
-          data-description="Angrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-10646-meteorite-thin-section---hdr_49211016228_o.jpg"
-      /></a>
-      <a href="nwa-10646-meteorite-thin-section---hdr_49211722492_o.jpg"
-        ><img
-          data-title="NWA 10646 Meteorite Thin Section - HDR"
-          data-description="Angrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-10646-meteorite-thin-section---hdr_49211722492_o.jpg"
-      /></a>
-      <a href="nwa-10646-meteorite-thin-section---xpl-hdr_49196461353_o.jpg"
-        ><img
-          data-title="NWA 10646 Meteorite Thin Section - XPL HDR"
-          data-description="Angrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-10646-meteorite-thin-section---xpl-hdr_49196461353_o.jpg"
-      /></a>
-      <a href="nwa-10646-meteorite-thin-section---xpl-hdr_49211013208_o.jpg"
-        ><img
-          data-title="NWA 10646 Meteorite Thin Section - XPL HDR"
-          data-description="Angrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-10646-meteorite-thin-section---xpl-hdr_49211013208_o.jpg"
-      /></a>
-      <a href="nwa-10646-meteorite-thin-section---xpl-hdr_49211495381_o.jpg"
-        ><img
-          data-title="NWA 10646 Meteorite Thin Section - XPL HDR"
-          data-description="Angrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-10646-meteorite-thin-section---xpl-hdr_49211495381_o.jpg"
-      /></a>
-      <a href="nwa-12774-meteorite-thin-section---hdr_49513100486_o.jpg"
-        ><img
-          data-title="NWA 12774 Meteorite Thin Section - HDR"
-          data-description="Angrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-12774-meteorite-thin-section---hdr_49513100486_o.jpg"
-      /></a>
-      <a href="nwa-12774-meteorite-thin-section---xpl-hdr_49512584133_o.jpg"
-        ><img
-          data-title="NWA 12774 Meteorite Thin Section - XPL HDR"
-          data-description="Angrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-12774-meteorite-thin-section---xpl-hdr_49512584133_o.jpg"
-      /></a>
-      <a href="nwa-2999-meteorite-thin-section---gigapixel_30750360302_o.jpg"
-        ><img
-          data-title="NWA 2999 Meteorite Thin Section - Gigapixel"
-          data-description="Angrite"
-          src="thumbs/nwa-2999-meteorite-thin-section---gigapixel_30750360302_o.jpg"
-      /></a>
-      <a href="nwa-2999-meteorite-thin-section---hdr_49576451363_o.jpg"
-        ><img
-          data-title="NWA 2999 Meteorite Thin Section - HDR"
-          data-description="Angrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-2999-meteorite-thin-section---hdr_49576451363_o.jpg"
-      /></a>
-      <a href="nwa-2999-meteorite-thin-section---xpl-hdr_49577189907_o.jpg"
-        ><img
-          data-title="NWA 2999 Meteorite Thin Section - XPL HDR"
-          data-description="Angrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-2999-meteorite-thin-section---xpl-hdr_49577189907_o.jpg"
-      /></a>
-      <a href="nwa-4590-meteorite-thin-section---gigapixel_31492253396_o.jpg"
-        ><img
-          data-title="NWA 4590 Meteorite Thin Section - Gigapixel"
-          data-description="Angrite"
-          src="thumbs/nwa-4590-meteorite-thin-section---gigapixel_31492253396_o.jpg"
-      /></a>
-      <a href="nwa-4590-meteorite-thin-section---hdr_48862725823_o.jpg"
-        ><img
-          data-title="NWA 4590 Meteorite Thin Section - HDR"
-          data-description="Angrite<br>Pathscan Enabler 5<br>Visible Light HDR<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-4590-meteorite-thin-section---hdr_48862725823_o.jpg"
-      /></a>
-      <a href="nwa-4590-meteorite-thin-section---xpl-hdr_48863247776_o.jpg"
-        ><img
-          data-title="NWA 4590 Meteorite Thin Section - XPL HDR"
-          data-description="Angrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-4590-meteorite-thin-section---xpl-hdr_48863247776_o.jpg"
-      /></a>
-      <a href="nwa-4662-meteorite-thin-section---gigapixel_37372362706_o.jpg"
-        ><img
-          data-title="NWA 4662 Meteorite Thin Section - Gigapixel"
-          data-description="Angrite<br>paired with NWA 2999. Camera: Nikon D810. Zerene Stacker<br>Picture Window Pro<br>GIMP<br>ImageMagick<br>digiCamControl"
-          src="thumbs/nwa-4662-meteorite-thin-section---gigapixel_37372362706_o.jpg"
-      /></a>
-      <a href="nwa-4662-meteorite-thin-section---hdr_49202064466_o.jpg"
-        ><img
-          data-title="NWA 4662 Meteorite Thin Section - HDR"
-          data-description="Angrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-4662-meteorite-thin-section---hdr_49202064466_o.jpg"
-      /></a>
-      <a href="nwa-4662-meteorite-thin-section---xpl-hdr_49202266762_o.jpg"
-        ><img
-          data-title="NWA 4662 Meteorite Thin Section - XPL HDR"
-          data-description="Angrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-4662-meteorite-thin-section---xpl-hdr_49202266762_o.jpg"
-      /></a>
-      <a href="nwa-4801-meteorite-thin-section---gigapixel_31718067141_o.jpg"
-        ><img
-          data-title="NWA 4801 Meteorite Thin Section - Gigapixel"
-          data-description="Angrite"
-          src="thumbs/nwa-4801-meteorite-thin-section---gigapixel_31718067141_o.jpg"
-      /></a>
-      <a href="nwa-4801-meteorite-thin-section---hdr_49365836227_o.jpg"
-        ><img
-          data-title="NWA 4801 Meteorite Thin Section - HDR"
-          data-description="Angrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-4801-meteorite-thin-section---hdr_49365836227_o.jpg"
-      /></a>
-      <a href="nwa-4801-meteorite-thin-section---xpl-hdr_49365161298_o.jpg"
-        ><img
-          data-title="NWA 4801 Meteorite Thin Section - XPL HDR"
-          data-description="Angrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-4801-meteorite-thin-section---xpl-hdr_49365161298_o.jpg"
-      /></a>
-      <a href="sah-99555-meteorite-thin-section---gigapixel_30565743640_o.jpg"
-        ><img
-          data-title="SAH 99555 Meteorite Thin Section - Gigapixel"
-          data-description="Angrite"
-          src="thumbs/sah-99555-meteorite-thin-section---gigapixel_30565743640_o.jpg"
-      /></a>
-      <a href="sahara-99555-meteorite-thin-section---hdr_49458116961_o.jpg"
-        ><img
-          data-title="Sahara 99555 Meteorite Thin Section - HDR"
-          data-description="Angrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/sahara-99555-meteorite-thin-section---hdr_49458116961_o.jpg"
-      /></a>
-      <a href="sahara-99555-meteorite-thin-section---xpl-hdr_49458348267_o.jpg"
-        ><img
-          data-title="Sahara 99555 Meteorite Thin Section - XPL HDR"
-          data-description="Angrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/sahara-99555-meteorite-thin-section---xpl-hdr_49458348267_o.jpg"
-      /></a>
-    </div>
+    <div class="galleria"></div>
     <script>
+      var gallery1Data = [
+        {
+          image:
+            "dorbigny-meteorite-thin-section---gigapixel_30750702012_o.jpg",
+          thumb:
+            "thumbs/dorbigny-meteorite-thin-section---gigapixel_30750702012_o.jpg",
+          title: `D'Orbigny Meteorite Thin Section - Gigapixel`,
+          description: `Angrite`,
+        },
+        {
+          image: "dorbigny-meteorite-surface---gigapixel_30234823854_o.jpg",
+          thumb:
+            "thumbs/dorbigny-meteorite-surface---gigapixel_30234823854_o.jpg",
+          title: `D'Orbigny Meteorite Surface - Gigapixel`,
+          description: `Angrite`,
+        },
+        {
+          image:
+            "dorbigny-meteorite-thin-section---gigapixel_30565910840_o.jpg",
+          thumb:
+            "thumbs/dorbigny-meteorite-thin-section---gigapixel_30565910840_o.jpg",
+          title: `D'Orbigny Meteorite Thin Section - Gigapixel`,
+          description: `Angrite<br>Nikon D810<br>Zerene Stacker<br>digiCamControl<br>GIMP<br>Picture Window Pro`,
+        },
+        {
+          image: "dorbigny-meteorite-thin-section---hdr_49148370863_o.jpg",
+          thumb:
+            "thumbs/dorbigny-meteorite-thin-section---hdr_49148370863_o.jpg",
+          title: `D'Orbigny Meteorite Thin Section - HDR`,
+          description: `Angrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "dorbigny-meteorite-thin-section---xpl-hdr_49149069597_o.jpg",
+          thumb:
+            "thumbs/dorbigny-meteorite-thin-section---xpl-hdr_49149069597_o.jpg",
+          title: `D'Orbigny Meteorite Thin Section - XPL HDR`,
+          description: `Angrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image:
+            "nwa-10646-meteorite-thin-section---gigapixel_33166698394_o.jpg",
+          thumb:
+            "thumbs/nwa-10646-meteorite-thin-section---gigapixel_33166698394_o.jpg",
+          title: `NWA 10646 Meteorite Thin Section - Gigapixel`,
+          description: `Meteorite Type: Angrite. Camera: Nikon D810 with LMScope Adapter. Focus stacking with Zerene Stacker. OMAX Microscope. Mosaic of many individual shots`,
+        },
+        {
+          image: "nwa-10646-meteorite-thin-section---hdr_49196961591_o.jpg",
+          thumb:
+            "thumbs/nwa-10646-meteorite-thin-section---hdr_49196961591_o.jpg",
+          title: `NWA 10646 Meteorite Thin Section - HDR`,
+          description: `Angrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "nwa-10646-meteorite-thin-section---hdr_49211016228_o.jpg",
+          thumb:
+            "thumbs/nwa-10646-meteorite-thin-section---hdr_49211016228_o.jpg",
+          title: `NWA 10646 Meteorite Thin Section - HDR`,
+          description: `Angrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "nwa-10646-meteorite-thin-section---hdr_49211722492_o.jpg",
+          thumb:
+            "thumbs/nwa-10646-meteorite-thin-section---hdr_49211722492_o.jpg",
+          title: `NWA 10646 Meteorite Thin Section - HDR`,
+          description: `Angrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "nwa-10646-meteorite-thin-section---xpl-hdr_49196461353_o.jpg",
+          thumb:
+            "thumbs/nwa-10646-meteorite-thin-section---xpl-hdr_49196461353_o.jpg",
+          title: `NWA 10646 Meteorite Thin Section - XPL HDR`,
+          description: `Angrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "nwa-10646-meteorite-thin-section---xpl-hdr_49211013208_o.jpg",
+          thumb:
+            "thumbs/nwa-10646-meteorite-thin-section---xpl-hdr_49211013208_o.jpg",
+          title: `NWA 10646 Meteorite Thin Section - XPL HDR`,
+          description: `Angrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "nwa-10646-meteorite-thin-section---xpl-hdr_49211495381_o.jpg",
+          thumb:
+            "thumbs/nwa-10646-meteorite-thin-section---xpl-hdr_49211495381_o.jpg",
+          title: `NWA 10646 Meteorite Thin Section - XPL HDR`,
+          description: `Angrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "nwa-12774-meteorite-thin-section---hdr_49513100486_o.jpg",
+          thumb:
+            "thumbs/nwa-12774-meteorite-thin-section---hdr_49513100486_o.jpg",
+          title: `NWA 12774 Meteorite Thin Section - HDR`,
+          description: `Angrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "nwa-12774-meteorite-thin-section---xpl-hdr_49512584133_o.jpg",
+          thumb:
+            "thumbs/nwa-12774-meteorite-thin-section---xpl-hdr_49512584133_o.jpg",
+          title: `NWA 12774 Meteorite Thin Section - XPL HDR`,
+          description: `Angrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image:
+            "nwa-2999-meteorite-thin-section---gigapixel_30750360302_o.jpg",
+          thumb:
+            "thumbs/nwa-2999-meteorite-thin-section---gigapixel_30750360302_o.jpg",
+          title: `NWA 2999 Meteorite Thin Section - Gigapixel`,
+          description: `Angrite`,
+        },
+        {
+          image: "nwa-2999-meteorite-thin-section---hdr_49576451363_o.jpg",
+          thumb:
+            "thumbs/nwa-2999-meteorite-thin-section---hdr_49576451363_o.jpg",
+          title: `NWA 2999 Meteorite Thin Section - HDR`,
+          description: `Angrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "nwa-2999-meteorite-thin-section---xpl-hdr_49577189907_o.jpg",
+          thumb:
+            "thumbs/nwa-2999-meteorite-thin-section---xpl-hdr_49577189907_o.jpg",
+          title: `NWA 2999 Meteorite Thin Section - XPL HDR`,
+          description: `Angrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image:
+            "nwa-4590-meteorite-thin-section---gigapixel_31492253396_o.jpg",
+          thumb:
+            "thumbs/nwa-4590-meteorite-thin-section---gigapixel_31492253396_o.jpg",
+          title: `NWA 4590 Meteorite Thin Section - Gigapixel`,
+          description: `Angrite`,
+        },
+        {
+          image: "nwa-4590-meteorite-thin-section---hdr_48862725823_o.jpg",
+          thumb:
+            "thumbs/nwa-4590-meteorite-thin-section---hdr_48862725823_o.jpg",
+          title: `NWA 4590 Meteorite Thin Section - HDR`,
+          description: `Angrite<br>Pathscan Enabler 5<br>Visible Light HDR<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "nwa-4590-meteorite-thin-section---xpl-hdr_48863247776_o.jpg",
+          thumb:
+            "thumbs/nwa-4590-meteorite-thin-section---xpl-hdr_48863247776_o.jpg",
+          title: `NWA 4590 Meteorite Thin Section - XPL HDR`,
+          description: `Angrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image:
+            "nwa-4662-meteorite-thin-section---gigapixel_37372362706_o.jpg",
+          thumb:
+            "thumbs/nwa-4662-meteorite-thin-section---gigapixel_37372362706_o.jpg",
+          title: `NWA 4662 Meteorite Thin Section - Gigapixel`,
+          description: `Angrite<br>paired with NWA 2999. Camera: Nikon D810. Zerene Stacker<br>Picture Window Pro<br>GIMP<br>ImageMagick<br>digiCamControl`,
+        },
+        {
+          image: "nwa-4662-meteorite-thin-section---hdr_49202064466_o.jpg",
+          thumb:
+            "thumbs/nwa-4662-meteorite-thin-section---hdr_49202064466_o.jpg",
+          title: `NWA 4662 Meteorite Thin Section - HDR`,
+          description: `Angrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "nwa-4662-meteorite-thin-section---xpl-hdr_49202266762_o.jpg",
+          thumb:
+            "thumbs/nwa-4662-meteorite-thin-section---xpl-hdr_49202266762_o.jpg",
+          title: `NWA 4662 Meteorite Thin Section - XPL HDR`,
+          description: `Angrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image:
+            "nwa-4801-meteorite-thin-section---gigapixel_31718067141_o.jpg",
+          thumb:
+            "thumbs/nwa-4801-meteorite-thin-section---gigapixel_31718067141_o.jpg",
+          title: `NWA 4801 Meteorite Thin Section - Gigapixel`,
+          description: `Angrite`,
+        },
+        {
+          image: "nwa-4801-meteorite-thin-section---hdr_49365836227_o.jpg",
+          thumb:
+            "thumbs/nwa-4801-meteorite-thin-section---hdr_49365836227_o.jpg",
+          title: `NWA 4801 Meteorite Thin Section - HDR`,
+          description: `Angrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "nwa-4801-meteorite-thin-section---xpl-hdr_49365161298_o.jpg",
+          thumb:
+            "thumbs/nwa-4801-meteorite-thin-section---xpl-hdr_49365161298_o.jpg",
+          title: `NWA 4801 Meteorite Thin Section - XPL HDR`,
+          description: `Angrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image:
+            "sah-99555-meteorite-thin-section---gigapixel_30565743640_o.jpg",
+          thumb:
+            "thumbs/sah-99555-meteorite-thin-section---gigapixel_30565743640_o.jpg",
+          title: `SAH 99555 Meteorite Thin Section - Gigapixel`,
+          description: `Angrite`,
+        },
+        {
+          image: "sahara-99555-meteorite-thin-section---hdr_49458116961_o.jpg",
+          thumb:
+            "thumbs/sahara-99555-meteorite-thin-section---hdr_49458116961_o.jpg",
+          title: `Sahara 99555 Meteorite Thin Section - HDR`,
+          description: `Angrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image:
+            "sahara-99555-meteorite-thin-section---xpl-hdr_49458348267_o.jpg",
+          thumb:
+            "thumbs/sahara-99555-meteorite-thin-section---xpl-hdr_49458348267_o.jpg",
+          title: `Sahara 99555 Meteorite Thin Section - XPL HDR`,
+          description: `Angrite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+      ];
+
       (function () {
         Galleria.loadTheme(
           "https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/themes/azur/galleria.azur.min.js",
         );
 
-        // bind the method to Galleria.ready
-        Galleria.ready(function (options) {
-          // this = the gallery instance
-          // options = the gallery options
-
+        Galleria.ready(function () {
           this.attachKeyboard({
-            left: this.prev, // applies the native prev() function
+            left: this.prev,
             right: this.next,
           });
+
+          this.lazyLoadChunks(10, 500);
         });
 
-        Galleria.run(".galleria", { imageCrop: false, swipe: true });
+        Galleria.run(".galleria", {
+          imageCrop: false,
+          swipe: true,
+          dataSource: gallery1Data,
+          thumbnails: "lazy",
+          fullscreenDoubleTap: true,
+        });
       })();
     </script>
     <script

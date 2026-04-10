@@ -39,74 +39,97 @@
         margin: 0;
         background-color: rgb(0, 0, 0);
       }
+
+      @media (max-width: 767px) {
+        .galleria-thumbnails-container {
+          display: none !important;
+        }
+        .galleria-stage {
+          bottom: 0 !important;
+        }
+      }
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/galleria.min.js"></script>
     <link rel="icon" type="image/png" href="favicon.webp" />
   </head>
   <body>
-    <div class="galleria">
-      <a href="nwa-3151-meteorite-thin-section---hdr_49417939867_o.jpg"
-        ><img
-          data-title="NWA 3151 Meteorite Thin Section - HDR"
-          data-description="Brachinite<br>Pathscan Enabler 5<br>Photomatix Pro<br>GIMP"
-          src="thumbs/nwa-3151-meteorite-thin-section---hdr_49417939867_o.jpg"
-      /></a>
-      <a href="nwa-3151-meteorite-thin-section---xpl-hdr_49417250268_o.jpg"
-        ><img
-          data-title="NWA 3151 Meteorite Thin Section - XPL HDR"
-          data-description="Brachinite<br>Pathscan Enabler 5<br>Photomatix Pro<br>GIMP"
-          src="thumbs/nwa-3151-meteorite-thin-section---xpl-hdr_49417250268_o.jpg"
-      /></a>
-      <a href="nwa-5384-meteorite-thin-section---gigapixel_31172763424_o.jpg"
-        ><img
-          data-title="NWA 5384 Meteorite Thin Section - Gigapixel"
-          data-description="Brachinite"
-          src="thumbs/nwa-5384-meteorite-thin-section---gigapixel_31172763424_o.jpg"
-      /></a>
-      <a href="nwa-5384-meteorite-thin-section---hdr_49387178383_o.jpg"
-        ><img
-          data-title="NWA 5384 Meteorite Thin Section - HDR"
-          data-description="Brachinite<br>Pathscan Enabler 5<br>Photomatix Pro<br>GIMP"
-          src="thumbs/nwa-5384-meteorite-thin-section---hdr_49387178383_o.jpg"
-      /></a>
-      <a href="nwa-5384-meteorite-thin-section---hdr_49589892378_o.jpg"
-        ><img
-          data-title="NWA 5384 Meteorite Thin Section - HDR"
-          data-description="Brachinite<br>Pathscan Enabler 5<br>Photomatix Pro<br>GIMP"
-          src="thumbs/nwa-5384-meteorite-thin-section---hdr_49589892378_o.jpg"
-      /></a>
-      <a href="nwa-5384-meteorite-thin-section---xpl-hdr_49387178048_o.jpg"
-        ><img
-          data-title="NWA 5384 Meteorite Thin Section - XPL HDR"
-          data-description="Brachinite<br>Pathscan Enabler 5<br>Photomatix Pro<br>GIMP"
-          src="thumbs/nwa-5384-meteorite-thin-section---xpl-hdr_49387178048_o.jpg"
-      /></a>
-      <a href="nwa-5384-meteorite-thin-section---xpl-hdr_49590381676_o.jpg"
-        ><img
-          data-title="NWA 5384 Meteorite Thin Section - XPL HDR"
-          data-description="Brachinite<br>Pathscan Enabler 5<br>Photomatix Pro<br>GIMP"
-          src="thumbs/nwa-5384-meteorite-thin-section---xpl-hdr_49590381676_o.jpg"
-      /></a>
-    </div>
+    <div class="galleria"></div>
     <script>
+      var gallery1Data = [
+        {
+          image: "nwa-3151-meteorite-thin-section---hdr_49417939867_o.jpg",
+          thumb:
+            "thumbs/nwa-3151-meteorite-thin-section---hdr_49417939867_o.jpg",
+          title: `NWA 3151 Meteorite Thin Section - HDR`,
+          description: `Brachinite<br>Pathscan Enabler 5<br>Photomatix Pro<br>GIMP`,
+        },
+        {
+          image: "nwa-3151-meteorite-thin-section---xpl-hdr_49417250268_o.jpg",
+          thumb:
+            "thumbs/nwa-3151-meteorite-thin-section---xpl-hdr_49417250268_o.jpg",
+          title: `NWA 3151 Meteorite Thin Section - XPL HDR`,
+          description: `Brachinite<br>Pathscan Enabler 5<br>Photomatix Pro<br>GIMP`,
+        },
+        {
+          image:
+            "nwa-5384-meteorite-thin-section---gigapixel_31172763424_o.jpg",
+          thumb:
+            "thumbs/nwa-5384-meteorite-thin-section---gigapixel_31172763424_o.jpg",
+          title: `NWA 5384 Meteorite Thin Section - Gigapixel`,
+          description: `Brachinite`,
+        },
+        {
+          image: "nwa-5384-meteorite-thin-section---hdr_49387178383_o.jpg",
+          thumb:
+            "thumbs/nwa-5384-meteorite-thin-section---hdr_49387178383_o.jpg",
+          title: `NWA 5384 Meteorite Thin Section - HDR`,
+          description: `Brachinite<br>Pathscan Enabler 5<br>Photomatix Pro<br>GIMP`,
+        },
+        {
+          image: "nwa-5384-meteorite-thin-section---hdr_49589892378_o.jpg",
+          thumb:
+            "thumbs/nwa-5384-meteorite-thin-section---hdr_49589892378_o.jpg",
+          title: `NWA 5384 Meteorite Thin Section - HDR`,
+          description: `Brachinite<br>Pathscan Enabler 5<br>Photomatix Pro<br>GIMP`,
+        },
+        {
+          image: "nwa-5384-meteorite-thin-section---xpl-hdr_49387178048_o.jpg",
+          thumb:
+            "thumbs/nwa-5384-meteorite-thin-section---xpl-hdr_49387178048_o.jpg",
+          title: `NWA 5384 Meteorite Thin Section - XPL HDR`,
+          description: `Brachinite<br>Pathscan Enabler 5<br>Photomatix Pro<br>GIMP`,
+        },
+        {
+          image: "nwa-5384-meteorite-thin-section---xpl-hdr_49590381676_o.jpg",
+          thumb:
+            "thumbs/nwa-5384-meteorite-thin-section---xpl-hdr_49590381676_o.jpg",
+          title: `NWA 5384 Meteorite Thin Section - XPL HDR`,
+          description: `Brachinite<br>Pathscan Enabler 5<br>Photomatix Pro<br>GIMP`,
+        },
+      ];
+
       (function () {
         Galleria.loadTheme(
           "https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/themes/azur/galleria.azur.min.js",
         );
 
-        // bind the method to Galleria.ready
-        Galleria.ready(function (options) {
-          // this = the gallery instance
-          // options = the gallery options
-
+        Galleria.ready(function () {
           this.attachKeyboard({
-            left: this.prev, // applies the native prev() function
+            left: this.prev,
             right: this.next,
           });
+
+          this.lazyLoadChunks(10, 500);
         });
 
-        Galleria.run(".galleria", { imageCrop: false, swipe: true });
+        Galleria.run(".galleria", {
+          imageCrop: false,
+          swipe: true,
+          dataSource: gallery1Data,
+          thumbnails: "lazy",
+          fullscreenDoubleTap: true,
+        });
       })();
     </script>
     <script

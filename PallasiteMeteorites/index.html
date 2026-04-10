@@ -39,6 +39,15 @@
         margin: 0;
         background-color: rgb(0, 0, 0);
       }
+
+      @media (max-width: 767px) {
+        .galleria-thumbnails-container {
+          display: none !important;
+        }
+        .galleria-stage {
+          bottom: 0 !important;
+        }
+      }
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/galleria.min.js"></script>
@@ -46,67 +55,87 @@
   </head>
 
   <body>
-    <div class="galleria">
-      <a href="huckitta-meteorite-thin-section---gigapixel_30830405496_o.jpg"
-        ><img
-          src="thumbs/huckitta-meteorite-thin-section---gigapixel_30830405496_o.jpg"
-      /></a>
-      <a href="huckitta-meteorite-thin-section---hdr_49563939832_o.jpg"
-        ><img
-          src="thumbs/huckitta-meteorite-thin-section---hdr_49563939832_o.jpg"
-      /></a>
-      <a href="huckitta-meteorite-thin-section---xpl-hdr_49563936152_o.jpg"
-        ><img
-          src="thumbs/huckitta-meteorite-thin-section---xpl-hdr_49563936152_o.jpg"
-      /></a>
-      <a href="seymchan-meteorite-thin-section---gigapixel_30750356832_o.jpg"
-        ><img
-          src="thumbs/seymchan-meteorite-thin-section---gigapixel_30750356832_o.jpg"
-      /></a>
-      <a href="seymchan-meteorite-thin-section---hdr_49154016346_o.jpg"
-        ><img
-          src="thumbs/seymchan-meteorite-thin-section---hdr_49154016346_o.jpg"
-      /></a>
-      <a href="seymchan-meteorite-thin-section---xpl-hdr_49153515623_o.jpg"
-        ><img
-          src="thumbs/seymchan-meteorite-thin-section---xpl-hdr_49153515623_o.jpg"
-      /></a>
-      <a href="springwater-meteorite-thin-section---hdr_49342793561_o.jpg"
-        ><img
-          src="thumbs/springwater-meteorite-thin-section---hdr_49342793561_o.jpg"
-      /></a>
-      <a href="springwater-meteorite-thin-section---xpl-hdr_49342339238_o.jpg"
-        ><img
-          src="thumbs/springwater-meteorite-thin-section---xpl-hdr_49342339238_o.jpg"
-      /></a>
-      <a href="unclassified-nwa-meteorite-thin-section---hdr_49513107841_o.jpg"
-        ><img
-          src="thumbs/unclassified-nwa-meteorite-thin-section---hdr_49513107841_o.jpg"
-      /></a>
-      <a
-        href="unclassified-nwa-meteorite-thin-section---xpl-hdr_49513107736_o.jpg"
-        ><img
-          src="thumbs/unclassified-nwa-meteorite-thin-section---xpl-hdr_49513107736_o.jpg"
-      /></a>
-    </div>
+    <div class="galleria"></div>
     <script>
+      var gallery1Data = [
+        {
+          image:
+            "huckitta-meteorite-thin-section---gigapixel_30830405496_o.jpg",
+          thumb:
+            "thumbs/huckitta-meteorite-thin-section---gigapixel_30830405496_o.jpg",
+        },
+        {
+          image: "huckitta-meteorite-thin-section---hdr_49563939832_o.jpg",
+          thumb:
+            "thumbs/huckitta-meteorite-thin-section---hdr_49563939832_o.jpg",
+        },
+        {
+          image: "huckitta-meteorite-thin-section---xpl-hdr_49563936152_o.jpg",
+          thumb:
+            "thumbs/huckitta-meteorite-thin-section---xpl-hdr_49563936152_o.jpg",
+        },
+        {
+          image:
+            "seymchan-meteorite-thin-section---gigapixel_30750356832_o.jpg",
+          thumb:
+            "thumbs/seymchan-meteorite-thin-section---gigapixel_30750356832_o.jpg",
+        },
+        {
+          image: "seymchan-meteorite-thin-section---hdr_49154016346_o.jpg",
+          thumb:
+            "thumbs/seymchan-meteorite-thin-section---hdr_49154016346_o.jpg",
+        },
+        {
+          image: "seymchan-meteorite-thin-section---xpl-hdr_49153515623_o.jpg",
+          thumb:
+            "thumbs/seymchan-meteorite-thin-section---xpl-hdr_49153515623_o.jpg",
+        },
+        {
+          image: "springwater-meteorite-thin-section---hdr_49342793561_o.jpg",
+          thumb:
+            "thumbs/springwater-meteorite-thin-section---hdr_49342793561_o.jpg",
+        },
+        {
+          image:
+            "springwater-meteorite-thin-section---xpl-hdr_49342339238_o.jpg",
+          thumb:
+            "thumbs/springwater-meteorite-thin-section---xpl-hdr_49342339238_o.jpg",
+        },
+        {
+          image:
+            "unclassified-nwa-meteorite-thin-section---hdr_49513107841_o.jpg",
+          thumb:
+            "thumbs/unclassified-nwa-meteorite-thin-section---hdr_49513107841_o.jpg",
+        },
+        {
+          image:
+            "unclassified-nwa-meteorite-thin-section---xpl-hdr_49513107736_o.jpg",
+          thumb:
+            "thumbs/unclassified-nwa-meteorite-thin-section---xpl-hdr_49513107736_o.jpg",
+        },
+      ];
+
       (function () {
         Galleria.loadTheme(
           "https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/themes/azur/galleria.azur.min.js",
         );
 
-        // bind the method to Galleria.ready
-        Galleria.ready(function (options) {
-          // this = the gallery instance
-          // options = the gallery options
-
+        Galleria.ready(function () {
           this.attachKeyboard({
-            left: this.prev, // applies the native prev() function
+            left: this.prev,
             right: this.next,
           });
+
+          this.lazyLoadChunks(10, 500);
         });
 
-        Galleria.run(".galleria", { imageCrop: false, swipe: true });
+        Galleria.run(".galleria", {
+          imageCrop: false,
+          swipe: true,
+          dataSource: gallery1Data,
+          thumbnails: "lazy",
+          fullscreenDoubleTap: true,
+        });
       })();
     </script>
     <script

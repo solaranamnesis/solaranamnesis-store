@@ -39,6 +39,15 @@
         margin: 0;
         background-color: rgb(0, 0, 0);
       }
+
+      @media (max-width: 767px) {
+        .galleria-thumbnails-container {
+          display: none !important;
+        }
+        .galleria-stage {
+          bottom: 0 !important;
+        }
+      }
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/galleria.min.js"></script>
@@ -46,64 +55,78 @@
   </head>
 
   <body>
-    <div class="galleria">
-      <a
-        href="almahata-sitta-meteorite-thin-section---gigapixel_30750605682_o.jpg"
-        ><img
-          data-title="Almahata Sitta Meteorite Thin Section - Gigapixel"
-          data-description="Anomalous Ureilite"
-          src="thumbs/almahata-sitta-meteorite-thin-section---gigapixel_30750605682_o.jpg"
-      /></a>
-      <a href="dar-al-gani-319-meteorite-thin-section---hdr_49415488481_o.jpg"
-        ><img
-          data-title="Dar al Gani 319 Meteorite Thin Section - HDR"
-          data-description="Ureilite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/dar-al-gani-319-meteorite-thin-section---hdr_49415488481_o.jpg"
-      /></a>
-      <a
-        href="dar-al-gani-319-meteorite-thin-section---xpl-hdr_49415695067_o.jpg"
-        ><img
-          data-title="Dar al Gani 319 Meteorite Thin Section - XPL HDR"
-          data-description="Ureilite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/dar-al-gani-319-meteorite-thin-section---xpl-hdr_49415695067_o.jpg"
-      /></a>
-      <a href="nwa-5884-meteorite-thin-section---hdr_49458350157_o.jpg"
-        ><img
-          data-title="NWA 5884 Meteorite Thin Section - HDR"
-          data-description="Ureilite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-5884-meteorite-thin-section---hdr_49458350157_o.jpg"
-      /></a>
-      <a href="nwa-5884-meteorite-thin-section---xpl-hdr_49458118016_o.jpg"
-        ><img
-          data-title="NWA 5884 Meteorite Thin Section - XPL HDR"
-          data-description="Ureilite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro"
-          src="thumbs/nwa-5884-meteorite-thin-section---xpl-hdr_49458118016_o.jpg"
-      /></a>
-      <a href="nwa-7630-meteorite-thin-section---gigapixel_30867273065_o.jpg"
-        ><img
-          data-title="NWA 7630 Meteorite Thin Section - Gigapixel"
-          data-description="Ureilite"
-          src="thumbs/nwa-7630-meteorite-thin-section---gigapixel_30867273065_o.jpg"
-      /></a>
-    </div>
+    <div class="galleria"></div>
     <script>
+      var gallery1Data = [
+        {
+          image:
+            "almahata-sitta-meteorite-thin-section---gigapixel_30750605682_o.jpg",
+          thumb:
+            "thumbs/almahata-sitta-meteorite-thin-section---gigapixel_30750605682_o.jpg",
+          title: `Almahata Sitta Meteorite Thin Section - Gigapixel`,
+          description: `Anomalous Ureilite`,
+        },
+        {
+          image:
+            "dar-al-gani-319-meteorite-thin-section---hdr_49415488481_o.jpg",
+          thumb:
+            "thumbs/dar-al-gani-319-meteorite-thin-section---hdr_49415488481_o.jpg",
+          title: `Dar al Gani 319 Meteorite Thin Section - HDR`,
+          description: `Ureilite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image:
+            "dar-al-gani-319-meteorite-thin-section---xpl-hdr_49415695067_o.jpg",
+          thumb:
+            "thumbs/dar-al-gani-319-meteorite-thin-section---xpl-hdr_49415695067_o.jpg",
+          title: `Dar al Gani 319 Meteorite Thin Section - XPL HDR`,
+          description: `Ureilite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "nwa-5884-meteorite-thin-section---hdr_49458350157_o.jpg",
+          thumb:
+            "thumbs/nwa-5884-meteorite-thin-section---hdr_49458350157_o.jpg",
+          title: `NWA 5884 Meteorite Thin Section - HDR`,
+          description: `Ureilite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image: "nwa-5884-meteorite-thin-section---xpl-hdr_49458118016_o.jpg",
+          thumb:
+            "thumbs/nwa-5884-meteorite-thin-section---xpl-hdr_49458118016_o.jpg",
+          title: `NWA 5884 Meteorite Thin Section - XPL HDR`,
+          description: `Ureilite<br>Pathscan Enabler 5<br>GIMP<br>Photomatix Pro`,
+        },
+        {
+          image:
+            "nwa-7630-meteorite-thin-section---gigapixel_30867273065_o.jpg",
+          thumb:
+            "thumbs/nwa-7630-meteorite-thin-section---gigapixel_30867273065_o.jpg",
+          title: `NWA 7630 Meteorite Thin Section - Gigapixel`,
+          description: `Ureilite`,
+        },
+      ];
+
       (function () {
         Galleria.loadTheme(
           "https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/themes/azur/galleria.azur.min.js",
         );
 
-        // bind the method to Galleria.ready
-        Galleria.ready(function (options) {
-          // this = the gallery instance
-          // options = the gallery options
-
+        Galleria.ready(function () {
           this.attachKeyboard({
-            left: this.prev, // applies the native prev() function
+            left: this.prev,
             right: this.next,
           });
+
+          this.lazyLoadChunks(10, 500);
         });
 
-        Galleria.run(".galleria", { imageCrop: false, swipe: true });
+        Galleria.run(".galleria", {
+          imageCrop: false,
+          swipe: true,
+          dataSource: gallery1Data,
+          thumbnails: "lazy",
+          fullscreenDoubleTap: true,
+        });
       })();
     </script>
     <script
