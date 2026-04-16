@@ -15,6 +15,7 @@ Each language version of the store's index page is a standalone HTML file named 
 | `index.html` | English (original) |
 | `index-am.html` | Amharic (አማርኛ) |
 | `index-ar.html` | Arabic (العربية) |
+| `index-az.html` | Azerbaijani (Azərbaycan dili) |
 | `index-bn.html` | Bengali (বাংলা) |
 | `index-bo.html` | Lhasa Tibetan (ལྷ་སའི་སྐད་) |
 | `index-de.html` | German |
@@ -215,6 +216,7 @@ The table below records all translations for collections across languages. Scien
 | Haitian Creole | ht | Koleksyon |
 | Danish | da | Samlinger |
 | Norwegian Bokmål | no | Samlinger |
+| Azerbaijani | az | Kolleksiyalar |
 
 ### Acapulcoite Meteorites
 
@@ -247,6 +249,7 @@ The table below records all translations for collections across languages. Scien
 | Haitian Creole | ht | Meteorit Acapulcoite |
 | Danish | da | Acapulcoit-meteoritter |
 | Norwegian Bokmål | no | Acapulcoitt-meteoritter |
+| Azerbaijani | az | Akapulkoit Meteorları |
 
 ### Angrite Meteorites
 
@@ -279,6 +282,7 @@ The table below records all translations for collections across languages. Scien
 | Haitian Creole | ht | Meteorit Angrite |
 | Danish | da | Angrit-meteoritter |
 | Norwegian Bokmål | no | Angritt-meteoritter |
+| Azerbaijani | az | Angrit Meteorları |
 
 ### Aubrite Meteorites
 
@@ -311,6 +315,7 @@ The table below records all translations for collections across languages. Scien
 | Haitian Creole | ht | Meteorit Aubrite |
 | Danish | da | Aubrit-meteoritter |
 | Norwegian Bokmål | no | Aubritt-meteoritter |
+| Azerbaijani | az | Aubrit Meteorları |
 
 ### Brachinite Meteorites
 
@@ -343,6 +348,7 @@ The table below records all translations for collections across languages. Scien
 | Haitian Creole | ht | Meteorit Brachinite |
 | Danish | da | Brachinit-meteoritter |
 | Norwegian Bokmål | no | Brachinitt-meteoritter |
+| Azerbaijani | az | Brakinit Meteorları |
 
 ### Enstatite Chondrites
 
@@ -375,6 +381,7 @@ The table below records all translations for collections across languages. Scien
 | Haitian Creole | ht | Chondrit Enstatite |
 | Danish | da | Enstatit-chondritter |
 | Norwegian Bokmål | no | Enstatitt-kondritter |
+| Azerbaijani | az | Enstatit Xondritləri |
 
 ### Gigapixel Gallery
 
@@ -407,6 +414,7 @@ The table below records all translations for collections across languages. Scien
 | Haitian Creole | ht | Galri Gigapiksel |
 | Danish | da | Gigapixel-galleri |
 | Norwegian Bokmål | no | Gigapixel-galleri |
+| Azerbaijani | az | Giqapiksel Qalereyası |
 
 ### HED Meteorites
 
@@ -439,6 +447,7 @@ The table below records all translations for collections across languages. Scien
 | Haitian Creole | ht | Meteorit HED |
 | Danish | da | HED-meteoritter |
 | Norwegian Bokmål | no | HED-meteoritter |
+| Azerbaijani | az | HED Meteorları |
 
 ### High Metal Group
 
@@ -471,6 +480,7 @@ The table below records all translations for collections across languages. Scien
 | Haitian Creole | ht | Gwoup metal ki wo |
 | Danish | da | Gruppe med højt metalindhold |
 | Norwegian Bokmål | no | Gruppe med høyt metallinnhold |
+| Azerbaijani | az | Yüksək Metal Qrupu |
 
 ### Individual MicroShots
 
@@ -503,6 +513,7 @@ The table below records all translations for collections across languages. Scien
 | Haitian Creole | ht | MicroShots endividyèl |
 | Danish | da | Enkelte MicroShots |
 | Norwegian Bokmål | no | Enkelte MicroShots |
+| Azerbaijani | az | Fərdi MikroŞotlar |
 
 ### Iron Meteorites
 
@@ -535,6 +546,7 @@ The table below records all translations for collections across languages. Scien
 | Haitian Creole | ht | Meteorit fè |
 | Danish | da | Jernmeteoritter |
 | Norwegian Bokmål | no | Jernmeteoritter |
+| Azerbaijani | az | Dəmir Meteorları |
 
 ### Karoonda Group
 
@@ -567,6 +579,7 @@ The table below records all translations for collections across languages. Scien
 | Haitian Creole | ht | Gwoup Karoonda |
 | Danish | da | Karoonda-gruppen |
 | Norwegian Bokmål | no | Karoonda-gruppen |
+| Azerbaijani | az | Karoonda Qrupu |
 
 ### Lodranite Meteorites
 
@@ -599,6 +612,7 @@ The table below records all translations for collections across languages. Scien
 | Haitian Creole | ht | Meteorit Lodranite |
 | Danish | da | Lodranit-meteoritter |
 | Norwegian Bokmål | no | Lodranitt-meteoritter |
+| Azerbaijani | az | Lodranit Meteorları |
 
 ### Lunar Meteorites
 
@@ -631,6 +645,7 @@ The table below records all translations for collections across languages. Scien
 | Haitian Creole | ht | Meteorit Lalin |
 | Danish | da | Måne-meteoritter |
 | Norwegian Bokmål | no | Måne-meteoritter |
+| Azerbaijani | az | Ay Meteorları |
 
 ### Martian Meteorites
 
@@ -663,6 +678,7 @@ The table below records all translations for collections across languages. Scien
 | Haitian Creole | ht | Meteorit Mès |
 | Danish | da | Mars-meteoritter |
 | Norwegian Bokmål | no | Mars-meteoritter |
+| Azerbaijani | az | Mars Meteorları |
 
 ### Mesosiderite Meteorites
 
@@ -695,6 +711,7 @@ The table below records all translations for collections across languages. Scien
 | Haitian Creole | ht | Meteorit Mezosiderit |
 | Danish | da | Mesosiderit-meteoritter |
 | Norwegian Bokmål | no | Mesosideritt-meteoritter |
+| Azerbaijani | az | Mezosiderit Meteorları |
 
 ### Mighei Group
 
@@ -727,6 +744,7 @@ The table below records all translations for collections across languages. Scien
 | Haitian Creole | ht | Gwoup Mighei |
 | Danish | da | Mighei-gruppen |
 | Norwegian Bokmål | no | Mighei-gruppen |
+| Azerbaijani | az | Mighei Qrupu |
 
 ### Miscellaneous
 
@@ -759,6 +777,7 @@ The table below records all translations for collections across languages. Scien
 | Haitian Creole | ht | Divers |
 | Danish | da | Diverse |
 | Norwegian Bokmål | no | Diverse |
+| Azerbaijani | az | Müxtəlif |
 
 ### Ordinary Chondrites
 
@@ -791,6 +810,7 @@ The table below records all translations for collections across languages. Scien
 | Haitian Creole | ht | Chondrit òdinè |
 | Danish | da | Almindelige chondritter |
 | Norwegian Bokmål | no | Vanlige kondritter |
+| Azerbaijani | az | Adi Xondritlər |
 
 ### Ornans Group
 
@@ -823,6 +843,7 @@ The table below records all translations for collections across languages. Scien
 | Haitian Creole | ht | Gwoup Ornans |
 | Danish | da | Ornans-gruppen |
 | Norwegian Bokmål | no | Ornans-gruppen |
+| Azerbaijani | az | Ornans Qrupu |
 
 ### Pallasite Meteorites
 
@@ -855,6 +876,7 @@ The table below records all translations for collections across languages. Scien
 | Haitian Creole | ht | Meteorit Palasit |
 | Danish | da | Pallasit-meteoritter |
 | Norwegian Bokmål | no | Pallasitt-meteoritter |
+| Azerbaijani | az | Pallasit Meteorları |
 
 ### Renazzo Group
 
@@ -887,6 +909,7 @@ The table below records all translations for collections across languages. Scien
 | Haitian Creole | ht | Gwoup Renazzo |
 | Danish | da | Renazzo-gruppen |
 | Norwegian Bokmål | no | Renazzo-gruppen |
+| Azerbaijani | az | Renazzo Qrupu |
 
 ### Rumuruti Chondrites
 
@@ -919,6 +942,7 @@ The table below records all translations for collections across languages. Scien
 | Haitian Creole | ht | Chondrit Rumuruti |
 | Danish | da | Rumuruti-chondritter |
 | Norwegian Bokmål | no | Rumuruti-kondritter |
+| Azerbaijani | az | Rumuruti Xondritləri |
 
 ### STRESS Style Thin Sections
 
@@ -946,6 +970,7 @@ The table below records all translations for collections across languages. Scien
 | Haitian Creole | ht | Seksyon mens stil STRESS |
 | Danish | da | Tynde snit i STRESS-stil |
 | Norwegian Bokmål | no | Tynne snitt i STRESS-stil |
+| Azerbaijani | az | STRESS Üslublu Nazik Kəsimlər |
 
 ### Unclassified Meteorites
 
@@ -978,6 +1003,7 @@ The table below records all translations for collections across languages. Scien
 | Haitian Creole | ht | Meteorit ki pa klase |
 | Danish | da | Ikke-klassificerede meteoritter |
 | Norwegian Bokmål | no | Ikke-klassifiserte meteoritter |
+| Azerbaijani | az | Təsnif Edilməmiş Meteorlar |
 
 ### Ungrouped Achondrite Meteorites
 
@@ -1010,6 +1036,7 @@ The table below records all translations for collections across languages. Scien
 | Haitian Creole | ht | Meteorit achondrit ki pa gwoupe |
 | Danish | da | Ikke-grupperede achondrit-meteoritter |
 | Norwegian Bokmål | no | Ikke-grupperte achondritt-meteoritter |
+| Azerbaijani | az | Qruplaşdırılmamış Akondrit Meteorları |
 
 ### Ureilite Meteorites
 
@@ -1042,6 +1069,7 @@ The table below records all translations for collections across languages. Scien
 | Haitian Creole | ht | Meteorit Ureilit |
 | Danish | da | Ureilit-meteoritter |
 | Norwegian Bokmål | no | Ureilitt-meteoritter |
+| Azerbaijani | az | Ureilit Meteorları |
 
 ### Vigarano Group
 
@@ -1074,6 +1102,7 @@ The table below records all translations for collections across languages. Scien
 | Haitian Creole | ht | Gwoup Vigarano |
 | Danish | da | Vigarano-gruppen |
 | Norwegian Bokmål | no | Vigarano-gruppen |
+| Azerbaijani | az | Vigarano Qrupu |
 
 ---
 
