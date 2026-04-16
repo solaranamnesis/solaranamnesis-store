@@ -43,6 +43,7 @@
 [Yoruba (Yorùbá)](https://store.solaranamnesis.com/index-yo.html)  
 [Amharic (አማርኛ)](https://store.solaranamnesis.com/index-am.html)  
 [Georgian (ქართული)](https://store.solaranamnesis.com/index-ka.html)  
+[Esperanto](https://store.solaranamnesis.com/index-eo.html)  
 [Interlingua](https://store.solaranamnesis.com/index-ia.html)  
 [Latin (Latina)](https://store.solaranamnesis.com/index-la.html)  
 [Lëtzebuergesch](https://store.solaranamnesis.com/index-lb.html)  

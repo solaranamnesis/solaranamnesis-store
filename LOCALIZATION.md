@@ -39,6 +39,7 @@ Each language version of the store's index page is a standalone HTML file named 
 | `index-ka.html` | Georgian (ქართული) |
 | `index-kn.html` | Kannada (ಕನ್ನಡ) |
 | `index-ko.html` | Korean (한국어) |
+| `index-eo.html` | Esperanto |
 | `index-ia.html` | Interlingua |
 | `index-la.html` | Latin (Latina) |
 | `index-lb.html` | Lëtzebuergesch |
@@ -196,6 +197,7 @@ The table below records all translations for collections across languages. Scien
 | Language | Code | Translation |
 |---|---|---|
 | English | en | Collections |
+| Esperanto | eo | Kolektoj |
 | Interlingua | ia | Collectiones |
 | Latin | la | Collectiones |
 | Lëtzebuergesch | lb | Kollektiounen |
@@ -235,6 +237,7 @@ The table below records all translations for collections across languages. Scien
 | Language | Code | Translation |
 |---|---|---|
 | English | en | Acapulcoite Meteorites |
+| Esperanto | eo | Acapulcoitaj Meteoritoj |
 | Interlingua | ia | Meteoritos Acapulcoite |
 | Latin | la | Acapulcoitae Meteoritae |
 | Lëtzebuergesch | lb | Acapulcoit Meteoriten |
@@ -274,6 +277,7 @@ The table below records all translations for collections across languages. Scien
 | Language | Code | Translation |
 |---|---|---|
 | English | en | Angrite Meteorites |
+| Esperanto | eo | Angritaj Meteoritoj |
 | Interlingua | ia | Meteoritos Angrite |
 | Latin | la | Angritae Meteoritae |
 | Lëtzebuergesch | lb | Angrit Meteoriten |
@@ -313,6 +317,7 @@ The table below records all translations for collections across languages. Scien
 | Language | Code | Translation |
 |---|---|---|
 | English | en | Aubrite Meteorites |
+| Esperanto | eo | Aubritaj Meteoritoj |
 | Interlingua | ia | Meteoritos Aubrite |
 | Latin | la | Aubritae Meteoritae |
 | Lëtzebuergesch | lb | Aubrit Meteoriten |
@@ -352,6 +357,7 @@ The table below records all translations for collections across languages. Scien
 | Language | Code | Translation |
 |---|---|---|
 | English | en | Brachinite Meteorites |
+| Esperanto | eo | Brachinidaj Meteoritoj |
 | Interlingua | ia | Meteoritos Brachinite |
 | Latin | la | Brachinitae Meteoritae |
 | Lëtzebuergesch | lb | Brachinit Meteoriten |
@@ -391,6 +397,7 @@ The table below records all translations for collections across languages. Scien
 | Language | Code | Translation |
 |---|---|---|
 | English | en | Enstatite Chondrites |
+| Esperanto | eo | Enstatitaj Ĥondritoj |
 | Interlingua | ia | Chondrites Enstatite |
 | Latin | la | Enstatitae Chondritae |
 | Lëtzebuergesch | lb | Enstatit Chondriten |
@@ -430,6 +437,7 @@ The table below records all translations for collections across languages. Scien
 | Language | Code | Translation |
 |---|---|---|
 | English | en | Gigapixel Gallery |
+| Esperanto | eo | Gigapiksela Galerio |
 | Interlingua | ia | Galeria Gigapixel |
 | Latin | la | Gigapixel Gallery |
 | Lëtzebuergesch | lb | Gigapixel Galerie |
@@ -469,6 +477,7 @@ The table below records all translations for collections across languages. Scien
 | Language | Code | Translation |
 |---|---|---|
 | English | en | HED Meteorites |
+| Esperanto | eo | HED-Meteoritoj |
 | Interlingua | ia | Meteoritos HED |
 | Latin | la | HED Meteoritae |
 | Lëtzebuergesch | lb | HED Meteoriten |
@@ -508,6 +517,7 @@ The table below records all translations for collections across languages. Scien
 | Language | Code | Translation |
 |---|---|---|
 | English | en | High Metal Group |
+| Esperanto | eo | High Metal Group |
 | Interlingua | ia | High Metal Group |
 | Latin | la | High Metal Group |
 | Lëtzebuergesch | lb | High Metal Group |
@@ -547,6 +557,7 @@ The table below records all translations for collections across languages. Scien
 | Language | Code | Translation |
 |---|---|---|
 | English | en | Individual MicroShots |
+| Esperanto | eo | Individual MicroShots |
 | Interlingua | ia | Individual MicroShots |
 | Latin | la | Individual MicroShots |
 | Lëtzebuergesch | lb | Individual MicroShots |
@@ -586,6 +597,7 @@ The table below records all translations for collections across languages. Scien
 | Language | Code | Translation |
 |---|---|---|
 | English | en | Iron Meteorites |
+| Esperanto | eo | Feraj Meteoritoj |
 | Interlingua | ia | Meteoritos de Ferro |
 | Latin | la | Ferrum Meteoritae |
 | Lëtzebuergesch | lb | Eise Meteoriten |
@@ -625,6 +637,7 @@ The table below records all translations for collections across languages. Scien
 | Language | Code | Translation |
 |---|---|---|
 | English | en | Karoonda Group |
+| Esperanto | eo | Karoonda-Grupo |
 | Interlingua | ia | Gruppo Karoonda |
 | Latin | la | Karoonda Group |
 | Lëtzebuergesch | lb | Karoonda Grupp |
@@ -664,6 +677,7 @@ The table below records all translations for collections across languages. Scien
 | Language | Code | Translation |
 |---|---|---|
 | English | en | Lodranite Meteorites |
+| Esperanto | eo | Lodranitaj Meteoritoj |
 | Interlingua | ia | Meteoritos Lodranite |
 | Latin | la | Lodranitae Meteoritae |
 | Lëtzebuergesch | lb | Lodranit Meteoriten |
@@ -703,6 +717,7 @@ The table below records all translations for collections across languages. Scien
 | Language | Code | Translation |
 |---|---|---|
 | English | en | Lunar Meteorites |
+| Esperanto | eo | Lunaj Meteoritoj |
 | Interlingua | ia | Meteoritos Lunar |
 | Latin | la | Lunares Meteoritae |
 | Lëtzebuergesch | lb | Lunar Meteoriten |
@@ -742,6 +757,7 @@ The table below records all translations for collections across languages. Scien
 | Language | Code | Translation |
 |---|---|---|
 | English | en | Martian Meteorites |
+| Esperanto | eo | Marsaj Meteoritoj |
 | Interlingua | ia | Meteoritos Martian |
 | Latin | la | Martiales Meteoritae |
 | Lëtzebuergesch | lb | Mars Meteoriten |
@@ -781,6 +797,7 @@ The table below records all translations for collections across languages. Scien
 | Language | Code | Translation |
 |---|---|---|
 | English | en | Mesosiderite Meteorites |
+| Esperanto | eo | Mezosideritaj Meteoritoj |
 | Interlingua | ia | Meteoritos Mesosiderite |
 | Latin | la | Mesosideritae Meteoritae |
 | Lëtzebuergesch | lb | Mesosiderit Meteoriten |
@@ -820,6 +837,7 @@ The table below records all translations for collections across languages. Scien
 | Language | Code | Translation |
 |---|---|---|
 | English | en | Mighei Group |
+| Esperanto | eo | Mighei-Grupo |
 | Interlingua | ia | Gruppo Mighei |
 | Latin | la | Mighei Group |
 | Lëtzebuergesch | lb | Mighei Grupp |
@@ -859,6 +877,7 @@ The table below records all translations for collections across languages. Scien
 | Language | Code | Translation |
 |---|---|---|
 | English | en | Miscellaneous |
+| Esperanto | eo | Diversaĵoj |
 | Interlingua | ia | Miscellanee |
 | Latin | la | Miscellanea |
 | Lëtzebuergesch | lb | Verschiddenes |
@@ -898,6 +917,7 @@ The table below records all translations for collections across languages. Scien
 | Language | Code | Translation |
 |---|---|---|
 | English | en | Ordinary Chondrites |
+| Esperanto | eo | Ordinaraj Ĥondritoj |
 | Interlingua | ia | Chondrites Ordinari |
 | Latin | la | Ordinariae Chondritae |
 | Lëtzebuergesch | lb | Gewéinlech Chondriten |
@@ -937,6 +957,7 @@ The table below records all translations for collections across languages. Scien
 | Language | Code | Translation |
 |---|---|---|
 | English | en | Ornans Group |
+| Esperanto | eo | Ornans-Grupo |
 | Interlingua | ia | Gruppo Ornans |
 | Latin | la | Ornans Group |
 | Lëtzebuergesch | lb | Ornans Grupp |
@@ -976,6 +997,7 @@ The table below records all translations for collections across languages. Scien
 | Language | Code | Translation |
 |---|---|---|
 | English | en | Pallasite Meteorites |
+| Esperanto | eo | Palasitaj Meteoritoj |
 | Interlingua | ia | Meteoritos Pallasite |
 | Latin | la | Pallasitae Meteoritae |
 | Lëtzebuergesch | lb | Pallasit Meteoriten |
@@ -1015,6 +1037,7 @@ The table below records all translations for collections across languages. Scien
 | Language | Code | Translation |
 |---|---|---|
 | English | en | Renazzo Group |
+| Esperanto | eo | Renazzo-Grupo |
 | Interlingua | ia | Gruppo Renazzo |
 | Latin | la | Renazzo Group |
 | Lëtzebuergesch | lb | Renazzo Grupp |
@@ -1054,6 +1077,7 @@ The table below records all translations for collections across languages. Scien
 | Language | Code | Translation |
 |---|---|---|
 | English | en | Rumuruti Chondrites |
+| Esperanto | eo | Rumuruti-Ĥondritoj |
 | Interlingua | ia | Chondrites Rumuruti |
 | Latin | la | Rumuruti Chondritae |
 | Lëtzebuergesch | lb | Rumuruti Chondriten |
@@ -1127,6 +1151,7 @@ The table below records all translations for collections across languages. Scien
 | Language | Code | Translation |
 |---|---|---|
 | English | en | Unclassified Meteorites |
+| Esperanto | eo | Neklasifikitaj Meteoritoj |
 | Interlingua | ia | Meteoritos non classificate |
 | Latin | la | Inclassificatae Meteoritae |
 | Lëtzebuergesch | lb | Net klasséiert Meteoriten |
@@ -1166,6 +1191,7 @@ The table below records all translations for collections across languages. Scien
 | Language | Code | Translation |
 |---|---|---|
 | English | en | Ungrouped Achondrite Meteorites |
+| Esperanto | eo | Negrupiĝintaj Akondritaj Meteoritoj |
 | Interlingua | ia | Meteoritos Achondrite non gruppate |
 | Latin | la | Ungrouped Achondritae Meteoritae |
 | Lëtzebuergesch | lb | Net gruppéiert Achondrit Meteoriten |
@@ -1205,6 +1231,7 @@ The table below records all translations for collections across languages. Scien
 | Language | Code | Translation |
 |---|---|---|
 | English | en | Ureilite Meteorites |
+| Esperanto | eo | Ureilitaj Meteoritoj |
 | Interlingua | ia | Meteoritos Ureilite |
 | Latin | la | Ureilitae Meteoritae |
 | Lëtzebuergesch | lb | Ureilit Meteoriten |
@@ -1244,6 +1271,7 @@ The table below records all translations for collections across languages. Scien
 | Language | Code | Translation |
 |---|---|---|
 | English | en | Vigarano Group |
+| Esperanto | eo | Vigarano-Grupo |
 | Interlingua | ia | Gruppo Vigarano |
 | Latin | la | Vigarano Group |
 | Lëtzebuergesch | lb | Vigarano Grupp |
