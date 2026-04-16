@@ -67,6 +67,7 @@ Each language version of the store's index page is a standalone HTML file named 
 | `index-kk.html` | Kazakh (Қазақша) |
 | `index-ky.html` | Kyrgyz (Кыргызча) |
 | `index-cs.html` | Czech (Česky) |
+| `index-cy.html` | Welsh (Cymraeg) |
 | `index-uk.html` | Ukrainian (Українська) |
 | `index-ro.html` | Romanian (Română) |
 | `index-ku.html` | Kurdish Kurmanji (Kurdî / Kurmancî) |
@@ -225,6 +226,7 @@ The table below records all translations for collections across languages. Scien
 | Malagasy | mg | Fitambarana |
 | Quechua | qu | Tantanakuykuna |
 | Gaeilge | ga | Bailiúcháin |
+| Welsh | cy | Casgliadau |
 
 ### Acapulcoite Meteorites
 
@@ -262,6 +264,7 @@ The table below records all translations for collections across languages. Scien
 | Malagasy | mg | Vatoandro Acapulcoite |
 | Quechua | qu | Acapulkoita Meteoro Rumikuna |
 | Gaeilge | ga | Meitéarítí Acapulcoite |
+| Welsh | cy | Meteoritau Acapulcoite |
 
 ### Angrite Meteorites
 
@@ -299,6 +302,7 @@ The table below records all translations for collections across languages. Scien
 | Malagasy | mg | Vatoandro Angrite |
 | Quechua | qu | Angrita Meteoro Rumikuna |
 | Gaeilge | ga | Meitéarítí Angrite |
+| Welsh | cy | Meteoritau Angrite |
 
 ### Aubrite Meteorites
 
@@ -336,6 +340,7 @@ The table below records all translations for collections across languages. Scien
 | Malagasy | mg | Vatoandro Aubrite |
 | Quechua | qu | Awbrita Meteoro Rumikuna |
 | Gaeilge | ga | Meitéarítí Aubrite |
+| Welsh | cy | Meteoritau Aubrite |
 
 ### Brachinite Meteorites
 
@@ -373,6 +378,7 @@ The table below records all translations for collections across languages. Scien
 | Malagasy | mg | Vatoandro Brachinite |
 | Quechua | qu | Brachinita Meteoro Rumikuna |
 | Gaeilge | ga | Meitéarítí Brachinite |
+| Welsh | cy | Meteoritau Brachinite |
 
 ### Enstatite Chondrites
 
@@ -410,6 +416,7 @@ The table below records all translations for collections across languages. Scien
 | Malagasy | mg | Kondrita Enstatite |
 | Quechua | qu | Enstatita Kondritakuna |
 | Gaeilge | ga | Condrítí Enstatite |
+| Welsh | cy | Chondritau Enstatite |
 
 ### Gigapixel Gallery
 
@@ -447,6 +454,7 @@ The table below records all translations for collections across languages. Scien
 | Malagasy | mg | Galeria Gigapixel |
 | Quechua | qu | Gigapixel Qawana |
 | Gaeilge | ga | Gailearaí Gigapixel |
+| Welsh | cy | Oriel Gigapicsel |
 
 ### HED Meteorites
 
@@ -484,6 +492,7 @@ The table below records all translations for collections across languages. Scien
 | Malagasy | mg | Vatoandro HED |
 | Quechua | qu | HED Meteoro Rumikuna |
 | Gaeilge | ga | Meitéarítí HED |
+| Welsh | cy | Meteoritau HED |
 
 ### High Metal Group
 
@@ -521,6 +530,7 @@ The table below records all translations for collections across languages. Scien
 | Malagasy | mg | High Metal Group |
 | Quechua | qu | High Metal Group |
 | Gaeilge | ga | High Metal Group |
+| Welsh | cy | High Metal Group |
 
 ### Individual MicroShots
 
@@ -558,6 +568,7 @@ The table below records all translations for collections across languages. Scien
 | Malagasy | mg | Individual MicroShots |
 | Quechua | qu | Individual MicroShots |
 | Gaeilge | ga | Individual MicroShots |
+| Welsh | cy | Individual MicroShots |
 
 ### Iron Meteorites
 
@@ -595,6 +606,7 @@ The table below records all translations for collections across languages. Scien
 | Malagasy | mg | Vatoandro Vy |
 | Quechua | qu | Fierro Meteoro Rumikuna |
 | Gaeilge | ga | Meitéarítí Iarainn |
+| Welsh | cy | Meteoritau Haearn |
 
 ### Karoonda Group
 
@@ -632,6 +644,7 @@ The table below records all translations for collections across languages. Scien
 | Malagasy | mg | Vondrona Karoonda |
 | Quechua | qu | Karoonda Ayllukuna |
 | Gaeilge | ga | Grúpa Karoonda |
+| Welsh | cy | Grŵp Karoonda |
 
 ### Lodranite Meteorites
 
@@ -669,6 +682,7 @@ The table below records all translations for collections across languages. Scien
 | Malagasy | mg | Vatoandro Lodranite |
 | Quechua | qu | Lodranita Meteoro Rumikuna |
 | Gaeilge | ga | Meitéarítí Lodranite |
+| Welsh | cy | Meteoritau Lodranite |
 
 ### Lunar Meteorites
 
@@ -706,6 +720,7 @@ The table below records all translations for collections across languages. Scien
 | Malagasy | mg | Vatoandro Volana |
 | Quechua | qu | Killa Meteoro Rumikuna |
 | Gaeilge | ga | Meitéarítí Gealaí |
+| Welsh | cy | Meteoritau Lleuad |
 
 ### Martian Meteorites
 
@@ -743,6 +758,7 @@ The table below records all translations for collections across languages. Scien
 | Malagasy | mg | Vatoandro Mars |
 | Quechua | qu | Marte Meteoro Rumikuna |
 | Gaeilge | ga | Meitéarítí Máirt |
+| Welsh | cy | Meteoritau Mawrth |
 
 ### Mesosiderite Meteorites
 
@@ -780,6 +796,7 @@ The table below records all translations for collections across languages. Scien
 | Malagasy | mg | Vatoandro Mesosiderite |
 | Quechua | qu | Mesosiderita Meteoro Rumikuna |
 | Gaeilge | ga | Meitéarítí Mesosiderite |
+| Welsh | cy | Meteoritau Mesosiderite |
 
 ### Mighei Group
 
@@ -817,6 +834,7 @@ The table below records all translations for collections across languages. Scien
 | Malagasy | mg | Vondrona Mighei |
 | Quechua | qu | Mighei Ayllukuna |
 | Gaeilge | ga | Grúpa Mighei |
+| Welsh | cy | Grŵp Mighei |
 
 ### Miscellaneous
 
@@ -854,6 +872,7 @@ The table below records all translations for collections across languages. Scien
 | Malagasy | mg | Samy hafa |
 | Quechua | qu | Hukniray Kaykuna |
 | Gaeilge | ga | Ilghnéitheach |
+| Welsh | cy | Amrywiol |
 
 ### Ordinary Chondrites
 
@@ -891,6 +910,7 @@ The table below records all translations for collections across languages. Scien
 | Malagasy | mg | Kondrita Mahazatra |
 | Quechua | qu | Sapan Kondritakuna |
 | Gaeilge | ga | Condrítí Gnátha |
+| Welsh | cy | Chondritau Cyffredin |
 
 ### Ornans Group
 
@@ -928,6 +948,7 @@ The table below records all translations for collections across languages. Scien
 | Malagasy | mg | Vondrona Ornans |
 | Quechua | qu | Ornans Ayllukuna |
 | Gaeilge | ga | Grúpa Ornans |
+| Welsh | cy | Grŵp Ornans |
 
 ### Pallasite Meteorites
 
@@ -965,6 +986,7 @@ The table below records all translations for collections across languages. Scien
 | Malagasy | mg | Vatoandro Pallasite |
 | Quechua | qu | Pallasita Meteoro Rumikuna |
 | Gaeilge | ga | Meitéarítí Pallasite |
+| Welsh | cy | Meteoritau Pallasite |
 
 ### Renazzo Group
 
@@ -1002,6 +1024,7 @@ The table below records all translations for collections across languages. Scien
 | Malagasy | mg | Vondrona Renazzo |
 | Quechua | qu | Renazzo Ayllukuna |
 | Gaeilge | ga | Grúpa Renazzo |
+| Welsh | cy | Grŵp Renazzo |
 
 ### Rumuruti Chondrites
 
@@ -1039,6 +1062,7 @@ The table below records all translations for collections across languages. Scien
 | Malagasy | mg | Kondrita Rumuruti |
 | Quechua | qu | Rumuruti Kondritakuna |
 | Gaeilge | ga | Condrítí Rumuruti |
+| Welsh | cy | Chondritau Rumuruti |
 
 ### STRESS Style Thin Sections
 
@@ -1071,6 +1095,7 @@ The table below records all translations for collections across languages. Scien
 | Malagasy | mg | STRESS Style Thin Sections |
 | Quechua | qu | STRESS Style Thin Sections |
 | Gaeilge | ga | STRESS Style Thin Sections |
+| Welsh | cy | STRESS Style Thin Sections |
 
 ### Unclassified Meteorites
 
@@ -1108,6 +1133,7 @@ The table below records all translations for collections across languages. Scien
 | Malagasy | mg | Vatoandro Tsy Voakajy |
 | Quechua | qu | Manam Rakisqa Meteoro Rumikuna |
 | Gaeilge | ga | Meitéarítí Neamhaicmithe |
+| Welsh | cy | Meteoritau Heb eu Dosbarthu |
 
 ### Ungrouped Achondrite Meteorites
 
@@ -1145,6 +1171,7 @@ The table below records all translations for collections across languages. Scien
 | Malagasy | mg | Vatoandro Akondrita Tsy Voavondrona |
 | Quechua | qu | Aylluniyuq Akondrita Meteoro Rumikuna |
 | Gaeilge | ga | Meitéarítí Achondrít Neamhghrúpáilte |
+| Welsh | cy | Meteoritau Achondrite Heb eu Grwpio |
 
 ### Ureilite Meteorites
 
@@ -1182,6 +1209,7 @@ The table below records all translations for collections across languages. Scien
 | Malagasy | mg | Vatoandro Ureilite |
 | Quechua | qu | Ureilita Meteoro Rumikuna |
 | Gaeilge | ga | Meitéarítí Ureilite |
+| Welsh | cy | Meteoritau Ureilite |
 
 ### Vigarano Group
 
@@ -1219,6 +1247,7 @@ The table below records all translations for collections across languages. Scien
 | Malagasy | mg | Vondrona Vigarano |
 | Quechua | qu | Vigarano Ayllukuna |
 | Gaeilge | ga | Grúpa Vigarano |
+| Welsh | cy | Grŵp Vigarano |
 
 ---
 

@@ -52,6 +52,7 @@
 [Tatar (Tatarça)](https://store.solaranamnesis.com/index-tt.html)  
 [Қазақша (Kazakh)](https://store.solaranamnesis.com/index-kk.html)  
 [Кыргызча (Kyrgyz)](https://store.solaranamnesis.com/index-ky.html)  
+[Cymraeg (Welsh)](https://store.solaranamnesis.com/index-cy.html)  
 [Česky (Czech)](https://store.solaranamnesis.com/index-cs.html)  
 [Українська (Ukrainian)](https://store.solaranamnesis.com/index-uk.html)  
 [Română (Romanian)](https://store.solaranamnesis.com/index-ro.html)  
