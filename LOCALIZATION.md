@@ -39,6 +39,7 @@ Each language version of the store's index page is a standalone HTML file named 
 | `index-kn.html` | Kannada (ಕನ್ನಡ) |
 | `index-ko.html` | Korean (한국어) |
 | `index-la.html` | Latin (Latina) |
+| `index-mg.html` | Malagasy |
 | `index-mn.html` | Mongolian Latin Script (Mongol) |
 | `index-mr.html` | Marathi (मराठी) |
 | `index-new.html` | Nepal Bhasa (𑐣𑐾𑐥𑐵𑐮 𑐨𑐵𑐲𑐵) |
@@ -217,6 +218,7 @@ The table below records all translations for collections across languages. Scien
 | Danish | da | Samlinger |
 | Norwegian Bokmål | no | Samlinger |
 | Azerbaijani | az | Kolleksiyalar |
+| Malagasy | mg | Fitambarana |
 
 ### Acapulcoite Meteorites
 
@@ -250,6 +252,7 @@ The table below records all translations for collections across languages. Scien
 | Danish | da | Acapulcoit-meteoritter |
 | Norwegian Bokmål | no | Acapulcoitt-meteoritter |
 | Azerbaijani | az | Akapulkoit Meteorları |
+| Malagasy | mg | Vatoandro Acapulcoite |
 
 ### Angrite Meteorites
 
@@ -283,6 +286,7 @@ The table below records all translations for collections across languages. Scien
 | Danish | da | Angrit-meteoritter |
 | Norwegian Bokmål | no | Angritt-meteoritter |
 | Azerbaijani | az | Angrit Meteorları |
+| Malagasy | mg | Vatoandro Angrite |
 
 ### Aubrite Meteorites
 
@@ -316,6 +320,7 @@ The table below records all translations for collections across languages. Scien
 | Danish | da | Aubrit-meteoritter |
 | Norwegian Bokmål | no | Aubritt-meteoritter |
 | Azerbaijani | az | Aubrit Meteorları |
+| Malagasy | mg | Vatoandro Aubrite |
 
 ### Brachinite Meteorites
 
@@ -349,6 +354,7 @@ The table below records all translations for collections across languages. Scien
 | Danish | da | Brachinit-meteoritter |
 | Norwegian Bokmål | no | Brachinitt-meteoritter |
 | Azerbaijani | az | Brakinit Meteorları |
+| Malagasy | mg | Vatoandro Brachinite |
 
 ### Enstatite Chondrites
 
@@ -382,6 +388,7 @@ The table below records all translations for collections across languages. Scien
 | Danish | da | Enstatit-chondritter |
 | Norwegian Bokmål | no | Enstatitt-kondritter |
 | Azerbaijani | az | Enstatit Xondritləri |
+| Malagasy | mg | Kondrita Enstatite |
 
 ### Gigapixel Gallery
 
@@ -415,6 +422,7 @@ The table below records all translations for collections across languages. Scien
 | Danish | da | Gigapixel-galleri |
 | Norwegian Bokmål | no | Gigapixel-galleri |
 | Azerbaijani | az | Giqapiksel Qalereyası |
+| Malagasy | mg | Galeria Gigapixel |
 
 ### HED Meteorites
 
@@ -448,6 +456,7 @@ The table below records all translations for collections across languages. Scien
 | Danish | da | HED-meteoritter |
 | Norwegian Bokmål | no | HED-meteoritter |
 | Azerbaijani | az | HED Meteorları |
+| Malagasy | mg | Vatoandro HED |
 
 ### High Metal Group
 
@@ -481,6 +490,7 @@ The table below records all translations for collections across languages. Scien
 | Danish | da | Gruppe med højt metalindhold |
 | Norwegian Bokmål | no | Gruppe med høyt metallinnhold |
 | Azerbaijani | az | Yüksək Metal Qrupu |
+| Malagasy | mg | High Metal Group |
 
 ### Individual MicroShots
 
@@ -514,6 +524,7 @@ The table below records all translations for collections across languages. Scien
 | Danish | da | Enkelte MicroShots |
 | Norwegian Bokmål | no | Enkelte MicroShots |
 | Azerbaijani | az | Fərdi MikroŞotlar |
+| Malagasy | mg | Individual MicroShots |
 
 ### Iron Meteorites
 
@@ -547,6 +558,7 @@ The table below records all translations for collections across languages. Scien
 | Danish | da | Jernmeteoritter |
 | Norwegian Bokmål | no | Jernmeteoritter |
 | Azerbaijani | az | Dəmir Meteorları |
+| Malagasy | mg | Vatoandro Vy |
 
 ### Karoonda Group
 
@@ -580,6 +592,7 @@ The table below records all translations for collections across languages. Scien
 | Danish | da | Karoonda-gruppen |
 | Norwegian Bokmål | no | Karoonda-gruppen |
 | Azerbaijani | az | Karoonda Qrupu |
+| Malagasy | mg | Vondrona Karoonda |
 
 ### Lodranite Meteorites
 
@@ -613,6 +626,7 @@ The table below records all translations for collections across languages. Scien
 | Danish | da | Lodranit-meteoritter |
 | Norwegian Bokmål | no | Lodranitt-meteoritter |
 | Azerbaijani | az | Lodranit Meteorları |
+| Malagasy | mg | Vatoandro Lodranite |
 
 ### Lunar Meteorites
 
@@ -646,6 +660,7 @@ The table below records all translations for collections across languages. Scien
 | Danish | da | Måne-meteoritter |
 | Norwegian Bokmål | no | Måne-meteoritter |
 | Azerbaijani | az | Ay Meteorları |
+| Malagasy | mg | Vatoandro Volana |
 
 ### Martian Meteorites
 
@@ -679,6 +694,7 @@ The table below records all translations for collections across languages. Scien
 | Danish | da | Mars-meteoritter |
 | Norwegian Bokmål | no | Mars-meteoritter |
 | Azerbaijani | az | Mars Meteorları |
+| Malagasy | mg | Vatoandro Mars |
 
 ### Mesosiderite Meteorites
 
@@ -712,6 +728,7 @@ The table below records all translations for collections across languages. Scien
 | Danish | da | Mesosiderit-meteoritter |
 | Norwegian Bokmål | no | Mesosideritt-meteoritter |
 | Azerbaijani | az | Mezosiderit Meteorları |
+| Malagasy | mg | Vatoandro Mesosiderite |
 
 ### Mighei Group
 
@@ -745,6 +762,7 @@ The table below records all translations for collections across languages. Scien
 | Danish | da | Mighei-gruppen |
 | Norwegian Bokmål | no | Mighei-gruppen |
 | Azerbaijani | az | Mighei Qrupu |
+| Malagasy | mg | Vondrona Mighei |
 
 ### Miscellaneous
 
@@ -778,6 +796,7 @@ The table below records all translations for collections across languages. Scien
 | Danish | da | Diverse |
 | Norwegian Bokmål | no | Diverse |
 | Azerbaijani | az | Müxtəlif |
+| Malagasy | mg | Samy hafa |
 
 ### Ordinary Chondrites
 
@@ -811,6 +830,7 @@ The table below records all translations for collections across languages. Scien
 | Danish | da | Almindelige chondritter |
 | Norwegian Bokmål | no | Vanlige kondritter |
 | Azerbaijani | az | Adi Xondritlər |
+| Malagasy | mg | Kondrita Mahazatra |
 
 ### Ornans Group
 
@@ -844,6 +864,7 @@ The table below records all translations for collections across languages. Scien
 | Danish | da | Ornans-gruppen |
 | Norwegian Bokmål | no | Ornans-gruppen |
 | Azerbaijani | az | Ornans Qrupu |
+| Malagasy | mg | Vondrona Ornans |
 
 ### Pallasite Meteorites
 
@@ -877,6 +898,7 @@ The table below records all translations for collections across languages. Scien
 | Danish | da | Pallasit-meteoritter |
 | Norwegian Bokmål | no | Pallasitt-meteoritter |
 | Azerbaijani | az | Pallasit Meteorları |
+| Malagasy | mg | Vatoandro Pallasite |
 
 ### Renazzo Group
 
@@ -910,6 +932,7 @@ The table below records all translations for collections across languages. Scien
 | Danish | da | Renazzo-gruppen |
 | Norwegian Bokmål | no | Renazzo-gruppen |
 | Azerbaijani | az | Renazzo Qrupu |
+| Malagasy | mg | Vondrona Renazzo |
 
 ### Rumuruti Chondrites
 
@@ -943,6 +966,7 @@ The table below records all translations for collections across languages. Scien
 | Danish | da | Rumuruti-chondritter |
 | Norwegian Bokmål | no | Rumuruti-kondritter |
 | Azerbaijani | az | Rumuruti Xondritləri |
+| Malagasy | mg | Kondrita Rumuruti |
 
 ### STRESS Style Thin Sections
 
@@ -971,6 +995,7 @@ The table below records all translations for collections across languages. Scien
 | Danish | da | Tynde snit i STRESS-stil |
 | Norwegian Bokmål | no | Tynne snitt i STRESS-stil |
 | Azerbaijani | az | STRESS Üslublu Nazik Kəsimlər |
+| Malagasy | mg | STRESS Style Thin Sections |
 
 ### Unclassified Meteorites
 
@@ -1004,6 +1029,7 @@ The table below records all translations for collections across languages. Scien
 | Danish | da | Ikke-klassificerede meteoritter |
 | Norwegian Bokmål | no | Ikke-klassifiserte meteoritter |
 | Azerbaijani | az | Təsnif Edilməmiş Meteorlar |
+| Malagasy | mg | Vatoandro Tsy Voakajy |
 
 ### Ungrouped Achondrite Meteorites
 
@@ -1037,6 +1063,7 @@ The table below records all translations for collections across languages. Scien
 | Danish | da | Ikke-grupperede achondrit-meteoritter |
 | Norwegian Bokmål | no | Ikke-grupperte achondritt-meteoritter |
 | Azerbaijani | az | Qruplaşdırılmamış Akondrit Meteorları |
+| Malagasy | mg | Vatoandro Akondrita Tsy Voavondrona |
 
 ### Ureilite Meteorites
 
@@ -1070,6 +1097,7 @@ The table below records all translations for collections across languages. Scien
 | Danish | da | Ureilit-meteoritter |
 | Norwegian Bokmål | no | Ureilitt-meteoritter |
 | Azerbaijani | az | Ureilit Meteorları |
+| Malagasy | mg | Vatoandro Ureilite |
 
 ### Vigarano Group
 
@@ -1103,6 +1131,7 @@ The table below records all translations for collections across languages. Scien
 | Danish | da | Vigarano-gruppen |
 | Norwegian Bokmål | no | Vigarano-gruppen |
 | Azerbaijani | az | Vigarano Qrupu |
+| Malagasy | mg | Vondrona Vigarano |
 
 ---
 
