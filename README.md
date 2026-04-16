@@ -69,3 +69,4 @@
 [Kreyòl ayisyen (Haitian Creole)](https://store.solaranamnesis.com/index-ht.html)  
 [Dansk (Danish)](https://store.solaranamnesis.com/index-da.html)  
 [Norsk Bokmål (Norwegian)](https://store.solaranamnesis.com/index-no.html)  
+[Runa Simi (Quechua)](https://store.solaranamnesis.com/index-qu.html)  
