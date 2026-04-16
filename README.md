@@ -23,6 +23,7 @@
 [Nederlands](https://store.solaranamnesis.com/index-nl.html)  
 [Svenska](https://store.solaranamnesis.com/index-sv.html)  
 [Turkish (Türkçe)](https://store.solaranamnesis.com/index-tr.html)  
+[Azərbaycan dili (Azerbaijani)](https://store.solaranamnesis.com/index-az.html)  
 [Magyar](https://store.solaranamnesis.com/index-hu.html)  
 [Nepal Bhasa (𑐣𑐾𑐥𑐵𑐮 𑐨𑐵𑐲𑐵)](https://store.solaranamnesis.com/index-new.html)  
 [Lhasa Tibetan (ལྷ་སའི་སྐད་)](https://store.solaranamnesis.com/index-bo.html)  
