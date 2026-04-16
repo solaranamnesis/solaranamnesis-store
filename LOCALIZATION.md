@@ -39,6 +39,7 @@ Each language version of the store's index page is a standalone HTML file named 
 | `index-kn.html` | Kannada (ಕನ್ನಡ) |
 | `index-ko.html` | Korean (한국어) |
 | `index-la.html` | Latin (Latina) |
+| `index-lb.html` | Lëtzebuergesch |
 | `index-mg.html` | Malagasy |
 | `index-mn.html` | Mongolian Latin Script (Mongol) |
 | `index-mr.html` | Marathi (मराठी) |
@@ -193,6 +194,7 @@ The table below records all translations for collections across languages. Scien
 |---|---|---|
 | English | en | Collections |
 | Latin | la | Collectiones |
+| Lëtzebuergesch | lb | Kollektiounen |
 | Basque | eu | Bilduma |
 | Finnish | fi | Kokoelmat |
 | Mongolian (Latin) | mn | Kholboloo |
@@ -228,6 +230,7 @@ The table below records all translations for collections across languages. Scien
 |---|---|---|
 | English | en | Acapulcoite Meteorites |
 | Latin | la | Acapulcoitae Meteoritae |
+| Lëtzebuergesch | lb | Acapulcoit Meteoriten |
 | Basque | eu | Acapulcoita Meteoritoak |
 | Finnish | fi | Acapulcoittimetriitit |
 | Mongolian (Latin) | mn | Acapulcoite Meteoritnuud |
@@ -263,6 +266,7 @@ The table below records all translations for collections across languages. Scien
 |---|---|---|
 | English | en | Angrite Meteorites |
 | Latin | la | Angritae Meteoritae |
+| Lëtzebuergesch | lb | Angrit Meteoriten |
 | Basque | eu | Angrita Meteoritoak |
 | Finnish | fi | Angrittimetriitit |
 | Mongolian (Latin) | mn | Angrite Meteoritnuud |
@@ -298,6 +302,7 @@ The table below records all translations for collections across languages. Scien
 |---|---|---|
 | English | en | Aubrite Meteorites |
 | Latin | la | Aubritae Meteoritae |
+| Lëtzebuergesch | lb | Aubrit Meteoriten |
 | Basque | eu | Aubrita Meteoritoak |
 | Finnish | fi | Aubrittimetriitit |
 | Mongolian (Latin) | mn | Aubrite Meteoritnuud |
@@ -333,6 +338,7 @@ The table below records all translations for collections across languages. Scien
 |---|---|---|
 | English | en | Brachinite Meteorites |
 | Latin | la | Brachinitae Meteoritae |
+| Lëtzebuergesch | lb | Brachinit Meteoriten |
 | Basque | eu | Brachinita Meteoritoak |
 | Finnish | fi | Brachiniittimetriitit |
 | Mongolian (Latin) | mn | Brachinite Meteoritnuud |
@@ -368,6 +374,7 @@ The table below records all translations for collections across languages. Scien
 |---|---|---|
 | English | en | Enstatite Chondrites |
 | Latin | la | Enstatitae Chondritae |
+| Lëtzebuergesch | lb | Enstatit Chondriten |
 | Basque | eu | Enstatita Kondritoak |
 | Finnish | fi | Enstatiittikondriitit |
 | Mongolian (Latin) | mn | Enstatite Chondritnuud |
@@ -403,6 +410,7 @@ The table below records all translations for collections across languages. Scien
 |---|---|---|
 | English | en | Gigapixel Gallery |
 | Latin | la | Gigapixel Gallery |
+| Lëtzebuergesch | lb | Gigapixel Galerie |
 | Basque | eu | Gigapixel Galeria |
 | Finnish | fi | Gigapixel Galleria |
 | Mongolian (Latin) | mn | Gigapixel Gallery |
@@ -438,6 +446,7 @@ The table below records all translations for collections across languages. Scien
 |---|---|---|
 | English | en | HED Meteorites |
 | Latin | la | HED Meteoritae |
+| Lëtzebuergesch | lb | HED Meteoriten |
 | Basque | eu | HED Meteoritoak |
 | Finnish | fi | HED-metriitit |
 | Mongolian (Latin) | mn | HED Meteoritnuud |
@@ -473,6 +482,7 @@ The table below records all translations for collections across languages. Scien
 |---|---|---|
 | English | en | High Metal Group |
 | Latin | la | High Metal Group |
+| Lëtzebuergesch | lb | High Metal Group |
 | Basque | eu | High Metal Group |
 | Finnish | fi | High Metal Group |
 | Mongolian (Latin) | mn | High Metal Group |
@@ -508,6 +518,7 @@ The table below records all translations for collections across languages. Scien
 |---|---|---|
 | English | en | Individual MicroShots |
 | Latin | la | Individual MicroShots |
+| Lëtzebuergesch | lb | Individual MicroShots |
 | Basque | eu | Indibidual MicroShots |
 | Finnish | fi | Yksittäiset MicroShots |
 | Mongolian (Latin) | mn | Individual MicroShots |
@@ -543,6 +554,7 @@ The table below records all translations for collections across languages. Scien
 |---|---|---|
 | English | en | Iron Meteorites |
 | Latin | la | Ferrum Meteoritae |
+| Lëtzebuergesch | lb | Eise Meteoriten |
 | Basque | eu | Burdinazko Meteoritoak |
 | Finnish | fi | Rautametriitit |
 | Mongolian (Latin) | mn | Töömör Meteoritnuud |
@@ -578,6 +590,7 @@ The table below records all translations for collections across languages. Scien
 |---|---|---|
 | English | en | Karoonda Group |
 | Latin | la | Karoonda Group |
+| Lëtzebuergesch | lb | Karoonda Grupp |
 | Basque | eu | Karoonda Taldea |
 | Finnish | fi | Karoonda-ryhmä |
 | Mongolian (Latin) | mn | Karoonda Group |
@@ -613,6 +626,7 @@ The table below records all translations for collections across languages. Scien
 |---|---|---|
 | English | en | Lodranite Meteorites |
 | Latin | la | Lodranitae Meteoritae |
+| Lëtzebuergesch | lb | Lodranit Meteoriten |
 | Basque | eu | Lodranita Meteoritoak |
 | Finnish | fi | Lodraniittimetriitit |
 | Mongolian (Latin) | mn | Lodranite Meteoritnuud |
@@ -648,6 +662,7 @@ The table below records all translations for collections across languages. Scien
 |---|---|---|
 | English | en | Lunar Meteorites |
 | Latin | la | Lunares Meteoritae |
+| Lëtzebuergesch | lb | Lunar Meteoriten |
 | Basque | eu | Ilargiko Meteoritoak |
 | Finnish | fi | Kuun metriitit |
 | Mongolian (Latin) | mn | Saran Meteoritnuud |
@@ -683,6 +698,7 @@ The table below records all translations for collections across languages. Scien
 |---|---|---|
 | English | en | Martian Meteorites |
 | Latin | la | Martiales Meteoritae |
+| Lëtzebuergesch | lb | Mars Meteoriten |
 | Basque | eu | Martearen Meteoritoak |
 | Finnish | fi | Marsin metriitit |
 | Mongolian (Latin) | mn | Angara Meteoritnuud |
@@ -718,6 +734,7 @@ The table below records all translations for collections across languages. Scien
 |---|---|---|
 | English | en | Mesosiderite Meteorites |
 | Latin | la | Mesosideritae Meteoritae |
+| Lëtzebuergesch | lb | Mesosiderit Meteoriten |
 | Basque | eu | Mesosiderita Meteoritoak |
 | Finnish | fi | Mesosideriittimetriitit |
 | Mongolian (Latin) | mn | Mesosiderite Meteoritnuud |
@@ -753,6 +770,7 @@ The table below records all translations for collections across languages. Scien
 |---|---|---|
 | English | en | Mighei Group |
 | Latin | la | Mighei Group |
+| Lëtzebuergesch | lb | Mighei Grupp |
 | Basque | eu | Mighei Taldea |
 | Finnish | fi | Mighei-ryhmä |
 | Mongolian (Latin) | mn | Mighei Group |
@@ -788,6 +806,7 @@ The table below records all translations for collections across languages. Scien
 |---|---|---|
 | English | en | Miscellaneous |
 | Latin | la | Miscellanea |
+| Lëtzebuergesch | lb | Verschiddenes |
 | Basque | eu | Hainbat |
 | Finnish | fi | Sekalaista |
 | Mongolian (Latin) | mn | Olni |
@@ -823,6 +842,7 @@ The table below records all translations for collections across languages. Scien
 |---|---|---|
 | English | en | Ordinary Chondrites |
 | Latin | la | Ordinariae Chondritae |
+| Lëtzebuergesch | lb | Gewéinlech Chondriten |
 | Basque | eu | Ohiko Kondritoak |
 | Finnish | fi | Tavalliset kondriitit |
 | Mongolian (Latin) | mn | Ordinary Chondritnuud |
@@ -858,6 +878,7 @@ The table below records all translations for collections across languages. Scien
 |---|---|---|
 | English | en | Ornans Group |
 | Latin | la | Ornans Group |
+| Lëtzebuergesch | lb | Ornans Grupp |
 | Basque | eu | Ornans Taldea |
 | Finnish | fi | Ornans-ryhmä |
 | Mongolian (Latin) | mn | Ornans Group |
@@ -893,6 +914,7 @@ The table below records all translations for collections across languages. Scien
 |---|---|---|
 | English | en | Pallasite Meteorites |
 | Latin | la | Pallasitae Meteoritae |
+| Lëtzebuergesch | lb | Pallasit Meteoriten |
 | Basque | eu | Pallasita Meteoritoak |
 | Finnish | fi | Pallasitiittimetriitit |
 | Mongolian (Latin) | mn | Pallasite Meteoritnuud |
@@ -928,6 +950,7 @@ The table below records all translations for collections across languages. Scien
 |---|---|---|
 | English | en | Renazzo Group |
 | Latin | la | Renazzo Group |
+| Lëtzebuergesch | lb | Renazzo Grupp |
 | Basque | eu | Renazzo Taldea |
 | Finnish | fi | Renazzo-ryhmä |
 | Mongolian (Latin) | mn | Renazzo Group |
@@ -963,6 +986,7 @@ The table below records all translations for collections across languages. Scien
 |---|---|---|
 | English | en | Rumuruti Chondrites |
 | Latin | la | Rumuruti Chondritae |
+| Lëtzebuergesch | lb | Rumuruti Chondriten |
 | Basque | eu | Rumuruti Kondritoak |
 | Finnish | fi | Rumuruti-kondriitit |
 | Mongolian (Latin) | mn | Rumuruti Chondritnuud |
@@ -997,6 +1021,7 @@ The table below records all translations for collections across languages. Scien
 | Language | Code | Translation |
 |---|---|---|
 | All languages | — | STRESS Style Thin Sections *(kept in English as a specific product name)* |
+| Lëtzebuergesch | lb | STRESS Style Thin Sections |
 | Kazakh | kk | STRESS стиліндегі жұқа кесінділер |
 | Kyrgyz | ky | STRESS стилиндеги жука кесиндилер |
 | Czech | cs | Tenké výbrusy ve stylu STRESS |
@@ -1028,6 +1053,7 @@ The table below records all translations for collections across languages. Scien
 |---|---|---|
 | English | en | Unclassified Meteorites |
 | Latin | la | Inclassificatae Meteoritae |
+| Lëtzebuergesch | lb | Net klasséiert Meteoriten |
 | Basque | eu | Klasifikatu Gabeko Meteoritoak |
 | Finnish | fi | Luokittelemattomat metriitit |
 | Mongolian (Latin) | mn | Angiildeg Meteoritnuud |
@@ -1063,6 +1089,7 @@ The table below records all translations for collections across languages. Scien
 |---|---|---|
 | English | en | Ungrouped Achondrite Meteorites |
 | Latin | la | Ungrouped Achondritae Meteoritae |
+| Lëtzebuergesch | lb | Net gruppéiert Achondrit Meteoriten |
 | Basque | eu | Talderik gabeko Akondritoak |
 | Finnish | fi | Järjestämättömät akondriitimetriitit |
 | Mongolian (Latin) | mn | Ungrouped Achondrite Meteoritnuud |
@@ -1098,6 +1125,7 @@ The table below records all translations for collections across languages. Scien
 |---|---|---|
 | English | en | Ureilite Meteorites |
 | Latin | la | Ureilitae Meteoritae |
+| Lëtzebuergesch | lb | Ureilit Meteoriten |
 | Basque | eu | Ureilita Meteoritoak |
 | Finnish | fi | Ureiliittimetriitit |
 | Mongolian (Latin) | mn | Ureilite Meteoritnuud |
@@ -1133,6 +1161,7 @@ The table below records all translations for collections across languages. Scien
 |---|---|---|
 | English | en | Vigarano Group |
 | Latin | la | Vigarano Group |
+| Lëtzebuergesch | lb | Vigarano Grupp |
 | Basque | eu | Vigarano Taldea |
 | Finnish | fi | Vigarano-ryhmä |
 | Mongolian (Latin) | mn | Vigarano Group |
