@@ -2,6 +2,7 @@
 [Spanish](https://store.solaranamnesis.com/index-es.html)  
 [German](https://store.solaranamnesis.com/index-de.html)  
 [French](https://store.solaranamnesis.com/index-fr.html)  
+[Gaeilge (Irish)](https://store.solaranamnesis.com/index-ga.html)  
 [Japanese (日本語)](https://store.solaranamnesis.com/index-ja.html)  
 [Italian](https://store.solaranamnesis.com/index-it.html)  
 [Russian (Русский)](https://store.solaranamnesis.com/index-ru.html)  
