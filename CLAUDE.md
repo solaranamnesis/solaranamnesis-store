@@ -113,7 +113,7 @@ Each collection directory contains an `index.html` with a Galleria.js slideshow.
 
       (function () {
         Galleria.loadTheme(
-          "https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/themes/classic/galleria.classic.min.js"
+          "https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/themes/azur/galleria.azur.min.js"
         );
 
         Galleria.ready(function () {
