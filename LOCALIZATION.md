@@ -81,6 +81,15 @@ Each language version of the store's index page is a standalone HTML file named 
 | `index-da.html` | Danish (Dansk) |
 | `index-no.html` | Norwegian Bokmål (Norsk Bokmål) |
 | `index-qu.html` | Quechua (Runa Simi) |
+| `index-rn.html` | Kirundi |
+| `index-rw.html` | Kinyarwanda |
+| `index-sd.html` | Sindhi (سنڌي) |
+| `index-ms.html` | Malay (Bahasa Melayu) |
+| `index-yue.html` | Yue Chinese (粵語) |
+| `index-wuu.html` | Wu Chinese (吴语) |
+| `index-nan.html` | Hokkien (Bân-lâm-gú) |
+| `index-ne.html` | Nepali (नेपाली) |
+| `index-uz.html` | Uzbek (Oʻzbekcha, Latin script) |
 
 ---
 
@@ -231,6 +240,15 @@ The table below records all translations for collections across languages. Scien
 | Quechua | qu | Tantanakuykuna |
 | Gaeilge | ga | Bailiúcháin |
 | Welsh | cy | Casgliadau |
+| Kirundi | rn | Ivyegeranyo |
+| Kinyarwanda | rw | Ibyegeranyo |
+| Sindhi | sd | مجموعا |
+| Malay | ms | Koleksi |
+| Yue Chinese | yue | 收藏 |
+| Wu Chinese | wuu | 收藏 |
+| Hokkien | nan | 收藏 |
+| Nepali | ne | संग्रहहरू |
+| Uzbek (Latin) | uz | Toʻplamlar |
 
 ### Acapulcoite Meteorites
 
@@ -271,6 +289,15 @@ The table below records all translations for collections across languages. Scien
 | Quechua | qu | Acapulkoita Meteoro Rumikuna |
 | Gaeilge | ga | Meitéarítí Acapulcoite |
 | Welsh | cy | Meteoritau Acapulcoite |
+| Kirundi | rn | Meteorite za Acapulcoite |
+| Kinyarwanda | rw | Meteorite za Acapulcoite |
+| Sindhi | sd | ايڪاپولڪوائٽ شهابي پٿر |
+| Malay | ms | Meteorit Acapulcoite |
+| Yue Chinese | yue | 阿卡普爾科石隕石 |
+| Wu Chinese | wuu | 阿卡普尔科石陨石 |
+| Hokkien | nan | 阿卡普爾科石隕石 |
+| Nepali | ne | Acapulcoite उल्कापिण्डहरू |
+| Uzbek (Latin) | uz | Acapulcoit meteoritlari |
 
 ### Angrite Meteorites
 
@@ -311,6 +338,15 @@ The table below records all translations for collections across languages. Scien
 | Quechua | qu | Angrita Meteoro Rumikuna |
 | Gaeilge | ga | Meitéarítí Angrite |
 | Welsh | cy | Meteoritau Angrite |
+| Kirundi | rn | Meteorite za Angrite |
+| Kinyarwanda | rw | Meteorite za Angrite |
+| Sindhi | sd | اينگرائٽ شهابي پٿر |
+| Malay | ms | Meteorit Angrite |
+| Yue Chinese | yue | 安格賴特隕石 |
+| Wu Chinese | wuu | 安格赖特陨石 |
+| Hokkien | nan | 安格賴特隕石 |
+| Nepali | ne | Angrite उल्कापिण्डहरू |
+| Uzbek (Latin) | uz | Angrit meteoritlari |
 
 ### Aubrite Meteorites
 
@@ -351,6 +387,15 @@ The table below records all translations for collections across languages. Scien
 | Quechua | qu | Awbrita Meteoro Rumikuna |
 | Gaeilge | ga | Meitéarítí Aubrite |
 | Welsh | cy | Meteoritau Aubrite |
+| Kirundi | rn | Meteorite za Aubrite |
+| Kinyarwanda | rw | Meteorite za Aubrite |
+| Sindhi | sd | اوبرائٽ شهابي پٿر |
+| Malay | ms | Meteorit Aubrite |
+| Yue Chinese | yue | 奧布賴特隕石 |
+| Wu Chinese | wuu | 奥布赖特陨石 |
+| Hokkien | nan | 奧布賴特隕石 |
+| Nepali | ne | Aubrite उल्कापिण्डहरू |
+| Uzbek (Latin) | uz | Aubrit meteoritlari |
 
 ### Brachinite Meteorites
 
@@ -391,6 +436,15 @@ The table below records all translations for collections across languages. Scien
 | Quechua | qu | Brachinita Meteoro Rumikuna |
 | Gaeilge | ga | Meitéarítí Brachinite |
 | Welsh | cy | Meteoritau Brachinite |
+| Kirundi | rn | Meteorite za Brachinite |
+| Kinyarwanda | rw | Meteorite za Brachinite |
+| Sindhi | sd | بريڪينائٽ شهابي پٿر |
+| Malay | ms | Meteorit Brachinite |
+| Yue Chinese | yue | 布拉奇奈特隕石 |
+| Wu Chinese | wuu | 布拉奇奈特陨石 |
+| Hokkien | nan | 布拉奇奈特隕石 |
+| Nepali | ne | Brachinite उल्कापिण्डहरू |
+| Uzbek (Latin) | uz | Brachinit meteoritlari |
 
 ### Enstatite Chondrites
 
@@ -431,6 +485,15 @@ The table below records all translations for collections across languages. Scien
 | Quechua | qu | Enstatita Kondritakuna |
 | Gaeilge | ga | Condrítí Enstatite |
 | Welsh | cy | Chondritau Enstatite |
+| Kirundi | rn | Chondrite za Enstatite |
+| Kinyarwanda | rw | Chondrite za Enstatite |
+| Sindhi | sd | اينسٽاٽائٽ ڪنڊرائٽ |
+| Malay | ms | Kondrit Enstatit |
+| Yue Chinese | yue | 頑火輝石球粒隕石 |
+| Wu Chinese | wuu | 顽火辉石球粒陨石 |
+| Hokkien | nan | 頑火輝石球粒隕石 |
+| Nepali | ne | Enstatite कन्ड्राइटहरू |
+| Uzbek (Latin) | uz | Enstatit xondritlari |
 
 ### Gigapixel Gallery
 
@@ -471,6 +534,15 @@ The table below records all translations for collections across languages. Scien
 | Quechua | qu | Gigapixel Qawana |
 | Gaeilge | ga | Gailearaí Gigapixel |
 | Welsh | cy | Oriel Gigapicsel |
+| Kirundi | rn | Galeriya ya Gigapixel |
+| Kinyarwanda | rw | Galeriya ya Gigapixel |
+| Sindhi | sd | گيگا پڪسل گيلري |
+| Malay | ms | Galeri Gigapiksel |
+| Yue Chinese | yue | 超像素畫廊 |
+| Wu Chinese | wuu | 超像素画廊 |
+| Hokkien | nan | 超像素畫廊 |
+| Nepali | ne | गिगापिक्सेल ग्यालरी |
+| Uzbek (Latin) | uz | Gigapiksel galereyasi |
 
 ### HED Meteorites
 
@@ -511,6 +583,15 @@ The table below records all translations for collections across languages. Scien
 | Quechua | qu | HED Meteoro Rumikuna |
 | Gaeilge | ga | Meitéarítí HED |
 | Welsh | cy | Meteoritau HED |
+| Kirundi | rn | Meteorite za HED |
+| Kinyarwanda | rw | Meteorite za HED |
+| Sindhi | sd | HED شهابي پٿر |
+| Malay | ms | Meteorit HED |
+| Yue Chinese | yue | HED 隕石 |
+| Wu Chinese | wuu | HED 陨石 |
+| Hokkien | nan | HED 隕石 |
+| Nepali | ne | HED उल्कापिण्डहरू |
+| Uzbek (Latin) | uz | HED meteoritlari |
 
 ### High Metal Group
 
@@ -551,6 +632,15 @@ The table below records all translations for collections across languages. Scien
 | Quechua | qu | High Metal Group |
 | Gaeilge | ga | High Metal Group |
 | Welsh | cy | High Metal Group |
+| Kirundi | rn | High Metal Group |
+| Kinyarwanda | rw | High Metal Group |
+| Sindhi | sd | هاءِ ميٽل گروپ |
+| Malay | ms | High Metal Group |
+| Yue Chinese | yue | High Metal Group |
+| Wu Chinese | wuu | High Metal Group |
+| Hokkien | nan | High Metal Group |
+| Nepali | ne | High Metal Group |
+| Uzbek (Latin) | uz | High Metal Group |
 
 ### Individual MicroShots
 
@@ -591,6 +681,15 @@ The table below records all translations for collections across languages. Scien
 | Quechua | qu | Individual MicroShots |
 | Gaeilge | ga | Individual MicroShots |
 | Welsh | cy | Individual MicroShots |
+| Kirundi | rn | Individual MicroShots |
+| Kinyarwanda | rw | Individual MicroShots |
+| Sindhi | sd | انفرادي مائڪروشاٽس |
+| Malay | ms | Individual MicroShots |
+| Yue Chinese | yue | Individual MicroShots |
+| Wu Chinese | wuu | Individual MicroShots |
+| Hokkien | nan | Individual MicroShots |
+| Nepali | ne | Individual MicroShots |
+| Uzbek (Latin) | uz | Individual MicroShots |
 
 ### Iron Meteorites
 
@@ -631,6 +730,15 @@ The table below records all translations for collections across languages. Scien
 | Quechua | qu | Fierro Meteoro Rumikuna |
 | Gaeilge | ga | Meitéarítí Iarainn |
 | Welsh | cy | Meteoritau Haearn |
+| Kirundi | rn | Meteorite z'icuma |
+| Kinyarwanda | rw | Meteorite z'icyuma |
+| Sindhi | sd | لوهه جا شهابي پٿر |
+| Malay | ms | Meteorit Besi |
+| Yue Chinese | yue | 鐵隕石 |
+| Wu Chinese | wuu | 铁陨石 |
+| Hokkien | nan | 鐵隕石 |
+| Nepali | ne | फलामका उल्कापिण्डहरू |
+| Uzbek (Latin) | uz | Temir meteoritlari |
 
 ### Karoonda Group
 
@@ -671,6 +779,15 @@ The table below records all translations for collections across languages. Scien
 | Quechua | qu | Karoonda Ayllukuna |
 | Gaeilge | ga | Grúpa Karoonda |
 | Welsh | cy | Grŵp Karoonda |
+| Kirundi | rn | Umugwi wa Karoonda |
+| Kinyarwanda | rw | Itsinda rya Karoonda |
+| Sindhi | sd | ڪارونڊا گروپ |
+| Malay | ms | Kumpulan Karoonda |
+| Yue Chinese | yue | 卡龍達群 |
+| Wu Chinese | wuu | 卡龙达群 |
+| Hokkien | nan | 卡龍達群 |
+| Nepali | ne | Karoonda समूह |
+| Uzbek (Latin) | uz | Karoonda guruhi |
 
 ### Lodranite Meteorites
 
@@ -711,6 +828,15 @@ The table below records all translations for collections across languages. Scien
 | Quechua | qu | Lodranita Meteoro Rumikuna |
 | Gaeilge | ga | Meitéarítí Lodranite |
 | Welsh | cy | Meteoritau Lodranite |
+| Kirundi | rn | Meteorite za Lodranite |
+| Kinyarwanda | rw | Meteorite za Lodranite |
+| Sindhi | sd | لوڊرينائٽ شهابي پٿر |
+| Malay | ms | Meteorit Lodranite |
+| Yue Chinese | yue | 洛德蘭石隕石 |
+| Wu Chinese | wuu | 洛德兰石陨石 |
+| Hokkien | nan | 洛德蘭石隕石 |
+| Nepali | ne | Lodranite उल्कापिण्डहरू |
+| Uzbek (Latin) | uz | Lodranit meteoritlari |
 
 ### Lunar Meteorites
 
@@ -751,6 +877,15 @@ The table below records all translations for collections across languages. Scien
 | Quechua | qu | Killa Meteoro Rumikuna |
 | Gaeilge | ga | Meitéarítí Gealaí |
 | Welsh | cy | Meteoritau Lleuad |
+| Kirundi | rn | Meteorite z'ukwezi |
+| Kinyarwanda | rw | Meteorite z'ukwezi |
+| Sindhi | sd | قمري شهابي پٿر |
+| Malay | ms | Meteorit Bulan |
+| Yue Chinese | yue | 月球隕石 |
+| Wu Chinese | wuu | 月球陨石 |
+| Hokkien | nan | 月球隕石 |
+| Nepali | ne | चन्द्र उल्कापिण्डहरू |
+| Uzbek (Latin) | uz | Oy meteoritlari |
 
 ### Martian Meteorites
 
@@ -791,6 +926,15 @@ The table below records all translations for collections across languages. Scien
 | Quechua | qu | Marte Meteoro Rumikuna |
 | Gaeilge | ga | Meitéarítí Máirt |
 | Welsh | cy | Meteoritau Mawrth |
+| Kirundi | rn | Meteorite z'i Marisi |
+| Kinyarwanda | rw | Meteorite zo kuri Mars |
+| Sindhi | sd | مريخي شهابي پٿر |
+| Malay | ms | Meteorit Marikh |
+| Yue Chinese | yue | 火星隕石 |
+| Wu Chinese | wuu | 火星陨石 |
+| Hokkien | nan | 火星隕石 |
+| Nepali | ne | मङ्गलीय उल्कापिण्डहरू |
+| Uzbek (Latin) | uz | Mars meteoritlari |
 
 ### Mesosiderite Meteorites
 
@@ -831,6 +975,15 @@ The table below records all translations for collections across languages. Scien
 | Quechua | qu | Mesosiderita Meteoro Rumikuna |
 | Gaeilge | ga | Meitéarítí Mesosiderite |
 | Welsh | cy | Meteoritau Mesosiderite |
+| Kirundi | rn | Meteorite za Mesosiderite |
+| Kinyarwanda | rw | Meteorite za Mesosiderite |
+| Sindhi | sd | ميسوسائڊرائٽ شهابي پٿر |
+| Malay | ms | Meteorit Mesosiderit |
+| Yue Chinese | yue | 中鐵隕石 |
+| Wu Chinese | wuu | 中铁陨石 |
+| Hokkien | nan | 中鐵隕石 |
+| Nepali | ne | Mesosiderite उल्कापिण्डहरू |
+| Uzbek (Latin) | uz | Mesosiderit meteoritlari |
 
 ### Mighei Group
 
@@ -871,6 +1024,15 @@ The table below records all translations for collections across languages. Scien
 | Quechua | qu | Mighei Ayllukuna |
 | Gaeilge | ga | Grúpa Mighei |
 | Welsh | cy | Grŵp Mighei |
+| Kirundi | rn | Umugwi wa Mighei |
+| Kinyarwanda | rw | Itsinda rya Mighei |
+| Sindhi | sd | مگهي گروپ |
+| Malay | ms | Kumpulan Mighei |
+| Yue Chinese | yue | 米蓋群 |
+| Wu Chinese | wuu | 米盖群 |
+| Hokkien | nan | 米蓋群 |
+| Nepali | ne | Mighei समूह |
+| Uzbek (Latin) | uz | Mighei guruhi |
 
 ### Miscellaneous
 
@@ -911,6 +1073,15 @@ The table below records all translations for collections across languages. Scien
 | Quechua | qu | Hukniray Kaykuna |
 | Gaeilge | ga | Ilghnéitheach |
 | Welsh | cy | Amrywiol |
+| Kirundi | rn | Ibindi |
+| Kinyarwanda | rw | Ibindi |
+| Sindhi | sd | متفرق |
+| Malay | ms | Pelbagai |
+| Yue Chinese | yue | 雜項 |
+| Wu Chinese | wuu | 杂项 |
+| Hokkien | nan | 雜項 |
+| Nepali | ne | विविध |
+| Uzbek (Latin) | uz | Turli |
 
 ### Ordinary Chondrites
 
@@ -951,6 +1122,15 @@ The table below records all translations for collections across languages. Scien
 | Quechua | qu | Sapan Kondritakuna |
 | Gaeilge | ga | Condrítí Gnátha |
 | Welsh | cy | Chondritau Cyffredin |
+| Kirundi | rn | Chondrite zisanzwe |
+| Kinyarwanda | rw | Chondrite zisanzwe |
+| Sindhi | sd | عام ڪنڊرائٽ |
+| Malay | ms | Kondrit Biasa |
+| Yue Chinese | yue | 普通球粒隕石 |
+| Wu Chinese | wuu | 普通球粒陨石 |
+| Hokkien | nan | 普通球粒隕石 |
+| Nepali | ne | साधारण कन्ड्राइटहरू |
+| Uzbek (Latin) | uz | Oddiy xondritlar |
 
 ### Ornans Group
 
@@ -991,6 +1171,15 @@ The table below records all translations for collections across languages. Scien
 | Quechua | qu | Ornans Ayllukuna |
 | Gaeilge | ga | Grúpa Ornans |
 | Welsh | cy | Grŵp Ornans |
+| Kirundi | rn | Umugwi wa Ornans |
+| Kinyarwanda | rw | Itsinda rya Ornans |
+| Sindhi | sd | اورنانس گروپ |
+| Malay | ms | Kumpulan Ornans |
+| Yue Chinese | yue | 奧爾南群 |
+| Wu Chinese | wuu | 奥尔南群 |
+| Hokkien | nan | 奧爾南群 |
+| Nepali | ne | Ornans समूह |
+| Uzbek (Latin) | uz | Ornans guruhi |
 
 ### Pallasite Meteorites
 
@@ -1031,6 +1220,15 @@ The table below records all translations for collections across languages. Scien
 | Quechua | qu | Pallasita Meteoro Rumikuna |
 | Gaeilge | ga | Meitéarítí Pallasite |
 | Welsh | cy | Meteoritau Pallasite |
+| Kirundi | rn | Meteorite za Pallasite |
+| Kinyarwanda | rw | Meteorite za Pallasite |
+| Sindhi | sd | پيلسائٽ شهابي پٿر |
+| Malay | ms | Meteorit Pallasit |
+| Yue Chinese | yue | 帕拉斯石鐵隕石 |
+| Wu Chinese | wuu | 帕拉斯石铁陨石 |
+| Hokkien | nan | 帕拉斯石鐵隕石 |
+| Nepali | ne | Pallasite उल्कापिण्डहरू |
+| Uzbek (Latin) | uz | Pallasit meteoritlari |
 
 ### Renazzo Group
 
@@ -1071,6 +1269,15 @@ The table below records all translations for collections across languages. Scien
 | Quechua | qu | Renazzo Ayllukuna |
 | Gaeilge | ga | Grúpa Renazzo |
 | Welsh | cy | Grŵp Renazzo |
+| Kirundi | rn | Umugwi wa Renazzo |
+| Kinyarwanda | rw | Itsinda rya Renazzo |
+| Sindhi | sd | ريناتزو گروپ |
+| Malay | ms | Kumpulan Renazzo |
+| Yue Chinese | yue | 雷納佐群 |
+| Wu Chinese | wuu | 雷纳佐群 |
+| Hokkien | nan | 雷納佐群 |
+| Nepali | ne | Renazzo समूह |
+| Uzbek (Latin) | uz | Renazzo guruhi |
 
 ### Rumuruti Chondrites
 
@@ -1111,6 +1318,15 @@ The table below records all translations for collections across languages. Scien
 | Quechua | qu | Rumuruti Kondritakuna |
 | Gaeilge | ga | Condrítí Rumuruti |
 | Welsh | cy | Chondritau Rumuruti |
+| Kirundi | rn | Chondrite za Rumuruti |
+| Kinyarwanda | rw | Chondrite za Rumuruti |
+| Sindhi | sd | روموروتي ڪنڊرائٽ |
+| Malay | ms | Kondrit Rumuruti |
+| Yue Chinese | yue | 魯穆魯蒂球粒隕石 |
+| Wu Chinese | wuu | 鲁穆鲁蒂球粒陨石 |
+| Hokkien | nan | 魯穆魯蒂球粒隕石 |
+| Nepali | ne | Rumuruti कन्ड्राइटहरू |
+| Uzbek (Latin) | uz | Rumuruti xondritlari |
 
 ### STRESS Style Thin Sections
 
@@ -1145,6 +1361,15 @@ The table below records all translations for collections across languages. Scien
 | Quechua | qu | STRESS Style Thin Sections |
 | Gaeilge | ga | STRESS Style Thin Sections |
 | Welsh | cy | STRESS Style Thin Sections |
+| Kirundi | rn | STRESS Style Thin Sections |
+| Kinyarwanda | rw | STRESS Style Thin Sections |
+| Sindhi | sd | STRESS Style Thin Sections |
+| Malay | ms | STRESS Style Thin Sections |
+| Yue Chinese | yue | STRESS Style Thin Sections |
+| Wu Chinese | wuu | STRESS Style Thin Sections |
+| Hokkien | nan | STRESS Style Thin Sections |
+| Nepali | ne | STRESS Style Thin Sections |
+| Uzbek (Latin) | uz | STRESS Style Thin Sections |
 
 ### Unclassified Meteorites
 
@@ -1185,6 +1410,15 @@ The table below records all translations for collections across languages. Scien
 | Quechua | qu | Manam Rakisqa Meteoro Rumikuna |
 | Gaeilge | ga | Meitéarítí Neamhaicmithe |
 | Welsh | cy | Meteoritau Heb eu Dosbarthu |
+| Kirundi | rn | Meteorite zitashizwe mu byiciro |
+| Kinyarwanda | rw | Meteorite zitashyizwe mu byiciro |
+| Sindhi | sd | غير درجابند شهابي پٿر |
+| Malay | ms | Meteorit Tidak Dikelaskan |
+| Yue Chinese | yue | 未分類隕石 |
+| Wu Chinese | wuu | 未分类陨石 |
+| Hokkien | nan | 未分類隕石 |
+| Nepali | ne | अवर्गीकृत उल्कापिण्डहरू |
+| Uzbek (Latin) | uz | Tasniflanmagan meteoritlar |
 
 ### Ungrouped Achondrite Meteorites
 
@@ -1225,6 +1459,15 @@ The table below records all translations for collections across languages. Scien
 | Quechua | qu | Aylluniyuq Akondrita Meteoro Rumikuna |
 | Gaeilge | ga | Meitéarítí Achondrít Neamhghrúpáilte |
 | Welsh | cy | Meteoritau Achondrite Heb eu Grwpio |
+| Kirundi | rn | Meteorite za achondrite zitagira umugwi |
+| Kinyarwanda | rw | Meteorite za achondrite zitagira itsinda |
+| Sindhi | sd | بغير گروپ وارا ايڪانڊرائٽ شهابي پٿر |
+| Malay | ms | Meteorit Akondrit Tidak Berkumpulan |
+| Yue Chinese | yue | 未分群無球粒隕石 |
+| Wu Chinese | wuu | 未分群无球粒陨石 |
+| Hokkien | nan | 未分群無球粒隕石 |
+| Nepali | ne | समूहविहीन अकोंड्राइट उल्कापिण्डहरू |
+| Uzbek (Latin) | uz | Guruhlanmagan axondrit meteoritlar |
 
 ### Ureilite Meteorites
 
@@ -1265,6 +1508,15 @@ The table below records all translations for collections across languages. Scien
 | Quechua | qu | Ureilita Meteoro Rumikuna |
 | Gaeilge | ga | Meitéarítí Ureilite |
 | Welsh | cy | Meteoritau Ureilite |
+| Kirundi | rn | Meteorite za Ureilite |
+| Kinyarwanda | rw | Meteorite za Ureilite |
+| Sindhi | sd | يوريلائٽ شهابي پٿر |
+| Malay | ms | Meteorit Ureilit |
+| Yue Chinese | yue | 烏雷利石隕石 |
+| Wu Chinese | wuu | 乌雷利石陨石 |
+| Hokkien | nan | 烏雷利石隕石 |
+| Nepali | ne | Ureilite उल्कापिण्डहरू |
+| Uzbek (Latin) | uz | Ureilit meteoritlari |
 
 ### Vigarano Group
 
@@ -1305,6 +1557,15 @@ The table below records all translations for collections across languages. Scien
 | Quechua | qu | Vigarano Ayllukuna |
 | Gaeilge | ga | Grúpa Vigarano |
 | Welsh | cy | Grŵp Vigarano |
+| Kirundi | rn | Umugwi wa Vigarano |
+| Kinyarwanda | rw | Itsinda rya Vigarano |
+| Sindhi | sd | ويگارانو گروپ |
+| Malay | ms | Kumpulan Vigarano |
+| Yue Chinese | yue | 維加拉諾群 |
+| Wu Chinese | wuu | 维加拉诺群 |
+| Hokkien | nan | 維加拉諾群 |
+| Nepali | ne | Vigarano समूह |
+| Uzbek (Latin) | uz | Vigarano guruhi |
 
 ---
 
